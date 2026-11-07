@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+<!-- Google Analytics 4 - Consent Controlled -->
+<script>
+    const GA_MEASUREMENT_ID = "G-MMTEL90RK4";
+
+    function loadGoogleAnalytics() {
+        if (window.gaAnalyticsLoaded) return;
+
+        window.gaAnalyticsLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+
+        window.gtag = function () {
+            window.dataLayer.push(arguments);
+        };
+
+        gtag("js", new Date());
+        gtag("config", GA_MEASUREMENT_ID);
+
+        const script = document.createElement("script");
+        script.async = true;
+        script.src =
+            "https://www.googletagmanager.com/gtag/js?id=" +
+            GA_MEASUREMENT_ID;
+
+        document.head.appendChild(script);
+    }
+
+    // Load Analytics only if consent was previously granted.
+    try {
+        if (localStorage.getItem("analytics-consent") === "accepted") {
+            loadGoogleAnalytics();
+        }
+    } catch (error) {
+        // Analytics remains disabled if storage is unavailable.
+    }
+</script>
+
+
+<!-- Analytics Cookie Consent Banner -->
+<style>
+    #cookie-consent-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        background: #f8f7f3;
+        border-top: 2px solid #b8a58c;
+        padding: 15px 25px;
+        box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.12);
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    #cookie-consent-banner p {
+        margin: 0;
+        flex: 1;
+        min-width: 240px;
+        color: #333;
+    }
+
+    #cookie-consent-banner a {
+        color: #3d4b3a;
+        text-decoration: underline;
+    }
+
+    #cookie-consent-banner button {
+        padding: 9px 18px;
+        border: 1px solid #8a6c48;
+        border-radius: 5px;
+        background: #fff;
+        color: #333;
+        cursor: pointer;
+    }
+
+    #cookie-consent-banner button:hover {
+        background: #f0e7d8;
+    }
+
+    #cookie-consent-banner button:focus-visible {
+        outline: 2px solid #3d4b3a;
+        outline-offset: 2px;
+    }
+</style>
+
+
+<!-- Cookie Consent Banner Behavior -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        // Create the banner.
+        const banner = document.createElement("div");
+        banner.id = "cookie-consent-banner";
+        banner.setAttribute("role", "region");
+        banner.setAttribute("aria-label", "Analytics cookie preferences");
+
+        // Create the message.
+        const message = document.createElement("p");
+        message.textContent =
+            "This website uses optional analytics cookies to understand visitor activity. ";
+
+        // Create the Privacy Notice link.
+        const privacyLink = document.createElement("a");
+        privacyLink.textContent = "Privacy Notice";
+
+        // Use the correct relative path for each page.
+        const inSubdirectory =
+            window.location.pathname.includes("/people/") ||
+            window.location.pathname.includes("/stories/");
+
+        privacyLink.href = inSubdirectory
+            ? "../privacy.html"
+            : "privacy.html";
+
+        message.appendChild(privacyLink);
+
+        // Create the Accept button.
+        const acceptButton = document.createElement("button");
+        acceptButton.type = "button";
+        acceptButton.textContent = "Accept";
+
+        // Create the Reject button.
+        const rejectButton = document.createElement("button");
+        rejectButton.type = "button";
+        rejectButton.textContent = "Reject";
+
+        // Add everything to the banner.
+        banner.append(message, acceptButton, rejectButton);
+        document.body.appendChild(banner);
+
+        // Check for an existing consent choice.
+        let consent = null;
+
+        try {
+            consent = localStorage.getItem("analytics-consent");
+        } catch (error) {
+            // Storage may be unavailable.
+        }
+
+        // Show the banner if no choice has been saved.
+        if (consent !== "accepted" && consent !== "rejected") {
+            banner.style.display = "flex";
+        }
+
+        // Accept analytics cookies.
+        acceptButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "accepted");
+
+                banner.style.display = "none";
+                loadGoogleAnalytics();
+            } catch (error) {
+                // Do not enable analytics if consent cannot be saved.
+            }
+        });
+
+
+        // Reject analytics cookies.
+        rejectButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "rejected");
+
+                // Disable further Google Analytics collection.
+                window["ga-disable-" + GA_MEASUREMENT_ID] = true;
+
+                document.cookie.split(";").forEach(function (cookie) {
+                    const name = cookie.split("=")[0].trim();
+
+                    if (name === "_ga" || name.startsWith("_ga_")) {
+                        // Clear host-only cookies.
+                        document.cookie =
+                        name + "=; Max-Age=0; path=/";
+
+                        // Clear cookies scoped to this website's domain.
+                         document.cookie =
+                            name +
+                            "=; Max-Age=0; path=/; domain=artsingletary.github.io";
+                    }
+                });
+
+                banner.style.display = "none";
+
+                // Stop the previously loaded Analytics session.
+                window.location.reload();
+
+            } catch (error) {
+                // Analytics remains disabled if storage is unavailable.
+            }
+        });
+
+
+    });
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nelda June "Nell" Sullivan | Singletary-Herrin Family Archive</title>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Singletary-Herrin Family Archive</h1>
+
+        <p>
+            Preserving our family's history for future generations
+        </p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../family-tree.html">Family Tree</a>
+        <a href="../photos.html">Photos</a>
+        <a href="../stories.html">Stories</a>
+        <a href="../documents.html">Documents</a>
+        <a href="#">Reunions</a>
+    </nav>
+
+    <main>
+
+        <p>
+            <a href="../index.html">← Back to Family Members</a>
+        </p>
+
+        <h1>Nelda June "Nell" Sullivan</h1>
+
+        
+            <p><strong>1952–2008</strong></p>
+        
+
+        
+
+        <section class="person-section">
+
+            <h2>Life Events</h2>
+            
+                <p>
+                    <strong>Born:</strong>
+
+                    
+                        December 10, 1952
+                    
+
+                    
+                        — Mayo, Lafayette County, Florida, United States
+                    
+                </p>
+            
+
+
+            
+                 <p>
+                    <strong>Died:</strong>
+                    March 9, 2008
+
+                    
+                        — Perry, Taylor County, Florida, United States
+                    
+                 </p>
+             
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Family</h2>
+
+            
+                <p>
+                    <strong>Father:</strong>
+
+                    <a href="hope-wayland-sullivan-1920.html">
+                        Hope Wayland Sullivan
+                    </a>
+                </p>
+            
+
+
+            
+                <p>
+                    <strong>Mother:</strong>
+
+                    <a href="ida-mae-herrin-1922.html">
+                        Ida Mae "Shorty" Herrin
+                    </a>
+                </p>
+            
+
+            
+
+                <h3>Siblings</h3>
+
+                <ul>
+
+                    
+
+                        <li>
+                            <a href="connie-mack-sullivan-1943.html">
+                                Connie Mack Sullivan
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="michael-paul-sullivan-1947.html">
+                                Michael Paul "Mike" Sullivan Sr.
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="hope-wayland-sullivan-1945.html">
+                                Hope Wayland Sullivan Jr.
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="jack-dores-sullivan-1949.html">
+                                Jack Dores Sullivan Sr.
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="gary-sullivan-1951.html">
+                                Gary "Drew" Sullivan
+                            </a>
+                        </li>
+
+                    
+
+                </ul>
+
+            
+
+            
+
+            
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Military Service</h2>
+
+            
+
+                <p>No military service information has been added.</p>
+
+            
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Biography</h2>
+
+            
+
+                
+                 <p>Nelda June "Nell" Sullivan was born on December 10, 1952, in Mayo, Lafayette County, Florida, the daughter of Hope Wayland Sullivan and Ida Mae "Shorty" Herrin. Her gravestone records her birth and death dates, placing her age at death at 55; her obituaries report her age as 56.</p>
+                
+                 <p>Nell was a homemaker and a member of Suwannee River Baptist Church. According to her longer obituary, she moved from Fanning Springs to Perry approximately seven months before her death.</p>
+                
+                 <p>She died on March 9, 2008, at Doctors' Memorial Hospital in Perry, Taylor County, Florida.</p>
+                
+                 <p>Her obituary identifies her father as Hope Sullivan, her mother as Ida Mae, and her stepfather as Lawrence Monroe Seacrest. It names her brothers Connie Mack, Billy John, Jack, Mike, Wayland, and Drew Sullivan, and her sister Stella Osborne.</p>
+                
+                 <p>Funeral services were scheduled for March 12, 2008, at Joe P. Burns Funeral Home, with Pastor Bobby Lindsay officiating and burial to follow at Old Town Cemetery.</p>
+                
+
+            
+
+        </section>
+
+
+        <section class="person-section">
+
+            <h2>Photos</h2>
+
+            
+
+                <div class="photo-gallery">
+
+                    
+
+                        <figure class="gallery-photo">
+
+                        <img
+                            src="../photos/nelda_june_sullivan_yearbook_1967.jpg"
+                            alt="Nelda June Sullivan, Taylor County High School yearbook, 1967."
+                        >
+
+                        
+                            <figcaption>
+                                Nelda June Sullivan, Taylor County High School yearbook, 1967.
+                            </figcaption>
+                         
+
+                        </figure>
+
+                    
+
+                        <figure class="gallery-photo">
+
+                        <img
+                            src="../photos/nelda_june_sullivan_yearbook_1968.jpg"
+                            alt="Nelda June Sullivan, Taylor County High School yearbook, 1968."
+                        >
+
+                        
+                            <figcaption>
+                                Nelda June Sullivan, Taylor County High School yearbook, 1968.
+                            </figcaption>
+                         
+
+                        </figure>
+
+                    
+
+                        <figure class="gallery-photo">
+
+                        <img
+                            src="../photos/nelda_june_sullivan_debbie_george_cotrell.jpg"
+                            alt="Debbie George, on the left holding a baby, with Nelda June "Nell" Sullivan on the right."
+                        >
+
+                        
+                            <figcaption>
+                                Debbie George, on the left holding a baby, with Nelda June "Nell" Sullivan on the right.
+                            </figcaption>
+                         
+
+                        </figure>
+
+                    
+
+                </div>
+
+            
+
+        </section>
+
+
+        
+
+        <section class="person-section">
+
+            <h2>Grave &amp; Burial</h2>
+
+            <div class="photo-gallery">
+
+                
+
+                    <figure class="gallery-photo">
+
+                        <img
+                            src="../photos/nelda_june_sullivan_grave.jpg"
+                            alt="Gravestone of Nelda June "Nell" Sullivan, inscribed December 10, 1952 – March 9, 2008."
+                        >
+
+                        
+
+                            <figcaption>
+                                Gravestone of Nelda June "Nell" Sullivan, inscribed December 10, 1952 – March 9, 2008.
+
+                                
+                                    <br>
+                                    Old Town Memorial Cemetery, Old Town, Dixie County, Florida
+                                
+
+                            </figcaption>
+
+                        
+
+                    </figure>
+
+                
+
+            </div>
+
+        </section>
+
+        
+
+
+        <section class="person-section">
+
+            <h2>Sources</h2>
+
+            
+
+        <p>
+            No sources have been added yet.
+        </p>
+
+    
+    </section>
+
+    </main>
+
+
+    <footer>
+        Singletary-Herrin Family Archive 
+
+        <p>
+            <a href="../privacy.html">Privacy Notice</a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

@@ -3100,6 +3100,184 @@
   "biography": [
     "Robbie Rosetta Grambling was born on February 22, 1933, and died on June 4, 2021. She married James Talmadge Herrin on May 12, 1972, in Taylor County, Florida. Their marriage is recorded by the Florida Department of Health under certificate number 029248, volume 3205."
   ]
+},
+{
+  "id": "connie-mack-sullivan-1943",
+  "first_name": "Connie",
+  "middle_name": "Mack",
+  "last_name": "Sullivan",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_date": "1943-01-09",
+  "birth_year": 1943,
+  "birth_place": "Lafayette County, Florida, United States",
+  "death_date": "2014-09-23",
+  "death_year": 2014,
+  "death_place": "Perry, Taylor County, Florida, United States",
+  "father": "hope-wayland-sullivan-1920",
+  "mother": "ida-mae-herrin-1922",
+  "spouses": [],
+  "biography": [
+    "Connie Mack Sullivan was born on January 9, 1943, in Lafayette County, Florida, the son of Hope Wayland Sullivan and Ida Mae \"Shorty\" Herrin.",
+    "He died on September 23, 2014, in Perry, Taylor County, Florida, at the age of 71."
+  ]
+},
+
+{
+  "id": "michael-paul-sullivan-1947",
+  "first_name": "Michael",
+  "middle_name": "Paul",
+  "nickname": "Mike",
+  "last_name": "Sullivan",
+  "suffix": "Sr.",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_date": "1947-03-25",
+  "birth_year": 1947,
+  "birth_place": "Lafayette County, Florida, United States",
+  "death_date": "2025-10-18",
+  "death_year": 2025,
+  "death_place": "Fanning Springs, Florida, United States",
+  "father": "hope-wayland-sullivan-1920",
+  "mother": "ida-mae-herrin-1922",
+  "spouses": [],
+  "biography": [
+  "Michael Paul \"Mike\" Sullivan Sr. was born on March 25, 1947, in Lafayette County, Florida, the son of Hope Wayland Sullivan and Ida Mae \"Shorty\" Herrin.",
+  "According to his obituary, Mike served in the United States Navy and was a Vietnam veteran. He enjoyed gardening, fishing, hunting, and spending time with family and friends.",
+  "Mike lived in Fanning Springs, Florida, where he died at his residence on October 18, 2025, at the age of 78.",
+  "His obituary names his deceased brothers Connie Mack, Wayland, Jack, and Drew Sullivan, and his deceased sisters Nell Sullivan and Stella Osborne.",
+  "A celebration of his life was planned for a later date.",
+  "His obituary, published in the Levy County Citizen on October 31, 2025, spells his given name as Mikel and reports his age as 79. The birth and death dates printed in that same obituary indicate an age of 78. His name remains Michael Paul Sullivan in this profile pending further documentation."
+]
+},
+
+{
+  "id": "hope-wayland-sullivan-1945",
+  "first_name": "Hope",
+  "middle_name": "Wayland",
+  "last_name": "Sullivan",
+  "suffix": "Jr.",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_date": "1945-07-11",
+  "birth_year": 1945,
+  "birth_place": "Mayo, Lafayette County, Florida, United States",
+  "death_date": "2004-08-06",
+  "death_year": 2004,
+  "death_place": "Perry, Taylor County, Florida, United States",
+  "father": "hope-wayland-sullivan-1920",
+  "mother": "ida-mae-herrin-1922",
+  "spouses": [],
+  "military_service": [
+  {
+    "branch": "United States Navy",
+    "conflict": "Vietnam War",
+    "rank": null,
+    "unit": null,
+    "enlistment_date": null,
+    "discharge_date": null
+  }
+],
+  "biography": [
+  "Hope Wayland Sullivan Jr. was born on July 11, 1945, in Mayo, Lafayette County, Florida, the son of Hope Wayland Sullivan and Ida Mae \"Shorty\" Herrin. A native of Lafayette County, he spent most of his life in Perry.",
+  "Wayland served in the United States Navy during the Vietnam War. His specific assignments, rank, and service dates have not yet been documented in the records collected.",
+  "He worked in the maintenance department of the Taylor County Department of Corrections and was a member of Athena Baptist Church in Taylor County.",
+  "Wayland was an enthusiastic fisherman. His obituary affectionately emphasizes his love of fishing and remembers his ability to repair almost anything.",
+  "His wife, Nancy Sullivan, survived him. His obituary describes their marriage as lasting 18 years.",
+  "His obituary names his brothers Connie Mack, Billy John, Jack, Mike, and Gary Drew Sullivan, and his sisters Nell Sullivan and Stella Osborn.",
+  "Wayland died at his residence in Perry, Taylor County, Florida, on August 6, 2004, at the age of 59. Funeral services were scheduled for August 9, 2004, at Beggs Funeral Home Perry Chapel, with burial to follow at Old Town Cemetery in Old Town, Florida."
+]
+},
+
+{
+  "id": "jack-dores-sullivan-1949",
+  "first_name": "Jack",
+  "middle_name": "Dores",
+  "last_name": "Sullivan",
+  "suffix": "Sr.",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_date": "1949-06-06",
+  "birth_year": 1949,
+  "birth_place": "Florida, United States",
+  "death_date": "2010-12-31",
+  "death_year": 2010,
+  "father": "hope-wayland-sullivan-1920",
+  "mother": "ida-mae-herrin-1922",
+  "spouses": [],
+  "biography": [
+    "Jack Dores Sullivan Sr. was born on June 6, 1949, in Florida, the son of Hope Wayland Sullivan and Ida Mae \"Shorty\" Herrin.",
+    "He died on December 31, 2010, at the age of 61."
+  ]
+},
+{
+  "id": "gary-sullivan-1951",
+  "first_name": "Gary",
+  "middle_name": null,
+  "nickname": "Drew",
+  "last_name": "Sullivan",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_date": "1951-02-11",
+  "birth_year": 1951,
+  "birth_place": "Mayo, Lafayette County, Florida, United States",
+  "death_date": "2006-03-04",
+  "death_year": 2006,
+  "death_place": "Gainesville, Alachua County, Florida, United States",
+  "father": "hope-wayland-sullivan-1920",
+  "mother": "ida-mae-herrin-1922",
+  "spouses": [],
+  "military_service": [
+  {
+    "branch": "United States Navy",
+    "conflict": "Vietnam War era",
+    "rank": "Seaman Recruit (SR)",
+    "unit": null,
+    "enlistment_date": "1969-04-11",
+    "discharge_date": "1972-03-15"
+  }
+],
+  "biography": [
+  "Gary Drew Sullivan, known as Drew, was born on February 11, 1951, in Mayo, Lafayette County, Florida, the son of Hope Wayland Sullivan and Ida Mae \"Shorty\" Herrin. He grew up in Perry and spent most of his life in Florida's Tri-County area.",
+  "Drew enlisted in the United States Navy on April 11, 1969, at the age of 18, and was discharged on March 15, 1972. His military gravestone also commemorates his Navy service during the Vietnam War era.",
+  "Drew worked as a roofer and was a Baptist. He later made his home in Old Town, Dixie County, Florida.",
+  "On April 27, 1991, Drew married Edna Mae Fletcher in Gilchrist County, Florida. Their marriage is recorded under certificate number 051657 in the Florida Department of Health marriage records. Edna survived him and was identified in his obituary as living in Old Town.",
+  "Drew's siblings included Connie Mack Sullivan, Billy John Sullivan, Hope Wayland Sullivan Jr., Michael Paul \"Mike\" Sullivan Sr., Jack Dores Sullivan Sr., and Nelda June \"Nell\" Sullivan. His obituary also identifies Stella Osborne as his sister.",
+  "Drew died on March 4, 2006, at North Florida Regional Medical Center in Gainesville, Alachua County, Florida, at the age of 55. His obituary was published in The Gainesville Sun on March 5, 2006. Funeral arrangements were handled by Rick Gooding Funeral Home in Cross City.",
+  "His military gravestone bears the name Gary Drew Sullivan, his birth and death dates, and an inscription recognizing his service in the United States Navy during Vietnam."
+]
+},
+
+{
+  "id": "nelda-june-sullivan-1952",
+  "first_name": "Nelda",
+  "middle_name": "June",
+  "nickname": "Nell",
+  "last_name": "Sullivan",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_date": "1952-12-10",
+  "birth_year": 1952,
+  "birth_place": "Mayo, Lafayette County, Florida, United States",
+  "death_date": "2008-03-09",
+  "death_year": 2008,
+  "death_place": "Perry, Taylor County, Florida, United States",
+  "father": "hope-wayland-sullivan-1920",
+  "mother": "ida-mae-herrin-1922",
+  "spouses": [],
+  "biography": [
+  "Nelda June \"Nell\" Sullivan was born on December 10, 1952, in Mayo, Lafayette County, Florida, the daughter of Hope Wayland Sullivan and Ida Mae \"Shorty\" Herrin. Her gravestone records her birth and death dates, placing her age at death at 55; her obituaries report her age as 56.",
+  "Nell was a homemaker and a member of Suwannee River Baptist Church. According to her longer obituary, she moved from Fanning Springs to Perry approximately seven months before her death.",
+  "She died on March 9, 2008, at Doctors' Memorial Hospital in Perry, Taylor County, Florida.",
+  "Her obituary identifies her father as Hope Sullivan, her mother as Ida Mae, and her stepfather as Lawrence Monroe Seacrest. It names her brothers Connie Mack, Billy John, Jack, Mike, Wayland, and Drew Sullivan, and her sister Stella Osborne.",
+  "Funeral services were scheduled for March 12, 2008, at Joe P. Burns Funeral Home, with Pastor Bobby Lindsay officiating and burial to follow at Old Town Cemetery."
+]
 }
 
 

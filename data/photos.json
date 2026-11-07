@@ -1009,6 +1009,88 @@
     "herrin"
   ],
   "date": ""
+},
+{
+  "id": "nelda-june-sullivan-yearbook-1967",
+  "file": "nelda_june_sullivan_yearbook_1967.jpg",
+  "people": [
+    "nelda-june-sullivan-1952"
+  ],
+  "date": "1967",
+  "caption": "Nelda June Sullivan, Taylor County High School yearbook, 1967.",
+  "location": "Perry, Taylor County, Florida",
+  "family_lines": [
+    "herrin"
+  ]
+},
+{
+  "id": "nelda-june-sullivan-yearbook-1968",
+  "file": "nelda_june_sullivan_yearbook_1968.jpg",
+  "people": [
+    "nelda-june-sullivan-1952"
+  ],
+  "date": "1968",
+  "caption": "Nelda June Sullivan, Taylor County High School yearbook, 1968.",
+  "location": "Perry, Taylor County, Florida",
+  "family_lines": [
+    "herrin"
+  ]
+},
+
+{
+  "id": "nelda-june-sullivan-debbie-george",
+  "file": "nelda_june_sullivan_debbie_george_cotrell.jpg",
+  "people": [
+    "debra-renee-george-1956",
+    "nelda-june-sullivan-1952"
+  ],
+  "caption": "Debbie George, on the left holding a baby, with Nelda June \"Nell\" Sullivan on the right.",
+  "family_lines": [
+    "herrin"
+  ]
+},
+
+
+{
+  "id": "nelda-june-sullivan-grave",
+  "file": "nelda_june_sullivan_grave.jpg",
+  "type": "grave",
+  "people": [
+    "nelda-june-sullivan-1952"
+  ],
+  "caption": "Gravestone of Nelda June \"Nell\" Sullivan, inscribed December 10, 1952 – March 9, 2008.",
+  "location": "Old Town Memorial Cemetery, Old Town, Dixie County, Florida",
+  "family_lines": [
+    "herrin"
+  ]
+},
+
+{
+  "id": "gary-sullivan-grave",
+  "file": "gary_drew_sullivan_grave.jpg",
+  "type": "grave",
+  "people": [
+    "gary-sullivan-1951"
+  ],
+  "caption": "Military gravestone of Gary Drew Sullivan, February 11, 1951 – March 4, 2006. Inscribed \"SR US NAVY\" and \"VIETNAM.\"",
+  "location": "Old Town Memorial Cemetery, Old Town, Dixie County, Florida",
+  "family_lines": [
+    "herrin"
+  ]
+}, 
+
+{
+  "id": "hope-wayland-sullivan-jr-grave",
+  "file": "hope_wayland_sullivan_jr_grave.jpg",
+  "type": "grave",
+  "people": [
+    "hope-wayland-sullivan-1945"
+  ],
+  "caption": "Gravestone of Hope Wayland Sullivan Jr., July 11, 1945 – August 6, 2004. Features a fish engraving and the inscription \"Beloved Husband, Father, Son & Brother.\"",
+  "location": "Old Town Cemetery, Old Town, Florida",
+  "family_lines": [
+    "herrin"
+  ]
 }
 
 ]

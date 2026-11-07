@@ -3589,6 +3589,54 @@
   "date": "2012-02-02",
   "description": "Obituary for Myrtis I. Jackson, age 81, of Holiday, Florida, who died January 31, 2012. Identifies her son James T. Herrin and surviving children William, Diana, Patricia, and Janet.",
   "file": "2012_myrtis_irene_hurst_obituary.jpg"
+},
+
+{
+  "id": "michael-paul-sullivan-obituary-2025",
+  "type": "Obituary",
+  "title": "Mikel ‘Mike’ Sullivan — Levy County Citizen obituary",
+  "publisher": "Levy County Citizen",
+  "date": "2025-10-31",
+  "people": [
+    "michael-paul-sullivan-1947"
+  ],
+  "file": "2025_michael_paul_sullivan_obituary.jpg",
+  "description": "Obituary published October 31, 2025, page A4. Records birth on March 25, 1947, in Lafayette County and death at his residence in Fanning Springs on October 18, 2025. Identifies his parents as Ida (Herring) and Hope Sullivan, describes him as a Navy Vietnam veteran, and names deceased siblings. The obituary spells his given name Mikel and reports age 79, although its dates indicate age 78."
+},
+{
+  "id": "gary-sullivan-navy-service-1969-1972",
+  "type": "Military Service Record",
+  "title": "Gary D. Sullivan — Navy enlistment and discharge record",
+  "people": [
+    "gary-sullivan-1951"
+  ],
+  "description": "User-supplied record details identify Gary D. Sullivan, born February 11, 1951, and deceased March 4, 2006. Records Navy enlistment on April 11, 1969, and discharge on March 15, 1972. The supplied extract lists page 2; the collection title has not yet been provided."
+},
+{
+  "id": "gary-drew-sullivan-edna-mae-fletcher-marriage-1991",
+  "type": "Marriage Index",
+  "title": "Gary Drew Sullivan and Edna Mae Fletcher — Florida marriage record, 1991",
+  "publisher": "Florida Department of Health",
+  "date": "1991-04-27",
+  "location": "Gilchrist County, Florida, United States",
+  "people": [
+    "gary-sullivan-1951"
+  ],
+  "certificate": "051657",
+  "description": "User-supplied marriage index details identify Gary Drew Sullivan and spouse Edna Mae Fletcher, married April 27, 1991, in Gilchrist County, Florida. Certificate number 051657; source listed as the Florida Department of Health."
+},
+
+{
+  "id": "hope-wayland-sullivan-jr-obituary-2004",
+  "type": "Obituary",
+  "title": "Hope Wayland Sullivan Jr. — Tallahassee Democrat obituary",
+  "publisher": "Tallahassee Democrat",
+  "date": "2004-08-08",
+  "people": [
+    "hope-wayland-sullivan-1945"
+  ],
+  "file": "2004_hope_wayland_sullivan_jr_obituary.jpg",
+  "description": "Obituary reporting the death of Hope Wayland Sullivan Jr., age 59, at his residence on August 6, 2004. Describes his Lafayette County origins, longtime residence in Perry, Navy service during the Vietnam War, maintenance employment with the Taylor County Department of Corrections, membership in Athena Baptist Church, and enthusiasm for fishing. Identifies his wife of 18 years as Nancy Sullivan and names his siblings. Announces funeral services and burial at Old Town Cemetery. Publication date is supplied by the uploaded filename."
 }
 
 ]
