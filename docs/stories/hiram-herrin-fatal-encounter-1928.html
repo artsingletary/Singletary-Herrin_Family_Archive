@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<!-- Google Analytics 4 - Consent Controlled -->
+<script>
+    const GA_MEASUREMENT_ID = "G-MMTEL90RK4";
+
+    function loadGoogleAnalytics() {
+        if (window.gaAnalyticsLoaded) return;
+
+        window.gaAnalyticsLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+
+        window.gtag = function () {
+            window.dataLayer.push(arguments);
+        };
+
+        gtag("js", new Date());
+        gtag("config", GA_MEASUREMENT_ID);
+
+        const script = document.createElement("script");
+        script.async = true;
+        script.src =
+            "https://www.googletagmanager.com/gtag/js?id=" +
+            GA_MEASUREMENT_ID;
+
+        document.head.appendChild(script);
+    }
+
+    // Load Analytics only if consent was previously granted.
+    try {
+        if (localStorage.getItem("analytics-consent") === "accepted") {
+            loadGoogleAnalytics();
+        }
+    } catch (error) {
+        // Analytics remains disabled if storage is unavailable.
+    }
+</script>
+
+
+<!-- Analytics Cookie Consent Banner -->
+<style>
+    #cookie-consent-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        background: #f8f7f3;
+        border-top: 2px solid #b8a58c;
+        padding: 15px 25px;
+        box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.12);
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    #cookie-consent-banner p {
+        margin: 0;
+        flex: 1;
+        min-width: 240px;
+        color: #333;
+    }
+
+    #cookie-consent-banner a {
+        color: #3d4b3a;
+        text-decoration: underline;
+    }
+
+    #cookie-consent-banner button {
+        padding: 9px 18px;
+        border: 1px solid #8a6c48;
+        border-radius: 5px;
+        background: #fff;
+        color: #333;
+        cursor: pointer;
+    }
+
+    #cookie-consent-banner button:hover {
+        background: #f0e7d8;
+    }
+
+    #cookie-consent-banner button:focus-visible {
+        outline: 2px solid #3d4b3a;
+        outline-offset: 2px;
+    }
+</style>
+
+
+<!-- Cookie Consent Banner Behavior -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        // Create the banner.
+        const banner = document.createElement("div");
+        banner.id = "cookie-consent-banner";
+        banner.setAttribute("role", "region");
+        banner.setAttribute("aria-label", "Analytics cookie preferences");
+
+        // Create the message.
+        const message = document.createElement("p");
+        message.textContent =
+            "This website uses optional analytics cookies to understand visitor activity. ";
+
+        // Create the Privacy Notice link.
+        const privacyLink = document.createElement("a");
+        privacyLink.textContent = "Privacy Notice";
+
+        // Use the correct relative path for each page.
+        const inSubdirectory =
+            window.location.pathname.includes("/people/") ||
+            window.location.pathname.includes("/stories/");
+
+        privacyLink.href = inSubdirectory
+            ? "../privacy.html"
+            : "privacy.html";
+
+        message.appendChild(privacyLink);
+
+        // Create the Accept button.
+        const acceptButton = document.createElement("button");
+        acceptButton.type = "button";
+        acceptButton.textContent = "Accept";
+
+        // Create the Reject button.
+        const rejectButton = document.createElement("button");
+        rejectButton.type = "button";
+        rejectButton.textContent = "Reject";
+
+        // Add everything to the banner.
+        banner.append(message, acceptButton, rejectButton);
+        document.body.appendChild(banner);
+
+        // Check for an existing consent choice.
+        let consent = null;
+
+        try {
+            consent = localStorage.getItem("analytics-consent");
+        } catch (error) {
+            // Storage may be unavailable.
+        }
+
+        // Show the banner if no choice has been saved.
+        if (consent !== "accepted" && consent !== "rejected") {
+            banner.style.display = "flex";
+        }
+
+        // Accept analytics cookies.
+        acceptButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "accepted");
+
+                banner.style.display = "none";
+                loadGoogleAnalytics();
+            } catch (error) {
+                // Do not enable analytics if consent cannot be saved.
+            }
+        });
+
+
+        // Reject analytics cookies.
+        rejectButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "rejected");
+
+                // Disable further Google Analytics collection.
+                window["ga-disable-" + GA_MEASUREMENT_ID] = true;
+
+                document.cookie.split(";").forEach(function (cookie) {
+                    const name = cookie.split("=")[0].trim();
+
+                    if (name === "_ga" || name.startsWith("_ga_")) {
+                        // Clear host-only cookies.
+                        document.cookie =
+                        name + "=; Max-Age=0; path=/";
+
+                        // Clear cookies scoped to this website's domain.
+                         document.cookie =
+                            name +
+                            "=; Max-Age=0; path=/; domain=artsingletary.github.io";
+                    }
+                });
+
+                banner.style.display = "none";
+
+                // Stop the previously loaded Analytics session.
+                window.location.reload();
+
+            } catch (error) {
+                // Analytics remains disabled if storage is unavailable.
+            }
+        });
+
+
+    });
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>A Fatal Encounter at Glenmore: Hiram Jackson Herrin, 1928 — Draft - Research in Progress | Singletary-Herrin Family Archive</title>
+</head>
+<body>
+
+    <header>
+        <h1>Singletary-Herrin Family Archive</h1>
+        <p>Preserving the stories and memories of our family.</p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../family-tree.html">Family Tree</a>
+        <a href="../photos.html">Photos</a>
+        <a href="../stories.html">Stories</a>
+        <a href="../documents.html">Documents</a>
+        <a href="#">Reunions</a>
+    </nav>
+
+    <main class="story-page">
+
+        <p><a href="../stories.html">&larr; Back to Stories</a></p>
+
+        <h2>A Fatal Encounter at Glenmore: Hiram Jackson Herrin, 1928 — Draft - Research in Progress</h2>
+
+        <p class="story-category">Family History</p>
+
+        
+
+        
+        <p><strong>Author:</strong> Art Singletary</p>
+        
+
+        <!-- Story chapters -->
+
+        
+
+        <section class="story-section">
+
+            
+            <h3>A Fatal Encounter</h3>
+            
+
+            
+            <p>On Sunday, October 14, 1928, Hiram Jackson Herrin died in an exchange of gunfire near his home at Glenmore in Ware County, Georgia. He was 58 years old. The following day, The Macon Telegraph reported the incident under the headline "Death Climaxes Duel With Guns." Its account described a confrontation between Herrin, a local farmer and businessman, and F. W. Ivey, a turpentine operator, on the public highway in front of Herrin's home.</p>
+            
+
+            
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+        
+
+        
+
+        <section class="story-section">
+
+            
+            <h3>The Newspaper Account</h3>
+            
+
+            
+            <p>According to The Macon Telegraph, officers reported that each man had fired one shot. Herrin died at the scene, while Ivey was taken to a hospital in Waycross with serious injuries. Although the newspaper described Ivey's condition as critical and predicted that he would not recover, the records collected so far do not establish his eventual fate.</p>
+            
+
+            
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+        
+
+        
+
+        <section class="story-section">
+
+            
+            <h3>What Led to the Shooting?</h3>
+            
+
+            
+            <p>The newspaper reported that the men had been at odds over business matters. It also acknowledged that the immediate circumstances were unknown and that the two men were alone when the shooting occurred. Although the headlines called the encounter a duel, the available reports do not establish that it was formally arranged. Who initiated the confrontation, what was said, and the sequence of the shots remain unknown.</p>
+            
+
+            
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+        
+
+        
+
+        <section class="story-section">
+
+            
+            <h3>The Man Behind the Headline</h3>
+            
+
+            
+            <p>Hiram was a son of William M. Herrin and Mary Hargraves. His gravestone records his birth as March 30, 1870, and his death certificate identifies his birthplace as Ware County, Georgia. On February 5, 1895, he married Nellie Ellington, later identified as Nellie Virginia Ellington Herrin. Their Ware County marriage record names him as H. J. Herring, reflecting a surname variation found in family records. By the time of his death, Hiram was living in Glenmore and working as a farmer. The newspaper also described him as a businessman.</p>
+            
+
+            
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+        
+
+        
+
+        <section class="story-section">
+
+            
+            <h3>Connecting the Records</h3>
+            
+
+            
+            <p>Both supplied newspaper clippings identify the deceased as H. D. Herrin, while his death certificate names him as Hiram Jackson Herrin and his gravestone reads Hiram J. Herrin. Their matching death date, location, and circumstances strongly support the identification despite the conflicting initials. His death certificate records a fatal gunshot injury and gives his age as 58 years, 6 months, and 14 days. That stated age differs slightly from the age calculated from the March 30, 1870 birth date on his gravestone.</p>
+            
+
+            
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+        
+
+        
+
+        <section class="story-section">
+
+            
+            <h3>Burial and Family Remembrance</h3>
+            
+
+            
+            <p>Hiram's death certificate records burial on October 15, 1928, at a place written as Indian Mount. His burial has been identified as Indian Mound Baptist Church Cemetery in Millwood, Ware County, Georgia. He rests in the Herrin Family Plot beside his wife, Nellie Virginia Ellington Herrin, whose gravestone records February 17, 1874 – September 30, 1960.</p>
+            
+
+            
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+        
+
+        
+
+        <section class="story-section">
+
+            
+            <h3>Questions for Further Research</h3>
+            
+
+            
+            <p>This account remains a work in progress. Further newspaper coverage, an inquest, or court records may help explain the business disagreement, clarify the circumstances of the shooting, and establish what happened to F. W. Ivey. Additional research may also explain why the newspapers used the initials H. D. rather than H. J. Until further evidence is found, the newspaper's claims are attributed to its reporting rather than presented as independently established facts.</p>
+            
+
+            
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+        
+
+        
+
+        <section class="story-section">
+
+            
+            <h3>Sources and Research Notes</h3>
+            
+
+            
+            <p>Sources include Hiram Jackson Herrin's Georgia death certificate, state file number 28071; the Ware County marriage record for H. J. Herring and Nellie Ellington, page 280; the photograph of Hiram and Nellie's graves; and the supplied newspaper clippings. The longer clipping is identified by its supplied filename as The Macon Telegraph, October 15, 1928. The shorter Associated Press clipping has a Waycross dateline of October 14, but its newspaper title and publication date have not yet been established.</p>
+            
+
+            
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+        
+
+        
+
+        <!-- Related family members -->
+
+        
+        <section class="story-related">
+
+            <h3>People in This Story</h3>
+
+            <ul>
+                
+                <li>
+                    <a href="../people/hiram-jackson-herrin-1870.html">
+                        Hiram Jackson Herrin
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="../people/nellie-ellington-1874.html">
+                        Nellie Virginia Ellington
+                    </a>
+                </li>
+                
+            </ul>
+
+        </section>
+        
+
+    </main>
+
+    <footer>
+        <p>Singletary-Herrin Family Archive</p>
+
+        <p>
+            <a href="../privacy.html">Privacy Notice</a>
+        </p>
+
+    </footer>
+
+</body>
+</html>

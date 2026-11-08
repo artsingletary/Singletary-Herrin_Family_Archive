@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<!-- Google Analytics 4 - Consent Controlled -->
+<script>
+    const GA_MEASUREMENT_ID = "G-MMTEL90RK4";
+
+    function loadGoogleAnalytics() {
+        if (window.gaAnalyticsLoaded) return;
+
+        window.gaAnalyticsLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+
+        window.gtag = function () {
+            window.dataLayer.push(arguments);
+        };
+
+        gtag("js", new Date());
+        gtag("config", GA_MEASUREMENT_ID);
+
+        const script = document.createElement("script");
+        script.async = true;
+        script.src =
+            "https://www.googletagmanager.com/gtag/js?id=" +
+            GA_MEASUREMENT_ID;
+
+        document.head.appendChild(script);
+    }
+
+    // Load Analytics only if consent was previously granted.
+    try {
+        if (localStorage.getItem("analytics-consent") === "accepted") {
+            loadGoogleAnalytics();
+        }
+    } catch (error) {
+        // Analytics remains disabled if storage is unavailable.
+    }
+</script>
+
+
+<!-- Analytics Cookie Consent Banner -->
+<style>
+    #cookie-consent-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        background: #f8f7f3;
+        border-top: 2px solid #b8a58c;
+        padding: 15px 25px;
+        box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.12);
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    #cookie-consent-banner p {
+        margin: 0;
+        flex: 1;
+        min-width: 240px;
+        color: #333;
+    }
+
+    #cookie-consent-banner a {
+        color: #3d4b3a;
+        text-decoration: underline;
+    }
+
+    #cookie-consent-banner button {
+        padding: 9px 18px;
+        border: 1px solid #8a6c48;
+        border-radius: 5px;
+        background: #fff;
+        color: #333;
+        cursor: pointer;
+    }
+
+    #cookie-consent-banner button:hover {
+        background: #f0e7d8;
+    }
+
+    #cookie-consent-banner button:focus-visible {
+        outline: 2px solid #3d4b3a;
+        outline-offset: 2px;
+    }
+</style>
+
+
+<!-- Cookie Consent Banner Behavior -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        // Create the banner.
+        const banner = document.createElement("div");
+        banner.id = "cookie-consent-banner";
+        banner.setAttribute("role", "region");
+        banner.setAttribute("aria-label", "Analytics cookie preferences");
+
+        // Create the message.
+        const message = document.createElement("p");
+        message.textContent =
+            "This website uses optional analytics cookies to understand visitor activity. ";
+
+        // Create the Privacy Notice link.
+        const privacyLink = document.createElement("a");
+        privacyLink.textContent = "Privacy Notice";
+
+        // Use the correct relative path for each page.
+        const inSubdirectory =
+            window.location.pathname.includes("/people/") ||
+            window.location.pathname.includes("/stories/");
+
+        privacyLink.href = inSubdirectory
+            ? "../privacy.html"
+            : "privacy.html";
+
+        message.appendChild(privacyLink);
+
+        // Create the Accept button.
+        const acceptButton = document.createElement("button");
+        acceptButton.type = "button";
+        acceptButton.textContent = "Accept";
+
+        // Create the Reject button.
+        const rejectButton = document.createElement("button");
+        rejectButton.type = "button";
+        rejectButton.textContent = "Reject";
+
+        // Add everything to the banner.
+        banner.append(message, acceptButton, rejectButton);
+        document.body.appendChild(banner);
+
+        // Check for an existing consent choice.
+        let consent = null;
+
+        try {
+            consent = localStorage.getItem("analytics-consent");
+        } catch (error) {
+            // Storage may be unavailable.
+        }
+
+        // Show the banner if no choice has been saved.
+        if (consent !== "accepted" && consent !== "rejected") {
+            banner.style.display = "flex";
+        }
+
+        // Accept analytics cookies.
+        acceptButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "accepted");
+
+                banner.style.display = "none";
+                loadGoogleAnalytics();
+            } catch (error) {
+                // Do not enable analytics if consent cannot be saved.
+            }
+        });
+
+
+        // Reject analytics cookies.
+        rejectButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "rejected");
+
+                // Disable further Google Analytics collection.
+                window["ga-disable-" + GA_MEASUREMENT_ID] = true;
+
+                document.cookie.split(";").forEach(function (cookie) {
+                    const name = cookie.split("=")[0].trim();
+
+                    if (name === "_ga" || name.startsWith("_ga_")) {
+                        // Clear host-only cookies.
+                        document.cookie =
+                        name + "=; Max-Age=0; path=/";
+
+                        // Clear cookies scoped to this website's domain.
+                         document.cookie =
+                            name +
+                            "=; Max-Age=0; path=/; domain=artsingletary.github.io";
+                    }
+                });
+
+                banner.style.display = "none";
+
+                // Stop the previously loaded Analytics session.
+                window.location.reload();
+
+            } catch (error) {
+                // Analytics remains disabled if storage is unavailable.
+            }
+        });
+
+
+    });
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Family Ties in the 26th Georgia Infantry — Draft - Research in Progress | Singletary-Herrin Family Archive</title>
+</head>
+<body>
+
+    <header>
+        <h1>Singletary-Herrin Family Archive</h1>
+        <p>Preserving the stories and memories of our family.</p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../family-tree.html">Family Tree</a>
+        <a href="../photos.html">Photos</a>
+        <a href="../stories.html">Stories</a>
+        <a href="../documents.html">Documents</a>
+        <a href="#">Reunions</a>
+    </nav>
+
+    <main class="story-page">
+
+        <p><a href="../stories.html">&larr; Back to Stories</a></p>
+
+        <h2>Family Ties in the 26th Georgia Infantry — Draft - Research in Progress</h2>
+
+        <p class="story-category">Military History</p>
+
+        
+
+        
+        <p><strong>Author:</strong> Art Singletary</p>
+        
+
+        <!-- Story chapters -->
+
+        
+
+        <section class="story-section">
+
+            
+            <h3>Family Connections</h3>
+            
+
+            
+            <p>Several members of our extended family appear in records of the 26th Georgia Infantry, a Confederate regiment organized at Brunswick, Georgia, in 1861. Its companies drew recruits from southeastern Georgia, including Ware County, where several branches of our family lived. This developing story brings together their individual records and family connections.</p>
+            
+
+            
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+        
+
+        
+
+        <section class="story-section">
+
+            
+            <h3>William M. Herrin</h3>
+            
+
+            
+            <p>William M. Herrin, my third great-grandfather, served as a Private in Company K. His military record cover identifies his unit and rank, and his wife Mary Hargraves Herrin's later Confederate widow's pension file provides additional evidence of that service. His enlistment and discharge dates, assignments, and individual wartime experiences remain under review.</p>
+            
+
+            
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+        
+
+        
+
+        <section class="story-section">
+
+            
+            <h3>Three Williams Brothers in Company K</h3>
+            
+
+            
+            <p>A family-history article by Frances Vickers Wilkes, titled "John Williams Family of Red Bluff" and published in The Douglas Enterprise on January 5, 1994, page 8-C, identifies three sons of my fourth great-grandfather John Williams and his wife Nancy Smith as serving together in Company K, 26th Georgia Infantry. They were Hezekiah Ponder Williams, Jackson S. "Tobe" Williams, and William M. Williams. These brothers therefore shared a company with William M. Herrin, according to the records collected so far, although their periods of overlapping service have not yet been established.</p>
+            
+
+            
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+        
+
+        
+
+        <section class="story-section">
+
+            
+            <h3>Hezekiah Ponder Williams</h3>
+            
+
+            
+            <p>Hezekiah Ponder Williams, my third great-grandfather, married Charlotte Herrin, a sister of William M. Herrin. The 1994 family-history article reports that Ponder was commissioned an ensign in the local Georgia militia on July 6, 1861, and later enlisted as a Private in Company K, 26th Georgia Infantry, on April 20, 1862. It states that a company roll dated November 5, 1864, listed him as sick and absent. According to the article, he was permitted to return home to the Red Bluff community and was unable to rejoin his command. It records his parole at Thomasville on May 21, 1865. These details will be compared with his military records.</p>
+            
+
+            
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+        
+
+        
+
+        <section class="story-section">
+
+            
+            <h3>Jackson S. "Tobe" Williams</h3>
+            
+
+            
+            <p>Jackson S. Williams, known as Tobe, was another son of John Williams and Nancy Smith. The 1994 article reports that he enlisted at Waresboro in Company K, 26th Georgia Infantry, on May 10, 1862, following his brothers Ponder and William M. It states that he served three years. His individual service records will be reviewed to establish further details.</p>
+            
+
+            
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+        
+
+        
+
+        <section class="story-section">
+
+            
+            <h3>William M. Williams</h3>
+            
+
+            
+            <p>William M. Williams, a son of John Williams and Nancy Smith and my third great-granduncle, is identified in the 1994 article as a member of Company K, 26th Georgia Infantry. The article reports that he was killed at Spotsylvania, Virginia, on May 12, 1864. His military records will be examined to corroborate this account. The article prints his birth year as 1943, an evident chronological error; his correct birth year requires separate verification.</p>
+            
+
+            
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+        
+
+        
+
+        <section class="story-section">
+
+            
+            <h3>Richmond Herrin</h3>
+            
+
+            
+            <p>Richmond Herrin, my third great-granduncle, appears in a published roster under the spelling Richmond Herren, with Herrin noted as an alternate spelling. The supplied roster extract identifies him as a Ware County resident who enlisted as a Private in Company L, 26th Georgia Infantry, on May 23, 1861. It records his death on December 30, 1862, at Chimborazo Hospital in Richmond, Virginia. The extract does not state a cause of death.</p>
+            
+
+            
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+        
+
+        
+
+        <section class="story-section">
+
+            
+            <h3>Manning Smith</h3>
+            
+
+            
+            <p>Manning Smith, my fourth great-granduncle, is listed in a supplied extract from the Roster of Confederate Soldiers of Georgia 1861–1865 as a Private in Company H, 26th Georgia Infantry. His enlistment and muster date are recorded as February 25, 1862. His subsequent service and wartime outcome remain to be documented.</p>
+            
+
+            
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+        
+
+        
+
+        <section class="story-section">
+
+            
+            <h3>Additional Relatives Under Review</h3>
+            
+
+            
+            <p>Additional family connections under review include G. B. Blanton, believed to be Greenberry Blanton, the first husband of my third great-grandmother Sarah Wadsworth; Ephraim McClendon, the husband of my third great-aunt; and John Williams Jr., my third great-granduncle. Their soldier-list entries require further comparison with family and military records to confirm identities, companies, and individual service histories. The 1994 article's statement about three Williams brothers serving together names Hezekiah, Jackson, and William M.; it does not establish John Jr.'s service.</p>
+            
+
+            
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+        
+
+        
+
+        <section class="story-section">
+
+            
+            <h3>Sources and Research Notes</h3>
+            
+
+            
+            <p>Sources collected for this developing story include William Herrin's military service record cover; Mary Herrin's Confederate widow's pension file; supplied roster extracts for Richmond Herren and Manning Smith from the Roster of Confederate Soldiers of Georgia 1861–1865; and Frances Vickers Wilkes's article "John Williams Family of Red Bluff," published in The Douglas Enterprise on January 5, 1994, page 8-C. The newspaper article is a retrospective family history, and its military details require comparison with individual service records. It gives conflicting birth years of 1828 and 1829 for Hezekiah Ponder Williams and prints an impossible birth year of 1943 for William M. Williams. The regiment's history provides context but does not establish that every relative participated in every campaign or battle.</p>
+            
+
+            
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+        
+
+        
+
+        <section class="story-section">
+
+            
+            <h3>Continuing the Research</h3>
+            
+
+            
+            <p>This is a draft and an ongoing research story. Additional military records, pension applications, census records, family accounts, and other documents will help establish each man's experiences and the effects of the war on his family. Profile links and source citations will be expanded as records are reviewed.</p>
+            
+
+            
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+        
+
+        
+
+        <!-- Related family members -->
+
+        
+        <section class="story-related">
+
+            <h3>People in This Story</h3>
+
+            <ul>
+                
+                <li>
+                    <a href="../people/william-m-herrin-1831.html">
+                        William M. Herrin
+                    </a>
+                </li>
+                
+            </ul>
+
+        </section>
+        
+
+    </main>
+
+    <footer>
+        <p>Singletary-Herrin Family Archive</p>
+
+        <p>
+            <a href="../privacy.html">Privacy Notice</a>
+        </p>
+
+    </footer>
+
+</body>
+</html>

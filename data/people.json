@@ -1083,6 +1083,16 @@
     "mother": "charity-sears-1812",
     "spouses": [
       "mary-hargraves-1838"
+    ],
+    "military_service": [
+      {
+        "branch": "Confederate States Army",
+        "conflict": "American Civil War",
+        "rank": "Private",
+        "unit": "Company K, 26th Georgia Infantry Regiment",
+        "enlistment_date": null,
+        "discharge_date": null
+     }
     ]
   },
   {
@@ -3278,6 +3288,215 @@
   "Her obituary identifies her father as Hope Sullivan, her mother as Ida Mae, and her stepfather as Lawrence Monroe Seacrest. It names her brothers Connie Mack, Billy John, Jack, Mike, Wayland, and Drew Sullivan, and her sister Stella Osborne.",
   "Funeral services were scheduled for March 12, 2008, at Joe P. Burns Funeral Home, with Pastor Bobby Lindsay officiating and burial to follow at Old Town Cemetery."
 ]
+},
+
+{
+  "id": "catherine-m-herrin-1857",
+  "first_name": "Catherine",
+  "middle_name": "M.",
+  "last_name": "Herrin",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_year": 1857,
+  "death_year": 1918,
+  "father": "william-m-herrin-1831",
+  "mother": "mary-hargraves-1838",
+  "spouses": [],
+  "biography": [
+    "Catherine M. Herrin was a daughter of William M. Herrin and Mary Hargraves. The family tree currently records her birth year as 1857 and her death year as 1918. These dates remain provisional pending review of supporting records."
+  ]
+},
+{
+  "id": "nancy-herrin-1859",
+  "first_name": "Nancy",
+  "middle_name": null,
+  "last_name": "Herrin",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_year": 1859,
+  "death_year": 1953,
+  "father": "william-m-herrin-1831",
+  "mother": "mary-hargraves-1838",
+  "spouses": [],
+  "biography": [
+    "Nancy Herrin was a daughter of William M. Herrin and Mary Hargraves. The family tree currently records her birth year as 1859 and her death year as 1953. These dates remain provisional pending review of supporting records."
+  ]
+},
+{
+  "id": "william-dennis-herrin-1859",
+  "first_name": "William",
+  "middle_name": "Dennis",
+  "last_name": "Herrin",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_year": 1859,
+  "death_year": 1923,
+  "father": "william-m-herrin-1831",
+  "mother": "mary-hargraves-1838",
+  "spouses": [],
+  "biography": [
+    "William Dennis Herrin was a son of William M. Herrin and Mary Hargraves. The family tree currently records his birth year as 1859 and his death year as 1923. These dates remain provisional pending review of supporting records."
+  ]
+},
+{
+  "id": "charity-a-herrin-1864",
+  "first_name": "Charity",
+  "middle_name": "A.",
+  "last_name": "Herrin",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_year": 1864,
+  "death_year": 1934,
+  "father": "william-m-herrin-1831",
+  "mother": "mary-hargraves-1838",
+  "spouses": [],
+  "biography": [
+    "Charity A. Herrin was a daughter of William M. Herrin and Mary Hargraves. The family tree currently records her birth year as 1864 and her death year as 1934. These dates remain provisional pending review of supporting records."
+  ]
+},
+{
+  "id": "james-daniel-herrin-1865",
+  "first_name": "James",
+  "middle_name": "Daniel",
+  "last_name": "Herrin",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_year": 1865,
+  "death_year": 1926,
+  "father": "william-m-herrin-1831",
+  "mother": "mary-hargraves-1838",
+  "spouses": [],
+  "biography": [
+    "James Daniel Herrin was a son of William M. Herrin and Mary Hargraves. The family tree currently records his birth year as 1865 and his death year as 1926. These dates remain provisional pending review of supporting records."
+  ]
+},
+{
+  "id": "matthew-w-herrin-1868",
+  "first_name": "Matthew",
+  "middle_name": "W.",
+  "nickname": "Mack",
+  "last_name": "Herrin",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_year": 1868,
+  "death_year": null,
+  "father": "william-m-herrin-1831",
+  "mother": "mary-hargraves-1838",
+  "spouses": [],
+  "biography": [
+    "Matthew W. Herrin, known as Mack, was a son of William M. Herrin and Mary Hargraves. The family tree currently records his birth year as 1868. This date remains provisional pending review of supporting records. His death date has not yet been established."
+  ]
+},
+
+{
+  "id": "hiram-jackson-herrin-1870",
+  "first_name": "Hiram",
+  "middle_name": "Jackson",
+  "last_name": "Herrin",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_date": "1870-03-30",
+  "birth_year": 1870,
+  "birth_place": "Ware County, Georgia, United States",
+  "death_date": "1928-10-14",
+  "death_year": 1928,
+  "death_place": "Glenmore, Ware County, Georgia, United States",
+  "father": "william-m-herrin-1831",
+  "mother": "mary-hargraves-1838",
+  "spouses": ["nellie-ellington-1874"],
+  "biography": [
+    "Hiram Jackson Herrin was born on March 30, 1870, according to his gravestone. His death certificate identifies his birthplace as Ware County, Georgia, and his parents as William Herrin and Mary Hargraves.",
+    "On February 5, 1895, Hiram married Nellie Ellington in Ware County, Georgia. The marriage record names him as H. J. Herring. Their license was issued on January 31, 1895, and the marriage was performed by J. F. Bennett, Justice of the Peace, and recorded on May 30, 1895.",
+    "Hiram was a farmer and lived in Glenmore, Ware County. A contemporary newspaper account also described him as a local businessman.",
+    "Hiram died on October 14, 1928, at the age of 58. His death certificate records a fatal gunshot injury. A report in The Macon Telegraph described an exchange of gunfire between Herrin and F. W. Ivey on the highway near Herrin's home at Glenmore. The newspaper reported that the men had been at odds over business matters, but stated that the circumstances immediately preceding the shooting were unknown.",
+    "The newspaper reports identify him as H. D. Herrin, whereas his death certificate names him as Hiram Jackson Herrin and his gravestone identifies him as Hiram J. Herrin. The matching death date, location, and circumstances strongly support that the reports concern the same man.",
+    "His death certificate records burial on October 15, 1928. He is buried at Indian Mound Baptist Church Cemetery in Millwood, Ware County, Georgia, in the Herrin Family Plot, beside his wife, Nellie Virginia Ellington Herrin."
+  ]
+},
+
+
+{
+  "id": "charles-alvin-herrin-1874",
+  "first_name": "Charles",
+  "middle_name": "Alvin",
+  "last_name": "Herrin",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_year": 1874,
+  "death_year": 1948,
+  "father": "william-m-herrin-1831",
+  "mother": "mary-hargraves-1838",
+  "spouses": [],
+  "biography": [
+    "Charles Alvin Herrin was a son of William M. Herrin and Mary Hargraves. The family tree currently records his birth year as 1874 and his death year as 1948. These dates remain provisional pending review of supporting records."
+  ]
+},
+{
+  "id": "leander-wilbur-herrin-1877",
+  "first_name": "Leander",
+  "middle_name": "Wilbur",
+  "last_name": "Herrin",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_year": 1877,
+  "death_year": 1949,
+  "father": "william-m-herrin-1831",
+  "mother": "mary-hargraves-1838",
+  "spouses": [],
+  "biography": [
+    "Leander Wilbur Herrin was a son of William M. Herrin and Mary Hargraves. The family tree currently records his birth year as 1877 and his death year as 1949. These dates remain provisional pending review of supporting records."
+  ]
+},
+{
+  "id": "mary-bell-herrin-1879",
+  "first_name": "Mary",
+  "middle_name": "Bell",
+  "last_name": "Herrin",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_year": 1879,
+  "death_year": 1929,
+  "father": "william-m-herrin-1831",
+  "mother": "mary-hargraves-1838",
+  "spouses": [],
+  "biography": [
+    "Mary Bell Herrin was a daughter of William M. Herrin and Mary Hargraves. The family tree currently records her birth year as 1879 and her death year as 1929. These dates remain provisional pending review of supporting records."
+  ]
+},
+{
+  "id": "nellie-ellington-1874",
+  "first_name": "Nellie",
+  "middle_name": "Virginia",
+  "last_name": "Ellington",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_date": "1874-02-17",
+  "birth_place": "Lawrenceville, Gwinnett County, Georgia, United States",
+  "birth_year": 1874,
+  "death_date": "1960-09-30",
+  "death_place": "Ware County, Georgia, United States",
+  "death_year": 1960,
+  "father": null,
+  "mother": null,
+  "spouses": [
+    "hiram-jackson-herrin-1870"
+  ],
+  "biography": [
+    "Nellie Ellington was born on February 17, 1874, according to her gravestone.",
+    "On February 5, 1895, she married Hiram Jackson Herrin in Ware County, Georgia. Their marriage record names the couple as H. J. Herring and Nellie Ellington.",
+    "Her husband died on October 14, 1928. Nellie died on September 30, 1960, according to her gravestone. A photograph shows their graves side by side."
+  ]
 }
 
 

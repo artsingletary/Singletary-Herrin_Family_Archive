@@ -3637,6 +3637,46 @@
   ],
   "file": "2004_hope_wayland_sullivan_jr_obituary.jpg",
   "description": "Obituary reporting the death of Hope Wayland Sullivan Jr., age 59, at his residence on August 6, 2004. Describes his Lafayette County origins, longtime residence in Perry, Navy service during the Vietnam War, maintenance employment with the Taylor County Department of Corrections, membership in Athena Baptist Church, and enthusiasm for fishing. Identifies his wife of 18 years as Nancy Sullivan and names his siblings. Announces funeral services and burial at Old Town Cemetery. Publication date is supplied by the uploaded filename."
+},
+
+{
+  "id": "hiram-jackson-herrin-death-certificate-1928",
+  "type": "Death Certificate",
+  "title": "1928 Georgia Death Certificate — Hiram Jackson Herrin",
+  "publisher": "Georgia State Board of Health",
+  "date": "1928-10-14",
+  "location": "Glenmore, Ware County, Georgia",
+  "people": [
+    "hiram-jackson-herrin-1870"
+  ],
+  "file": "1928_hiram_jackson_herrin_death_certificate.jpg",
+  "certificate": "28071",
+  "description": "Death certificate for Hiram Jackson Herrin, a married farmer residing in Glenmore, Ware County, Georgia. Records death on October 14, 1928, from a gunshot injury, with death occurring within minutes. Names his father as Wm. Herrin and his mother as Mary Hargraves. Identifies his wife as Nellie Virginia Ellington Herrin and the informant as Mrs. H. J. Herrin. Gives his age as 58 years, 6 months, and 14 days; the birth-date field is blank. Records burial on October 15, 1928, at a place written as Indian Mount. Filed October 20, 1928."
+},
+{
+  "id": "hiram-herrin-nellie-ellington-marriage-1895",
+  "type": "Marriage Record",
+  "title": "1895 H. J. Herring and Nellie Ellington — Ware County marriage record",
+  "date": "1895-02-05",
+  "location": "Ware County, Georgia, United States",
+  "people": [
+    "hiram-jackson-herrin-1870"
+  ],
+  "file": "1895_hiram_herrin_nellie_ellington_marriage.jpg",
+  "description": "Ware County marriage record, page 280, naming H. J. Herring and Nellie Ellington. License issued January 31, 1895, by Ordinary Warren Lott. The marriage return records the ceremony on February 5, 1895, performed by J. F. Bennett, Justice of the Peace. Recorded May 30, 1895. The groom's surname appears as Herring, a variation of Herrin."
+},
+{
+  "id": "hiram-herrin-shooting-macon-telegraph-1928",
+  "type": "Newspaper Article",
+  "title": "Death Climaxes Duel With Guns",
+  "publisher": "The Macon Telegraph",
+  "date": "1928-10-15",
+  "location": "Glenmore, Ware County, Georgia",
+  "people": [
+    "hiram-jackson-herrin-1870"
+  ],
+  "file": "1928_hiram_herrin_shooting_macon_telegraph.jpg",
+  "description": "Report with a Waycross dateline of October 14 describing a fatal exchange of gunfire near Herrin's home at Glenmore. Identifies the deceased as H. D. \"High\" Herrin, a Ware County farmer and businessman, and the wounded man as F. W. Ivey, a turpentine operator. Reports an existing business disagreement but states that the circumstances immediately preceding the shooting were unknown. The initials differ from Hiram Jackson Herrin's death certificate and gravestone; matching date, location, and circumstances strongly support the identification. Ivey's eventual outcome is not established by this report. Publication date is supplied by the uploaded filename."
 }
 
 ]

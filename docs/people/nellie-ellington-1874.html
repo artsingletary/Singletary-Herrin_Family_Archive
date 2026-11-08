@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+<!-- Google Analytics 4 - Consent Controlled -->
+<script>
+    const GA_MEASUREMENT_ID = "G-MMTEL90RK4";
+
+    function loadGoogleAnalytics() {
+        if (window.gaAnalyticsLoaded) return;
+
+        window.gaAnalyticsLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+
+        window.gtag = function () {
+            window.dataLayer.push(arguments);
+        };
+
+        gtag("js", new Date());
+        gtag("config", GA_MEASUREMENT_ID);
+
+        const script = document.createElement("script");
+        script.async = true;
+        script.src =
+            "https://www.googletagmanager.com/gtag/js?id=" +
+            GA_MEASUREMENT_ID;
+
+        document.head.appendChild(script);
+    }
+
+    // Load Analytics only if consent was previously granted.
+    try {
+        if (localStorage.getItem("analytics-consent") === "accepted") {
+            loadGoogleAnalytics();
+        }
+    } catch (error) {
+        // Analytics remains disabled if storage is unavailable.
+    }
+</script>
+
+
+<!-- Analytics Cookie Consent Banner -->
+<style>
+    #cookie-consent-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        background: #f8f7f3;
+        border-top: 2px solid #b8a58c;
+        padding: 15px 25px;
+        box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.12);
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    #cookie-consent-banner p {
+        margin: 0;
+        flex: 1;
+        min-width: 240px;
+        color: #333;
+    }
+
+    #cookie-consent-banner a {
+        color: #3d4b3a;
+        text-decoration: underline;
+    }
+
+    #cookie-consent-banner button {
+        padding: 9px 18px;
+        border: 1px solid #8a6c48;
+        border-radius: 5px;
+        background: #fff;
+        color: #333;
+        cursor: pointer;
+    }
+
+    #cookie-consent-banner button:hover {
+        background: #f0e7d8;
+    }
+
+    #cookie-consent-banner button:focus-visible {
+        outline: 2px solid #3d4b3a;
+        outline-offset: 2px;
+    }
+</style>
+
+
+<!-- Cookie Consent Banner Behavior -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        // Create the banner.
+        const banner = document.createElement("div");
+        banner.id = "cookie-consent-banner";
+        banner.setAttribute("role", "region");
+        banner.setAttribute("aria-label", "Analytics cookie preferences");
+
+        // Create the message.
+        const message = document.createElement("p");
+        message.textContent =
+            "This website uses optional analytics cookies to understand visitor activity. ";
+
+        // Create the Privacy Notice link.
+        const privacyLink = document.createElement("a");
+        privacyLink.textContent = "Privacy Notice";
+
+        // Use the correct relative path for each page.
+        const inSubdirectory =
+            window.location.pathname.includes("/people/") ||
+            window.location.pathname.includes("/stories/");
+
+        privacyLink.href = inSubdirectory
+            ? "../privacy.html"
+            : "privacy.html";
+
+        message.appendChild(privacyLink);
+
+        // Create the Accept button.
+        const acceptButton = document.createElement("button");
+        acceptButton.type = "button";
+        acceptButton.textContent = "Accept";
+
+        // Create the Reject button.
+        const rejectButton = document.createElement("button");
+        rejectButton.type = "button";
+        rejectButton.textContent = "Reject";
+
+        // Add everything to the banner.
+        banner.append(message, acceptButton, rejectButton);
+        document.body.appendChild(banner);
+
+        // Check for an existing consent choice.
+        let consent = null;
+
+        try {
+            consent = localStorage.getItem("analytics-consent");
+        } catch (error) {
+            // Storage may be unavailable.
+        }
+
+        // Show the banner if no choice has been saved.
+        if (consent !== "accepted" && consent !== "rejected") {
+            banner.style.display = "flex";
+        }
+
+        // Accept analytics cookies.
+        acceptButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "accepted");
+
+                banner.style.display = "none";
+                loadGoogleAnalytics();
+            } catch (error) {
+                // Do not enable analytics if consent cannot be saved.
+            }
+        });
+
+
+        // Reject analytics cookies.
+        rejectButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "rejected");
+
+                // Disable further Google Analytics collection.
+                window["ga-disable-" + GA_MEASUREMENT_ID] = true;
+
+                document.cookie.split(";").forEach(function (cookie) {
+                    const name = cookie.split("=")[0].trim();
+
+                    if (name === "_ga" || name.startsWith("_ga_")) {
+                        // Clear host-only cookies.
+                        document.cookie =
+                        name + "=; Max-Age=0; path=/";
+
+                        // Clear cookies scoped to this website's domain.
+                         document.cookie =
+                            name +
+                            "=; Max-Age=0; path=/; domain=artsingletary.github.io";
+                    }
+                });
+
+                banner.style.display = "none";
+
+                // Stop the previously loaded Analytics session.
+                window.location.reload();
+
+            } catch (error) {
+                // Analytics remains disabled if storage is unavailable.
+            }
+        });
+
+
+    });
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nellie Virginia Ellington | Singletary-Herrin Family Archive</title>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Singletary-Herrin Family Archive</h1>
+
+        <p>
+            Preserving our family's history for future generations
+        </p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../family-tree.html">Family Tree</a>
+        <a href="../photos.html">Photos</a>
+        <a href="../stories.html">Stories</a>
+        <a href="../documents.html">Documents</a>
+        <a href="#">Reunions</a>
+    </nav>
+
+    <main>
+
+        <p>
+            <a href="../index.html">← Back to Family Members</a>
+        </p>
+
+        <h1>Nellie Virginia Ellington</h1>
+
+        
+            <p><strong>1874–1960</strong></p>
+        
+
+        
+
+        <section class="person-section">
+
+            <h2>Life Events</h2>
+            
+                <p>
+                    <strong>Born:</strong>
+
+                    
+                        February 17, 1874
+                    
+
+                    
+                        — Lawrenceville, Gwinnett County, Georgia, United States
+                    
+                </p>
+            
+
+
+            
+                 <p>
+                    <strong>Died:</strong>
+                    September 30, 1960
+
+                    
+                        — Ware County, Georgia, United States
+                    
+                 </p>
+             
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Family</h2>
+
+            
+
+
+            
+
+            
+
+            
+                <p>
+                    <strong>Spouse:</strong>
+                </p>
+
+                <ul>
+                    
+                        <li>
+                            <a href="hiram-jackson-herrin-1870.html">
+                              Hiram Jackson Herrin
+                            </a>
+                        </li>
+                    
+                </ul>
+            
+
+            
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Military Service</h2>
+
+            
+
+                <p>No military service information has been added.</p>
+
+            
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Biography</h2>
+
+            
+
+                
+                 <p>Nellie Ellington was born on February 17, 1874, according to her gravestone.</p>
+                
+                 <p>On February 5, 1895, she married Hiram Jackson Herrin in Ware County, Georgia. Their marriage record names the couple as H. J. Herring and Nellie Ellington.</p>
+                
+                 <p>Her husband died on October 14, 1928. Nellie died on September 30, 1960, according to her gravestone. A photograph shows their graves side by side.</p>
+                
+
+            
+
+        </section>
+
+
+        <section class="person-section">
+
+            <h2>Photos</h2>
+
+            
+
+                 <p>No additional photographs have been added.</p>
+
+            
+
+        </section>
+
+
+        
+
+        <section class="person-section">
+
+            <h2>Grave &amp; Burial</h2>
+
+            <div class="photo-gallery">
+
+                
+
+                    <figure class="gallery-photo">
+
+                        <img
+                            src="../photos/hiram_herrin_nellie_ellington_graves.jpg"
+                            alt="Graves of Hiram J. Herrin, March 30, 1870 – October 14, 1928, on the right, and his wife Nellie Virginia Ellington Herrin, February 17, 1874 – September 30, 1960, on the left. Located in the Herrin Family Plot."
+                        >
+
+                        
+
+                            <figcaption>
+                                Graves of Hiram J. Herrin, March 30, 1870 – October 14, 1928, on the right, and his wife Nellie Virginia Ellington Herrin, February 17, 1874 – September 30, 1960, on the left. Located in the Herrin Family Plot.
+
+                                
+                                    <br>
+                                    Indian Mound Baptist Church Cemetery, Millwood, Ware County, Georgia
+                                
+
+                            </figcaption>
+
+                        
+
+                    </figure>
+
+                
+
+            </div>
+
+        </section>
+
+        
+
+
+        <section class="person-section">
+
+            <h2>Sources</h2>
+
+            
+
+        <p>
+            No sources have been added yet.
+        </p>
+
+    
+    </section>
+
+    </main>
+
+
+    <footer>
+        Singletary-Herrin Family Archive 
+
+        <p>
+            <a href="../privacy.html">Privacy Notice</a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

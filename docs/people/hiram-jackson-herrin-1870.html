@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+<!-- Google Analytics 4 - Consent Controlled -->
+<script>
+    const GA_MEASUREMENT_ID = "G-MMTEL90RK4";
+
+    function loadGoogleAnalytics() {
+        if (window.gaAnalyticsLoaded) return;
+
+        window.gaAnalyticsLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+
+        window.gtag = function () {
+            window.dataLayer.push(arguments);
+        };
+
+        gtag("js", new Date());
+        gtag("config", GA_MEASUREMENT_ID);
+
+        const script = document.createElement("script");
+        script.async = true;
+        script.src =
+            "https://www.googletagmanager.com/gtag/js?id=" +
+            GA_MEASUREMENT_ID;
+
+        document.head.appendChild(script);
+    }
+
+    // Load Analytics only if consent was previously granted.
+    try {
+        if (localStorage.getItem("analytics-consent") === "accepted") {
+            loadGoogleAnalytics();
+        }
+    } catch (error) {
+        // Analytics remains disabled if storage is unavailable.
+    }
+</script>
+
+
+<!-- Analytics Cookie Consent Banner -->
+<style>
+    #cookie-consent-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        background: #f8f7f3;
+        border-top: 2px solid #b8a58c;
+        padding: 15px 25px;
+        box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.12);
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    #cookie-consent-banner p {
+        margin: 0;
+        flex: 1;
+        min-width: 240px;
+        color: #333;
+    }
+
+    #cookie-consent-banner a {
+        color: #3d4b3a;
+        text-decoration: underline;
+    }
+
+    #cookie-consent-banner button {
+        padding: 9px 18px;
+        border: 1px solid #8a6c48;
+        border-radius: 5px;
+        background: #fff;
+        color: #333;
+        cursor: pointer;
+    }
+
+    #cookie-consent-banner button:hover {
+        background: #f0e7d8;
+    }
+
+    #cookie-consent-banner button:focus-visible {
+        outline: 2px solid #3d4b3a;
+        outline-offset: 2px;
+    }
+</style>
+
+
+<!-- Cookie Consent Banner Behavior -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        // Create the banner.
+        const banner = document.createElement("div");
+        banner.id = "cookie-consent-banner";
+        banner.setAttribute("role", "region");
+        banner.setAttribute("aria-label", "Analytics cookie preferences");
+
+        // Create the message.
+        const message = document.createElement("p");
+        message.textContent =
+            "This website uses optional analytics cookies to understand visitor activity. ";
+
+        // Create the Privacy Notice link.
+        const privacyLink = document.createElement("a");
+        privacyLink.textContent = "Privacy Notice";
+
+        // Use the correct relative path for each page.
+        const inSubdirectory =
+            window.location.pathname.includes("/people/") ||
+            window.location.pathname.includes("/stories/");
+
+        privacyLink.href = inSubdirectory
+            ? "../privacy.html"
+            : "privacy.html";
+
+        message.appendChild(privacyLink);
+
+        // Create the Accept button.
+        const acceptButton = document.createElement("button");
+        acceptButton.type = "button";
+        acceptButton.textContent = "Accept";
+
+        // Create the Reject button.
+        const rejectButton = document.createElement("button");
+        rejectButton.type = "button";
+        rejectButton.textContent = "Reject";
+
+        // Add everything to the banner.
+        banner.append(message, acceptButton, rejectButton);
+        document.body.appendChild(banner);
+
+        // Check for an existing consent choice.
+        let consent = null;
+
+        try {
+            consent = localStorage.getItem("analytics-consent");
+        } catch (error) {
+            // Storage may be unavailable.
+        }
+
+        // Show the banner if no choice has been saved.
+        if (consent !== "accepted" && consent !== "rejected") {
+            banner.style.display = "flex";
+        }
+
+        // Accept analytics cookies.
+        acceptButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "accepted");
+
+                banner.style.display = "none";
+                loadGoogleAnalytics();
+            } catch (error) {
+                // Do not enable analytics if consent cannot be saved.
+            }
+        });
+
+
+        // Reject analytics cookies.
+        rejectButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "rejected");
+
+                // Disable further Google Analytics collection.
+                window["ga-disable-" + GA_MEASUREMENT_ID] = true;
+
+                document.cookie.split(";").forEach(function (cookie) {
+                    const name = cookie.split("=")[0].trim();
+
+                    if (name === "_ga" || name.startsWith("_ga_")) {
+                        // Clear host-only cookies.
+                        document.cookie =
+                        name + "=; Max-Age=0; path=/";
+
+                        // Clear cookies scoped to this website's domain.
+                         document.cookie =
+                            name +
+                            "=; Max-Age=0; path=/; domain=artsingletary.github.io";
+                    }
+                });
+
+                banner.style.display = "none";
+
+                // Stop the previously loaded Analytics session.
+                window.location.reload();
+
+            } catch (error) {
+                // Analytics remains disabled if storage is unavailable.
+            }
+        });
+
+
+    });
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hiram Jackson Herrin | Singletary-Herrin Family Archive</title>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Singletary-Herrin Family Archive</h1>
+
+        <p>
+            Preserving our family's history for future generations
+        </p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../family-tree.html">Family Tree</a>
+        <a href="../photos.html">Photos</a>
+        <a href="../stories.html">Stories</a>
+        <a href="../documents.html">Documents</a>
+        <a href="#">Reunions</a>
+    </nav>
+
+    <main>
+
+        <p>
+            <a href="../index.html">← Back to Family Members</a>
+        </p>
+
+        <h1>Hiram Jackson Herrin</h1>
+
+        
+            <p><strong>1870–1928</strong></p>
+        
+
+        
+
+        <section class="person-section">
+
+            <h2>Life Events</h2>
+            
+                <p>
+                    <strong>Born:</strong>
+
+                    
+                        March 30, 1870
+                    
+
+                    
+                        — Ware County, Georgia, United States
+                    
+                </p>
+            
+
+
+            
+                 <p>
+                    <strong>Died:</strong>
+                    October 14, 1928
+
+                    
+                        — Glenmore, Ware County, Georgia, United States
+                    
+                 </p>
+             
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Family</h2>
+
+            
+                <p>
+                    <strong>Father:</strong>
+
+                    <a href="william-m-herrin-1831.html">
+                        William M. Herrin
+                    </a>
+                </p>
+            
+
+
+            
+                <p>
+                    <strong>Mother:</strong>
+
+                    <a href="mary-hargraves-1838.html">
+                        Mary Hargraves
+                    </a>
+                </p>
+            
+
+            
+
+                <h3>Siblings</h3>
+
+                <ul>
+
+                    
+
+                        <li>
+                            <a href="thomas-levi-herrin-1854.html">
+                                Thomas Levi Herrin
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="catherine-m-herrin-1857.html">
+                                Catherine M. Herrin
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="nancy-herrin-1859.html">
+                                Nancy Herrin
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="william-dennis-herrin-1859.html">
+                                William Dennis Herrin
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="charity-a-herrin-1864.html">
+                                Charity A. Herrin
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="james-daniel-herrin-1865.html">
+                                James Daniel Herrin
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="matthew-w-herrin-1868.html">
+                                Matthew W. "Mack" Herrin
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="charles-alvin-herrin-1874.html">
+                                Charles Alvin Herrin
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="leander-wilbur-herrin-1877.html">
+                                Leander Wilbur Herrin
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="mary-bell-herrin-1879.html">
+                                Mary Bell Herrin
+                            </a>
+                        </li>
+
+                    
+
+                </ul>
+
+            
+
+            
+                <p>
+                    <strong>Spouse:</strong>
+                </p>
+
+                <ul>
+                    
+                        <li>
+                            <a href="nellie-ellington-1874.html">
+                              Nellie Virginia Ellington
+                            </a>
+                        </li>
+                    
+                </ul>
+            
+
+            
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Military Service</h2>
+
+            
+
+                <p>No military service information has been added.</p>
+
+            
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Biography</h2>
+
+            
+
+                
+                 <p>Hiram Jackson Herrin was born on March 30, 1870, according to his gravestone. His death certificate identifies his birthplace as Ware County, Georgia, and his parents as William Herrin and Mary Hargraves.</p>
+                
+                 <p>On February 5, 1895, Hiram married Nellie Ellington in Ware County, Georgia. The marriage record names him as H. J. Herring. Their license was issued on January 31, 1895, and the marriage was performed by J. F. Bennett, Justice of the Peace, and recorded on May 30, 1895.</p>
+                
+                 <p>Hiram was a farmer and lived in Glenmore, Ware County. A contemporary newspaper account also described him as a local businessman.</p>
+                
+                 <p>Hiram died on October 14, 1928, at the age of 58. His death certificate records a fatal gunshot injury. A report in The Macon Telegraph described an exchange of gunfire between Herrin and F. W. Ivey on the highway near Herrin's home at Glenmore. The newspaper reported that the men had been at odds over business matters, but stated that the circumstances immediately preceding the shooting were unknown.</p>
+                
+                 <p>The newspaper reports identify him as H. D. Herrin, whereas his death certificate names him as Hiram Jackson Herrin and his gravestone identifies him as Hiram J. Herrin. The matching death date, location, and circumstances strongly support that the reports concern the same man.</p>
+                
+                 <p>His death certificate records burial on October 15, 1928. He is buried at Indian Mound Baptist Church Cemetery in Millwood, Ware County, Georgia, in the Herrin Family Plot, beside his wife, Nellie Virginia Ellington Herrin.</p>
+                
+
+            
+
+        </section>
+
+
+        <section class="person-section">
+
+            <h2>Photos</h2>
+
+            
+
+                 <p>No additional photographs have been added.</p>
+
+            
+
+        </section>
+
+
+        
+
+        <section class="person-section">
+
+            <h2>Grave &amp; Burial</h2>
+
+            <div class="photo-gallery">
+
+                
+
+                    <figure class="gallery-photo">
+
+                        <img
+                            src="../photos/hiram_herrin_nellie_ellington_graves.jpg"
+                            alt="Graves of Hiram J. Herrin, March 30, 1870 – October 14, 1928, on the right, and his wife Nellie Virginia Ellington Herrin, February 17, 1874 – September 30, 1960, on the left. Located in the Herrin Family Plot."
+                        >
+
+                        
+
+                            <figcaption>
+                                Graves of Hiram J. Herrin, March 30, 1870 – October 14, 1928, on the right, and his wife Nellie Virginia Ellington Herrin, February 17, 1874 – September 30, 1960, on the left. Located in the Herrin Family Plot.
+
+                                
+                                    <br>
+                                    Indian Mound Baptist Church Cemetery, Millwood, Ware County, Georgia
+                                
+
+                            </figcaption>
+
+                        
+
+                    </figure>
+
+                
+
+            </div>
+
+        </section>
+
+        
+
+
+        <section class="person-section">
+
+            <h2>Sources</h2>
+
+            
+
+             <ol>
+
+                
+
+                    <li>
+
+                        <strong>1895 H. J. Herring and Nellie Ellington — Ware County marriage record</strong>
+
+                        
+                            <br>
+                            Type: Marriage Record
+                        
+
+                        
+                            <p>
+                                 Ware County marriage record, page 280, naming H. J. Herring and Nellie Ellington. License issued January 31, 1895, by Ordinary Warren Lott. The marriage return records the ceremony on February 5, 1895, performed by J. F. Bennett, Justice of the Peace. Recorded May 30, 1895. The groom's surname appears as Herring, a variation of Herrin.
+                            </p>
+                        
+
+                        
+
+                        
+                            <p>
+                                <strong>Location:</strong>
+                                Ware County, Georgia, United States
+                            </p>
+                        
+
+                        
+
+                        
+
+                    
+
+
+                    
+
+                        <p>
+                            <a href="../documents/1895_hiram_herrin_nellie_ellington_marriage.jpg" target="_blank">
+                                View Document
+                            </a>
+                        </p>
+
+                    
+
+
+                    
+
+                </li>
+
+            
+
+                    <li>
+
+                        <strong>1928 Georgia Death Certificate — Hiram Jackson Herrin</strong>
+
+                        
+                            <br>
+                            Type: Death Certificate
+                        
+
+                        
+                            <p>
+                                 Death certificate for Hiram Jackson Herrin, a married farmer residing in Glenmore, Ware County, Georgia. Records death on October 14, 1928, from a gunshot injury, with death occurring within minutes. Names his father as Wm. Herrin and his mother as Mary Hargraves. Identifies his wife as Nellie Virginia Ellington Herrin and the informant as Mrs. H. J. Herrin. Gives his age as 58 years, 6 months, and 14 days; the birth-date field is blank. Records burial on October 15, 1928, at a place written as Indian Mount. Filed October 20, 1928.
+                            </p>
+                        
+
+                        
+
+                        
+                            <p>
+                                <strong>Location:</strong>
+                                Glenmore, Ware County, Georgia
+                            </p>
+                        
+
+                        
+
+                        
+
+                    
+
+
+                    
+
+                        <p>
+                            <a href="../documents/1928_hiram_jackson_herrin_death_certificate.jpg" target="_blank">
+                                View Document
+                            </a>
+                        </p>
+
+                    
+
+
+                    
+
+                </li>
+
+            
+
+                    <li>
+
+                        <strong>Death Climaxes Duel With Guns</strong>
+
+                        
+                            <br>
+                            Type: Newspaper Article
+                        
+
+                        
+                            <p>
+                                 Report with a Waycross dateline of October 14 describing a fatal exchange of gunfire near Herrin's home at Glenmore. Identifies the deceased as H. D. "High" Herrin, a Ware County farmer and businessman, and the wounded man as F. W. Ivey, a turpentine operator. Reports an existing business disagreement but states that the circumstances immediately preceding the shooting were unknown. The initials differ from Hiram Jackson Herrin's death certificate and gravestone; matching date, location, and circumstances strongly support the identification. Ivey's eventual outcome is not established by this report. Publication date is supplied by the uploaded filename.
+                            </p>
+                        
+
+                        
+
+                        
+                            <p>
+                                <strong>Location:</strong>
+                                Glenmore, Ware County, Georgia
+                            </p>
+                        
+
+                        
+
+                        
+
+                    
+
+
+                    
+
+                        <p>
+                            <a href="../documents/1928_hiram_herrin_shooting_macon_telegraph.jpg" target="_blank">
+                                View Document
+                            </a>
+                        </p>
+
+                    
+
+
+                    
+
+                </li>
+
+            
+
+        </ol>
+
+    
+    </section>
+
+    </main>
+
+
+    <footer>
+        Singletary-Herrin Family Archive 
+
+        <p>
+            <a href="../privacy.html">Privacy Notice</a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

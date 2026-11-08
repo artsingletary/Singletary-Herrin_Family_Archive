@@ -1091,6 +1091,33 @@
   "family_lines": [
     "herrin"
   ]
+},
+{
+  "id": "mary-hargraves-herrin-grave",
+  "file": "mary_hargraves_herrin_grave.jpg",
+  "type": "grave",
+  "people": [
+    "mary-hargraves-1838"
+  ],
+  "caption": "Gravestone of Mary Herrin, wife of William M. Herrin. The birth inscription appears to read January 29, 1838, and the death inscription reads December 12, 1905. The supplied memorial information instead gives her birth year as 1833; this discrepancy remains under review.",
+  "location": "Indian Mound Baptist Church Cemetery, Millwood, Ware County, Georgia",
+  "family_lines": [
+    "herrin"
+  ]
+},
+{
+  "id": "hiram-herrin-nellie-ellington-graves",
+  "file": "hiram_herrin_nellie_ellington_graves.jpg",
+  "type": "grave",
+  "people": [
+    "hiram-jackson-herrin-1870",
+    "nellie-ellington-1874"
+  ],
+  "caption": "Graves of Hiram J. Herrin, March 30, 1870 – October 14, 1928, on the right, and his wife Nellie Virginia Ellington Herrin, February 17, 1874 – September 30, 1960, on the left. Located in the Herrin Family Plot.",
+  "location": "Indian Mound Baptist Church Cemetery, Millwood, Ware County, Georgia",
+  "family_lines": [
+    "herrin"
+  ]
 }
 
 ]
