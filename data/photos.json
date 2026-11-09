@@ -274,16 +274,6 @@
     "location": ""
 },
 {
-    "id": "sarah-wadsworth-darling-unidentified-man",
-    "file": "sarah_wadsworth_darling_unidentified_man.jpg",
-    "type": "portrait",
-    "caption": "Sarah Wadsworth Darling (1840–1908) with an unidentified man, possibly her husband Everett Darling. The man's identity has not been confirmed. Photograph provided by Bettie Darling Prestridge. Date unknown.",
-    "people": [
-        "sarah-sallie-wadsworth-1840"
-    ],
-    "location": ""
-},
-{
     "id": "william-m-williams-gravestone",
     "type": "grave",
     "file": "william_m_williams_gravestone.jpg",
@@ -1003,7 +993,7 @@
   "type": "family",
   "people": [
     "james-talmage-herrin-1919",
-    "robbie-rosetta-gramling-1933"
+    "robbie-rosetta-grambling-1933"
   ],
   "family_lines": [
     "herrin"
@@ -1118,6 +1108,36 @@
   "family_lines": [
     "herrin"
   ]
-}
+},
+{
+  "id": "hezekiah-ponder-williams-grave",
+  "file": "hezekiah_ponder_williams_grave.jpg",
+  "type": "grave",
+  "people": [
+    "hezekiah-ponder-williams-1828"
+  ],
+  "caption": "Gravestone of H. P. Williams, identified as Hezekiah Ponder Williams. Inscribed \"Born 1828\" and \"Died Feb. 18, 1897.\"",
+  "location": "Red Bluff Cemetery, near Pearson, Atkinson County, Georgia",
+  "family_lines": [
+    "herrin"
+  ]
+},
 
+{
+  "id": "1874-gravestone-eli-wadsworth",
+  "title": "Gravestone — Eli Wadsworth, Brady Cemetery",
+  "type": "gravestone",
+  "date": "1874-01-18",
+  "location": "Brady Cemetery, Lee, Madison County, Florida",
+  "caption": "Photograph of Eli Wadsworth's gravestone at Brady Cemetery in Lee, Madison County, Florida. The inscription records his birth as January 1814, without a specific day, and his death as January 18, 1874.",
+  "supports": [
+    "Birth in January 1814",
+    "Death on January 18, 1874",
+    "Burial at Brady Cemetery in Lee, Madison County, Florida"
+  ],
+  "people": [
+    "eli-wadsworth-1814"
+  ],
+  "file": "eli_wadsworth_gravestone.jpg"
+}
 ]

@@ -646,6 +646,18 @@
         ]
     },
     {
+        "id": "hiram-herrin-nellie-ellington-marriage-1895",
+        "type": "Marriage Record",
+        "title": "1895 H. J. Herring and Nellie Ellington — Ware County marriage record",
+        "date": "1895-02-05",
+        "location": "Ware County, Georgia, United States",
+        "people": [
+            "hiram-jackson-herrin-1870"
+        ],
+        "file": "1895_hiram_herrin_nellie_ellington_marriage.jpg",
+        "description": "Ware County marriage record, page 280, naming H. J. Herring and Nellie Ellington. License issued January 31, 1895, by Ordinary Warren Lott. The marriage return records the ceremony on February 5, 1895, performed by J. F. Bennett, Justice of the Peace. Recorded May 30, 1895. The groom's surname appears as Herring, a variation of Herrin."
+    },
+    {
         "id": "1899-marriage-daniel-mathis-mary-darling",
         "type": "Marriage",
         "title": "1899 Marriage Record — Daniel Mathis and Mary F. Darling",
@@ -816,6 +828,21 @@
             "singletary"
         ],
         "date": "1900-06-23"
+    },
+    {
+        "id": "mary-herrin-confederate-widow-pension",
+        "type": "Confederate Widow's Pension",
+        "title": "1904 Mary Herrin — Georgia Confederate widow's pension file",
+        "date": "1904-08-29",
+        "location": "Ware County, Georgia, United States",
+        "people": [
+            "mary-hargraves-1838",
+            "william-m-herrin-1831"
+        ],
+        "documents": [
+            "1904_mary_herrin_widow_pension.pdf"
+        ],
+        "description": "Georgia Confederate widow's pension file for Mary Herrin of Ware County, widow of William Herrin. Includes her affidavit sworn August 29, 1904, supporting witness and physicians' affidavits, powers of attorney, and later pension paperwork. Identifies William's service in Company K, 26th Georgia Regiment. Mary reported that she had not remarried and could not support herself because of age; witnesses stated that her children supported her. A warrant for the 1905 pension was issued February 23, 1905. Handwritten marriage dates, William's death date, Mary's stated age, and the year on a later renewal require further transcription and comparison. The file includes a printed 1906 pension form, but the handwritten certification year remains uncertain."
     },
     {
         "id": "1906-william-mathews-maggie-hill-marriage",
@@ -1486,6 +1513,33 @@
         "documents": [
             "1927_frank_mathis_mary_allen_parental_consent.jpg"
         ]
+    },
+    {
+        "id": "hiram-jackson-herrin-death-certificate-1928",
+        "type": "Death Certificate",
+        "title": "1928 Georgia Death Certificate — Hiram Jackson Herrin",
+        "publisher": "Georgia State Board of Health",
+        "date": "1928-10-14",
+        "location": "Glenmore, Ware County, Georgia",
+        "people": [
+            "hiram-jackson-herrin-1870"
+        ],
+        "file": "1928_hiram_jackson_herrin_death_certificate.jpg",
+        "certificate": "28071",
+        "description": "Death certificate for Hiram Jackson Herrin, a married farmer residing in Glenmore, Ware County, Georgia. Records death on October 14, 1928, from a gunshot injury, with death occurring within minutes. Names his father as Wm. Herrin and his mother as Mary Hargraves. Identifies his wife as Nellie Virginia Ellington Herrin and the informant as Mrs. H. J. Herrin. Gives his age as 58 years, 6 months, and 14 days; the birth-date field is blank. Records burial on October 15, 1928, at a place written as Indian Mount. Filed October 20, 1928."
+    },
+    {
+        "id": "hiram-herrin-shooting-macon-telegraph-1928",
+        "type": "Newspaper Article",
+        "title": "Death Climaxes Duel With Guns",
+        "publisher": "The Macon Telegraph",
+        "date": "1928-10-15",
+        "location": "Glenmore, Ware County, Georgia",
+        "people": [
+            "hiram-jackson-herrin-1870"
+        ],
+        "file": "1928_hiram_herrin_shooting_macon_telegraph.jpg",
+        "description": "Report with a Waycross dateline of October 14 describing a fatal exchange of gunfire near Herrin's home at Glenmore. Identifies the deceased as H. D. \"High\" Herrin, a Ware County farmer and businessman, and the wounded man as F. W. Ivey, a turpentine operator. Reports an existing business disagreement but states that the circumstances immediately preceding the shooting were unknown. The initials differ from Hiram Jackson Herrin's death certificate and gravestone; matching date, location, and circumstances strongly support the identification. Ivey's eventual outcome is not established by this report. Publication date is supplied by the uploaded filename."
     },
     {
         "id": "1928-death-certificate-albert-eugene-singletary",
@@ -3362,6 +3416,19 @@
         ]
     },
     {
+        "id": "gary-drew-sullivan-edna-mae-fletcher-marriage-1991",
+        "type": "Marriage Index",
+        "title": "Gary Drew Sullivan and Edna Mae Fletcher — Florida marriage record, 1991",
+        "publisher": "Florida Department of Health",
+        "date": "1991-04-27",
+        "location": "Gilchrist County, Florida, United States",
+        "people": [
+            "gary-sullivan-1951"
+        ],
+        "certificate": "051657",
+        "description": "User-supplied marriage index details identify Gary Drew Sullivan and spouse Edna Mae Fletcher, married April 27, 1991, in Gilchrist County, Florida. Certificate number 051657; source listed as the Florida Department of Health."
+    },
+    {
         "id": "ollie-mae-herrin-obituary",
         "type": "Obituary",
         "title": "1992 Obituary of Ollie Mae Herrin",
@@ -3398,6 +3465,18 @@
         ]
     },
     {
+        "id": "hope-wayland-sullivan-jr-obituary-2004",
+        "type": "Obituary",
+        "title": "Hope Wayland Sullivan Jr. — Tallahassee Democrat obituary",
+        "publisher": "Tallahassee Democrat",
+        "date": "2004-08-08",
+        "people": [
+            "hope-wayland-sullivan-1945"
+        ],
+        "file": "2004_hope_wayland_sullivan_jr_obituary.jpg",
+        "description": "Obituary reporting the death of Hope Wayland Sullivan Jr., age 59, at his residence on August 6, 2004. Describes his Lafayette County origins, longtime residence in Perry, Navy service during the Vietnam War, maintenance employment with the Taylor County Department of Corrections, membership in Athena Baptist Church, and enthusiasm for fishing. Identifies his wife of 18 years as Nancy Sullivan and names his siblings. Announces funeral services and burial at Old Town Cemetery. Publication date is supplied by the uploaded filename."
+    },
+    {
         "id": "ida-mae-herrin-numident-record",
         "type": "social-security",
         "title": "2007 Social Security NUMIDENT Record – Ida Mae Herrin Secreast",
@@ -3418,6 +3497,16 @@
             "Laura Palmer was Ida Mae's mother"
         ],
         "documents": []
+    },
+    {
+        "id": "myrtis-irene-hurst-obituary-2012",
+        "title": "2012 Obituary of Myrtis I. Jackson",
+        "people": "myrtice-irene-hurst",
+        "type": "obituary",
+        "publisher": "Tampa Bay Times",
+        "date": "2012-02-02",
+        "description": "Obituary for Myrtis I. Jackson, age 81, of Holiday, Florida, who died January 31, 2012. Identifies her son James T. Herrin and surviving children William, Diana, Patricia, and Janet.",
+        "file": "2012_myrtis_irene_hurst_obituary.jpg"
     },
     {
         "id": "2020-stella-emily-osborn-obituary",
@@ -3442,6 +3531,33 @@
             "Stella's burial was planned at Bethany Campground Cemetery"
         ],
         "documents": []
+    },
+    {
+        "id": "michael-paul-sullivan-obituary-2025",
+        "type": "Obituary",
+        "title": "Mikel ‘Mike’ Sullivan — Levy County Citizen obituary",
+        "publisher": "Levy County Citizen",
+        "date": "2025-10-31",
+        "people": [
+            "michael-paul-sullivan-1947"
+        ],
+        "file": "2025_michael_paul_sullivan_obituary.jpg",
+        "description": "Obituary published October 31, 2025, page A4. Records birth on March 25, 1947, in Lafayette County and death at his residence in Fanning Springs on October 18, 2025. Identifies his parents as Ida (Herring) and Hope Sullivan, describes him as a Navy Vietnam veteran, and names deceased siblings. The obituary spells his given name Mikel and reports age 79, although its dates indicate age 78."
+    },
+    {
+        "id": "1850-census-eli-wadsworth-family",
+        "title": "1850 United States Federal Census",
+        "date": "1850-08-07",
+        "description": "1850 United States Federal Census, Marion County, Georgia, enumerated August 7, 1850. Dwelling 182, family 182, household of Eli Wadsworth. The household includes Elizabeth Wadsworth and Sarah Wadsworth, age ten, along with other household members.",
+        "document": "1850_census_eli_wadsworth_family.jpg",
+        "people": [
+            "eli-wadsworth-1814",
+            "melinda-elizabeth-mcclendon-1819",
+            "sarah-sallie-wadsworth-1840"
+        ],
+        "documents": [
+            "1850_census_eli_wadsworth_family.jpg"
+        ]
     },
     {
         "id": "aldermans-in-america-blanton-family-page-59",
@@ -3503,6 +3619,15 @@
             "The identification of Moses Darling and Caroline Sharp as Everett's parents is disputed"
         ],
         "documents": []
+    },
+    {
+        "id": "gary-sullivan-navy-service-1969-1972",
+        "type": "Military Service Record",
+        "title": "Gary D. Sullivan — Navy enlistment and discharge record",
+        "people": [
+            "gary-sullivan-1951"
+        ],
+        "description": "User-supplied record details identify Gary D. Sullivan, born February 11, 1951, and deceased March 4, 2006. Records Navy enlistment on April 11, 1969, and discharge on March 15, 1972. The supplied extract lists page 2; the collection title has not yet been provided."
     },
     {
         "id": "lewis-sanders-nobles-pension-index",
@@ -3579,104 +3704,62 @@
             "pioneer_williams_families_georgia_page_15.jpg"
         ]
     },
-
+    {
+  "id": "1832-marriage-eli-wadsworth-betsy-mcclendon",
+  "title": "1832 Marriage Record — Eli Wadsworth and Betsy McClendon",
+  "type": "marriage",
+  "date": "1832-11-25",
+  "location": "Bibb County, Georgia",
+  "description": "Bibb County, Georgia, marriage record documenting the marriage of Eli Wadsworth and Betsy McClendon on November 25, 1832. The marriage license was issued November 22, 1832, and the marriage was recorded February 1, 1833.",
+  "supports": [
+    "Marriage of Eli Wadsworth and Betsy McClendon",
+    "Marriage date of November 25, 1832",
+    "Marriage location in Bibb County, Georgia"
+  ],
+  "people": [
+    "eli-wadsworth-1814",
+    "melinda-elizabeth-mcclendon-1819"
+  ],
+  "file": "1832_eli_wadsworth_betsy_mcclendon_marriage.jpg"
+},
 {
-  "id": "myrtis-irene-hurst-obituary-2012",
-  "title": "2012 Obituary of Myrtis I. Jackson",
-  "people": "myrtice-irene-hurst",
-  "type": "obituary",
-  "publisher": "Tampa Bay Times",
-  "date": "2012-02-02",
-  "description": "Obituary for Myrtis I. Jackson, age 81, of Holiday, Florida, who died January 31, 2012. Identifies her son James T. Herrin and surviving children William, Diana, Patricia, and Janet.",
-  "file": "2012_myrtis_irene_hurst_obituary.jpg"
+  "id": "1860-census-eli-wadsworth-family",
+  "title": "1860 United States Federal Census — Eli Wadsworth Household",
+  "type": "census",
+  "date": "1860-08-09",
+  "location": "Madison County, Florida",
+  "description": "1860 United States Federal Census, Madison County, Florida, enumerated August 9, 1860. Dwelling 617, family 617, household of Eli Wadsworth, age 47, a planter born in Georgia. The household includes Elizabeth Wadsworth, age 41, John W. Wadsworth, age 23, Burton Wadsworth, age 17, and Martha Wadsworth, age 14. Additional household members may appear on the following page.",
+  "supports": [
+    "Eli Wadsworth resided in Madison County, Florida, in 1860",
+    "Eli Wadsworth was recorded as a planter",
+    "Elizabeth Wadsworth resided in Eli's household",
+    "Eli Wadsworth's reported age was 47"
+  ],
+  "people": [
+    "eli-wadsworth-1814",
+    "melinda-elizabeth-mcclendon-1819"
+  ],
+  "file": "1860_census_eli_wadsworth_family.jpg"
 },
 
 {
-  "id": "michael-paul-sullivan-obituary-2025",
-  "type": "Obituary",
-  "title": "Mikel ‘Mike’ Sullivan — Levy County Citizen obituary",
-  "publisher": "Levy County Citizen",
-  "date": "2025-10-31",
-  "people": [
-    "michael-paul-sullivan-1947"
+  "id": "1857-marriage-greenberry-blanton-sarah-wadsworth",
+  "title": "1857 Marriage Record — Greenberry Blanton and Sarah Wadsworth",
+  "type": "marriage",
+  "date": "1857-12-06",
+  "location": "Madison County, Florida",
+  "description": "Madison County, Florida, marriage record documenting the marriage of Greenberry Blanton and Miss Sarah M. Wadsworth on December 6, 1857. The marriage license was issued December 5, 1857, and the ceremony was performed by S. A. Blanton, Minister of the Gospel. The bride's middle initial is recorded as M., differing from the name Sarah Lusindy recorded on her gravestone.",
+  "supports": [
+    "Marriage of Greenberry Blanton and Sarah M. Wadsworth",
+    "Marriage date of December 6, 1857",
+    "Marriage location in Madison County, Florida",
+    "Sarah's name recorded with the middle initial M."
   ],
-  "file": "2025_michael_paul_sullivan_obituary.jpg",
-  "description": "Obituary published October 31, 2025, page A4. Records birth on March 25, 1947, in Lafayette County and death at his residence in Fanning Springs on October 18, 2025. Identifies his parents as Ida (Herring) and Hope Sullivan, describes him as a Navy Vietnam veteran, and names deceased siblings. The obituary spells his given name Mikel and reports age 79, although its dates indicate age 78."
-},
-{
-  "id": "gary-sullivan-navy-service-1969-1972",
-  "type": "Military Service Record",
-  "title": "Gary D. Sullivan — Navy enlistment and discharge record",
   "people": [
-    "gary-sullivan-1951"
+    "greenberry-blanton",
+    "sarah-sallie-wadsworth-1840"
   ],
-  "description": "User-supplied record details identify Gary D. Sullivan, born February 11, 1951, and deceased March 4, 2006. Records Navy enlistment on April 11, 1969, and discharge on March 15, 1972. The supplied extract lists page 2; the collection title has not yet been provided."
-},
-{
-  "id": "gary-drew-sullivan-edna-mae-fletcher-marriage-1991",
-  "type": "Marriage Index",
-  "title": "Gary Drew Sullivan and Edna Mae Fletcher — Florida marriage record, 1991",
-  "publisher": "Florida Department of Health",
-  "date": "1991-04-27",
-  "location": "Gilchrist County, Florida, United States",
-  "people": [
-    "gary-sullivan-1951"
-  ],
-  "certificate": "051657",
-  "description": "User-supplied marriage index details identify Gary Drew Sullivan and spouse Edna Mae Fletcher, married April 27, 1991, in Gilchrist County, Florida. Certificate number 051657; source listed as the Florida Department of Health."
-},
-
-{
-  "id": "hope-wayland-sullivan-jr-obituary-2004",
-  "type": "Obituary",
-  "title": "Hope Wayland Sullivan Jr. — Tallahassee Democrat obituary",
-  "publisher": "Tallahassee Democrat",
-  "date": "2004-08-08",
-  "people": [
-    "hope-wayland-sullivan-1945"
-  ],
-  "file": "2004_hope_wayland_sullivan_jr_obituary.jpg",
-  "description": "Obituary reporting the death of Hope Wayland Sullivan Jr., age 59, at his residence on August 6, 2004. Describes his Lafayette County origins, longtime residence in Perry, Navy service during the Vietnam War, maintenance employment with the Taylor County Department of Corrections, membership in Athena Baptist Church, and enthusiasm for fishing. Identifies his wife of 18 years as Nancy Sullivan and names his siblings. Announces funeral services and burial at Old Town Cemetery. Publication date is supplied by the uploaded filename."
-},
-
-{
-  "id": "hiram-jackson-herrin-death-certificate-1928",
-  "type": "Death Certificate",
-  "title": "1928 Georgia Death Certificate — Hiram Jackson Herrin",
-  "publisher": "Georgia State Board of Health",
-  "date": "1928-10-14",
-  "location": "Glenmore, Ware County, Georgia",
-  "people": [
-    "hiram-jackson-herrin-1870"
-  ],
-  "file": "1928_hiram_jackson_herrin_death_certificate.jpg",
-  "certificate": "28071",
-  "description": "Death certificate for Hiram Jackson Herrin, a married farmer residing in Glenmore, Ware County, Georgia. Records death on October 14, 1928, from a gunshot injury, with death occurring within minutes. Names his father as Wm. Herrin and his mother as Mary Hargraves. Identifies his wife as Nellie Virginia Ellington Herrin and the informant as Mrs. H. J. Herrin. Gives his age as 58 years, 6 months, and 14 days; the birth-date field is blank. Records burial on October 15, 1928, at a place written as Indian Mount. Filed October 20, 1928."
-},
-{
-  "id": "hiram-herrin-nellie-ellington-marriage-1895",
-  "type": "Marriage Record",
-  "title": "1895 H. J. Herring and Nellie Ellington — Ware County marriage record",
-  "date": "1895-02-05",
-  "location": "Ware County, Georgia, United States",
-  "people": [
-    "hiram-jackson-herrin-1870"
-  ],
-  "file": "1895_hiram_herrin_nellie_ellington_marriage.jpg",
-  "description": "Ware County marriage record, page 280, naming H. J. Herring and Nellie Ellington. License issued January 31, 1895, by Ordinary Warren Lott. The marriage return records the ceremony on February 5, 1895, performed by J. F. Bennett, Justice of the Peace. Recorded May 30, 1895. The groom's surname appears as Herring, a variation of Herrin."
-},
-{
-  "id": "hiram-herrin-shooting-macon-telegraph-1928",
-  "type": "Newspaper Article",
-  "title": "Death Climaxes Duel With Guns",
-  "publisher": "The Macon Telegraph",
-  "date": "1928-10-15",
-  "location": "Glenmore, Ware County, Georgia",
-  "people": [
-    "hiram-jackson-herrin-1870"
-  ],
-  "file": "1928_hiram_herrin_shooting_macon_telegraph.jpg",
-  "description": "Report with a Waycross dateline of October 14 describing a fatal exchange of gunfire near Herrin's home at Glenmore. Identifies the deceased as H. D. \"High\" Herrin, a Ware County farmer and businessman, and the wounded man as F. W. Ivey, a turpentine operator. Reports an existing business disagreement but states that the circumstances immediately preceding the shooting were unknown. The initials differ from Hiram Jackson Herrin's death certificate and gravestone; matching date, location, and circumstances strongly support the identification. Ivey's eventual outcome is not established by this report. Publication date is supplied by the uploaded filename."
+  "file": "1857_greenberry_blanton_sarah_wadsworth_marriage.jpg"
 }
 
 ]

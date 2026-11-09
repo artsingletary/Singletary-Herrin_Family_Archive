@@ -64,7 +64,7 @@
     ],
     "biography": [
       "Greenberry Blanton, also recorded as Green Berry or Berry Blanton, was born May 25, 1829, according to the published family history Aldermans in America. That publication identifies his parents as David Blanton and Nancy Goff.",
-      "Greenberry married Sarah M. Wadsworth, also known as Sallie Wadsworth, on December 6, 1857, in Madison County, Florida.",
+      "Greenberry Blanton married Sarah M. Wadsworth on December 6, 1857, in Madison County, Florida. Their marriage license was issued the previous day, and the ceremony was performed by S. A. Blanton, a minister of the gospel. The marriage record identifies Sarah with the middle initial M., although other historical records identify her as Sarah L. Wadsworth or Sarah Lusindy Dowling.",
       "In the 1860 United States Census, Greenberry was living in Lowndes County, Georgia, with his wife Sarah and two children, Emma E. Blanton and William T. Blanton. The census recorded his age as 31 and his birthplace as North Carolina.",
       "Greenberry's whereabouts after the 1860 census remain uncertain. Aldermans in America reports that he died around 1863, but this date has not been independently verified.",
       "A Confederate military index identifies a G. B. Blanton serving as a private in Company H, 26th Georgia Infantry. Although the name and geographic connection make this a possible match, no evidence has yet established that the soldier was Greenberry Blanton.",
@@ -2713,8 +2713,8 @@
     "death_year": 1908,
     "birth_date": "1840-03-19",
     "death_date": "1908-03-30",
-    "father": null,
-    "mother": null,
+    "father": "eli-wadsworth-1814",
+    "mother": "melinda-elizabeth-mcclendon-1819",
     "spouses": [
       "everett-darling",
       "greenberry-blanton"
@@ -2722,10 +2722,10 @@
     "family_lines": [
       "singletary"
     ],
-    "profile_photo": "sarah_wadsworth.jpg",
     "biography": [
       "Sarah Lusindy Wadsworth, also known as Sallie, was born March 19, 1840, according to her gravestone at Brady Cemetery in Florida. Her birthplace remains uncertain. The 1860 United States Census records her birthplace as Florida, while the 1880 census transcription identifies Georgia.",
       "Sarah married Greenberry Blanton on December 6, 1857, in Madison County, Florida. Their marriage record identifies her as Sarah M. Wadsworth.",
+      "In the 1850 United States Census, a Sarah Wadsworth, age ten, was enumerated in the household of Eli Wadsworth in Marion County, Georgia. The household also included Elizabeth Wadsworth, age thirty, and several younger individuals bearing the Wadsworth surname. This record is consistent with Sarah being the daughter of Eli Wadsworth and Melinda Elizabeth McClendon, although the census does not explicitly identify household relationships.",
       "In the 1860 United States Census, Sarah and Greenberry were living in Lowndes County, Georgia, with two children, Emma E. Blanton and William T. Blanton.",
       "Greenberry's whereabouts after 1860 remain uncertain. The published family history Aldermans in America reports that he died around 1863, but this date has not been independently verified.",
       "Sarah subsequently married Everett Darling on March 28, 1879, in Madison County, Florida. Everett's surname also appears as Dowling in historical records.",
@@ -3496,6 +3496,103 @@
     "Nellie Ellington was born on February 17, 1874, according to her gravestone.",
     "On February 5, 1895, she married Hiram Jackson Herrin in Ware County, Georgia. Their marriage record names the couple as H. J. Herring and Nellie Ellington.",
     "Her husband died on October 14, 1928. Nellie died on September 30, 1960, according to her gravestone. A photograph shows their graves side by side."
+  ]
+},
+{
+  "id": "thomas-hopewell-hargraves-1797",
+  "first_name": "Thomas",
+  "middle_name": "Hopewell",
+  "last_name": "Hargraves",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_date": "1797-09-17",
+  "birth_year": 1797,
+  "birth_place": "South Carolina, United States",
+  "death_date": "1860-05-21",
+  "death_year": 1860,
+  "death_place": "Ware County, Georgia, United States",
+  "burial_place": "Hargraves Chapel Cemetery, Millwood, Ware County, Georgia, United States",
+  "father": null,
+  "mother": null,
+  "spouses": [
+    "nancy-beverly-1814"
+  ],
+  "biography": [
+    "Thomas Hopewell Hargraves was born on September 17, 1797, in South Carolina, according to the supplied cemetery memorial information, which records his surname as Hargreaves.",
+    "Family research identifies him and Nancy Beverly as the parents of Mary Hargraves, who married William M. Herrin.",
+    "Thomas died on May 21, 1860, in Ware County, Georgia, at the age of 62. He is buried at Hargraves Chapel Cemetery in Millwood, Ware County, Georgia. These details await comparison with the gravestone and other supporting records."
+  ]
+},
+{
+  "id": "nancy-beverly-1814",
+  "first_name": "Nancy",
+  "middle_name": null,
+  "last_name": "Beverly",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_year": 1814,
+  "death_year": 1880,
+  "burial_place": "Hargraves Chapel Cemetery, Millwood, Ware County, Georgia, United States",
+  "father": null,
+  "mother": null,
+  "spouses": [
+    "thomas-hopewell-hargraves-1797"
+  ],
+  "biography": [
+    "Nancy Beverly was born in 1814, according to the supplied cemetery memorial information, which identifies her by her married surname, Hargreaves.",
+    "Family research identifies Nancy and Thomas Hopewell Hargraves as the parents of Mary Hargraves, who married William M. Herrin.",
+    "Nancy's memorial records her death in 1880 and her burial at Hargraves Chapel Cemetery in Millwood, Ware County, Georgia. These details await comparison with the gravestone and other supporting records."
+  ]
+},
+{
+  "id": "eli-wadsworth-1814",
+  "first_name": "Eli",
+  "middle_name": "",
+  "last_name": "Wadsworth",
+  "birth_year": 1814,
+  "death_year": 1874,
+  "birth_date": null,
+  "death_date": "1874-01-18",
+  "father": null,
+  "mother": null,
+  "spouses": [
+    "melinda-elizabeth-mcclendon-1819"
+  ],
+  "family_lines": [
+    "singletary"
+  ],
+  "biography": [
+  "Eli Wadsworth was born in January 1814 in Georgia, according to family records and his gravestone. His gravestone does not specify an exact birth day.",
+  "Eli married Betsy McClendon on November 25, 1832, in Bibb County, Georgia. Their marriage license was issued November 22, 1832, and the marriage was recorded February 1, 1833.",
+  "In the 1850 United States Census, Eli Wadsworth was enumerated as a farmer in Marion County, Georgia. His household included Elizabeth Wadsworth and several children, including Sarah Wadsworth, age ten. The census records Eli's age as thirty-eight, suggesting an earlier birth year than the date on his gravestone.",
+  "In the 1860 United States Census, Eli Wadsworth was living in Madison County, Florida, with Elizabeth Wadsworth and several younger household members. He was recorded as a planter, with real estate valued at $500 and personal property valued at $400. His reported age of forty-seven differs from the birth year inscribed on his gravestone.",
+  "Eli's parents are identified in an Ancestry family tree as Daniel Wadsworth and Lucy Ann Freeman. These relationships have not yet been independently verified.",
+  "Eli died January 18, 1874, and is buried at Brady Cemetery in Lee, Madison County, Florida. His gravestone records his birth as January 1814."
+]
+},
+{
+  "id": "melinda-elizabeth-mcclendon-1819",
+  "first_name": "Melinda",
+  "middle_name": "Elizabeth",
+  "last_name": "McClendon",
+  "birth_year": 1819,
+  "death_year": 1871,
+  "birth_date": null,
+  "death_date": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+    "eli-wadsworth-1814"
+  ],
+  "family_lines": [
+    "singletary"
+  ],
+  "biography": [
+    "Melinda Elizabeth McClendon, also known as Betsy, was born around 1819, according to information recorded in an Ancestry family tree.",
+    "Melinda was married to Eli Wadsworth (1814–1874). Their children included Sarah Lusindy Wadsworth (1840–1908), who later married Greenberry Blanton and Everett Darling.",
+    "Melinda reportedly died in 1871. Her exact death date and burial location have not yet been established."
   ]
 }
 
