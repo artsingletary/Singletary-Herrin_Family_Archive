@@ -3760,6 +3760,25 @@
     "sarah-sallie-wadsworth-1840"
   ],
   "file": "1857_greenberry_blanton_sarah_wadsworth_marriage.jpg"
+},
+
+{
+  "id": "1919-florida-death-index-john-mathis",
+  "title": "1919 Florida Death Index — John Mathis",
+  "type": "death_index",
+  "date": "1919",
+  "location": "Lafayette County, Florida",
+  "description": "Florida Death Index entry for John Mathis, recording his death in Lafayette County, Florida, in 1919. The entry identifies volume 73 and certificate number 6169. This agrees with the year recorded on his Florida death certificate but conflicts with the 1918 death year inscribed on his gravestone at Pleasant Grove Cemetery.",
+  "supports": [
+    "Death of John Mathis recorded in 1919",
+    "Death registered in Lafayette County, Florida",
+    "Death index volume 73, certificate number 6169"
+  ],
+  "people": [
+    "john-mathis-1879"
+  ],
+  "file": "1919_florida_death_index_john_mathis.jpg"
 }
+
 
 ]

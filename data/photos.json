@@ -1139,5 +1139,25 @@
     "eli-wadsworth-1814"
   ],
   "file": "eli_wadsworth_gravestone.jpg"
+},
+
+{
+  "id": "1918-john-mattie-mathis-gravestone",
+  "title": "Gravestone — John and Mattie W. Mathis",
+  "type": "grave",
+  "date": "1918-07-15",
+  "location": "Cemetery location to be verified",
+  "caption": "Photograph of the shared gravestone of John Mathis and Mattie W. Mathis. John's inscription gives October 29, 1880, to July 15, 1918. Mattie's inscription gives March 25, 1882, to December 23, 1969. The gravestone's death date for John differs from the apparent date on his Florida death certificate.",
+  "supports": [
+    "John Mathis born October 29, 1880",
+    "John Mathis died July 15, 1918, according to gravestone",
+    "Mattie W. Mathis born March 25, 1882",
+    "Mattie W. Mathis died December 23, 1969"
+  ],
+  "people": [
+    "john-mathis-1879"
+  ],
+  "file": "john_mattie_mathis_gravestone.jpg"
 }
+
 ]
