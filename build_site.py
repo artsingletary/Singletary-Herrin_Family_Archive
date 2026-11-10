@@ -27,23 +27,11 @@ if OUTPUT_STATIC_DIR.exists():
 
 shutil.copytree(STATIC_DIR, OUTPUT_STATIC_DIR)
 
-# Copy family photographs
-PHOTOS_DIR = BASE_DIR / "photos"
-OUTPUT_PHOTOS_DIR = OUTPUT_DIR / "photos"
-
-if OUTPUT_PHOTOS_DIR.exists():
-    shutil.rmtree(OUTPUT_PHOTOS_DIR)
-
-shutil.copytree(PHOTOS_DIR, OUTPUT_PHOTOS_DIR)
-
-# Copy historical documents
-DOCUMENTS_DIR = BASE_DIR / "documents"
-OUTPUT_DOCUMENTS_DIR = OUTPUT_DIR / "documents"
-
-if OUTPUT_DOCUMENTS_DIR.exists():
-    shutil.rmtree(OUTPUT_DOCUMENTS_DIR)
-
-shutil.copytree(DOCUMENTS_DIR, OUTPUT_DOCUMENTS_DIR)
+# --------------------------------------------------
+# Media files are hosted on AWS S3 / CloudFront
+# --------------------------------------------------
+# Photographs and historical documents are served
+# through CloudFront rather than copied into docs/.
 
 # --------------------------------------------------
 # Load family data
@@ -235,7 +223,7 @@ for person in people:
 environment = Environment(
     loader=FileSystemLoader(TEMPLATE_DIR)
 )
-
+environment.globals["media_url"] = "https://d19qead08pko0m.cloudfront.net"
 environment.filters["format_date"] = format_date
 
 index_template = environment.get_template("index.html")

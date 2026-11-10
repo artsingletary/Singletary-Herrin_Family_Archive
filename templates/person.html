@@ -47,7 +47,7 @@
             <div class="profile-photo">
 
                 <img
-                    src="../photos/{{ person.profile_photo }}"
+                    src="{{ media_url }}/photos/{{ person.profile_photo }}"
                      alt="{{ person.display_name }}"
                  >
 
@@ -322,7 +322,7 @@
                         <figure class="gallery-photo">
 
                         <img
-                            src="../photos/{{ photo.file }}"
+                            src="{{ media_url }}/photos/{{ photo.file }}"
                             alt="{{ photo.caption }}"
                         >
 
@@ -360,7 +360,7 @@
                     <figure class="gallery-photo">
 
                         <img
-                            src="../photos/{{ photo.file }}"
+                            src="{{ media_url }}/photos/{{ photo.file }}"
                             alt="{{ photo.caption }}"
                         >
 
@@ -463,7 +463,7 @@
                     {% if source.file %}
 
                         <p>
-                            <a href="../documents/{{ source.file }}" target="_blank">
+                            <a href="{{ media_url }}/documents/{{ source.file }}" target="_blank">
                                 View Document
                             </a>
                         </p>
@@ -477,7 +477,7 @@
 
                             {% if source.documents | length == 1 %}
 
-                                <a href="../documents/{{ source.documents[0] }}" target="_blank">
+                                <a href="{{ media_url }}/documents/{{ source.documents[0] }}" target="_blank">
                                     View Document
                                 </a>
 
@@ -485,7 +485,7 @@
 
                                 {% for document in source.documents %}
 
-                                    <a href="../documents/{{ document }}" target="_blank">
+                                    <a href="{{ media_url }}/documents/{{ document }}" target="_blank">
                                         View Page {{ loop.index }}
                                     </a>
 
