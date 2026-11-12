@@ -658,7 +658,7 @@ for person in people:
 # --------------------------------------------------
 
 print()
-print("HERRIN FAMILY HISTORY")
+print("SINGLETARY-HERRIN FAMILY ARCHIVE")
 print("=====================")
 print()
 print("Website created successfully.")
