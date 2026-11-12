@@ -1158,6 +1158,75 @@
     "john-mathis-1879"
   ],
   "file": "john_mattie_mathis_gravestone.jpg"
+},
+
+{
+  "id": "eller-matthews-kitchen",
+  "file": "eller_matthews_kitchen_hialeah.jpg",
+  "type": "photo",
+  "people": [
+    "eller-matthews-1907"
+  ],
+  "caption": "Eller Matthews Mathis preparing food in a kitchen in Hialeah, Florida. Date unknown.",
+  "location": "Hialeah, Miami-Dade County, Florida",
+  "family_lines": [
+    "singletary"
+  ]
+},
+{
+  "id": "eller-glover-larry-bustin",
+  "file": "eller_glover_larry_bustin.jpg",
+  "type": "photo",
+  "people": [
+    "eller-matthews-1907",
+    "glover-mathis-1910"
+  ],
+  "caption": "Eller Matthews Mathis and Glover Mathis standing with Larry Bustin beside an automobile. Date and location unknown.",
+  "location": "",
+  "family_lines": [
+    "singletary"
+  ]
+},
+{
+  "id": "glover-mathis-gravestone",
+  "file": "glover_mathis_gravestone.jpg",
+  "type": "grave",
+  "people": [
+    "glover-mathis-1910"
+  ],
+  "caption": "Gravestone of Glover Mathis at Airline Baptist Church Cemetery, inscribed November 16, 1911 – December 12, 1973. The birth year differs from other historical records.",
+  "location": "Airline Baptist Church Cemetery, Mayo, Lafayette County, Florida",
+  "family_lines": [
+    "singletary"
+  ]
+},
+{
+  "id": "eller-glover-mathis-outdoors",
+  "file": "eller_and_glover_mathis.jpg",
+  "type": "photo",
+  "people": [
+    "eller-matthews-1907",
+    "glover-mathis-1910"
+  ],
+  "caption": "Glover Mathis and his wife, Eller Matthews Mathis, standing together outdoors. Date and location unknown.",
+  "location": "",
+  "family_lines": [
+    "singletary"
+  ]
+},
+{
+  "id": "glover-mathis-portrait",
+  "file": "glover_mathis_portrait.jpg",
+  "type": "photo",
+  "people": [
+    "glover-mathis-1910"
+  ],
+  "caption": "Portrait of Glover Mathis (1910–1973). Date and location unknown.",
+  "location": "",
+  "family_lines": [
+    "singletary"
+  ]
 }
+
 
 ]

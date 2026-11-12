@@ -1409,6 +1409,10 @@
     "mother": "mary-frances-darling",
     "spouses": [
       "eller-matthews-1907"
+    ],
+    "biography": [
+      "Glover Mathis married Eller Matthews on December 16, 1932, in Mayo, Lafayette County, Florida. The couple were first cousins through their fathers, Daniel M. Mathis and William M. “Bunk” Matthews, who were sons of Malachi M. Mathis (also recorded as Matthews) and Mary Williams.",
+      "The family's surname appears in historical records under several spellings, including Mathis, Mathes, Mathews, and Matthews. Despite these variations, census records, William's World War I draft registration, and family death and marriage records provide evidence connecting the two branches."
     ]
   },
   {
@@ -1617,6 +1621,7 @@
     "death_place": "Sarasota, Sarasota County, Florida",
     "father": "william-mathis-1885",
     "spouses": [
+      "thomas-jackson-tuten-1904",
       "glover-mathis-1910"
     ],
     "biography": [
@@ -3605,7 +3610,134 @@
     "Melinda was married to Eli Wadsworth (1814–1874). Their children included Sarah Lusindy Wadsworth (1840–1908), who later married Greenberry Blanton and Everett Darling.",
     "Melinda reportedly died in 1871. Her exact death date and burial location have not yet been established."
   ]
+},
+
+{
+  "id": "thomas-jackson-tuten-1904",
+  "first_name": "Thomas",
+  "middle_name": "Jackson",
+  "last_name": "Tuten",
+  "family_lines": [
+    "singletary"
+  ],
+  "birth_year": 1904,
+  "death_year": 1995,
+  "father": null,
+  "mother": null,
+  "spouses": [
+    "eller-matthews-1907"
+  ],
+  "biography": [
+    "Thomas Jackson Tuten was born in 1904. FamilySearch records identify him as the first husband of Eller Matthews, whom he reportedly married on December 24, 1924.",
+    "Thomas and Eller were the parents of William Cary Tuten, Thomas Loise Tuten, Ansel Lemar Tuten, and Tommy Harry Tuten. Their marriage ended before Eller married Glover Mathis in December 1932. Additional historical records are needed to establish the circumstances and date of their separation or divorce.",
+    "Thomas died in 1995."
+  ]
+},
+
+{
+  "id": "william-cary-tuten-1924",
+  "first_name": "William",
+  "last_name": "Tuten",
+  "family_lines": [
+    "singletary"
+  ],
+  "birth_year": 1924,
+  "death_year": 2002,
+  "father": "thomas-jackson-tuten-1904",
+  "mother": "eller-matthews-1907",
+  "spouses": [],
+  "biography": [
+    "William Cary Tuten was born in 1924, the son of Thomas Jackson Tuten and Eller Matthews. He was the eldest of four children identified in the family's FamilySearch records.",
+    "In June 1958, newspaper accounts concerning the death of his niece, Eller Juanita Tuten, identified a William Tuten as her uncle. The identification of this individual as William Cary Tuten is consistent with the reconstructed family relationships but requires additional confirmation.",
+    "William died in 2002."
+  ]
+}, 
+
+{
+  "id": "thomas-loise-tuten-1927",
+  "first_name": "Thomas",
+  "last_name": "Tuten",
+  "family_lines": [
+    "singletary"
+  ],
+  "birth_year": 1927,
+  "death_year": 1959,
+  "father": "thomas-jackson-tuten-1904",
+  "mother": "eller-matthews-1907",
+  "spouses": [],
+  "biography": [
+    "Thomas Loise Tuten was born in 1927, the son of Thomas Jackson Tuten and Eller Matthews. He was one of four children identified in the family's FamilySearch records.",
+    "A 1951 Florida marriage record identifies Thomas L. Tuten as marrying Joyce Evelyn Vinzant in Dade County, Florida. The marriage is recorded under certificate number 9438, volume 1319, by the Florida Department of Health. This record appears consistent with Thomas Loise Tuten, who was living in Miami with his wife Juanita and their young daughter in the 1950 United States Census. Further research is needed to establish when and how his earlier marriage ended.",
+    "Contemporary newspaper coverage of the June 1958 accident involving nine-year-old Eller Juanita Tuten identifies her father as Thomas Tuten. Family research suggests that this was Thomas Loise Tuten, although additional documentation is needed to confirm the identification.",
+    "The newspaper accounts report that Juanita had lived with her grandparents, Glover and Eller Mathis, since birth. Her parents were divorced. Thomas Tuten spoke publicly about the accident and defended the care his daughter had received from her grandparents.",
+    "Thomas Loise Tuten died in 1959, according to the family-tree information currently available."
+  ]
+},
+
+{
+  "id": "ansel-lemar-tuten-1930",
+  "first_name": "Ansel",
+  "last_name": "Tuten",
+  "family_lines": [
+    "singletary"
+  ],
+  "birth_year": 1930,
+  "death_year": null,
+  "father": "thomas-jackson-tuten-1904",
+  "mother": "eller-matthews-1907",
+  "spouses": [],
+  "biography": [
+    "Ansel Lemar Tuten was born around 1930, the son of Thomas Jackson Tuten and Eller Matthews, according to family-tree records.",
+    "Ansel L. Tuten is identified as the informant on the 1980 Florida death certificate of Eller Matthews Mathis. This provides an additional documentary connection between Ansel and Eller.",
+    "Further research is needed to establish additional details of his life."
+  ]
+},
+
+{
+  "id": "tommy-harry-tuten-1931",
+  "first_name": "Tommy",
+  "last_name": "Tuten",
+  "family_lines": [
+    "singletary"
+  ],
+  "birth_year": 1931,
+  "death_year": 1946,
+  "father": "thomas-jackson-tuten-1904",
+  "mother": "eller-matthews-1907",
+  "spouses": [],
+  "biography": [
+    "Tommy Harry Tuten was born in 1931, the son of Thomas Jackson Tuten and Eller Matthews. He was the youngest of their four children identified in the available FamilySearch records.",
+    "Tommy died in 1946, at approximately 14 or 15 years of age. The circumstances of his early death have not yet been established and remain an area for further genealogical research."
+  ]
+},
+
+{
+  "id": "eller-juanita-tuten-1948",
+  "first_name": "Eller Juanita",
+  "last_name": "Tuten",
+  "family_lines": [
+    "singletary"
+  ],
+  "birth_year": 1948,
+  "death_year": 1958,
+  "father": "thomas-loise-tuten-1927",
+  "mother": null,
+  "spouses": [],
+  "biography": [
+    "The 1950 United States Census records Thomas Tuten, age 23, his wife Juanita Tuten, age 20, and a one-year-old Juanita Tuten living at 561 NW 8th Street, Apartment 6, in Miami, Florida. Their names, ages, and location strongly suggest that this household includes Eller Juanita Tuten and her parents. The identification of Thomas as Thomas Loise Tuten is supported by the matching age and family history, although further corroboration is desirable. Juanita's mother's maiden name has not yet been independently established.",
+    "Eller Juanita Tuten was born in 1948 and was the granddaughter of Eller Matthews Mathis. She was raised from birth by her grandmother and step-grandfather, Glover Mathis, at 8475 SW 4th Street in Miami, Florida.",
+    "Juanita had cerebral palsy but attended school and enjoyed a close relationship with her small terrier, Trixy. Contemporary newspaper accounts described the companionship between Juanita and her dog.",
+    "In June 1958, Juanita suffered severe burns after her clothing accidentally caught fire at her grandparents' home. She was treated at Jackson Memorial Hospital in Miami but died on June 26, 1958, at nine years of age.",
+    "According to contemporary newspaper reports, Trixy was struck and killed by an automobile only hours after Juanita's death. Juanita was buried at Woodlawn Park North Cemetery in Miami, while Trixy was buried behind the family home.",
+    "Newspaper accounts identify Juanita's father as Thomas Tuten and her mother as Mrs. Juanita Tuten. Family research suggests that her father was Thomas Loise Tuten, a son of Eller Matthews, and that her mother was Juanita Wells. These identifications require additional documentation before being entered as confirmed parent-child relationships."
+  ]
 }
+
+
+
+
+
+
 
 
 ]

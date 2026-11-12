@@ -659,7 +659,7 @@ for person in people:
 
 print()
 print("SINGLETARY-HERRIN FAMILY ARCHIVE")
-print("=====================")
+print("================================")
 print()
 print("Website created successfully.")
 print(f"Home page: {index_file}")
