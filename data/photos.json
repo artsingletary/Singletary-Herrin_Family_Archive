@@ -1298,6 +1298,17 @@
     "herrin",
     "singletary"
   ]
+},
+{
+    "id": "william-levi-herrin-laura-palmer-portrait-restored",
+    "file": "william_levi_herrin_laura_etta_palmer_portrait_restored.png",
+    "type": "portrait",
+    "caption": "William Levi Herrin (1892–1975) and his wife, Laura Etta Palmer (1898–1959). AI-restored version of the original historical photograph.",
+    "people": [
+        "william-levi-herrin-1892",
+        "lauretta-palmer-1898"
+    ],
+    "location": ""
 }
 
 
