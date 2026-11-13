@@ -631,6 +631,11 @@ for person in people:
     siblings = get_siblings(person)
     person_photos = get_photos(person["id"])
     grave_photos = get_grave_photos(person["id"])
+    # Find published family stories associated with this person
+    related_stories = [
+        story for story in published_stories
+        if person["id"] in story.get("people", [])
+    ]
 
     # Send all of this information to person.html
     html = person_template.render(
@@ -643,6 +648,7 @@ for person in people:
         sources=person_sources,
         photos=person_photos,
         grave_photos=grave_photos,
+        related_stories=related_stories,
     )
 
 

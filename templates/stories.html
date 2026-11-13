@@ -37,27 +37,35 @@
             {% for story in stories %}
             <article class="story-item">
 
-                {% if story.cover_photo %}
-                <img
-                    src="{{ media_url }}/photos/{{ story.cover_photo }}"
-                    alt="{{ story.title }}"
-                    loading="lazy"
-                >
-                {% endif %}
+                <div class="story-thumbnail">
+                    {% if story.cover_photo %}
+                    <img
+                        src="{{ media_url }}/photos/{{ story.cover_photo }}"
+                        alt="{{ story.title }}"
+                        loading="lazy"
+                    >
+                    {% else %}
+                    <div class="story-thumbnail-placeholder">
+                        Family History
+                    </div>
+                    {% endif %}
+                </div>
 
-                <h3>{{ story.title }}</h3>
+                <div class="story-details">
+                    <h3>{{ story.title }}</h3>
 
-                <p class="story-category">
-                    {{ story.category }}
-                </p>
+                    <p class="story-category">
+                        {{ story.category }}
+                    </p>
 
-                {% if story.summary %}
-                <p>{{ story.summary }}</p>
-                {% endif %}
+                    {% if story.summary %}
+                    <p>{{ story.summary }}</p>
+                    {% endif %}
 
-                <a href="stories/{{ story.id }}.html">
-                    Read Story &rarr;
-                </a>
+                    <a href="stories/{{ story.id }}.html">
+                        Read Story &rarr;
+                    </a>
+                </div>
 
             </article>
             {% endfor %}

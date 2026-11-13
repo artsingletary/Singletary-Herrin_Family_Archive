@@ -11,3 +11,9 @@ tempCodeRunnerFile.py
 # Python virtual environments
 .venv/
 venv/
+
+# Genealogy media stored in AWS S3
+/photos/
+/documents/
+/docs/photos/
+/docs/documents/

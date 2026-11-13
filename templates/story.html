@@ -33,11 +33,21 @@
 
         {% if story.cover_photo %}
         <div class="story-cover">
-            <img src="{{ media_url }}/photos/{{ story.cover_photo }}"
-                 alt="{{ story.title }}">
+                <img src="{{ media_url }}/photos/{{ story.cover_photo }}"
+                alt="{{ story.title }}">
+
+            {% if story.id == "eller-juanita-tuten-and-trixy" %}
+            <p class="photo-credit">
+                Eller Juanita Tuten (1948–1958).
+                AI-assisted restoration of a family photograph.
+                Original photograph courtesy of Louie Loise Tuten Olsen.
+            </p>
+            {% endif %}
         </div>
         {% endif %}
 
+
+        ##########################################
         {% if story.author %}
         <p><strong>Author:</strong> {{ story.author }}</p>
         {% endif %}

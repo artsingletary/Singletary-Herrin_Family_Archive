@@ -516,8 +516,39 @@
     {% endif %}
     </section>
 
-    </main>
 
+    {% if related_stories %}
+    <section class="related-stories">
+
+        <h2>Related Family Stories</h2>
+
+        <div class="related-stories-list">
+            {% for story in related_stories %}
+            <article class="related-story-item">
+
+                <h3>
+                    <a href="../stories/{{ story.id }}.html">
+                        {{ story.title }}
+                    </a>
+                </h3>
+
+                {% if story.summary %}
+                <p>{{ story.summary }}</p>
+                {% endif %}
+
+                <a class="related-story-link"
+                    href="../stories/{{ story.id }}.html">
+                    Read Story &rarr;
+                </a>
+
+            </article>
+            {% endfor %}
+        </div>
+
+    </section>
+    {% endif %}
+
+    </main>
 
     <footer>
         Singletary-Herrin Family Archive 

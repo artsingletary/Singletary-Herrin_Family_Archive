@@ -1226,7 +1226,82 @@
   "family_lines": [
     "singletary"
   ]
+},
+
+{
+  "id": "eller-juanita-tuten-gravestone",
+  "file": "eller_juanita_tuten_gravestone.jpg",
+  "type": "grave",
+  "people": [
+    "eller-juanita-tuten-1948"
+  ],
+  "caption": "Gravestone of Eller Juanita Tuten (1948–1958), who died on June 26, 1958, at nine years of age.",
+  "location": "Woodlawn Park North Cemetery and Mausoleum, Miami, Florida",
+  "family_lines": [
+    "singletary"
+  ]
+},
+
+{
+  "id": "eller-juanita-tuten-portrait",
+  "file": "eller_juanita_tuten_portrait.jpg",
+  "type": "photo",
+  "people": [
+    "eller-juanita-tuten-1948"
+  ],
+  "caption": "Portrait of Eller Juanita Tuten (1948–1958), with her first name handwritten on the photograph. Date and location unknown. Photograph courtesy of Louie Loise Tuten Olsen.",
+  "location": "",
+  "family_lines": [
+    "singletary"
+  ]
+},
+
+{
+  "id": "eller-juanita-tuten-portrait-restored",
+  "file": "eller_juanita_tuten_portrait_restored.png",
+  "type": "photo",
+  "people": [
+    "eller-juanita-tuten-1948"
+  ],
+  "caption": "Eller Juanita Tuten (1948–1958). AI-assisted restoration of a family photograph. Original photograph courtesy of Louie Loise Tuten Olsen.",
+  "location": "",
+  "family_lines": [
+    "singletary"
+  ]
+},
+
+{
+  "id": "william-herrin-family-homestead",
+  "file": "william_herrin_family_homestead.jpg",
+  "type": "photo",
+  "people": [
+    "william-m-herrin-1831",
+    "mary-hargraves-1838",
+    "mary-bell-herrin-1879"
+  ],
+  "caption": "The homestead of William and Mary Herrin, parents of Hiram Jackson Herrin. The original photograph caption identifies William Herrin, daughter Mary, wife Mary, and a person described as enslaved at the far right. Photograph shared on Ancestry.com; original date and photographer unknown.",
+  "location": "",
+  "family_lines": [
+    "herrin"
+  ]
+},
+
+
+{
+  "id": "1862-second-battle-of-bull-run-currier-ives",
+  "file": "1862_second_battle_of_bull_run_currier_ives.jpg",
+  "type": "historical illustration",
+  "people": [],
+  "caption": "The Second Battle of Bull Run (Second Manassas), 1862. Historical lithograph published by Currier & Ives depicting the battle in Virginia. William M. Herrin, a private in Company K, 26th Georgia Infantry, reportedly suffered wounds during the fighting on August 28, 1862. The illustration does not specifically depict William Herrin or his regiment. Source: Library of Congress, item 91721281.",
+  "location": "Manassas, Virginia, United States",
+  "family_lines": [
+    "herrin",
+    "singletary"
+  ]
 }
+
+
+
 
 
 ]
