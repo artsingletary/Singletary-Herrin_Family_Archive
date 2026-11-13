@@ -3802,6 +3802,89 @@
     "eller-matthews-1907"
   ],
   "file": "1958_06_28_tallahassee_democrat_eller_juanita_tuten_trixy.jpg"
+},
+{
+    "id": "1940-glover-mathis-wwii-draft-registration",
+    "file": "1940_glover_mathis_wwii_draft_registration.jpg",
+    "title": "1940 World War II Draft Registration — Glover Mathis",
+    "description": "World War II Selective Service registration card completed October 16, 1940, in Madison County, Florida, for Glover Mathis of Lee, Florida. The card records his birth as November 16, 1912, in Madison, Florida, and identifies Mrs. Ella Mathis as his wife and contact person. Glover reported no employer. The registrar described him as approximately 5 feet 4 inches tall, weighing 170 pounds, with blue eyes, brown hair, and a ruddy complexion. His recorded birth year differs from the November 16, 1911, birth date appearing on his 1973 Florida death certificate.",
+    "type": "military",
+    "date": "1940-10-16",
+    "people": [
+        "glover-mathis-1910"
+    ],
+    "family_lines": [
+        "singletary"
+    ]
+},
+{
+    "id": "1940-glover-mathis-family-census",
+    "file": "1940_census_glover_mathis_family.jpg",
+    "title": "1940 United States Census — Glover Mathis Household",
+    "description": "1940 United States Federal Census, Madison County, Florida, Enumeration District 34-4, Sheet 2B, lines 58–62, enumerated April 4, 1940. The household includes Glover Mathis, age 28; his wife Eller Mathis, age 29; and their children A. C., age 7, Janie, age 4, and Dennis, age 2. The census documents the family's residence in Madison County and provides additional information concerning education, occupation, and employment.",
+    "type": "Census",
+    "date": "1940-04-04",
+    "people": [
+        "glover-mathis-1910",
+        "eller-matthews-1907"
+    ],
+    "family_lines": [
+        "singletary"
+    ]
+},
+
+
+{
+    "id": "1940-glover-mathis-family-census",
+    "file": "1940_census_glover_mathis_family.jpg",
+    "title": "1940 United States Census — Glover Mathis Household",
+    "description": "1940 United States Federal Census, Madison County, Florida, Enumeration District 34-4, Sheet 2B, enumerated April 4, 1940. The household includes Glover Mathis and his wife Eller Matthews Mathis, together with Eller's four sons from her previous marriage: William C. Tuten, T. L. Tuten, Hansel L. Tuten, and Tommie H. Tuten. Glover's occupation was recorded as road construction work associated with the Works Progress Administration (W.P.A.). The household was recorded as dwelling 29, immediately following dwelling 28, occupied by George William Singletary and his wife Lela Mae Mathis Singletary, Glover's sister. The consecutive dwelling numbers establish that the two related households were enumerated in sequence, although they do not necessarily establish adjoining properties.",
+    "type": "Census",
+    "date": "1940-04-04",
+    "people": [
+        "glover-mathis-1910",
+        "eller-matthews-1907"
+    ],
+    "family_lines": [
+        "singletary"
+    ]
+},
+
+
+
+
+{
+    "id": "1950-glover-mathis-family-census",
+    "file": "1950_census_glover_mathis_family.jpg",
+    "title": "1950 United States Census — Glover Mathis Household",
+    "description": "1950 United States Federal Census, Lafayette County, Florida, Enumeration District 34-22, Sheet 22. The household includes Glover Mathis, age 38, and his wife Eller Mathis, age 42, both born in Florida. The census documents the couple residing together in Lafayette County approximately ten years after the 1940 census, when Eller's four sons from her previous marriage were living in their household. The reported age of Glover suggests a birth around 1911–1912.",
+    "type": "Census",
+    "date": "1950",
+    "people": [
+        "glover-mathis-1910",
+        "eller-matthews-1907"
+    ],
+    "family_lines": [
+        "singletary"
+    ]
+},
+
+
+{
+    "id": "1973-glover-mathis-obituary",
+    "file": "1973_12_13_glover_mathis_obituary_tallahassee_democrat.jpg",
+    "title": "1973 Tallahassee Democrat Obituary — Glover Mathis",
+    "description": "Obituary published in the Tallahassee Democrat on December 13, 1973, reporting the death of Glover Mathis, age 62, on Wednesday, December 12, 1973, in Pahokee, Florida, following a long illness. The obituary identifies him as a native of Lafayette County, Florida, a resident of Pahokee, a retired truck driver, and a member of Airline Baptist Church in Mayo. Survivors included his wife, Eller Mathis of Pahokee, and his brothers Rubin Mathis and Roy Mathis, both of Mayo. Funeral arrangements were handled by Joe P. Burns Funeral Home. The reported age is consistent with a birth around 1911, while his 1940 draft registration records a 1912 birth year.",
+    "type": "obituary",
+    "date": "1973-12-13",
+    "people": [
+        "glover-mathis-1910"
+    ],
+    "family_lines": [
+        "singletary"
+    ]
 }
+
+
 
 ]
