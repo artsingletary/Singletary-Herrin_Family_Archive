@@ -3803,6 +3803,24 @@
   ],
   "file": "1958_06_28_tallahassee_democrat_eller_juanita_tuten_trixy.jpg"
 },
+
+
+{
+  "id": "1932-thomas-tuten-eller-matthews-divorce",
+  "file": "1932_thomas_j_tuten_ella_m_tuten_divorce_index.jpg",
+  "title": "1932 Florida Divorce Index — Thomas J. and Ella M. Tuten",
+  "description": "Florida Divorce Index, 1927–2001, recording the divorce of Thomas J. Tuten and Ella M. Tuten in Madison County, Florida, in 1932, certificate number 1292. Ella M. Tuten is identified as Eller Matthews, who subsequently married Glover Mathis on December 16, 1932, in Mayo, Lafayette County, Florida. The index establishes the divorce year but does not provide the exact date.",
+  "type": "divorce",
+  "date": "1932",
+  "people": [
+    "thomas-jackson-tuten-1904",
+    "eller-matthews-1907"
+  ],
+  "family_lines": [
+    "singletary"
+  ]
+},
+
 {
     "id": "1940-glover-mathis-wwii-draft-registration",
     "file": "1940_glover_mathis_wwii_draft_registration.jpg",
@@ -3817,22 +3835,6 @@
         "singletary"
     ]
 },
-{
-    "id": "1940-glover-mathis-family-census",
-    "file": "1940_census_glover_mathis_family.jpg",
-    "title": "1940 United States Census — Glover Mathis Household",
-    "description": "1940 United States Federal Census, Madison County, Florida, Enumeration District 34-4, Sheet 2B, lines 58–62, enumerated April 4, 1940. The household includes Glover Mathis, age 28; his wife Eller Mathis, age 29; and their children A. C., age 7, Janie, age 4, and Dennis, age 2. The census documents the family's residence in Madison County and provides additional information concerning education, occupation, and employment.",
-    "type": "Census",
-    "date": "1940-04-04",
-    "people": [
-        "glover-mathis-1910",
-        "eller-matthews-1907"
-    ],
-    "family_lines": [
-        "singletary"
-    ]
-},
-
 
 {
     "id": "1940-glover-mathis-family-census",
@@ -3843,13 +3845,35 @@
     "date": "1940-04-04",
     "people": [
         "glover-mathis-1910",
-        "eller-matthews-1907"
+        "eller-matthews-1907",
+        "william-cary-tuten-1924",
+        "thomas-loise-tuten-1927",
+        "ansel-lemar-tuten-1930",
+        "tommie-harry-tuten-1931"
+
     ],
     "family_lines": [
         "singletary"
     ]
 },
 
+
+{
+  "id": "1946-tommy-tuten-fatal-accident",
+  "file": "1946_09_28_miami_herald_tommy_tuten_accident.jpg",
+  "title": "1946 Newspaper Report — Fatal Accident Involving Tommy Tuten",
+  "description": "Newspaper article dated September 28, 1946, reporting the death of Tommy Tuten, age 14, in Miami, Florida. Tommy was killed when his bicycle became entangled with a truck while he was holding onto it for a tow. His older brother, identified as Ansel Tuten, age 16, was riding behind him and suffered injuries to his right hand. Tommy was a Miami Herald newspaper carrier returning from a swimming party. The brothers appear to correspond to Tommie H. Tuten and Hansel L. Tuten, sons of Eller Matthews Mathis, recorded in the 1940 United States Census.",
+  "type": "newspaper",
+  "date": "1946-09-28",
+  "people": [
+    "eller-matthews-1907",
+    "ansel-lemar-tuten-1930",
+    "tommie-harry-tuten-1931" 
+  ],
+  "family_lines": [
+    "singletary"
+  ]
+},
 
 
 
@@ -3883,7 +3907,62 @@
     "family_lines": [
         "singletary"
     ]
+},
+
+{
+  "id": "1980-sarasota-herald-tribune-eller-mathis-obituary",
+  "file": "1980_12_18_sarasota_herald_tribune_eller_mathis_obituary.jpg",
+  "title": "1980 Sarasota Herald-Tribune Obituary — Eller M. Mathis",
+  "description": "Obituary published in the Sarasota Herald-Tribune on December 18, 1980, reporting that Eller M. Mathis, age 73, died December 16, 1980, at Memorial Hospital in Sarasota, Florida. Born in Madison County, Florida, she had lived in Sarasota for two years after moving from Miami. Survivors included her sons Ansel Tuten of Sarasota and William C. Tuten of Miami; her brother Jim Matthews of Cincinnati, Ohio; 13 grandchildren; and 21 great-grandchildren. Services and burial were to take place in Miami, with arrangements handled by Hawkins Funeral Home.",
+  "type": "obituary",
+  "date": "1980-12-18",
+  "people": [
+    "eller-matthews-1907",
+    "ansel-lemar-tuten-1930",
+    "william-cary-tuten-1924"
+  ],
+  "family_lines": [
+    "singletary"
+  ]
+},
+
+
+{
+  "id": "1980-sarasota-journal-eller-mathis-obituary",
+  "file": "1980_12_18_sarasota_journal_eller_mathis_obituary.jpg",
+  "title": "1980 Sarasota Journal Obituary — Eller M. Mathis",
+  "description": "Obituary published in the Sarasota Journal on December 18, 1980, reporting the death of Eller M. Mathis, age 73, on December 16, 1980, at Memorial Hospital in Sarasota, Florida. The obituary identifies Madison County, Florida, as her birthplace and states that she moved to Sarasota from Miami approximately two years earlier. Survivors included her sons Ansel Tuten of Sarasota and William C. Tuten of Miami, her brother Jim Matthews of Cincinnati, Ohio, 13 grandchildren, and 21 great-grandchildren. Funeral arrangements were handled by Hawkins Funeral Home, with services and burial planned in Miami.",
+  "type": "obituary",
+  "date": "1980-12-18",
+  "people": [
+    "eller-matthews-1907",
+    "ansel-lemar-tuten-1930",
+    "william-cary-tuten-1924"
+  ],
+  "family_lines": [
+    "singletary"
+  ]
+},
+
+
+{
+  "id": "1980-miami-herald-eller-mathis-obituary",
+  "file": "1980_12_18_miami_herald_eller_mathis_obituary.jpg",
+  "title": "1980 Miami Herald Obituary — Eller Mathis",
+  "description": "Obituary published in The Miami Herald on December 18, 1980, reporting that Eller Mathis, age 74, died December 15, 1980, in Sarasota, Florida. Formerly of Hialeah, she was survived by her sons William and Ansel Tuten, several descendants, and a brother. The obituary identifies Lowe-Hanks Funeral Home and announces graveside services at Woodlawn Park Cemetery. Its reported death date of December 15 differs from the December 16 date recorded on her Florida death certificate and in the Sarasota newspapers. The reported age of 74 also differs from the age of 73 given in the Sarasota obituaries.",
+  "type": "obituary",
+  "date": "1980-12-18",
+  "people": [
+    "eller-matthews-1907",
+    "ansel-lemar-tuten-1930",
+    "william-cary-tuten-1924"
+  ],
+  "family_lines": [
+    "singletary"
+  ]
 }
+
+
 
 
 
