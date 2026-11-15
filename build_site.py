@@ -615,6 +615,14 @@ for person in people:
         mother = people_by_id.get(mother_id)
 
 
+    # Resolve a mother whose profile belongs to another archive
+    external_mother = None
+
+    for relative in person.get("external_relatives", []):
+        if relative.get("relationship") == "mother":
+            external_mother = relative
+            break
+
     # Find spouse or spouses
     spouses = []
 
@@ -642,6 +650,7 @@ for person in people:
         person=person,
         father=father,
         mother=mother,
+        external_mother=external_mother,
         spouses=spouses,
         children=children,
         siblings=siblings,

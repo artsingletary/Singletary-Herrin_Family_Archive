@@ -111,6 +111,18 @@
                         {{ mother.display_name }}
                     </a>
                 </p>
+
+            {% elif external_mother %}
+                <p>
+                    <strong>Mother:</strong>
+                        <a href="{{ external_mother.url }}">
+                            {{ external_mother.name }}
+                        </a>
+                    <small>
+                        ({{ external_mother.archive }} Family Archive)
+                    </small>
+                </p>
+
             {% endif %}
 
             {% if siblings %}

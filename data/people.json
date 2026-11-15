@@ -4002,7 +4002,35 @@
     "The 1940 United States Census records Lucas Matthews, age 5, in the household of William and Hepsy Matthews in Madison County.",
     "FamilySearch identifies Lucas Monroe Matthews as having died in 1996. His exact birth and death dates, marriage information, and burial location remain to be verified."
   ]
+},
+
+{
+  "id": "arthur-singletary-jr",
+  "first_name": "Arthur",
+  "middle_name": null,
+  "last_name": "Singletary",
+  "suffix": "Jr.",
+  "family_lines": [
+    "singletary",
+    "herrin"
+  ],
+  "father": "arthur-singletary-1941",
+  "mother": null,
+  "external_relatives": [
+    {
+      "relationship": "mother",
+      "person_id": "bette-ann-kramer",
+      "name": "Bette Ann Kramer",
+      "archive": "Kramer-Webster",
+      "url": "https://artsingletary.github.io/Kramer-Webster_Family_Archive/people/bette-ann-kramer.html"
+    }
+  ],
+  "spouses": [],
+  "biography": [
+    "Arthur Singletary Jr. is the son of Arthur Singletary Sr. and Bette Ann Kramer. Through his father, he is descended from the Singletary and Herrin families of North Florida. Through his mother, he is descended from the Kramer and Webster families, whose history is documented separately in the Kramer-Webster Family Archive."
+  ]
 }
+
 
 
 
