@@ -1427,8 +1427,8 @@
 
     "biography": [
       "Glover Mathis was born on November 16, probably in 1911, in Florida. His parents were Daniel M. Mathis and Mary Frances Darling. His Florida death certificate records his birth as November 16, 1911, while his 1940 World War II draft registration gives November 16, 1912. The draft registration identifies Madison, Florida, as his birthplace, whereas his obituary describes him as a native of Lafayette County, Florida. These differences remain unresolved.",
-      "On December 16, 1932, Glover married Eller Matthews in Mayo, Lafayette County, Florida. The couple were first cousins through their fathers, Daniel M. Mathis and William M. “Bunk” Matthews, who were sons of Malachi M. Mathis (also recorded as Matthews) and Mary Williams. Historical records document the family's surname under several spellings, including Mathis, Mathes, Mathews, and Matthews.",
-      "The 1940 United States Census records Glover and Eller living in Madison County, Florida, with Eller's four sons from a previous marriage: William C. Tuten, Thomas L. Tuten, Ansel L. Tuten, and Harry Benjamin Tuten. The boys were Glover's stepsons. At the time of the census, Glover was employed in road construction associated with the Works Progress Administration (WPA), a federal work-relief program established during the Great Depression.",
+      "On December 17, 1932, Glover married Eller Matthews in Mayo, Lafayette County, Florida. The couple were first cousins through their fathers, Daniel M. Mathis and William M. “Bunk” Matthews, who were sons of Malachi M. Mathis (also recorded as Matthews) and Mary Williams. Historical records document the family's surname under several spellings, including Mathis, Mathes, Mathews, and Matthews.",
+      "The 1940 United States Census records Glover and Eller living in Madison County, Florida, with Eller's four sons from a previous marriage: William C. Tuten, Thomas L. Tuten, Ansel L. Tuten, and Tommie H. Tuten. The boys were Glover's stepsons. At the time of the census, Glover was employed in road construction associated with the Works Progress Administration (WPA), a federal work-relief program established during the Great Depression.",
       "The 1940 census also documents a close geographic connection between Glover and his sister, Lela Mae Mathis Singletary. Lela Mae and her husband, George William Singletary, occupied dwelling 28 in the census enumeration, while Glover and Eller occupied dwelling 29. The households were recorded consecutively across census pages, indicating that the related families lived near one another.",
       "On October 16, 1940, Glover registered for the World War II draft in Madison County, Florida. He reported living in Lee, Florida, and identified his wife, recorded as Mrs. Ella Mathis, as his contact person. He reported no employer at the time of registration. His physical description listed him as approximately five feet four inches tall, weighing 170 pounds, with blue eyes, brown hair, and a ruddy complexion. The registration documents his participation in the Selective Service system but does not establish military service.",
       "By the 1950 United States Census, Glover and Eller were living in Lafayette County, Florida. The census lists Glover as 38 years old and Eller as 42. Their household consisted of the couple, while Eller's sons, who had appeared with them in the 1940 census, were no longer listed in their household.",
@@ -1641,6 +1641,7 @@
     "death_year": 1980,
     "death_place": "Sarasota, Sarasota County, Florida",
     "father": "william-mathis-1885",
+    "mother": "maggie-lee-hill-1887",
     "spouses": [
       "thomas-jackson-tuten-1904",
       "glover-mathis-1910"
@@ -1648,8 +1649,8 @@
 
     "biography": [
       "Eller Matthews was born on September 13, 1907, in Florida, the daughter of William M. “Bunk” Matthews. Her 1980 Florida death certificate records her birth date as September 13, 1907, while her gravestone gives the year 1909. Her obituaries identify Madison County, Florida, as her birthplace. Her father's 1959 obituary and her own death certificate provide supporting evidence of their father-daughter relationship.",
-      "Eller first married Thomas Jackson Tuten, with whom she had four sons: William Cary Tuten, Thomas Loise Tuten, Ansel Lemar Tuten, and Tommie Harry Tuten. The Florida Divorce Index records the divorce of Thomas J. Tuten and Ella M. Tuten in Madison County in 1932, certificate number 1292. The index does not provide an exact divorce date.",
-      "On December 16, 1932, Eller married Glover Mathis in Mayo, Lafayette County, Florida. Glover was the son of Daniel M. Mathis and Mary Frances Darling. Eller and Glover were first cousins through their fathers, William M. “Bunk” Matthews and Daniel M. Mathis, who were sons of Malachi M. Mathis, also recorded as Matthews, and Mary Williams.",
+      "Eller first married Thomas Jackson Tuten, with whom she had four sons: William Cary Tuten, Thomas Loise Tuten, Ansel Lemar Tuten, and Tommie Harry Tuten. A 1932 Florida Report of Divorce Granted documents the dissolution of their marriage in Madison County, Florida, under certificate number 1292. The final decree appears to have been granted on August 27, 1932, although the handwritten year shows evidence of correction. The report identifies three minor children affected by the decree, while later census records document four sons in Eller's household.",
+      "On December 17, 1932, Eller married Glover Mathis in Mayo, Lafayette County, Florida. Glover was the son of Daniel M. Mathis and Mary Frances Darling. Eller and Glover were first cousins through their fathers, William M. “Bunk” Matthews and Daniel M. Mathis, who were sons of Malachi M. Mathis, also recorded as Matthews, and Mary Williams.",
       "The 1940 United States Census records Eller and Glover living in Madison County, Florida, with her four sons from her previous marriage. Glover was employed in road construction associated with the Works Progress Administration (WPA). Their household was enumerated immediately after that of George William Singletary and Lela Mae Mathis Singletary, Glover's sister, documenting the proximity of the two related families.",
       "On September 27, 1946, Eller's youngest son, Tommy Tuten, age 14, was killed in a bicycle accident in Miami, Florida. A September 28 article in The Miami Herald reported that Tommy fell beneath a truck while holding onto it for a tow. His older brother Ansel, age 16, was riding nearby and suffered an injury to his right hand. Tommy had been working as a Miami Herald newspaper carrier and was returning from a swimming party when the accident occurred.",
       "By the 1950 United States Census, Eller and Glover were living in Lafayette County, Florida. The census recorded Eller as 42 years old and Glover as 38.",
@@ -1696,6 +1697,13 @@
     "death_year": 1959,
     "father": "malachi-m-matthews",
     "mother": "mary-williams",
+    "spouses": [
+      "maggie-lee-hill-1887"
+    ],
+
+
+
+
     "biography": [
       "William M. Matthews was born on December 16, 1883, according to his World War I draft registration. His Florida death certificate records the same month and day but gives his birth year as 1882.",
       "William appears to be the son of Malachi M. Matthews and Mary Williams. Census records identify a William or Willie in Malachi's household, although the recorded ages are inconsistent. His death certificate identifies his father as Miliki Matthews and his mother as Mary Adams, a discrepancy that remains unresolved.",
@@ -3758,7 +3766,133 @@
     "According to contemporary newspaper reports, Trixy was struck and killed by an automobile only hours after Juanita's death. Juanita was buried at Woodlawn Park North Cemetery in Miami, while Trixy was buried behind the family home.",
     "Newspaper accounts identify Juanita's father as Thomas Tuten and her mother as Mrs. Juanita Tuten. Family research suggests that her father was Thomas Loise Tuten, a son of Eller Matthews, and that her mother was Juanita Wells. These identifications require additional documentation before being entered as confirmed parent-child relationships."
   ]
+},
+
+{
+  "id": "maggie-lee-hill-1887",
+  "first_name": "Maggie",
+  "middle_name": "Lee",
+  "last_name": "Hill",
+  "family_lines": [
+    "singletary"
+  ],
+  "birth_year": 1887,
+  "death_date": "1918-08-29",
+  "death_year": 1918,
+  "death_place": "Madison County, Florida",
+  "spouses": [
+    "william-mathis-1885"
+  ],
+  "biography": [
+    "Maggie Lee Hill was born in Florida around 1887 or 1888. Her 1900 United States Census entry records her birth as April 1888, while her 1918 Florida death certificate gives an age of 31 years, 1 month, and 29 days, suggesting a birth in 1887. These differing dates remain unresolved.",
+    "In 1900, Maggie lived in Norton Creek, Madison County, Florida, with her parents, Berry Hill and Polly Hill, and several siblings. Her death certificate identifies her mother's maiden name as Pollie Woods.",
+    "On December 9, 1906, Maggie married William M. Mathews in Madison County, Florida. Their marriage is documented by an original Florida marriage license and certificate issued December 8, 1906.",
+    "FamilySearch identifies four children of Maggie and William: Eller Matthews, Helen Retha Matthews, Hunter Benjamin Matthews, and Myrna Matthews. These relationships require additional verification through contemporary records.",
+    "Maggie died on August 29, 1918, in Madison County, Florida. Her death certificate records her burial at Mount Olive Cemetery on August 30, 1918. A surviving gravestone has not been verified."
+  ]
+},
+
+
+{
+  "id": "hunter-benjamin-matthews-1913",
+  "first_name": "Hunter",
+  "middle_name": "Benjamin",
+  "last_name": "Matthews",
+  "family_lines": [
+    "singletary"
+  ],
+  "birth_date": "1913-08-09",
+  "birth_year": 1913,
+  "death_date": "1990-03-30",
+  "death_year": 1990,
+  "death_place": "Cincinnati, Hamilton County, Ohio",
+  "father": "william-mathis-1885",
+  "mother": "maggie-lee-hill-1887",
+  "biography": [
+    "Hunter Benjamin Matthews Sr. was reportedly born on August 9, 1913, in Lee, Madison County, Florida, the son of William M. “Bunk” Matthews and Maggie Lee Hill. He was a brother of Eller, Helen Retha, and Myrna Matthews.",
+    "Family research identifies five paternal half-siblings from William Matthews's later relationship with Hepsy Ann Matthews: Alice, Marie, Sallie, Mary Louise, and Daniel Matthews. These relationships have not yet been independently verified.",
+    "According to a family biography, Hunter married four times: Ruby Leona Huddleston, Virginia Ann Liebchen, Barbara Lee Wright, and Louise Byrge. He reportedly had children with his second, third, and fourth wives. Additional sons have been identified through family DNA research, although the underlying evidence has not yet been reviewed for this archive.",
+    "Hunter worked as a regional manager for Walgreens Café, overseeing operations in several Ohio cities, including Cincinnati, Columbus, Toledo, and Cleveland.",
+    "Hunter died on March 30, 1990, in Cincinnati, Ohio, at the age of 76. His birth and death dates and biographical details are currently based on family research and await confirmation from original records."
+  ]
+},
+
+
+{
+  "id": "helen-retha-matthews-1911",
+  "first_name": "Helen",
+  "middle_name": "Retha",
+  "last_name": "Matthews",
+  "family_lines": [
+    "singletary"
+  ],
+  "birth_date": "1911-09-24",
+  "birth_year": 1911,
+  "death_date": "1971-10-16",
+  "death_year": 1971,
+  "death_place": "Dade County, Florida",
+  "father": "william-mathis-1885",
+  "mother": "maggie-lee-hill-1887",
+  "biography": [
+    "Helen Retha Matthews was born on September 24, 1911, in Florida, according to the Florida Death Index. She was a daughter of William M. “Bunk” Matthews and Maggie Lee Hill, and a sister of Eller Matthews and Hunter Benjamin Matthews.",
+    "The 1920 United States Census records her as Retha Mathis, age 10, living with her widowed father, Bunk Mathis, in Norton Creek, Madison County, Florida. Her siblings Ella and Hunter were also members of the household. The age recorded in the census suggests an earlier birth year than the September 24, 1911, date reported in the death index.",
+    "Helen later used the surname Alvarez, as documented by the Florida Death Index. Her marriage date and husband's identity have not yet been established.",
+    "Helen Retha Alvarez died on October 16, 1971, in Dade County, Florida. The Florida Death Index identifies her death certificate as number 60291."
+  ]
+},
+
+
+{
+  "id": "myrna-matthews-1918",
+  "first_name": "Myrna",
+  "last_name": "Matthews",
+  "family_lines": [
+    "singletary"
+  ],
+  "birth_year": 1918,
+  "death_date": "1941-08-28",
+  "death_year": 1941,
+  "death_place": "Miami, Dade County, Florida",
+  "father": "william-mathis-1885",
+  "mother": "maggie-lee-hill-1887",
+  "biography": [
+    "Myrna Matthews was born around 1918, the daughter of William M. “Bunk” Matthews and Maggie Lee Hill. Her birth year is estimated from her age of 23 reported in her August 29, 1941, obituary in The Miami News.",
+    "Myrna married Marion Folsom, and the couple had a son named Warner Folsom. Her marriage date has not yet been established.",
+    "According to her obituary, Myrna moved to Miami approximately twelve years before her death, having previously lived in Valdosta, Georgia, and Bradenton, Florida.",
+    "Myrna died on August 28, 1941, in a Miami hospital following several months of illness. Her obituary identifies her father as William Mathews and names four brothers—Hunter Mathews, Oliver, Willie, and Jonah Alderman—and four sisters—Ella, Gladys, Retha Alvarez, and Irene Byer. The exact relationships of several of these individuals remain under investigation.",
+    "Funeral services were scheduled for August 30, 1941, under the direction of Philbrick Funeral Home, with burial at Flagler Memorial Park in Miami, Florida."
+  ]
+}, 
+
+
+{
+  "id": "hepsy-ann-carter-1893",
+  "first_name": "Hepsy",
+  "middle_name": "Ann",
+  "last_name": "Carter",
+  "family_lines": [
+    "singletary"
+  ],
+  "birth_date": "1893-12-15",
+  "birth_year": 1893,
+  "death_date": "1956-11-29",
+  "death_year": 1956,
+  "death_place": "Florida",
+  "spouses": [
+    "william-mathis-1885"
+  ],
+  "biography": [
+    "Hepsy Ann Carter was born on December 15, 1893, in Madison, Florida, according to a Social Security record identifying her as Hepsyan Carter Matthews. The record names her parents as Joseph M. Carter and Mollie S. Taylor. Her name appears in historical records under several spellings, including Hepsyan, Hepsya, and Hepsy.",
+    "FamilySearch reports that Hepsy married William M. “Bunk” Matthews on January 2, 1921, in Madison County, Florida. William's first wife, Maggie Lee Hill, had died in 1918, and the 1920 United States Census records him as widowed.",
+    "The 1935 Florida State Census records William and Hepsy living in Madison County with children D. J., Mary Louise, Marie, Alice, Ernest, and Lucas Mathis. Mollie Carter, age 71, also lived in the household and was likely Hepsy's mother. The census gives Hepsy's age as 48, conflicting with her reported 1893 birth date.",
+    "Hepsy also appears with William in the 1940 and 1950 United States Censuses. These records document their continuing residence in Madison County, Florida.",
+    "Hepsy died on November 29, 1956, and is reported buried at Oak Ridge Cemetery in Madison, Madison County, Florida. Her exact death location has not yet been verified."
+  ]
 }
+
+
+
+
 
 
 
