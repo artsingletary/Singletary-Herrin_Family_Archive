@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+<!-- Google Analytics 4 - Consent Controlled -->
+<script>
+    const GA_MEASUREMENT_ID = "G-MMTEL90RK4";
+
+    function loadGoogleAnalytics() {
+        if (window.gaAnalyticsLoaded) return;
+
+        window.gaAnalyticsLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+
+        window.gtag = function () {
+            window.dataLayer.push(arguments);
+        };
+
+        gtag("js", new Date());
+        gtag("config", GA_MEASUREMENT_ID);
+
+        const script = document.createElement("script");
+        script.async = true;
+        script.src =
+            "https://www.googletagmanager.com/gtag/js?id=" +
+            GA_MEASUREMENT_ID;
+
+        document.head.appendChild(script);
+    }
+
+    // Load Analytics only if consent was previously granted.
+    try {
+        if (localStorage.getItem("analytics-consent") === "accepted") {
+            loadGoogleAnalytics();
+        }
+    } catch (error) {
+        // Analytics remains disabled if storage is unavailable.
+    }
+</script>
+
+
+<!-- Analytics Cookie Consent Banner -->
+<style>
+    #cookie-consent-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        background: #f8f7f3;
+        border-top: 2px solid #b8a58c;
+        padding: 15px 25px;
+        box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.12);
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    #cookie-consent-banner p {
+        margin: 0;
+        flex: 1;
+        min-width: 240px;
+        color: #333;
+    }
+
+    #cookie-consent-banner a {
+        color: #3d4b3a;
+        text-decoration: underline;
+    }
+
+    #cookie-consent-banner button {
+        padding: 9px 18px;
+        border: 1px solid #8a6c48;
+        border-radius: 5px;
+        background: #fff;
+        color: #333;
+        cursor: pointer;
+    }
+
+    #cookie-consent-banner button:hover {
+        background: #f0e7d8;
+    }
+
+    #cookie-consent-banner button:focus-visible {
+        outline: 2px solid #3d4b3a;
+        outline-offset: 2px;
+    }
+</style>
+
+
+<!-- Cookie Consent Banner Behavior -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        // Create the banner.
+        const banner = document.createElement("div");
+        banner.id = "cookie-consent-banner";
+        banner.setAttribute("role", "region");
+        banner.setAttribute("aria-label", "Analytics cookie preferences");
+
+        // Create the message.
+        const message = document.createElement("p");
+        message.textContent =
+            "This website uses optional analytics cookies to understand visitor activity. ";
+
+        // Create the Privacy Notice link.
+        const privacyLink = document.createElement("a");
+        privacyLink.textContent = "Privacy Notice";
+
+        // Use the correct relative path for each page.
+        const inSubdirectory =
+            window.location.pathname.includes("/people/") ||
+            window.location.pathname.includes("/stories/");
+
+        privacyLink.href = inSubdirectory
+            ? "../privacy.html"
+            : "privacy.html";
+
+        message.appendChild(privacyLink);
+
+        // Create the Accept button.
+        const acceptButton = document.createElement("button");
+        acceptButton.type = "button";
+        acceptButton.textContent = "Accept";
+
+        // Create the Reject button.
+        const rejectButton = document.createElement("button");
+        rejectButton.type = "button";
+        rejectButton.textContent = "Reject";
+
+        // Add everything to the banner.
+        banner.append(message, acceptButton, rejectButton);
+        document.body.appendChild(banner);
+
+        // Check for an existing consent choice.
+        let consent = null;
+
+        try {
+            consent = localStorage.getItem("analytics-consent");
+        } catch (error) {
+            // Storage may be unavailable.
+        }
+
+        // Show the banner if no choice has been saved.
+        if (consent !== "accepted" && consent !== "rejected") {
+            banner.style.display = "flex";
+        }
+
+        // Accept analytics cookies.
+        acceptButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "accepted");
+
+                banner.style.display = "none";
+                loadGoogleAnalytics();
+            } catch (error) {
+                // Do not enable analytics if consent cannot be saved.
+            }
+        });
+
+
+        // Reject analytics cookies.
+        rejectButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "rejected");
+
+                // Disable further Google Analytics collection.
+                window["ga-disable-" + GA_MEASUREMENT_ID] = true;
+
+                document.cookie.split(";").forEach(function (cookie) {
+                    const name = cookie.split("=")[0].trim();
+
+                    if (name === "_ga" || name.startsWith("_ga_")) {
+                        // Clear host-only cookies.
+                        document.cookie =
+                        name + "=; Max-Age=0; path=/";
+
+                        // Clear cookies scoped to this website's domain.
+                         document.cookie =
+                            name +
+                            "=; Max-Age=0; path=/; domain=artsingletary.github.io";
+                    }
+                });
+
+                banner.style.display = "none";
+
+                // Stop the previously loaded Analytics session.
+                window.location.reload();
+
+            } catch (error) {
+                // Analytics remains disabled if storage is unavailable.
+            }
+        });
+
+
+    });
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ernest Benjamin Franklin Matthews | Singletary-Herrin Family Archive</title>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Singletary-Herrin Family Archive</h1>
+
+        <p>
+            Preserving our family's history for future generations
+        </p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../family-tree.html">Family Tree</a>
+        <a href="../photos.html">Photos</a>
+        <a href="../stories.html">Stories</a>
+        <a href="../documents.html">Documents</a>
+        <a href="#">Reunions</a>
+    </nav>
+
+    <main>
+
+        <p>
+            <a href="../index.html">← Back to Family Members</a>
+        </p>
+
+        <h1>Ernest Benjamin Franklin Matthews</h1>
+
+        
+            <p><strong>1930–1987</strong></p>
+        
+
+        
+
+        <section class="person-section">
+
+            <h2>Life Events</h2>
+            
+                <p>
+                    <strong>Born:</strong>
+
+                    
+                        1930
+                    
+
+                    
+                </p>
+            
+
+
+            
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Family</h2>
+
+            
+                <p>
+                    <strong>Father:</strong>
+
+                    <a href="william-mathis-1885.html">
+                        William M. Matthews
+                    </a>
+                </p>
+            
+
+
+            
+                <p>
+                    <strong>Mother:</strong>
+
+                    <a href="hepsy-ann-carter-1893.html">
+                        Hepsy Ann Carter
+                    </a>
+                </p>
+            
+
+            
+
+                <h3>Siblings</h3>
+
+                <ul>
+
+                    
+
+                        <li>
+                            <a href="eller-matthews-1907.html">
+                                Eller Matthews
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="hunter-benjamin-matthews-1913.html">
+                                Hunter Benjamin Matthews
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="helen-retha-matthews-1911.html">
+                                Helen Retha Matthews
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="myrna-matthews-1918.html">
+                                Myrna Matthews
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="daniel-joseph-matthews-1921.html">
+                                Daniel Joseph Matthews
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="mary-louise-matthews-1923.html">
+                                Mary Louise Matthews
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="alice-matthews-1928.html">
+                                Alice Matthews
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="lucas-monroe-matthews-1935.html">
+                                Lucas Monroe Matthews
+                            </a>
+                        </li>
+
+                    
+
+                </ul>
+
+            
+
+            
+
+            
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Military Service</h2>
+
+            
+
+                <p>No military service information has been added.</p>
+
+            
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Biography</h2>
+
+            
+
+                
+                 <p>Ernest Benjamin Franklin Matthews was a son of William M. “Bunk” Matthews and Hepsy Ann Carter. FamilySearch reports his birth year as 1930, although census records suggest he may have been born around 1931 or 1932.</p>
+                
+                 <p>The 1935 Florida State Census records Ernest Mathis, age 3, living with his parents and siblings in Madison County, Florida.</p>
+                
+                 <p>The 1940 United States Census records Ernest Matthews, age 8, in William and Hepsy's household. In the 1950 census, Ernest was recorded as age 17.</p>
+                
+                 <p>Ernest was listed among William Matthews's surviving sons in his father's 1959 obituary, which reported that he was living in Madison, Florida.</p>
+                
+                 <p>FamilySearch reports that Ernest died in 1987. His exact birth and death dates and burial location remain to be verified.</p>
+                
+
+            
+
+        </section>
+
+
+        <section class="person-section">
+
+            <h2>Photos</h2>
+
+            
+
+                 <p>No additional photographs have been added.</p>
+
+            
+
+        </section>
+
+
+        
+
+
+        <section class="person-section">
+
+            <h2>Sources</h2>
+
+            
+
+             <ol>
+
+                
+
+                    <li>
+
+                        <strong>1935 Florida State Census — William M. Matthews Family</strong>
+
+                        
+                            <br>
+                            Type: census
+                        
+
+                        
+                            <p>
+                                 1935 Florida State Census, Madison County, Precinct 4, page 4. The household includes William Mathis, his wife Hepsy, children D. J., Mary Louise, Marie, Alice, Ernest, and Lucas, and William's mother-in-law Mollie Carter. Marie has not yet been linked to a person profile because her identity remains unresolved.
+                            </p>
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                    
+
+
+                    
+
+                        <p>
+                            <a href="https://d19qead08pko0m.cloudfront.net/documents/1935_census_william_m_matthews_family.jpg" target="_blank">
+                                View Document
+                            </a>
+                        </p>
+
+                    
+
+
+                    
+
+                </li>
+
+            
+
+                    <li>
+
+                        <strong>1940 United States Census — William M. Matthews Family</strong>
+
+                        
+                            <br>
+                            Type: census
+                        
+
+                        
+                            <p>
+                                 1940 United States Census, Madison County, Florida, Enumeration District 40-5, Sheet 5A, lines 29–36. The household includes William Matthews, his wife Hepsy Ann, and children Daniel J., Mary Louise, Sallie, Alice, Ernest, and Lucas. Sallie is recorded as age 15 and has not yet been assigned a separate person profile pending further research.
+                            </p>
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                    
+
+
+                    
+
+                        <p>
+                            <a href="https://d19qead08pko0m.cloudfront.net/documents/1940_census_william_m_matthews_family.jpg" target="_blank">
+                                View Document
+                            </a>
+                        </p>
+
+                    
+
+
+                    
+
+                </li>
+
+            
+
+                    <li>
+
+                        <strong>1950 United States Census — William M. Matthews Family</strong>
+
+                        
+                            <br>
+                            Type: census
+                        
+
+                        
+                            <p>
+                                 1950 United States Census, Madison County, Florida, Enumeration District 40-5, Sheet 15, lines 27–30. The household includes William Matthews, age 66, his wife Hepsy Ann, age 56, and their sons Ernest, age 17, and Lucas M., age 16. Lucas's recorded age suggests a birth around 1933 or 1934, differing slightly from the 1935 birth year reported by FamilySearch.
+                            </p>
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                    
+
+
+                    
+
+                        <p>
+                            <a href="https://d19qead08pko0m.cloudfront.net/documents/1950_census_william_m_matthews_family.jpg" target="_blank">
+                                View Document
+                            </a>
+                        </p>
+
+                    
+
+
+                    
+
+                </li>
+
+            
+
+        </ol>
+
+    
+    </section>
+
+
+    
+
+    </main>
+
+    <footer>
+        Singletary-Herrin Family Archive 
+
+        <p>
+            <a href="../privacy.html">Privacy Notice</a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
