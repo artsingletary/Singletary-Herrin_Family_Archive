@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+<!-- Google Analytics 4 - Consent Controlled -->
+<script>
+    const GA_MEASUREMENT_ID = "G-MMTEL90RK4";
+
+    function loadGoogleAnalytics() {
+        if (window.gaAnalyticsLoaded) return;
+
+        window.gaAnalyticsLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+
+        window.gtag = function () {
+            window.dataLayer.push(arguments);
+        };
+
+        gtag("js", new Date());
+        gtag("config", GA_MEASUREMENT_ID);
+
+        const script = document.createElement("script");
+        script.async = true;
+        script.src =
+            "https://www.googletagmanager.com/gtag/js?id=" +
+            GA_MEASUREMENT_ID;
+
+        document.head.appendChild(script);
+    }
+
+    // Load Analytics only if consent was previously granted.
+    try {
+        if (localStorage.getItem("analytics-consent") === "accepted") {
+            loadGoogleAnalytics();
+        }
+    } catch (error) {
+        // Analytics remains disabled if storage is unavailable.
+    }
+</script>
+
+
+<!-- Analytics Cookie Consent Banner -->
+<style>
+    #cookie-consent-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        background: #f8f7f3;
+        border-top: 2px solid #b8a58c;
+        padding: 15px 25px;
+        box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.12);
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    #cookie-consent-banner p {
+        margin: 0;
+        flex: 1;
+        min-width: 240px;
+        color: #333;
+    }
+
+    #cookie-consent-banner a {
+        color: #3d4b3a;
+        text-decoration: underline;
+    }
+
+    #cookie-consent-banner button {
+        padding: 9px 18px;
+        border: 1px solid #8a6c48;
+        border-radius: 5px;
+        background: #fff;
+        color: #333;
+        cursor: pointer;
+    }
+
+    #cookie-consent-banner button:hover {
+        background: #f0e7d8;
+    }
+
+    #cookie-consent-banner button:focus-visible {
+        outline: 2px solid #3d4b3a;
+        outline-offset: 2px;
+    }
+</style>
+
+
+<!-- Cookie Consent Banner Behavior -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        // Create the banner.
+        const banner = document.createElement("div");
+        banner.id = "cookie-consent-banner";
+        banner.setAttribute("role", "region");
+        banner.setAttribute("aria-label", "Analytics cookie preferences");
+
+        // Create the message.
+        const message = document.createElement("p");
+        message.textContent =
+            "This website uses optional analytics cookies to understand visitor activity. ";
+
+        // Create the Privacy Notice link.
+        const privacyLink = document.createElement("a");
+        privacyLink.textContent = "Privacy Notice";
+
+        // Use the correct relative path for each page.
+        const inSubdirectory =
+            window.location.pathname.includes("/people/") ||
+            window.location.pathname.includes("/stories/");
+
+        privacyLink.href = inSubdirectory
+            ? "../privacy.html"
+            : "privacy.html";
+
+        message.appendChild(privacyLink);
+
+        // Create the Accept button.
+        const acceptButton = document.createElement("button");
+        acceptButton.type = "button";
+        acceptButton.textContent = "Accept";
+
+        // Create the Reject button.
+        const rejectButton = document.createElement("button");
+        rejectButton.type = "button";
+        rejectButton.textContent = "Reject";
+
+        // Add everything to the banner.
+        banner.append(message, acceptButton, rejectButton);
+        document.body.appendChild(banner);
+
+        // Check for an existing consent choice.
+        let consent = null;
+
+        try {
+            consent = localStorage.getItem("analytics-consent");
+        } catch (error) {
+            // Storage may be unavailable.
+        }
+
+        // Show the banner if no choice has been saved.
+        if (consent !== "accepted" && consent !== "rejected") {
+            banner.style.display = "flex";
+        }
+
+        // Accept analytics cookies.
+        acceptButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "accepted");
+
+                banner.style.display = "none";
+                loadGoogleAnalytics();
+            } catch (error) {
+                // Do not enable analytics if consent cannot be saved.
+            }
+        });
+
+
+        // Reject analytics cookies.
+        rejectButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "rejected");
+
+                // Disable further Google Analytics collection.
+                window["ga-disable-" + GA_MEASUREMENT_ID] = true;
+
+                document.cookie.split(";").forEach(function (cookie) {
+                    const name = cookie.split("=")[0].trim();
+
+                    if (name === "_ga" || name.startsWith("_ga_")) {
+                        // Clear host-only cookies.
+                        document.cookie =
+                        name + "=; Max-Age=0; path=/";
+
+                        // Clear cookies scoped to this website's domain.
+                         document.cookie =
+                            name +
+                            "=; Max-Age=0; path=/; domain=artsingletary.github.io";
+                    }
+                });
+
+                banner.style.display = "none";
+
+                // Stop the previously loaded Analytics session.
+                window.location.reload();
+
+            } catch (error) {
+                // Analytics remains disabled if storage is unavailable.
+            }
+        });
+
+
+    });
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Roy Bustin | Singletary-Herrin Family Archive</title>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Singletary-Herrin Family Archive</h1>
+
+        <p>
+            Preserving our family's history for future generations
+        </p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../family-tree.html">Family Tree</a>
+        <a href="../photos.html">Photos</a>
+        <a href="../stories.html">Stories</a>
+        <a href="../documents.html">Documents</a>
+        <a href="#">Reunions</a>
+    </nav>
+
+    <main>
+
+        <p>
+            <a href="../index.html">← Back to Family Members</a>
+        </p>
+
+        <h1>Roy Bustin</h1>
+
+        
+            <p><strong>1925–1998</strong></p>
+        
+
+        
+
+            <div class="profile-photo">
+
+                <img
+                    src="https://d19qead08pko0m.cloudfront.net/photos/roy_bustin_portrait.jpg"
+                     alt="Roy Bustin"
+                 >
+
+            </div>
+
+        
+
+        <section class="person-section">
+
+            <h2>Life Events</h2>
+            
+                <p>
+                    <strong>Born:</strong>
+
+                    
+                        December 13, 1925
+                    
+
+                    
+                        — Crescent City, Florida, United States
+                    
+                </p>
+            
+
+
+            
+                 <p>
+                    <strong>Died:</strong>
+                    January 22, 1998
+
+                    
+                        — Marion County, Florida, United States
+                    
+                 </p>
+             
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Family</h2>
+
+            
+
+
+            
+
+            
+
+            
+                <p>
+                    <strong>Spouse:</strong>
+                </p>
+
+                <ul>
+                    
+                        <li>
+                            <a href="irene-carol-singletary-1926.html">
+                              Irene Carol Singletary
+                            </a>
+                        </li>
+                    
+                </ul>
+            
+
+            
+
+                <h3>Children</h3>
+
+                <ul>
+
+                    
+
+                        <li>
+                            <a href="larry-wayne-bustin-1952.html">
+                                Larry Wayne Bustin
+                            </a>
+                        </li>
+
+                    
+
+                </ul>
+
+            
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Military Service</h2>
+
+            
+
+                
+
+                    
+                        <p>
+                            <strong>Branch:</strong>
+                            United States Army
+                        </p>
+                    
+
+                    
+                         <p>
+                            <strong>Conflict:</strong>
+                            World War II
+                        </p>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                        <p>
+                            <strong>Rank:</strong>
+                            Private First Class (PFC)
+                        </p>
+                    
+
+                    
+
+                    
+
+                    
+                        <p>
+                            <strong>Enlisted:</strong>
+                            April 24, 1945
+                        </p>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                        <p>
+                            <strong>Research Notes:</strong>
+                            Roy Bustin enlisted in the United States Army at Camp Blanding, Florida, on April 24, 1945. The Army enlistment index records his entry rank as Private and identifies his civilian occupation as general farming. His military gravestone at Florida National Cemetery commemorates his World War II service and identifies his rank as Private First Class. His unit, assignments, and discharge date have not yet been established.
+                        </p>
+                    
+
+                
+
+            
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Biography</h2>
+
+            
+
+                
+                 <p>Roy Bustin was born on December 13, 1925, in Crescent City, Florida. By December 1943, he was living in Mayo, Lafayette County, Florida, where he worked for L. A. Townsend.</p>
+                
+                 <p>Roy registered for the World War II draft on December 13, 1943, in Lafayette County, Florida. His registration describes him as approximately six feet tall, weighing 161 pounds, with gray eyes and brown hair. The registration also identifies Mrs. Mollie Lee Buston as the person who would always know his address.</p>
+                
+                 <p>In 1944, Roy married Irene Carol Singletary, daughter of George William Singletary and Lela Mae Mathis. Their marriage license application was completed on April 29, 1944, in Lafayette County. The application lists Roy's age as 21, although his draft registration and death records establish a birth year of 1925, making him 18 at that time.</p>
+                
+                 <p>Roy entered the United States Army on April 24, 1945, at Camp Blanding, Florida, during World War II. His enlistment record identifies him as a Private, while his military gravestone records his rank as Private First Class.</p>
+                
+                 <p>Roy and Irene raised a family that included Jeanette and Larry Wayne Bustin. The 1950 United States Census records the family living in Lafayette County, Florida.</p>
+                
+                 <p>The Bustin family later had connections to Pahokee, Florida, where members of the family operated a service station. A surviving newspaper clipping identifies Roy alongside his son Larry Wayne and grandson Herman Bustin.</p>
+                
+                 <p>Roy died on January 22, 1998, in Marion County, Florida, at age 72. He was buried at Florida National Cemetery in Bushnell, Sumter County, Florida, Section 412, Site 2456. His military gravestone commemorates his service as a Private First Class in the United States Army during World War II.</p>
+                
+
+            
+
+        </section>
+
+
+        <section class="person-section">
+
+            <h2>Photos</h2>
+
+            
+
+                <div class="photo-gallery">
+
+                    
+
+                        <figure class="gallery-photo">
+
+                        <img
+                            src="https://d19qead08pko0m.cloudfront.net/photos/roy_bustin_portrait.jpg"
+                            alt="Portrait of Roy Bustin (1925–1998) as a young man. Photograph date unknown."
+                        >
+
+                        
+                            <figcaption>
+                                Portrait of Roy Bustin (1925–1998) as a young man. Photograph date unknown.
+                            </figcaption>
+                         
+
+                        </figure>
+
+                    
+
+                </div>
+
+            
+
+        </section>
+
+
+        
+
+        <section class="person-section">
+
+            <h2>Grave &amp; Burial</h2>
+
+            <div class="photo-gallery">
+
+                
+
+                    <figure class="gallery-photo">
+
+                        <img
+                            src="https://d19qead08pko0m.cloudfront.net/photos/roy_bustin_gravestone.jpg"
+                            alt="Military grave marker of Roy Bustin (December 13, 1925 – January 22, 1998), Private First Class, United States Army, World War II. Florida National Cemetery, Bushnell, Florida, Section 412, Site 2456."
+                        >
+
+                        
+
+                            <figcaption>
+                                Military grave marker of Roy Bustin (December 13, 1925 – January 22, 1998), Private First Class, United States Army, World War II. Florida National Cemetery, Bushnell, Florida, Section 412, Site 2456.
+
+                                
+
+                            </figcaption>
+
+                        
+
+                    </figure>
+
+                
+
+            </div>
+
+        </section>
+
+        
+
+
+        <section class="person-section">
+
+            <h2>Sources</h2>
+
+            
+
+             <ol>
+
+                
+
+                    <li>
+
+                        <strong>1943 World War II Draft Registration of Roy Bustin</strong>
+
+                        
+                            <br>
+                            Type: military
+                        
+
+                        
+
+                        
+                            <p>World War II draft registration completed December 13, 1943, in Lafayette County, Florida. Records Roy Bustin's birth on December 13, 1925, in Crescent City, Florida, his residence in Mayo, and employment with L. A. Townsend.</p>
+                        
+
+                        
+
+                        
+
+                        
+
+                    
+
+
+                    
+
+                        <p>
+                            <a href="https://d19qead08pko0m.cloudfront.net/documents/1943_draft_registration_roy_bustin.jpg" target="_blank">
+                                View Document
+                            </a>
+                        </p>
+
+                    
+
+
+                    
+
+                </li>
+
+            
+
+                    <li>
+
+                        <strong>1944 Marriage License Application of Roy Bustin and Irene Carol Singletary</strong>
+
+                        
+                            <br>
+                            Type: marriage
+                        
+
+                        
+
+                        
+                            <p>Lafayette County, Florida, marriage license application sworn April 29, 1944. Identifies Roy Bustin and Irene Carol Singletary, their residences in Mayo, and their birthplaces. The application lists Roy's age as 21, conflicting with his documented December 1925 birth date.</p>
+                        
+
+                        
+
+                        
+
+                        
+
+                    
+
+
+                    
+
+                        <p>
+                            <a href="https://d19qead08pko0m.cloudfront.net/documents/1944_marriage_license_application_roy_bustin_irene_singletary.jpg" target="_blank">
+                                View Document
+                            </a>
+                        </p>
+
+                    
+
+
+                    
+
+                </li>
+
+            
+
+                    <li>
+
+                        <strong>1950 United States Census — Roy Bustin Family</strong>
+
+                        
+                            <br>
+                            Type: census
+                        
+
+                        
+
+                        
+                            <p>1950 United States Census, Lafayette County, Florida. Records the household of Roy Bustin, his wife Irene, and their daughter Jeanette.</p>
+                        
+
+                        
+
+                        
+
+                        
+
+                    
+
+
+                    
+
+                        <p>
+                            <a href="https://d19qead08pko0m.cloudfront.net/documents/1950_census_roy_bustin_family.jpg" target="_blank">
+                                View Document
+                            </a>
+                        </p>
+
+                    
+
+
+                    
+
+                </li>
+
+            
+
+                    <li>
+
+                        <strong>Newspaper Clipping — Roy, Larry Wayne, and Herman Bustin</strong>
+
+                        
+                            <br>
+                            Type: newspaper
+                        
+
+                        
+
+                        
+                            <p>Undated newspaper clipping showing Larry Wayne Bustin with a giant jewfish reportedly weighing more than 200 pounds, caught off Fort Myers, Florida. The photograph also identifies his father Roy Bustin and four-year-old son Herman. The article reports that the Bustin family operated a service station in Pahokee, Florida.</p>
+                        
+
+                        
+
+                        
+
+                        
+
+                    
+
+
+                    
+
+                        <p>
+                            <a href="https://d19qead08pko0m.cloudfront.net/documents/roy_larry_herman_bustin_fishing_newspaper.jpg" target="_blank">
+                                View Document
+                            </a>
+                        </p>
+
+                    
+
+
+                    
+
+                </li>
+
+            
+
+        </ol>
+
+    
+    </section>
+
+
+    
+
+    </main>
+
+    <footer>
+        Singletary-Herrin Family Archive 
+
+        <p>
+            <a href="../privacy.html">Privacy Notice</a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

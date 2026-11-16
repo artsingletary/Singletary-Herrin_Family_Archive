@@ -4097,7 +4097,59 @@
   "people": ["louie-singletary-1921"],
   "family_lines": ["singletary"],
   "date": "1976-03-19"
+},
+
+
+{
+  "id": "1943-roy-bustin-draft-registration",
+  "file": "1943_draft_registration_roy_bustin.jpg",
+  "title": "1943 World War II Draft Registration of Roy Bustin",
+  "caption": "World War II draft registration completed December 13, 1943, in Lafayette County, Florida. Records Roy Bustin's birth on December 13, 1925, in Crescent City, Florida, his residence in Mayo, and employment with L. A. Townsend.",
+  "type": "military",
+  "people": ["roy-bustin-1925"],
+  "family_lines": ["singletary"],
+  "date": "1943-12-13"
+},
+{
+  "id": "1944-roy-bustin-irene-singletary-marriage-application",
+  "file": "1944_marriage_license_application_roy_bustin_irene_singletary.jpg",
+  "title": "1944 Marriage License Application of Roy Bustin and Irene Carol Singletary",
+  "caption": "Lafayette County, Florida, marriage license application sworn April 29, 1944. Identifies Roy Bustin and Irene Carol Singletary, their residences in Mayo, and their birthplaces. The application lists Roy's age as 21, conflicting with his documented December 1925 birth date.",
+  "type": "marriage",
+  "people": [
+    "roy-bustin-1925",
+    "irene-carol-singletary-1926"
+  ],
+  "family_lines": ["singletary"],
+  "date": "1944-04-29"
+},
+{
+  "id": "1950-roy-bustin-family-census",
+  "file": "1950_census_roy_bustin_family.jpg",
+  "title": "1950 United States Census — Roy Bustin Family",
+  "caption": "1950 United States Census, Lafayette County, Florida. Records the household of Roy Bustin, his wife Irene, and their daughter Jeanette.",
+  "type": "census",
+  "people": [
+    "roy-bustin-1925",
+    "irene-carol-singletary-1926"
+  ],
+  "family_lines": ["singletary"],
+  "date": "1950"
+},
+{
+  "id": "roy-larry-herman-bustin-fishing-newspaper",
+  "file": "roy_larry_herman_bustin_fishing_newspaper.jpg",
+  "title": "Newspaper Clipping — Roy, Larry Wayne, and Herman Bustin",
+  "caption": "Undated newspaper clipping showing Larry Wayne Bustin with a giant jewfish reportedly weighing more than 200 pounds, caught off Fort Myers, Florida. The photograph also identifies his father Roy Bustin and four-year-old son Herman. The article reports that the Bustin family operated a service station in Pahokee, Florida.",
+  "type": "newspaper",
+  "people": [
+    "roy-bustin-1925",
+    "larry-wayne-bustin-1952"
+  ],
+  "family_lines": ["singletary"],
+  "date": ""
 }
+
 
 
 

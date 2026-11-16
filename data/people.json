@@ -4080,7 +4080,97 @@
     "Louie died on March 19, 1976, at St. Luke's Hospital in Jacksonville, Duval County, Florida, following an extended illness. He was 55 years old.",
     "He was buried at Airline Cemetery near Mayo, Florida. His military grave marker commemorates his World War II service as a Staff Sergeant in the United States Army. His death certificate lists Perry, Florida, as the cemetery location, while his military headstone application identifies Mayo, Florida."
   ]
+},
+
+
+{
+  "id": "irene-carol-singletary-1926",
+  "first_name": "Irene",
+  "middle_name": "Carol",
+  "last_name": "Singletary",
+  "display_name": "Irene Carol Singletary Bustin",
+  "family_lines": ["singletary"],
+  "profile_photo": "irene_bustin_and_daughter_jeanette.jpg",
+  "birth_date": "1926-02-23",
+  "birth_year": 1926,
+  "birth_place": "Lafayette County, Florida, United States",
+  "death_date": "2000-01-09",
+  "death_year": 2000,
+  "death_place": "",
+  "father": "george-william-singletary-1895",
+  "mother": "lela-mae-mathis-1902",
+  "spouses": ["roy-bustin-1925"],
+  "biography": [
+    "Irene Carol Singletary was born on February 23, 1926, in Lafayette County, Florida, the daughter of George William Singletary and Lela Mae Mathis. She was one of nine children in the Singletary family.",
+    "In 1944, Irene married Roy Bustin, a native of Crescent City, Florida. Their marriage license application, completed on April 29, 1944, records Irene as 18 years old and Roy as 21. Both were living in Mayo, Florida, at the time.",
+    "Irene and Roy had children including Jeanette Bustin and Larry Wayne Bustin. A surviving studio portrait shows Irene with her young daughter Jeanette.",
+    "The 1950 United States Census records Irene and Roy living in Lafayette County, Florida, with their daughter Jeanette.",
+    "The Bustin family later had connections to Pahokee, Florida, where members of the family operated a service station. Family recollections also place Roy and Irene near their relatives Glover and Eller during a period of residence in Pahokee, although the dates have not yet been established.",
+    "Irene died on January 9, 2000, at the age of 73. She was buried at Florida National Cemetery in Bushnell, Sumter County, Florida, where her husband Roy had been buried in 1998. Her gravestone records her birth and death dates. One burial-index transcription gives January 6, 2000, as her death date, but her gravestone and other records identify January 9."
+  ]
+},
+{
+  "id": "roy-bustin-1925",
+  "first_name": "Roy",
+  "middle_name": "",
+  "last_name": "Bustin",
+  "display_name": "Roy Bustin",
+  "family_lines": ["singletary"],
+  "profile_photo": "roy_bustin_portrait.jpg",
+  "birth_date": "1925-12-13",
+  "birth_year": 1925,
+  "birth_place": "Crescent City, Florida, United States",
+  "death_date": "1998-01-22",
+  "death_year": 1998,
+  "death_place": "Marion County, Florida, United States",
+  "father": null,
+  "mother": null,
+  "spouses": ["irene-carol-singletary-1926"],
+  "military_service": [
+    {
+      "branch": "United States Army",
+      "conflict": "World War II",
+      "rank_in": "Private",
+      "rank": "Private First Class (PFC)",
+      "enlistment_date": "1945-04-24",
+      "notes": "Roy Bustin enlisted in the United States Army at Camp Blanding, Florida, on April 24, 1945. The Army enlistment index records his entry rank as Private and identifies his civilian occupation as general farming. His military gravestone at Florida National Cemetery commemorates his World War II service and identifies his rank as Private First Class. His unit, assignments, and discharge date have not yet been established."
+    }
+  ],
+  "biography": [
+    "Roy Bustin was born on December 13, 1925, in Crescent City, Florida. By December 1943, he was living in Mayo, Lafayette County, Florida, where he worked for L. A. Townsend.",
+    "Roy registered for the World War II draft on December 13, 1943, in Lafayette County, Florida. His registration describes him as approximately six feet tall, weighing 161 pounds, with gray eyes and brown hair. The registration also identifies Mrs. Mollie Lee Buston as the person who would always know his address.",
+    "In 1944, Roy married Irene Carol Singletary, daughter of George William Singletary and Lela Mae Mathis. Their marriage license application was completed on April 29, 1944, in Lafayette County. The application lists Roy's age as 21, although his draft registration and death records establish a birth year of 1925, making him 18 at that time.",
+    "Roy entered the United States Army on April 24, 1945, at Camp Blanding, Florida, during World War II. His enlistment record identifies him as a Private, while his military gravestone records his rank as Private First Class.",
+    "Roy and Irene raised a family that included Jeanette and Larry Wayne Bustin. The 1950 United States Census records the family living in Lafayette County, Florida.",
+    "The Bustin family later had connections to Pahokee, Florida, where members of the family operated a service station. A surviving newspaper clipping identifies Roy alongside his son Larry Wayne and grandson Herman Bustin.",
+    "Roy died on January 22, 1998, in Marion County, Florida, at age 72. He was buried at Florida National Cemetery in Bushnell, Sumter County, Florida, Section 412, Site 2456. His military gravestone commemorates his service as a Private First Class in the United States Army during World War II."
+  ]
+},
+{
+  "id": "larry-wayne-bustin-1952",
+  "first_name": "Larry",
+  "middle_name": "Wayne",
+  "last_name": "Bustin",
+  "display_name": "Larry Wayne Bustin",
+  "family_lines": ["singletary"],
+  "profile_photo": null,
+  "birth_date": "1952-09-23",
+  "birth_year": 1952,
+  "birth_place": "",
+  "death_date": "1977-03-03",
+  "death_year": 1977,
+  "death_place": "Palm Beach County, Florida, United States",
+  "father": "roy-bustin-1925",
+  "mother": "irene-carol-singletary-1926",
+  "spouses": [],
+  "biography": [
+    "Larry Wayne Bustin was born on September 23, 1952, the son of Roy Bustin and Irene Carol Singletary. He was a grandson of George William Singletary and Lela Mae Mathis.",
+    "Larry was associated with the family's life in Pahokee, Palm Beach County, Florida. A surviving newspaper clipping reports that he caught a giant jewfish weighing more than 200 pounds while fishing off Fort Myers. The accompanying photograph shows Larry with his father Roy and his young son Herman Bustin.",
+    "The newspaper clipping also reports that members of the Bustin family operated a service station in Pahokee, Florida.",
+    "Larry died on March 3, 1977, in Palm Beach County, Florida, at the age of 24."
+  ]
 }
+
 
 
 
