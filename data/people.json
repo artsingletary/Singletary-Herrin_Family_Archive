@@ -2479,6 +2479,19 @@
     "spouses": [
       "nina-mae-phillips"
     ],
+    "military_service": [
+      {
+        "branch": "United States Navy",
+        "conflict": "World War II",
+        "rank": "Seaman First Class (S1)",
+        "enlistment_rank": "Seaman Second Class (S2)",
+        "enlistment_date": "1943-05-18",
+        "enlistment_place": "Jacksonville, Florida",
+        "discharge_date": "1945-11-26",
+        "unit": "USS Darby (DE-218)",
+        "notes": "Loyd McCoy Singletary served in the United States Naval Reserve during World War II. A Navy muster roll records his enlistment on May 18, 1943, at Jacksonville, Florida, while a separate military index lists May 25, 1943. He was received aboard USS Darby (DE-218) on November 15, 1943, following assignment at the Naval Training Station in Norfolk, Virginia. His rating at that time was Seaman Second Class. Another military record identifies him with USS Darby on October 1, 1945. His military gravestone identifies his rating as Seaman First Class (S1), United States Naval Reserve. He was discharged on November 26, 1945."
+  }
+],
     "biography": [
       "Loyd McCoy Singletary was born on May 19, 1924, in Mayo, Lafayette County, Florida. He was the son of George William Singletary and Lela Mae Mathis. Loyd grew up in the Mayo area as part of a large Singletary family that included his brothers Louie, Vershal, Dewey, and Bill, along with three sisters.",
       "On June 30, 1942, shortly after his eighteenth birthday, Loyd registered for the military draft in Lafayette County, Florida. At the time, he was living in Mayo and listed his father, George Singletary, as his employer. His registration card described him as approximately five feet nine inches tall, weighing 115 pounds, with blue eyes and brown hair.",
@@ -4028,6 +4041,44 @@
   "spouses": [],
   "biography": [
     "Arthur Singletary Jr. is the son of Arthur Singletary Sr. and Bette Ann Kramer. Through his father, he is descended from the Singletary and Herrin families of North Florida. Through his mother, he is descended from the Kramer and Webster families, whose history is documented separately in the Kramer-Webster Family Archive."
+  ]
+},
+
+{
+  "id": "louie-singletary-1921",
+  "first_name": "Louie",
+  "middle_name": "",
+  "last_name": "Singletary",
+  "display_name": "Louie Singletary",
+  "family_lines": [
+    "singletary"
+  ],
+  "profile_photo": "louie_singletary_restored.png",
+  "birth_date": "1921-01-06",
+  "birth_year": 1921,
+  "birth_place": "Mayo, Lafayette County, Florida, United States",
+  "death_date": "1976-03-19",
+  "death_year": 1976,
+  "death_place": "Jacksonville, Duval County, Florida, United States",
+  "father": "george-william-singletary-1895",
+  "mother": "lela-mae-mathis-1902",
+  "spouses": [],
+  "military_service": [
+    {
+      "branch": "United States Army",
+      "conflict": "World War II",
+      "rank": "Staff Sergeant (S/SGT)",
+      "notes": "Louie Singletary served in the United States Army during World War II and attained the rank of Staff Sergeant. His rank and branch are documented on his Veterans Administration headstone application dated March 21, 1976. His military gravestone and obituary also confirm his World War II service. His military unit, enlistment and discharge dates, and locations of service have not yet been established."
+    }
+  ],
+  "biography": [
+    "Louie Singletary was born on January 6, 1921, in Mayo, Lafayette County, Florida, the son of George William Singletary and Lela Mae Mathis. He grew up in a large family that included his brothers Dewey, Loyd, Bill, Donald, and John Vershal, and his sisters Irene, Marlene, and Margaret.",
+    "On June 30, 1942, Louie registered for the World War II draft in Highlands County, Florida. He was living in Avon Park and working for G. W. Hale Construction Company. His registration described him as approximately five feet eight inches tall, weighing 140 pounds, with gray eyes and brown hair. His draft registration records his birth year as 1922, while his death certificate, military headstone application, and gravestone identify 1921.",
+    "During World War II, Louie served in the United States Army and attained the rank of Staff Sergeant. His service is documented by his Veterans Administration headstone application, military gravestone, and obituary. His specific military unit, dates of active service, and locations of assignment have not yet been established.",
+    "Louie married Lessie Sullivan Singletary. They had two sons, Randall and Keith. His obituary also identifies four grandchildren.",
+    "Following World War II, Louie settled in Jacksonville, Florida, where he worked as an insurance agent for Independent Life Insurance Company. According to his obituary, he had lived in Jacksonville for approximately 25 years before his death.",
+    "Louie died on March 19, 1976, at St. Luke's Hospital in Jacksonville, Duval County, Florida, following an extended illness. He was 55 years old.",
+    "He was buried at Airline Cemetery near Mayo, Florida. His military grave marker commemorates his World War II service as a Staff Sergeant in the United States Army. His death certificate lists Perry, Florida, as the cemetery location, while his military headstone application identifies Mayo, Florida."
   ]
 }
 

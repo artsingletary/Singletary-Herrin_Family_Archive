@@ -1350,7 +1350,28 @@
     "hunter-benjamin-matthews-1913"
   ],
   "description": "Photograph of the shared gravestone of Hunter Benjamin Matthews Sr. (1913–1990) and Louise Byrge Matthews. The marker records their marriage date as November 11, 1988. Hunter was buried at Crown Hill Memorial Park in Milford, Ohio, according to his death certificate. The photograph date is unknown."
+},
+
+
+{
+  "id": "louie-singletary-gravesite",
+  "file": "louie_singletary_gravesite.jpg",
+  "caption": "Military gravestone of Louie Singletary (January 6, 1921 – March 19, 1976) at Airline Baptist Church Cemetery near Mayo, Lafayette County, Florida. The marker commemorates his service in the United States Army during World War II and identifies his rank as Staff Sergeant.",
+  "people": [
+    "louie-singletary-1921"
+  ]
+},
+
+
+{
+  "id": "louie-singletary-restored-portrait",
+  "file": "louie_singletary_restored.png",
+  "caption": "Restored color photograph of Louie Singletary standing beside a tree. Original photograph date unknown. Digitally restored from a family photograph.",
+  "people": [
+    "louie-singletary-1921"
+  ]
 }
+
 
 
 

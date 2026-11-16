@@ -4045,7 +4045,60 @@
     "helen-retha-matthews-1911"
   ],
   "description": "Obituary published in The Miami News on August 29, 1941, following the death of Myrna Matthews Folsom on August 28, 1941, at age 23. The obituary identifies her husband as Marion Folsom, her son as Warner Folsom, and her father as William Mathews. It names brothers Hunter Mathews, Oliver, Willie, and Jonah Alderman, and sisters Ella, Gladys, Mrs. Retha Alvarez, and Mrs. Irene Byer. Burial was reported at Flagler Memorial Park in Miami, Florida. Several of the named family relationships remain to be investigated."
+},
+
+
+{
+  "id": "1942-louie-singletary-draft-registration-front",
+  "file": "1942_draft_registration_louie_singletary_front.jpg",
+  "title": "1942 World War II Draft Registration of Louie Singletary — Front",
+  "caption": "World War II draft registration card completed June 30, 1942, in Highlands County, Florida. Records Louie's residence in Avon Park, employment with G. W. Hale Construction Company, and birth date of January 6, 1922. Other records identify his birth year as 1921.",
+  "type": "military",
+  "people": ["louie-singletary-1921"],
+  "family_lines": ["singletary"],
+  "date": "1942-06-30"
+},
+{
+  "id": "1942-louie-singletary-draft-registration-back",
+  "file": "1942_draft_registration_louie_singletary_back.jpg",
+  "title": "1942 World War II Draft Registration of Louie Singletary — Reverse",
+  "caption": "Reverse of Louie Singletary's World War II draft registration card, recording his physical description: approximately five feet eight inches tall, 140 pounds, gray eyes, brown hair, and ruddy complexion.",
+  "type": "military",
+  "people": ["louie-singletary-1921"],
+  "family_lines": ["singletary"],
+  "date": "1942-06-30"
+},
+{
+  "id": "1976-louie-singletary-military-headstone",
+  "file": "1976_military_headstone_application_louie_singletary.jpg",
+  "title": "1976 Military Headstone Application for Louie Singletary",
+  "caption": "Veterans Administration application for a military grave marker, signed March 21, 1976, by Louie's wife, Lessie Singletary. Documents his service in the United States Army during World War II, highest rank of Staff Sergeant, birth date of January 6, 1921, death date of March 19, 1976, and burial at Airline Cemetery near Mayo, Florida.",
+  "type": "military",
+  "people": ["louie-singletary-1921"],
+  "family_lines": ["singletary"],
+  "date": "1976-03-21"
+},
+{
+  "id": "1976-louie-singletary-death-certificate",
+  "file": "1976_death_certificate_louie_singletary.jpg",
+  "title": "1976 Florida Death Certificate of Louie Singletary",
+  "caption": "Florida death certificate, state file number 76-020651. Records Louie's birth on January 6, 1921, his death on March 19, 1976, at St. Luke's Hospital in Jacksonville, his parents George W. Singletary and Lela Mathis, his wife Lessie Sullivan, and his occupation as an insurance agent.",
+  "type": "death",
+  "people": ["louie-singletary-1921"],
+  "family_lines": ["singletary"],
+  "date": "1976-03-19"
+},
+{
+  "id": "1976-louie-singletary-obituary",
+  "file": "1976_obituary_louie_singletary.jpg",
+  "title": "1976 Obituary of Louie Singletary",
+  "caption": "Newspaper obituary reporting Louie Singletary's death at age 55 in Jacksonville, Florida. Identifies his wife Lessie, sons Randall and Keith, sisters Irene Bustine, Margaret Duckworth, and Marline Crowley, brothers John V. and Bill Singletary, and four grandchildren. Also documents his occupation with Independent Life and his World War II Army service. Newspaper title and publication date have not yet been established.",
+  "type": "obituary",
+  "people": ["louie-singletary-1921"],
+  "family_lines": ["singletary"],
+  "date": "1976-03-19"
 }
+
 
 
 
