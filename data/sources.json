@@ -4178,7 +4178,40 @@
   ],
   "family_lines": ["singletary"],
   "date": "1934-11-24"
+},
+
+
+{
+  "id": "1945-bill-singletary-iris-ross-marriage-application",
+  "file": "1945_bill_singletary_iris_ross_marriage_application.jpg",
+  "title": "1945 Marriage License Application of Bill Singletary and Iris Ross",
+  "caption": "Marriage license application sworn April 19, 1945, in Lafayette County, Florida. Bill Singletary, age 17, of Mayo, applied to marry Iris Ross, age 21, of Live Oak. George William Singletary provided parental consent because Bill was underage. The application names Guy N. McClain as the expected officiant; it does not establish the wedding date.",
+  "type": "marriage",
+  "people": ["william-singletary-1927"],
+  "family_lines": ["singletary"],
+  "date": "1945-04-19"
+},
+{
+  "id": "1976-bill-singletary-death-certificate",
+  "file": "1976_bill_singletary_death_certificate.jpg",
+  "title": "1976 Florida Death Certificate of William Singletary",
+  "caption": "Florida death certificate, State File No. 76-075512. Records William Singletary's birth on June 20, 1927, death on November 25, 1976, at Shands Teaching Hospital in Gainesville, and burial at Airline Cemetery near Mayo. Identifies his parents as George Singletary and Lela Mathis and lists his marital status as divorced.",
+  "type": "death",
+  "people": ["william-singletary-1927"],
+  "family_lines": ["singletary"],
+  "date": "1976-11-25"
+},
+{
+  "id": "1976-bill-singletary-obituary",
+  "file": "1976_bill_singletary_obituary.jpg",
+  "title": "1976 Obituary of Bill Singletary — Tallahassee Democrat",
+  "caption": "Obituary published November 27, 1976, reporting Bill Singletary's death at age 49 following a brief illness. Names his four children, Linda Deloach, Maxine Pittman, Jerry Singletary, and Marty Singletary, as well as his surviving brother John and sisters Irene Bustin, Margaret Buckworth, and Marline Crowley.",
+  "type": "obituary",
+  "people": ["william-singletary-1927"],
+  "family_lines": ["singletary"],
+  "date": "1976-11-27"
 }
+
 
 
 

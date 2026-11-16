@@ -1425,7 +1425,35 @@
   "people": [
     "donald-singletary-1930"
   ]
+},
+
+
+{
+  "id": "bill-iris-singletary-young",
+  "file": "bill_and_iris_singletary_young.jpg",
+  "caption": "William \"Bill\" Singletary and Iris Ross Singletary as a young couple. Photograph date and location unknown.",
+  "people": [
+    "william-singletary-1927"
+  ]
+},
+{
+  "id": "bill-iris-singletary-later",
+  "file": "bill_and_iris_later.jpeg",
+  "caption": "William \"Bill\" Singletary and Iris Ross Singletary together in a later photograph. Date and location unknown.",
+  "people": [
+    "william-singletary-1927"
+  ]
+},
+{
+  "id": "bill-singletary-grave",
+  "file": "bill_singletary_gravestone.jpg",
+  "type": "grave",
+  "caption": "Grave marker of William \"Bill\" Singletary (June 20, 1927 – November 25, 1976) at Airline Cemetery near Mayo, Lafayette County, Florida.",
+  "people": [
+    "william-singletary-1927"
+  ]
 }
+
 
 
 
