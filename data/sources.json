@@ -4148,7 +4148,24 @@
   ],
   "family_lines": ["singletary"],
   "date": ""
+},
+
+
+{
+  "id": "1973-dewey-singletary-obituary",
+  "file": "1973_dewey_singletary_obituary.jpg",
+  "title": "1973 Obituary of Dewey Singletary — The Florida Times-Union",
+  "caption": "Obituary of Dewey Singletary published in The Florida Times-Union on November 21, 1973. Reports his death at age 54 in Perry, Florida, and identifies surviving family members, including his wife Ollie Mae Herrin Singletary and sister Irene Bustin of Pahokee, Florida.",
+  "type": "obituary",
+  "people": [
+    "dewey-singletary-1919",
+    "ollie-mae-herrin-1917",
+    "irene-carol-singletary-1926"
+  ],
+  "family_lines": ["singletary", "herrin"],
+  "date": "1973-11-21"
 }
+
 
 
 

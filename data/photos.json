@@ -1401,7 +1401,21 @@
   "type": "grave",
   "caption": "Military grave marker of Roy Bustin (December 13, 1925 – January 22, 1998), Private First Class, United States Army, World War II. Florida National Cemetery, Bushnell, Florida, Section 412, Site 2456.",
   "people": ["roy-bustin-1925"]
+},
+
+
+{
+  "id": "irene-singletary-family-group",
+  "file": "irene_singletary_family_group.jpg",
+  "caption": "Family photograph featuring Roy Bustin, Irene Carol Singletary Bustin, a boy believed to be one of their sons (possibly Roy Jr. or Larry Wayne), Ollie Mae Herrin Singletary, and Dewey Singletary. Photograph date and location unknown.",
+  "people": [
+    "irene-carol-singletary-1926",
+    "roy-bustin-1925",
+    "ollie-mae-herrin-1917",
+    "dewey-singletary-1919"
+  ]
 }
+
 
 
 
