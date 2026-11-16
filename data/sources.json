@@ -4164,7 +4164,22 @@
   ],
   "family_lines": ["singletary", "herrin"],
   "date": "1973-11-21"
+},
+
+
+{
+  "id": "1934-donald-singletary-death-certificate",
+  "file": "1934_donald_singletary_death_certificate.jpg",
+  "title": "1934 Florida Death Certificate of Donald Singletary",
+  "caption": "Florida death certificate documenting the death of Donald Singletary on November 24, 1934, in Mayo, Lafayette County, Florida, at age four. Identifies his parents as George William Singletary and Lela Mae Mathis and records diphtheria as the principal cause of death, with dyspnea (difficulty breathing) as a contributing condition. Florida State Board of Health, State File No. 18883.",
+  "type": "death",
+  "people": [
+    "donald-singletary-1930"
+  ],
+  "family_lines": ["singletary"],
+  "date": "1934-11-24"
 }
+
 
 
 
