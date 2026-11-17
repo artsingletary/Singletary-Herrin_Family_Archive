@@ -4029,8 +4029,7 @@
   "date": "1990-03-30",
   "file": "1990_hunter_benjamin_matthews_death_certificate.jpg",
   "people": [
-    "hunter-benjamin-matthews-1913",
-    "william-mathis-1885"
+    "hunter-benjamin-matthews-1913"
   ],
   "description": "Ohio Certificate of Death for Hunter B. Matthews Sr., born August 9, 1913, in Lee, Florida, and died March 30, 1990, at Providence Hospital in Cincinnati, Hamilton County, Ohio, age 76. The certificate identifies his father as William M. Matthews and records his mother's name as unknown. His surviving spouse was Louise Byrge Matthews. He was self-employed in office supplies and resided in Springfield Township, Hamilton County, Ohio. The certificate records burial at Crown Hill Memorial Park in Milford, Ohio, on April 5, 1990."
 },
@@ -4303,6 +4302,28 @@
   ],
   "documents": [
     "1964_george_william_singletary_obituary.jpg"
+  ]
+},
+{
+  "id": "1951-lela-mae-mathis-singletary-obituary",
+  "type": "Obituary",
+  "title": "1951 Florida Times-Union Obituary - Lela Mae Singletary",
+  "people": [
+    "lela-mae-mathis-1902"
+  ],
+  "date": "1951-07-21",
+  "location": "Mayo, Lafayette County, Florida, United States",
+  "description": "Obituary published in The Florida Times-Union on July 21, 1951, following Lela Mae Mathis Singletary's death on July 19. Reports that she died at her home near Mayo, was a longtime Lafayette County resident, and belonged to Midway Baptist Church. Her funeral was held at Airline Baptist Church on July 20. Names her husband G. W. Singletary, eight surviving children, brothers Glover, Roy, Rube, and Frank Mathis, and sister Jessie Sapp. Reports her age as 46, conflicting with the archive's 1902 birth year. A son appears as Lonnie Singletary, possibly a newspaper error for Louie Singletary; this identification remains unconfirmed.",
+  "supports": [
+    "Lela Mae Mathis Singletary's death in July 1951",
+    "Lela's membership in Midway Baptist Church",
+    "Funeral at Airline Baptist Church on July 20, 1951",
+    "Identification of Lela's surviving family members",
+    "Conflicting evidence concerning Lela's age",
+    "Possible Lonnie/Louie Singletary name discrepancy"
+  ],
+  "documents": [
+    "1951_lela_mae_mathis_singletary_obituary.jpg"
   ]
 }
 ]
