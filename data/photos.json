@@ -1452,7 +1452,38 @@
   "people": [
     "william-singletary-1927"
   ]
+},
+
+
+{
+  "id": "john-vershal-singletary-army-portrait",
+  "file": "john_vershal_singletary_army_portrait.jpg",
+  "caption": "John Vershal Singletary in his United States Army uniform, circa 1953–1955. He served in the Army from April 13, 1953, to April 13, 1955.",
+  "people": ["john-vershal-singletary-1933"]
+},
+{
+  "id": "john-vershal-singletary-army-group",
+  "file": "john_vershal_singletary_army_group.jpg",
+  "caption": "John Vershal Singletary standing with a fellow serviceman in uniform. The other soldier has not been identified. Photograph date and location unknown.",
+  "people": ["john-vershal-singletary-1933"]
+},
+
+
+{
+  "id": "john-vershal-singletary-grave",
+  "file": "john_vershal_singletary_gravestone.jpg",
+  "type": "grave",
+  "caption": "Military grave marker of John V. Singletary (May 27, 1933 – January 16, 1980), Midway Cemetery, Mayo, Florida. The marker identifies him as a Corporal in the U.S. Army and bears the inscription Korea.",
+  "people": ["john-vershal-singletary-1933"]
+},
+{
+  "id": "john-vershal-singletary-family",
+  "file": "john_vershal_myrtle_don_mike_family.jpg",
+  "caption": "John Vershal Singletary and his wife, Myrtle Mae Willis Singletary, pictured with their sons Don Vershal and Michael Arthur (Mike) Singletary, circa 1959. Location unknown.",
+  "people": ["john-vershal-singletary-1933"]
 }
+
+
 
 
 

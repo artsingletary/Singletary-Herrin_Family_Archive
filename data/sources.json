@@ -1651,7 +1651,10 @@
             "george-william-singletary-1895",
             "lela-mae-mathis-1902",
             "dewey-singletary-1919",
-            "loyd-mccoy-singletary-1924"
+            "louie-singletary-1921",
+            "loyd-mccoy-singletary-1924",
+            "irene-carol-singletary-1926",
+            "william-singletary-1927"
         ],
         "date": "1930-04-04",
         "location": "Election Precinct No. 3, Lafayette County, Florida, United States",
@@ -4210,7 +4213,30 @@
   "people": ["william-singletary-1927"],
   "family_lines": ["singletary"],
   "date": "1976-11-27"
+},
+
+
+{
+  "id": "1980-john-vershal-singletary-death-certificate",
+  "file": "1980_john_vershal_singletary_death_certificate.jpg",
+  "title": "1980 Florida Death Certificate of John V. Singletary",
+  "caption": "Florida death certificate, State File No. 80-001857. John V. Singletary was born May 27, 1933, and died January 16, 1980, at the Veterans Administration Hospital in Lake City, Columbia County, Florida. Identifies his parents as George W. Singletary and Lela Mathis, his surviving wife as Myrtle Willis, his occupation as a trailer mechanic, and his burial location as Midway Cemetery in Mayo.",
+  "type": "death",
+  "people": ["john-vershal-singletary-1933"],
+  "family_lines": ["singletary"],
+  "date": "1980-01-16"
+},
+{
+  "id": "1980-john-vershal-singletary-obituary",
+  "file": "1980_john_vershal_singletary_obituary.jpg",
+  "title": "1980 Obituary of John V. Singletary — Tallahassee Democrat",
+  "caption": "Obituary published January 17, 1980, reporting John V. Singletary's death at age 46. Describes his U.S. Army service, work as a trailer mechanic, and residence in Jacksonville and Mayo. Names his wife Myrtle, children Marsha, Don, Mitchell, and John, and sisters Irene Bustin, Marlene Crowley, and Margaret Ducksworth.",
+  "type": "obituary",
+  "people": ["john-vershal-singletary-1933"],
+  "family_lines": ["singletary"],
+  "date": "1980-01-17"
 }
+
 
 
 
