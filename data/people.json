@@ -1520,29 +1520,37 @@
     ]
   },
   {
-    "id": "lela-mae-mathis-1902",
-    "first_name": "Lela",
-    "middle_name": "Mae",
-    "last_name": "Mathis",
-    "family_lines": [
-      "singletary"
-    ],
-    "profile_photo": "lela_mae_mathis.jpg",
-    "birth_date": "1902-09-26",
-    "birth_year": 1902,
-    "birth_place": "Madison County, Florida",
-    "death_date": "1951-07-19",
-    "death_year": 1951,
-    "death_place": "Lafayette County, Florida",
-    "father": "daniel-m-mathis",
-    "mother": "mary-frances-darling",
-    "spouses": [
-      "george-william-singletary-1895"
-    ],
-    "biography": [
-      " In the 1920 United States Federal Census, Lela Mae Mathis Single$tary was recorded twice: once in the household of her parents, Daniel M. Mathis and Mary Frances Darling, and again in the household of her husband, George W. Singletary. The latter household included their infant son, Dewey Singletary, born August 23, 1919. The reason for Lela's duplicate enumeration is unknown."
-    ]
-  },
+  "id": "lela-mae-mathis-1902",
+  "first_name": "Lela",
+  "middle_name": "Mae",
+  "last_name": "Mathis",
+  "family_lines": [
+    "singletary"
+  ],
+  "profile_photo": "lela_mae_mathis.jpg",
+  "birth_date": "1902-09-26",
+  "birth_year": 1902,
+  "birth_place": "Madison County, Florida",
+  "death_date": "1951-07-19",
+  "death_year": 1951,
+  "death_place": "Lafayette County, Florida",
+  "father": "daniel-m-mathis",
+  "mother": "mary-frances-darling",
+  "spouses": [
+    "george-william-singletary-1895"
+  ],
+  "biography": [
+    "Lela Mae Mathis Singletary was born on September 26, 1902, in Madison County, Florida, the daughter of Daniel M. Mathis and Mary Frances Darling. She grew up in a large family in rural North Florida. The 1910 United States Census records seven-year-old Lela living with her parents and siblings in the Norton Creek area of Madison County.",
+    "On March 6, 1917, Lela married George William Singletary in Lafayette County, Florida. Their marriage license was issued the previous day, March 5, and identifies her as Lela May Mathis. She was only fourteen years old at the time of her marriage, while George was twenty-one. George was working as a farmer in the Mayo area, and the couple began their married life during the years surrounding America's entry into World War I.",
+    "In June 1917, George registered for the military draft and reported that he was supporting his wife and one sister. He subsequently served in the United States Army from September 1917 until January 1918. During the early years of their marriage, Lela and George also provided a home for members of George's family. According to family history, George helped care for his younger sisters following the deaths of their parents, John Vershal Singletary and Mary Bryant Singletary. The exact dates of their deaths remain uncertain.",
+    "Lela and George's first documented child, Dewey Singletary, was born on August 23, 1919. An unusual detail appears in the 1920 United States Census, where Lela was recorded in two different households in Lafayette County. One enumeration lists seventeen-year-old Lela in the household of her parents, Daniel and Mary Mathis, alongside her siblings. Another, recorded on January 28, places her in the household of her husband George, together with their infant son Dewey and George's younger sisters Alice and Viola. The reason for this duplicate enumeration is unknown, but the records provide a valuable glimpse into Lela's continuing connections with both her birth family and her husband's family.",
+    "Over the following two decades, Lela and George raised a large family in Lafayette County. Their nine documented children were Dewey, Louie, Loyd McCoy, Irene Carol, William (Bill), Donald, John Vershal, Marlene, and Margaret Singletary. The 1930 census records Lela and George living in Election Precinct No. 3 with five children: Dewey, Louie, Loyd, Irene, and a young son recorded as George W., believed to be their son William. Lela's brother Glover Mathis was living nearby, illustrating the continued presence of her extended family in the area.",
+    "The family continued to grow during the 1930s. Donald had been born in October 1930, followed by John Vershal in 1933, Marlene in 1938, and Margaret in 1940. By the time Margaret was born, Lela was thirty-seven years old and had been married to George for more than twenty-three years. Although the surviving records provide limited information about her daily activities, they document her life within a large family spanning several generations of the Mathis, Darling, and Singletary families of North Florida.",
+    "Lela died on July 19, 1951, in rural Mayo, Lafayette County, Florida. Her Florida death certificate identifies her parents as Daniel Mathis and Mary Darling and records acute gastritis as the cause of death. She was buried at Airline Cemetery in Lafayette County on July 20, 1951. Based on her recorded birth date of September 26, 1902, she was forty-eight years old at the time of her death.",
+    "An important discrepancy exists in the historical evidence concerning Lela's birth year. Her death certificate records September 26, 1905, but also gives her age as forty-six, two details that are inconsistent with one another. The 1910 census, which records her as seven years old, supports a birth year around 1902 or 1903. The family archive currently uses September 26, 1902, while preserving the conflicting information from her death certificate for future research.",
+    "Lela's life was closely connected to the rural communities of Madison and Lafayette counties. From her childhood in the Mathis household to her marriage to George Singletary and the raising of their nine documented children, her story reflects the interconnected families of North Florida during the first half of the twentieth century. Her descendants continued those family connections across Florida and beyond."
+  ]
+},
   {
     "id": "mary-jane-mathis-1873",
     "first_name": "Mary",
@@ -2261,38 +2269,51 @@
     "biography": []
   },
   {
-    "id": "george-william-singletary-1895",
-    "first_name": "George",
-    "middle_name": "William",
-    "last_name": "Singletary",
-    "family_lines": [
-      "singletary"
-    ],
-    "profile_photo": "george_william_singletary_restored.png",
-    "birth_date": "1895-11-15",
-    "birth_year": 1895,
-    "birth_place": "Old Town, Dixie County, Florida",
-    "death_date": "1964-10-07",
-    "death_year": 1964,
-    "death_place": "Lake City, Columbia County, Florida",
-    "father": "john-vershal-singletary-1851",
-    "mother": "mary-bryant-1875",
-    "spouses": [
-      "lela-mae-mathis-1902"
-    ],
-    "military_service": [
-      {
-        "branch": "United States Army",
-        "conflict": "World War I",
-        "unit": "124th Infantry",
-        "company": "Company B",
-        "rank_in": "Private",
-        "enlistment_date": "1917-09-19",
-        "discharge_date": "1918-01-18"
-      }
-    ],
-    "biography": []
-  },
+  "id": "george-william-singletary-1895",
+  "first_name": "George",
+  "middle_name": "William",
+  "last_name": "Singletary",
+  "family_lines": [
+    "singletary"
+  ],
+  "profile_photo": "george_william_singletary_restored.png",
+  "birth_date": "1895-11-15",
+  "birth_year": 1895,
+  "birth_place": "Old Town, Dixie County, Florida",
+  "death_date": "1964-10-07",
+  "death_year": 1964,
+  "death_place": "Lake City, Columbia County, Florida",
+  "father": "john-vershal-singletary-1851",
+  "mother": "mary-bryant-1875",
+  "spouses": [
+    "lela-mae-mathis-1902"
+  ],
+  "military_service": [
+    {
+      "branch": "United States Army",
+      "conflict": "World War I",
+      "unit": "124th Infantry",
+      "company": "Company B",
+      "rank_in": "Private",
+      "enlistment_date": "1917-09-19",
+      "discharge_date": "1918-01-18"
+    }
+  ],
+  "biography": [
+    "George William Singletary was born on November 15, 1895, in Old Town, Florida, the son of John Vershal Singletary and Mary Bryant. He grew up in rural North Florida, where his family was recorded in the 1900 and 1910 United States censuses in Lafayette County.",
+    "George's early adult years were marked by significant family responsibilities. The exact dates of his parents' deaths remain unknown, as no definitive death records or death certificates have been located. His father is believed to have died around 1911, based on the date appearing on his original gravestone. His mother is also believed to have died before 1917, although the year has not been established.",
+    "According to family history, George helped care for his younger sisters following the deaths of their parents. His World War I draft registration, completed on June 5, 1917, records that he was supporting his wife and one sister. By January 1920, the United States Census identifies two younger sisters, Alice and Viola Singletary, living in George's household with his wife, Lela Mae, and their infant son Dewey. Although the precise circumstances surrounding his parents' deaths remain uncertain, these contemporary records document George's responsibility for his younger siblings.",
+    "On March 6, 1917, George married Lela Mae Mathis in Lafayette County, Florida. Their marriage license had been issued the previous day and identifies the bride as Lela May Mathis. Lela was the daughter of Daniel M. Mathis and Mary Frances Darling.",
+    "At the time of his June 1917 draft registration, George was living in Mayo, Florida, and working as a farmer for J. A. Croft. Later that year, on September 19, he entered military service during World War I. According to his U.S. Veterans Bureau Master Index record, he served as a private in Company B, 124th Infantry, until his discharge on January 18, 1918. The circumstances of his discharge have not yet been established.",
+    "George and Lela raised a large family in Lafayette County. Their nine documented children were Dewey, Louie, Loyd McCoy, Irene Carol, William (Bill), Donald, John Vershal, Marlene, and Margaret Singletary. Their first documented child, Dewey, was born on August 23, 1919. The 1920 census records the young couple living with Dewey and George's sisters Alice and Viola in the Mayo area.",
+    "By the 1930 census, George and Lela were living in Election Precinct No. 3 of Lafayette County with five children: Dewey, Louie, Loyd, Irene, and a son recorded as George W., believed to be their son William (Bill). Their family continued to grow during the following decade, with their youngest documented children, Marlene and Margaret, born in 1938 and 1940.",
+    "Farming was an important part of George's working life. His 1917 draft registration identifies him as a farmer, and farming was also recorded as his occupation on his 1964 death certificate. Family recollections indicate that he worked as a taxi driver during his later years, although the dates and circumstances of that employment have not yet been documented.",
+    "George's wife, Lela Mae, died on July 19, 1951, in Lafayette County, at the age of 48. She was buried at Airline Cemetery. Following her death, George continued to live in the Mayo area. His later personal life remains somewhat uncertain. His October 1964 obituary identifies a surviving widow named Nettie, suggesting that he may have remarried after Lela's death. However, his death certificate records his marital status as widowed. Family recollections confirm that Nettie was known to George's relatives, although her relationship to him was not universally understood. No marriage record establishing the nature or date of their relationship has yet been located.",
+    "George died on October 7, 1964, at the Veterans Administration Hospital in Lake City, Columbia County, Florida, following an 18-day hospitalization. He was 68 years old. His death certificate identifies heart block as the immediate cause of death, with arteriosclerosis as an underlying condition. Bronchopneumonia and renal lithiasis were also recorded as significant conditions.",
+    "His obituary, published in the Tallahassee Democrat on October 9, 1964, named seven surviving children: Dewey, Louie, Irene, William (Bill), John, Marlene, and Margaret. His son Loyd McCoy had died in 1958. The obituary also named his sister Viola Sullivan among his survivors.",
+    "George was buried at Airline Cemetery in Lafayette County, Florida, on October 8, 1964, alongside the family whose history had been closely connected to the Mayo area for generations."
+  ]
+},
   {
     "id": "jacob-singletary-1801",
     "first_name": "Jacob",

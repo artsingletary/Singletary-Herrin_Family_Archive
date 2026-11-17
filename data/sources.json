@@ -4270,21 +4270,39 @@
   "people": ["marlene-singletary-1938"],
   "family_lines": ["singletary"],
   "date": "1954"
+},
+{
+  "id": "1964-george-william-singletary-death-certificate",
+  "type": "Death Certificate",
+  "title": "1964 Florida Death Certificate — George William Singletary",
+  "date": "1964-10-07",
+  "location": "Lake City, Columbia County, Florida, United States",
+  "description": "Florida death certificate documenting George William Singletary's death on October 7, 1964, at the Veterans Administration Hospital in Lake City, Florida. He was 68 years old, resided in Mayo, and worked as a farmer. His parents were John Singletary and Mary Bryant. The immediate cause of death was heart block, with arteriosclerosis recorded as an underlying condition. Bronchopneumonia and renal lithiasis were also listed. He was buried at Airline Cemetery in Mayo on October 8, 1964. The certificate records his marital status as widowed.",
+  "people": [
+    "george-william-singletary-1895"
+  ],
+  "family_lines": [
+    "singletary"
+  ],
+  "documents": [
+    "1964_george_william_singletary_death_certificate.jpg"
+  ]
+},
+{
+  "id": "1964-george-william-singletary-obituary",
+  "type": "Obituary",
+  "title": "1964 Obituary of George William Singletary — Tallahassee Democrat",
+  "date": "1964-10-09",
+  "location": "Mayo, Lafayette County, Florida, United States",
+  "description": "Obituary published in the Tallahassee Democrat on October 9, 1964, reporting George W. Singletary's death at the Veterans Hospital in Lake City. It names his surviving widow, Nettie, and seven surviving children: Irene Bustin, Marlene Crowley, Margaret Duckworth, Dewey Singletary, Louie Singletary, John Singletary, and Bill Singletary. His sister Viola Sullivan is also named. Funeral services were scheduled at Airline Baptist Church, followed by burial in the church cemetery. The obituary's identification of Nettie as his widow differs from the death certificate's recorded marital status.",
+  "people": [
+    "george-william-singletary-1895"
+  ],
+  "family_lines": [
+    "singletary"
+  ],
+  "documents": [
+    "1964_george_william_singletary_obituary.jpg"
+  ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
