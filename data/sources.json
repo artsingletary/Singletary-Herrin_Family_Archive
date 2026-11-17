@@ -4247,7 +4247,32 @@
   "people": ["margaret-singletary-1940"],
   "family_lines": ["singletary"],
   "date": "2021-11-01"
+},
+
+
+{
+  "id": "2010-marlene-singletary-crowley-obituary",
+  "file": "2010_marlene_singletary_crowley_obituary.jpg",
+  "title": "2010 Obituary of Marlene Singletary Crowley",
+  "caption": "Obituary published July 28, 2010, in The State newspaper. Identifies Marlene as the daughter of George Singletary and Lela Mae Mathis Singletary, widow of Ervin G. 'Buddy' Crowley, and sister of Margaret Ducksworth. Records her death on July 26, 2010, and names her children and descendants.",
+  "type": "obituary",
+  "people": ["marlene-singletary-1938"],
+  "family_lines": ["singletary"],
+  "date": "2010-07-28"
+},
+
+
+{
+  "id": "1954-marlene-singletary-marriage",
+  "title": "1954 Florida Marriage Index — Marlene Singletary",
+  "caption": "Florida marriage index entry for Marlene Singletary, recording a marriage in 1954 in Okeechobee, Florida. Certificate number 5574, volume 1476. The index excerpt does not identify the spouse or provide an exact marriage date.",
+  "type": "marriage",
+  "people": ["marlene-singletary-1938"],
+  "family_lines": ["singletary"],
+  "date": "1954"
 }
+
+
 
 
 

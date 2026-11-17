@@ -74,6 +74,7 @@
         "people": [
             "lela-mae-mathis-1902",
             "john-vershal-singletary-1933",
+            "marlene-singletary-1938",
             "margaret-singletary-1940"
         ]
     }, 
@@ -1516,7 +1517,38 @@
   "type": "grave",
   "caption": "Shared gravestone of Margaret Singletary Ducksworth (born April 26, 1940) and her husband, Willard R. Ducksworth Sr. (March 26, 1931 – January 18, 2008), at Bethany Cemetery, Lafayette County, Florida. Margaret died October 31, 2021; her death date is not inscribed on the photographed marker.",
   "people": ["margaret-singletary-1940"]
+},
+
+
+{
+  "id": "marlene-singletary-1952",
+  "file": "marlene_singletary_1952.jpg",
+  "caption": "Marlene Singletary in a 1952 school photograph.",
+  "people": ["marlene-singletary-1938"]
+},
+{
+  "id": "marlene-singletary-about-1954",
+  "file": "marlene_singletary_about_1954.jpg",
+  "caption": "Marlene Singletary, photographed around 1954, before her marriage to Ervin G. 'Buddy' Crowley.",
+  "people": ["marlene-singletary-1938"]
+},
+{
+  "id": "irene-marlene-buddy-crowley",
+  "file": "irene_marlene_buddy_crowley.jpg",
+  "caption": "Irene Carol Singletary Bustin with her sister Marlene Singletary Crowley and Marlene's husband, Ervin G. 'Buddy' Crowley. Date and location unknown.",
+  "people": [
+    "irene-carol-singletary-1926",
+    "marlene-singletary-1938"
+  ]
+},
+{
+  "id": "marlene-ervin-crowley-grave",
+  "file": "marlene_ervin_crowley_gravestone.jpg",
+  "type": "grave",
+  "caption": "Shared gravestone of Marlene Singletary Crowley (February 2, 1938 – July 26, 2010) and her husband, Ervin G. 'Buddy' Crowley (1930–2009).",
+  "people": ["marlene-singletary-1938"]
 }
+
 
 
 
