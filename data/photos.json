@@ -72,7 +72,9 @@
         "file": "lela_mae_mathis_singletary_children.jpg",
         "caption": "Lela Mae with children Marlene, Margaret, and Vershal",
         "people": [
-            "lela-mae-mathis-1902"
+            "lela-mae-mathis-1902",
+            "john-vershal-singletary-1933",
+            "margaret-singletary-1940"
         ]
     }, 
    {
@@ -1481,7 +1483,41 @@
   "file": "john_vershal_myrtle_don_mike_family.jpg",
   "caption": "John Vershal Singletary and his wife, Myrtle Mae Willis Singletary, pictured with their sons Don Vershal and Michael Arthur (Mike) Singletary, circa 1959. Location unknown.",
   "people": ["john-vershal-singletary-1933"]
+},
+
+
+{
+  "id": "margaret-singletary-1953",
+  "file": "margaret_singletary_1953.jpg",
+  "caption": "Margaret Singletary in a 1953 Lafayette High School photograph, Mayo, Florida.",
+  "people": ["margaret-singletary-1940"]
+},
+{
+  "id": "margaret-singletary-1954",
+  "file": "margaret_singletary_1954.jpg",
+  "caption": "Margaret Singletary in a 1954 Lafayette High School photograph, Mayo, Florida.",
+  "people": ["margaret-singletary-1940"]
+},
+{
+  "id": "margaret-ducksworth-family-group",
+  "file": "margaret_ducksworth_family_group.jpg",
+  "caption": "Family group portrait associated with Margaret Singletary Ducksworth. Other individuals have not yet been identified. Date and location unknown.",
+  "people": ["margaret-singletary-1940"]
+},
+{
+  "id": "margaret-ducksworth-family-outdoors",
+  "file": "margaret_ducksworth_family_outdoors.jpg",
+  "caption": "Outdoor family photograph associated with Margaret Singletary Ducksworth. Other individuals have not yet been identified. Date and location unknown.",
+  "people": ["margaret-singletary-1940"]
+},
+{
+  "id": "margaret-ducksworth-grave",
+  "file": "margaret_ducksworth_gravestone.jpg",
+  "type": "grave",
+  "caption": "Shared gravestone of Margaret Singletary Ducksworth (born April 26, 1940) and her husband, Willard R. Ducksworth Sr. (March 26, 1931 – January 18, 2008), at Bethany Cemetery, Lafayette County, Florida. Margaret died October 31, 2021; her death date is not inscribed on the photographed marker.",
+  "people": ["margaret-singletary-1940"]
 }
+
 
 
 
