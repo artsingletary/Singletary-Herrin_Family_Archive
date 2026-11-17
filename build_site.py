@@ -217,6 +217,22 @@ for person in people:
 
 
 # --------------------------------------------------
+# Load cemetery data before generating person pages
+with open(BASE_DIR / "data" / "cemeteries.json", "r", encoding="utf-8") as file:
+    cemeteries = json.load(file)
+
+burial_by_person_id = {}
+
+for cemetery in cemeteries:
+    for burial in cemetery.get("burials", []):
+        person_id = burial.get("person_id")
+
+        if person_id:
+            if person_id in burial_by_person_id:
+                raise ValueError(f"Duplicate burial assignment: {person_id}")
+
+            burial_by_person_id[person_id] = cemetery
+
 # Set up Jinja templates
 # --------------------------------------------------
 
@@ -657,12 +673,69 @@ for person in people:
         sources=person_sources,
         photos=person_photos,
         grave_photos=grave_photos,
+        cemetery=burial_by_person_id.get(person['id']),
         related_stories=related_stories,
     )
 
 
     # Create the person's HTML file
     output_file = PEOPLE_DIR / f"{person['id']}.html"
+
+    with open(output_file, "w", encoding="utf-8") as file:
+        file.write(html)
+
+
+# --------------------------------------------------
+# Generate Cemetery Pages
+# --------------------------------------------------
+
+CEMETERIES_FILE = BASE_DIR / "data" / "cemeteries.json"
+CEMETERIES_DIR = OUTPUT_DIR / "cemeteries"
+
+
+CEMETERIES_DIR.mkdir(exist_ok=True)
+
+# Generate the main Cemetery Directory
+cemeteries_template = environment.get_template("cemeteries.html")
+
+directory_html = cemeteries_template.render(
+    cemeteries=sorted(
+        cemeteries,
+        key=lambda cemetery: cemetery["name"].casefold()
+    )
+)
+
+with open(OUTPUT_DIR / "cemeteries.html", "w", encoding="utf-8") as file:
+    file.write(directory_html)
+
+cemetery_template = environment.get_template("cemetery.html")
+
+for cemetery in cemeteries:
+    burials = []
+
+    for burial in cemetery.get("burials", []):
+        burial_record = burial.copy()
+        burial_record["person"] = people_by_id.get(
+            burial.get("person_id")
+        )
+        burials.append(burial_record)
+
+    burials.sort(
+        key=lambda burial: (
+            (
+                burial["person"]["display_name"]
+                if burial["person"]
+                else burial.get("name", "")
+            ).casefold()
+        )
+    )
+
+    html = cemetery_template.render(
+        cemetery=cemetery,
+        burials=burials
+    )
+
+    output_file = CEMETERIES_DIR / f"{cemetery['id']}.html"
 
     with open(output_file, "w", encoding="utf-8") as file:
         file.write(html)

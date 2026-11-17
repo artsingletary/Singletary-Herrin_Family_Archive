@@ -1,0 +1,26 @@
+[
+  {
+    "id": "airline-cemetery",
+    "name": "Airline Cemetery",
+    "city": "Mayo",
+    "county": "Lafayette",
+    "state": "Florida",
+    "country": "USA",
+    "description": "",
+    "findagrave_url": "",
+    "burials": [
+      {
+        "person_id": "george-william-singletary-1895",
+        "findagrave_url": ""
+      },
+      {
+        "person_id": "lela-mae-mathis-1902",
+        "findagrave_url": ""
+      },
+      {
+        "person_id": "loyd-mccoy-singletary-1924",
+        "findagrave_url": ""
+      }
+    ]
+  }
+]
