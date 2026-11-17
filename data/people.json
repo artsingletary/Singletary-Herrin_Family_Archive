@@ -2717,7 +2717,7 @@
     ],
     "birth_year": 1799,
     "death_year": 1883,
-    "father": null,
+    "father": "william-smith-sr-1765",
     "mother": null,
     "spouses": [
       "john-williams-sr-1799"
@@ -4331,29 +4331,27 @@
     "Buddy died on December 20, 2009. Marlene died on July 26, 2010, at the age of 72. Her obituary, published in July 2010, described her as 73.",
     "Funeral services were scheduled for July 29, 2010, at Praise the Lord Ministries, followed by burial in the church cemetery. Her obituary recorded 16 grandchildren, 22 great-grandchildren, and two great-great-grandchildren."
   ]
+},
+{
+  "id": "william-smith-sr-1765",
+  "first_name": "William",
+  "middle_name": "",
+  "last_name": "Smith",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_year": 1765,
+  "birth_year_approximate": true,
+  "death_year": 1845,
+  "death_year_approximate": true,
+  "father": null,
+  "mother": null,
+  "biography": [
+    "William Smith Sr. was born about 1765. According to History of Clinch County, Georgia, he settled on Red Bluff Creek in 1822, bringing a large stock of cattle and establishing a farm.",
+    "William's first wife was identified in the county history as Miss Piatt. Their children were William S. Smith, Martha Smith, Elinor Smith, Nancy Smith, and John Smith. Nancy later married John Williams Sr., and their children included Hezekiah Ponder Williams.",
+    "Following the death of his first wife, William married Neter Stephens. Their children were Manning, Jesse, James M., Rebecca, Pollie, Elizabeth, Naomi, and Fannie Smith.",
+    "William was a member and minister of the Primitive Baptist Church. He helped establish Arabia Church and was elected justice of the peace for the 586th district in 1830 and 1833.",
+    "According to the county history, William died about 1845 and was buried at Arabia Church. Some family research gives his death year as 1841; this discrepancy remains unresolved."
+  ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]

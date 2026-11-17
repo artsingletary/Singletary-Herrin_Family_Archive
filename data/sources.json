@@ -4325,5 +4325,30 @@
   "documents": [
     "1951_lela_mae_mathis_singletary_obituary.jpg"
   ]
+},
+{
+  "id": "history-of-clinch-county-georgia-william-smith",
+  "type": "Book",
+  "title": "History of Clinch County, Georgia — William Smith Family",
+  "people": [
+    "william-smith-sr-1765",
+    "nancy-smith-1799"
+  ],
+  "date": "1916",
+  "location": "Clinch County, Georgia, United States",
+  "description": "Folks Huxford, compiler and editor, History of Clinch County, Georgia (Macon, Georgia: The J. W. Burke Company, 1916), pages 154–156. Describes William Smith's settlement on Red Bluff Creek in 1822, his marriages to Miss Piatt and Neter Stephens, his children, Primitive Baptist ministry, service as justice of the peace, death about 1845, and burial at Arabia Church. Identifies Nancy Smith as his daughter, John Williams Sr. as her husband, and Hezekiah P. Williams as one of their children. Gives Nancy's birth year as 1798, compared with 1799 in the archive.",
+  "supports": [
+    "William Smith settled on Red Bluff Creek in 1822",
+    "William Smith married Miss Piatt and later Neter Stephens",
+    "William Smith was the father of Nancy Smith Williams",
+    "Nancy Smith married John Williams Sr.",
+    "Hezekiah P. Williams was a son of Nancy Smith Williams",
+    "William Smith served as a Primitive Baptist minister",
+    "William Smith was elected justice of the peace in 1830 and 1833",
+    "William Smith died about 1845 and was buried at Arabia Church",
+    "Conflicting evidence concerning Nancy Smith's birth year"
+  ],
+  "url": "https://www.google.com/books/edition/History_of_Clinch_County_Georgia/lPMxAQAAMAAJ?hl=en&gbpv=1&printsec=frontcover",
+  "documents": []
 }
 ]
