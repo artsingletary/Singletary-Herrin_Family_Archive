@@ -217,6 +217,62 @@ for person in people:
 
 
 # --------------------------------------------------
+# Identify direct ancestors
+# --------------------------------------------------
+
+ROOT_PERSON_ID = "arthur-singletary-jr"
+
+
+def get_direct_ancestor_ids(person_id):
+    """
+    Return the IDs of all recorded direct ancestors.
+
+    Follows father and mother relationships recursively.
+    Each ancestor is included only once.
+    """
+
+    ancestors = set()
+    visited = {person_id}
+    pending = [person_id]
+
+    while pending:
+        current_id = pending.pop()
+        current = people_by_id.get(current_id)
+
+        if current is None:
+            raise ValueError(
+                f"Missing person profile: {current_id}"
+            )
+
+        for relationship in ("father", "mother"):
+            parent_id = current.get(relationship)
+
+            if not parent_id:
+                continue
+
+            if parent_id not in people_by_id:
+                raise ValueError(
+                    f"Missing {relationship} profile "
+                    f"{parent_id} for {current_id}"
+                )
+
+            if parent_id in visited:
+                continue
+
+            visited.add(parent_id)
+            ancestors.add(parent_id)
+            pending.append(parent_id)
+
+    return ancestors
+
+
+direct_ancestor_ids = get_direct_ancestor_ids(ROOT_PERSON_ID)
+
+print(f"Direct ancestors identified: {len(direct_ancestor_ids)}")
+
+
+
+# --------------------------------------------------
 # Load cemetery data before generating person pages
 with open(BASE_DIR / "data" / "cemeteries.json", "r", encoding="utf-8") as file:
     cemeteries = json.load(file)
@@ -370,7 +426,8 @@ for family in family_pages:
     html = family_template.render(
         family_name=family["family_name"],
         family_people=family["people"],
-        people_by_id=people_by_id
+        people_by_id=people_by_id,
+	    direct_ancestor_ids=direct_ancestor_ids
     )
 
     family_file = OUTPUT_DIR / family["filename"]

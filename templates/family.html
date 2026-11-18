@@ -66,22 +66,47 @@
             </select>
         </div>
 
+
+	<div class="family-filter">
+    	    <label for="direct-ancestors-only">
+        	<input
+            	   type="checkbox"
+            	   id="direct-ancestors-only"
+        	>
+        	  Direct Ancestors Only
+    	    </label>
+	</div>
+
+
         <ul class="family-list">
 
            {% for person in family_people %}
 
-            <li
-                data-last-name="{{ person.last_name | default('', true) | lower }}"
-                data-first-name="{{ person.first_name | default('', true) | lower }}"
-                data-birth-year="{{ person.birth_year if person.birth_year is not none else '' }}"
-            >
-                 <a href="people/{{ person.id }}.html">
-                    {{ person.display_name }}
-                </a>
+	   <li
+    		class="{% if person.id in direct_ancestor_ids %}direct-ancestor{% endif %}"
+    		data-last-name="{{ person.last_name | default('', true) | lower }}"
+    		data-first-name="{{ person.first_name | default('', true) | lower }}"
+    		data-birth-year="{{ person.birth_year if person.birth_year is not none else '' }}"
+    		data-direct-ancestor="{{ 'true' if person.id in direct_ancestor_ids else 'false' }}"
+	  >
 
-                {% if person.years %}
-                    — {{ person.years }}
-                {% endif %}
+
+		{% if person.id in direct_ancestor_ids %}
+    		<span
+        		class="direct-ancestor-star"
+        		title="Direct Ancestor"
+        		aria-label="Direct Ancestor"
+    		>★</span>
+		{% endif %}
+
+		<a href="people/{{ person.id }}.html">
+    		{{ person.display_name }}
+		</a>
+
+		{% if person.years %}
+    			— {{ person.years }}
+		{% endif %}
+
             </li>
 
            {% endfor %}
@@ -103,6 +128,23 @@
     <script>
         const sortSelect = document.getElementById("sort-order");
         const familyList = document.querySelector(".family-list");
+
+
+	// Filter family members by direct ancestor status
+	const ancestorCheckbox = document.getElementById("direct-ancestors-only");
+
+	ancestorCheckbox.addEventListener("change", function () {
+    		const people = familyList.querySelectorAll("li");
+
+   		 people.forEach(function (person) {
+        	    const isDirectAncestor =
+            		person.dataset.directAncestor === "true";
+
+        	   person.hidden =
+            		ancestorCheckbox.checked && !isDirectAncestor;
+    		});
+	});
+
 
         sortSelect.addEventListener("change", function () {
 

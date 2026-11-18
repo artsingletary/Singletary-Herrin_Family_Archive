@@ -81,6 +81,26 @@ a {
     text-decoration: underline;
 }
 
+/* --------------------------------------------------
+   Direct Ancestor Highlighting
+-------------------------------------------------- */
+
+.direct-ancestor-star {
+    color: #b8860b;
+    font-size: 1.15rem;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Highlight direct ancestors without overwhelming
+   the existing family listing design. */
+
+.family-list li.direct-ancestor {
+    background-color: #fffaf0;
+    border-left: 4px solid #b8860b;
+    padding-left: 17px;
+}
+
 .person-section {
     background-color: white;
     border: 1px solid #d8d3c8;
@@ -95,10 +115,6 @@ footer {
     margin-top: 40px;
     color: #666;
     font-size: 0.9rem;
-}
-
-.family-list a:hover {
-    text-decoration: underline;
 }
 
 .person-section {
@@ -822,4 +838,8 @@ footer {
 
 .related-story-link:hover {
     text-decoration: underline;
+}
+
+.family-list li[hidden] {
+    display: none;
 }
