@@ -322,5 +322,101 @@
         "findagrave_url": "https://www.findagrave.com/memorial/46404092"
       }
     ]
+  },
+  {
+    "id": "woodlawn-cemetery",
+    "name": "Woodlawn Cemetery",
+    "city": "Perry",
+    "county": "Taylor",
+    "state": "Florida",
+    "country": "United States",
+    "description": "Woodlawn Cemetery is located in Perry, Taylor County, Florida. It is the final resting place of several generations of the Herrin and Singletary families.",
+    "findagrave_url": "https://www.findagrave.com/cemetery/1872188",
+    "burials": [
+      {
+        "person_id": "debra-renee-george-1956",
+        "name": "Debra Renee George Cotrel",
+        "last_name": "Cotrel",
+        "years": "1956–2012",
+        "findagrave_url": "https://www.findagrave.com/memorial/230352791"
+      },
+      {
+        "person_id": "shelby-jean-herrin-1939",
+        "name": "Shelby Jean Herrin Freeman",
+        "last_name": "Freeman",
+        "years": "1939–1978",
+        "findagrave_url": "https://www.findagrave.com/memorial/113322277"
+      },
+      {
+        "person_id": "james-talmage-herrin-1919",
+        "name": "James Talmadge Herrin Sr.",
+        "last_name": "Herrin",
+        "years": "1919–1986",
+        "findagrave_url": "https://www.findagrave.com/memorial/113323530"
+      },
+      {
+        "person_id": "lauretta-palmer-1898",
+        "name": "Laura Etta Palmer Herrin",
+        "last_name": "Herrin",
+        "years": "1898–1959",
+        "findagrave_url": "https://www.findagrave.com/memorial/106465075"
+      },
+      {
+        "person_id": "william-levi-herrin-1892",
+        "name": "William Levi Herrin Sr.",
+        "last_name": "Herrin",
+        "years": "1892–1975",
+        "findagrave_url": "https://www.findagrave.com/memorial/106464702"
+      },
+      {
+        "person_id": "freddy-ray-mathis-1938",
+        "name": "Freddy Ray Mathis",
+        "last_name": "Mathis",
+        "years": "1938–1967",
+        "findagrave_url": "https://www.findagrave.com/memorial/111490608"
+      },
+      {
+        "person_id": "mary-lou-herrin-1927",
+        "name": "Mary Lou Herrin Mathis",
+        "last_name": "Mathis",
+        "years": "1927–1972",
+        "findagrave_url": "https://www.findagrave.com/memorial/113323335"
+      },
+      {
+        "person_id": "arthur-singletary-1941",
+        "name": "Arthur Singletary Sr.",
+        "last_name": "Singletary",
+        "years": "1941–2011",
+        "findagrave_url": "https://www.findagrave.com/memorial/97592190"
+      },
+      {
+        "person_id": "dewey-singletary-1919",
+        "name": "Dewey Singletary",
+        "last_name": "Singletary",
+        "years": "1919–1973",
+        "findagrave_url": "https://www.findagrave.com/memorial/35822377"
+      },
+      {
+        "person_id": "ollie-mae-herrin-1917",
+        "name": "Ollie Mae Herrin Singletary",
+        "last_name": "Singletary",
+        "years": "1917–1992",
+        "findagrave_url": "https://www.findagrave.com/memorial/35822404"
+      },
+      {
+        "person_id": "gladys-lucille-herrin-1924",
+        "name": "Gladys Lucille Herrin Stephens",
+        "last_name": "Stephens",
+        "years": "1924–1954",
+        "findagrave_url": "https://www.findagrave.com/memorial/113322760"
+      },
+      {
+        "person_id": "connie-mack-sullivan-1943",
+        "name": "Connie Mack Sullivan",
+        "last_name": "Sullivan",
+        "years": "1943–2014",
+        "findagrave_url": "https://www.findagrave.com/memorial/171335785"
+      }
+    ]
   }
 ]
