@@ -723,12 +723,18 @@ for cemetery in cemeteries:
     burials.sort(
         key=lambda burial: (
             (
+                burial["person"].get("last_name", "")
+                if burial["person"]
+                else burial.get("last_name", "")
+            ).casefold(),
+            (
                 burial["person"]["display_name"]
                 if burial["person"]
                 else burial.get("name", "")
             ).casefold()
         )
     )
+
 
     html = cemetery_template.render(
         cemetery=cemetery,
