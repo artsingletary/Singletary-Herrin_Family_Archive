@@ -723,14 +723,20 @@ for cemetery in cemeteries:
     burials.sort(
         key=lambda burial: (
             (
-                burial["person"].get("last_name", "")
-                if burial["person"]
-                else burial.get("last_name", "")
+                burial.get("last_name")
+                or (
+                    burial["person"].get("last_name", "")
+                    if burial["person"]
+                    else ""
+                )
             ).casefold(),
             (
-                burial["person"]["display_name"]
-                if burial["person"]
-                else burial.get("name", "")
+                burial.get("name")
+                or (
+                    burial["person"]["display_name"]
+                    if burial["person"]
+                    else ""
+                )
             ).casefold()
         )
     )

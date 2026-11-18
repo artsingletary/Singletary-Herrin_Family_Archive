@@ -48,26 +48,28 @@
 
         <h3>Family Members Buried Here</h3>
 
+
         {% if burials %}
         <ul class="family-list">
             {% for burial in burials %}
             <li>
-                {% if burial.person %}
-                    <a href="../people/{{ burial.person.id }}.html">
-                        {{ burial.person.display_name }}
-                    </a>
 
-                    {% if burial.person.years %}
-                        — {{ burial.person.years }}
-                    {% endif %}
-		{% else %}
-    		    {{ burial.name }}
+	{% if burial.person %}
+    		<a href="../people/{{ burial.person.id }}.html">
+        		{{ burial.name or burial.person.display_name }}
+    		</a>
 
-    		    {% if burial.years %}
-        	        — {{ burial.years }}
-    		    {% endif %}
-		{% endif %}
 
+    		{% if burial.person.years or burial.years %}
+        	   — {{ burial.years or burial.person.years }}
+    		{% endif %}
+	{% else %}
+    		{{ burial.name }}
+
+    		{% if burial.years %}
+        		— {{ burial.years }}
+    		{% endif %}
+	{% endif %}
 
                 {% if burial.findagrave_url %}
                     — <a href="{{ burial.findagrave_url }}">Find a Grave</a>
