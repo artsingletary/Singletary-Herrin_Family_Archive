@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+<!-- Google Analytics 4 - Consent Controlled -->
+<script>
+    const GA_MEASUREMENT_ID = "G-MMTEL90RK4";
+
+    function loadGoogleAnalytics() {
+        if (window.gaAnalyticsLoaded) return;
+
+        window.gaAnalyticsLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+
+        window.gtag = function () {
+            window.dataLayer.push(arguments);
+        };
+
+        gtag("js", new Date());
+        gtag("config", GA_MEASUREMENT_ID);
+
+        const script = document.createElement("script");
+        script.async = true;
+        script.src =
+            "https://www.googletagmanager.com/gtag/js?id=" +
+            GA_MEASUREMENT_ID;
+
+        document.head.appendChild(script);
+    }
+
+    // Load Analytics only if consent was previously granted.
+    try {
+        if (localStorage.getItem("analytics-consent") === "accepted") {
+            loadGoogleAnalytics();
+        }
+    } catch (error) {
+        // Analytics remains disabled if storage is unavailable.
+    }
+</script>
+
+
+<!-- Analytics Cookie Consent Banner -->
+<style>
+    #cookie-consent-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        background: #f8f7f3;
+        border-top: 2px solid #b8a58c;
+        padding: 15px 25px;
+        box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.12);
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    #cookie-consent-banner p {
+        margin: 0;
+        flex: 1;
+        min-width: 240px;
+        color: #333;
+    }
+
+    #cookie-consent-banner a {
+        color: #3d4b3a;
+        text-decoration: underline;
+    }
+
+    #cookie-consent-banner button {
+        padding: 9px 18px;
+        border: 1px solid #8a6c48;
+        border-radius: 5px;
+        background: #fff;
+        color: #333;
+        cursor: pointer;
+    }
+
+    #cookie-consent-banner button:hover {
+        background: #f0e7d8;
+    }
+
+    #cookie-consent-banner button:focus-visible {
+        outline: 2px solid #3d4b3a;
+        outline-offset: 2px;
+    }
+</style>
+
+
+<!-- Cookie Consent Banner Behavior -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        // Create the banner.
+        const banner = document.createElement("div");
+        banner.id = "cookie-consent-banner";
+        banner.setAttribute("role", "region");
+        banner.setAttribute("aria-label", "Analytics cookie preferences");
+
+        // Create the message.
+        const message = document.createElement("p");
+        message.textContent =
+            "This website uses optional analytics cookies to understand visitor activity. ";
+
+        // Create the Privacy Notice link.
+        const privacyLink = document.createElement("a");
+        privacyLink.textContent = "Privacy Notice";
+
+        // Use the correct relative path for each page.
+        const inSubdirectory =
+            window.location.pathname.includes("/people/") ||
+            window.location.pathname.includes("/stories/");
+
+        privacyLink.href = inSubdirectory
+            ? "../privacy.html"
+            : "privacy.html";
+
+        message.appendChild(privacyLink);
+
+        // Create the Accept button.
+        const acceptButton = document.createElement("button");
+        acceptButton.type = "button";
+        acceptButton.textContent = "Accept";
+
+        // Create the Reject button.
+        const rejectButton = document.createElement("button");
+        rejectButton.type = "button";
+        rejectButton.textContent = "Reject";
+
+        // Add everything to the banner.
+        banner.append(message, acceptButton, rejectButton);
+        document.body.appendChild(banner);
+
+        // Check for an existing consent choice.
+        let consent = null;
+
+        try {
+            consent = localStorage.getItem("analytics-consent");
+        } catch (error) {
+            // Storage may be unavailable.
+        }
+
+        // Show the banner if no choice has been saved.
+        if (consent !== "accepted" && consent !== "rejected") {
+            banner.style.display = "flex";
+        }
+
+        // Accept analytics cookies.
+        acceptButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "accepted");
+
+                banner.style.display = "none";
+                loadGoogleAnalytics();
+            } catch (error) {
+                // Do not enable analytics if consent cannot be saved.
+            }
+        });
+
+
+        // Reject analytics cookies.
+        rejectButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "rejected");
+
+                // Disable further Google Analytics collection.
+                window["ga-disable-" + GA_MEASUREMENT_ID] = true;
+
+                document.cookie.split(";").forEach(function (cookie) {
+                    const name = cookie.split("=")[0].trim();
+
+                    if (name === "_ga" || name.startsWith("_ga_")) {
+                        // Clear host-only cookies.
+                        document.cookie =
+                        name + "=; Max-Age=0; path=/";
+
+                        // Clear cookies scoped to this website's domain.
+                         document.cookie =
+                            name +
+                            "=; Max-Age=0; path=/; domain=artsingletary.github.io";
+                    }
+                });
+
+                banner.style.display = "none";
+
+                // Stop the previously loaded Analytics session.
+                window.location.reload();
+
+            } catch (error) {
+                // Analytics remains disabled if storage is unavailable.
+            }
+        });
+
+
+    });
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bell's Mill Creek (Bethel Creek Baptist Church) Cemetery | Singletary-Herrin Family Archive</title>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Singletary-Herrin Family Archive</h1>
+
+        <p>
+            Preserving the history, photographs, records, and stories
+            of the Singletary and Herrin families of southern Georgia
+            and northern Florida.
+        </p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../family-tree.html">Family Tree</a>
+        <a href="../photos.html">Photos</a>
+        <a href="../stories.html">Stories</a>
+        <a href="../documents.html">Documents</a>
+        <a href="../cemeteries.html">Cemeteries</a>
+        <a href="#">Reunions</a>
+    </nav>
+
+    <main>
+        <h2>Bell's Mill Creek (Bethel Creek Baptist Church) Cemetery</h2>
+
+        <p>
+            Day,
+            Lafayette County,
+            Florida
+        </p>
+
+        
+        <p>Historically known as Bell's Mill Creek Cemetery, this cemetery is now known as Bethel Creek Baptist Church Cemetery. It is located in Day, Lafayette County, Florida, and contains graves of the Singletary, Bell, Morgan, and related families.</p>
+        
+
+        <h3>Family Members Buried or Memorialized Here</h3>
+
+
+        
+        <ul class="family-list">
+            
+            <li>
+
+	
+    		Calvin Wayne Bell
+
+    		
+        		— 1956–2016
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/225519505">Find a Grave</a>
+                
+
+                
+            </li>
+            
+            <li>
+
+	
+    		Eliza Elizabeth Singletary Bell
+
+    		
+        		— 1891–1964
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/50305184">Find a Grave</a>
+                
+
+                
+            </li>
+            
+            <li>
+
+	
+    		Henry B. Bell
+
+    		
+        		— 1891–1964
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/50305172">Find a Grave</a>
+                
+
+                
+            </li>
+            
+            <li>
+
+	
+    		Herbert "Monk" Bell
+
+    		
+        		— 1919–1985
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/50304938">Find a Grave</a>
+                
+
+                
+            </li>
+            
+            <li>
+
+	
+    		Nonie Mae Horton Bell
+
+    		
+        		— 1934–2013
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/130336182">Find a Grave</a>
+                
+
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/alice-singletary-1905.html">
+        		Alice Geneva Singletary Cook
+    		</a>
+
+
+    		
+        	   — 1904–1928
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/202622569">Find a Grave</a>
+                
+
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/deloris-herrin-1942.html">
+        		Deloris Herrin Morgan
+    		</a>
+
+
+    		
+        	   — 1942–Present
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/128049695">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>Living — named on shared gravestone with Royce Leaton Morgan; not a confirmed burial.</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Royce Leaton Morgan
+
+    		
+        		— 1931–2014
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/128011377">Find a Grave</a>
+                
+
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/eliza-singletary.html">
+        		Eliza L. Singletary
+    		</a>
+
+
+    		
+        	   — 1812–After 1900
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/130329274">Find a Grave</a>
+                
+
+                
+            </li>
+            
+            <li>
+
+	
+    		Henry Alexander Singletary
+
+    		
+        		— 1899–1976
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/50298739">Find a Grave</a>
+                
+
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/ida-alla-miller-1873.html">
+        		Ida Alla Miller Singletary
+    		</a>
+
+
+    		
+        	   — 1873–1945
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/50298819">Find a Grave</a>
+                
+
+                
+            </li>
+            
+            <li>
+
+	
+    		Jammie Samuel Singletary
+
+    		
+        		— 1906–1986
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/50299446">Find a Grave</a>
+                
+
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/jessie-singletary-1891.html">
+        		Jessie Van Singletary
+    		</a>
+
+
+    		
+        	   — 1891–After 1900
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/103289608">Find a Grave</a>
+                
+
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/john-vershal-singletary-1933.html">
+        		John Vershal Singletary
+    		</a>
+
+
+    		
+        	   — 1933–1980
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/103289577">Find a Grave</a>
+                
+
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/mary-bryant-1875.html">
+        		Mary Eveline Bryant Singletary
+    		</a>
+
+
+    		
+        	   — 1875–1910
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/103289597">Find a Grave</a>
+                
+
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/jacob-a-singletary-1852.html">
+        		Rev. Jacob A. Singletary
+    		</a>
+
+
+    		
+        	   — 1852–1931
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/50298774">Find a Grave</a>
+                
+
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/william-robert-singletary-1894.html">
+        		William Robert Singletary
+    		</a>
+
+
+    		
+        	   — 1894–1961
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/50298838">Find a Grave</a>
+                
+
+                
+            </li>
+            
+            <li>
+
+	
+    		Myrtle Carrie Bell Snipes
+
+    		
+        		— 1922–2010
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/100144708">Find a Grave</a>
+                
+
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/sarah-sallie-singletary-1892.html">
+        		Sallie Sarah Singletary Spies
+    		</a>
+
+
+    		
+        	   — 1892–1986
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/50298876">Find a Grave</a>
+                
+
+                
+            </li>
+            
+        </ul>
+        
+
+        <p>
+            <a href="../cemeteries.html">Return to Cemetery Directory</a>
+        </p>
+    </main>
+
+    <footer>
+        <p>Singletary-Herrin Family Archive</p>
+
+        <p>
+            <a href="../privacy.html">Privacy Notice</a>
+        </p>
+    </footer>
+
+</body>
+</html>

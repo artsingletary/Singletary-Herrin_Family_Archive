@@ -633,5 +633,142 @@
         "findagrave_url": "https://www.findagrave.com/memorial/77851467"
       }
     ]
+  },
+  {
+    "id": "bells-mill-creek-cemetery",
+    "name": "Bell's Mill Creek (Bethel Creek Baptist Church) Cemetery",
+    "city": "Day",
+    "county": "Lafayette",
+    "state": "Florida",
+    "country": "United States",
+    "description": "Historically known as Bell's Mill Creek Cemetery, this cemetery is now known as Bethel Creek Baptist Church Cemetery. It is located in Day, Lafayette County, Florida, and contains graves of the Singletary, Bell, Morgan, and related families.",
+    "findagrave_url": "",
+    "burials": [
+      {
+        "name": "Calvin Wayne Bell",
+        "last_name": "Bell",
+        "years": "1956–2016",
+        "findagrave_url": "https://www.findagrave.com/memorial/225519505"
+      },
+      {
+        "name": "Eliza Elizabeth Singletary Bell",
+        "last_name": "Bell",
+        "years": "1891–1964",
+        "findagrave_url": "https://www.findagrave.com/memorial/50305184"
+      },
+      {
+        "name": "Henry B. Bell",
+        "last_name": "Bell",
+        "years": "1891–1964",
+        "findagrave_url": "https://www.findagrave.com/memorial/50305172"
+      },
+      {
+        "name": "Herbert \"Monk\" Bell",
+        "last_name": "Bell",
+        "years": "1919–1985",
+        "findagrave_url": "https://www.findagrave.com/memorial/50304938"
+      },
+      {
+        "name": "Nonie Mae Horton Bell",
+        "last_name": "Bell",
+        "years": "1934–2013",
+        "findagrave_url": "https://www.findagrave.com/memorial/130336182"
+      },
+      {
+        "name": "Alice Geneva Singletary Cook",
+        "last_name": "Cook",
+        "years": "1904–1928",
+        "findagrave_url": "https://www.findagrave.com/memorial/202622569",
+        "person_id": "alice-singletary-1905"
+      },
+      {
+        "name": "Deloris Herrin Morgan",
+        "last_name": "Morgan",
+        "years": "1942–Present",
+        "findagrave_url": "https://www.findagrave.com/memorial/128049695",
+        "person_id": "deloris-herrin-1942",
+        "note": "Living — named on shared gravestone with Royce Leaton Morgan; not a confirmed burial."
+      },
+      {
+        "name": "Royce Leaton Morgan",
+        "last_name": "Morgan",
+        "years": "1931–2014",
+        "findagrave_url": "https://www.findagrave.com/memorial/128011377"
+      },
+      {
+        "name": "Ida Alla Miller Singletary",
+        "last_name": "Singletary",
+        "years": "1873–1945",
+        "findagrave_url": "https://www.findagrave.com/memorial/50298819",
+        "person_id": "ida-alla-miller-1873"
+      },
+      {
+        "name": "Eliza L. Singletary",
+        "last_name": "Singletary",
+        "years": "1812–After 1900",
+        "findagrave_url": "https://www.findagrave.com/memorial/130329274",
+        "person_id": "eliza-singletary"
+      },
+      {
+        "name": "Rev. Jacob A. Singletary",
+        "last_name": "Singletary",
+        "years": "1852–1931",
+        "findagrave_url": "https://www.findagrave.com/memorial/50298774",
+        "person_id": "jacob-a-singletary-1852"
+      },
+      {
+        "name": "Henry Alexander Singletary",
+        "last_name": "Singletary",
+        "years": "1899–1976",
+        "findagrave_url": "https://www.findagrave.com/memorial/50298739"
+      },
+      {
+        "name": "Jammie Samuel Singletary",
+        "last_name": "Singletary",
+        "years": "1906–1986",
+        "findagrave_url": "https://www.findagrave.com/memorial/50299446"
+      },
+      {
+        "name": "Jessie Van Singletary",
+        "last_name": "Singletary",
+        "years": "1891–After 1900",
+        "findagrave_url": "https://www.findagrave.com/memorial/103289608",
+        "person_id": "jessie-singletary-1891"
+      },
+      {
+        "name": "John Vershal Singletary",
+        "last_name": "Singletary",
+        "years": "1933–1980",
+        "findagrave_url": "https://www.findagrave.com/memorial/103289577",
+        "person_id": "john-vershal-singletary-1933"
+      },
+      {
+        "name": "Mary Eveline Bryant Singletary",
+        "last_name": "Singletary",
+        "years": "1875–1910",
+        "findagrave_url": "https://www.findagrave.com/memorial/103289597",
+        "person_id": "mary-bryant-1875"
+      },
+      {
+        "name": "William Robert Singletary",
+        "last_name": "Singletary",
+        "years": "1894–1961",
+        "findagrave_url": "https://www.findagrave.com/memorial/50298838",
+        "person_id": "william-robert-singletary-1894"
+      },
+      {
+        "name": "Myrtle Carrie Bell Snipes",
+        "last_name": "Snipes",
+        "years": "1922–2010",
+        "findagrave_url": "https://www.findagrave.com/memorial/100144708"
+      },
+      {
+        "name": "Sallie Sarah Singletary Spies",
+        "last_name": "Spies",
+        "years": "1892–1986",
+        "findagrave_url": "https://www.findagrave.com/memorial/50298876",
+        "person_id": "sarah-sallie-singletary-1892"
+      }
+    ]
   }
 ]

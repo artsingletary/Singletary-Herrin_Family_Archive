@@ -46,7 +46,7 @@
         <p>{{ cemetery.description }}</p>
         {% endif %}
 
-        <h3>Family Members Buried Here</h3>
+        <h3>Family Members Buried or Memorialized Here</h3>
 
 
         {% if burials %}
@@ -73,6 +73,12 @@
 
                 {% if burial.findagrave_url %}
                     — <a href="{{ burial.findagrave_url }}">Find a Grave</a>
+                {% endif %}
+
+                {% if burial.note %}
+                    <div class="cemetery-note">
+                        <em>{{ burial.note }}</em>
+                    </div>
                 {% endif %}
             </li>
             {% endfor %}
