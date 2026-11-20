@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<!-- Google Analytics 4 - Consent Controlled -->
+<script>
+    const GA_MEASUREMENT_ID = "G-MMTEL90RK4";
+
+    function loadGoogleAnalytics() {
+        if (window.gaAnalyticsLoaded) return;
+
+        window.gaAnalyticsLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+
+        window.gtag = function () {
+            window.dataLayer.push(arguments);
+        };
+
+        gtag("js", new Date());
+        gtag("config", GA_MEASUREMENT_ID);
+
+        const script = document.createElement("script");
+        script.async = true;
+        script.src =
+            "https://www.googletagmanager.com/gtag/js?id=" +
+            GA_MEASUREMENT_ID;
+
+        document.head.appendChild(script);
+    }
+
+    // Load Analytics only if consent was previously granted.
+    try {
+        if (localStorage.getItem("analytics-consent") === "accepted") {
+            loadGoogleAnalytics();
+        }
+    } catch (error) {
+        // Analytics remains disabled if storage is unavailable.
+    }
+</script>
+
+
+<!-- Analytics Cookie Consent Banner -->
+<style>
+    #cookie-consent-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        background: #f8f7f3;
+        border-top: 2px solid #b8a58c;
+        padding: 15px 25px;
+        box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.12);
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    #cookie-consent-banner p {
+        margin: 0;
+        flex: 1;
+        min-width: 240px;
+        color: #333;
+    }
+
+    #cookie-consent-banner a {
+        color: #3d4b3a;
+        text-decoration: underline;
+    }
+
+    #cookie-consent-banner button {
+        padding: 9px 18px;
+        border: 1px solid #8a6c48;
+        border-radius: 5px;
+        background: #fff;
+        color: #333;
+        cursor: pointer;
+    }
+
+    #cookie-consent-banner button:hover {
+        background: #f0e7d8;
+    }
+
+    #cookie-consent-banner button:focus-visible {
+        outline: 2px solid #3d4b3a;
+        outline-offset: 2px;
+    }
+</style>
+
+
+<!-- Cookie Consent Banner Behavior -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        // Create the banner.
+        const banner = document.createElement("div");
+        banner.id = "cookie-consent-banner";
+        banner.setAttribute("role", "region");
+        banner.setAttribute("aria-label", "Analytics cookie preferences");
+
+        // Create the message.
+        const message = document.createElement("p");
+        message.textContent =
+            "This website uses optional analytics cookies to understand visitor activity. ";
+
+        // Create the Privacy Notice link.
+        const privacyLink = document.createElement("a");
+        privacyLink.textContent = "Privacy Notice";
+
+        // Use the correct relative path for each page.
+        const inSubdirectory =
+            window.location.pathname.includes("/people/") ||
+            window.location.pathname.includes("/stories/");
+
+        privacyLink.href = inSubdirectory
+            ? "../privacy.html"
+            : "privacy.html";
+
+        message.appendChild(privacyLink);
+
+        // Create the Accept button.
+        const acceptButton = document.createElement("button");
+        acceptButton.type = "button";
+        acceptButton.textContent = "Accept";
+
+        // Create the Reject button.
+        const rejectButton = document.createElement("button");
+        rejectButton.type = "button";
+        rejectButton.textContent = "Reject";
+
+        // Add everything to the banner.
+        banner.append(message, acceptButton, rejectButton);
+        document.body.appendChild(banner);
+
+        // Check for an existing consent choice.
+        let consent = null;
+
+        try {
+            consent = localStorage.getItem("analytics-consent");
+        } catch (error) {
+            // Storage may be unavailable.
+        }
+
+        // Show the banner if no choice has been saved.
+        if (consent !== "accepted" && consent !== "rejected") {
+            banner.style.display = "flex";
+        }
+
+        // Accept analytics cookies.
+        acceptButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "accepted");
+
+                banner.style.display = "none";
+                loadGoogleAnalytics();
+            } catch (error) {
+                // Do not enable analytics if consent cannot be saved.
+            }
+        });
+
+
+        // Reject analytics cookies.
+        rejectButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "rejected");
+
+                // Disable further Google Analytics collection.
+                window["ga-disable-" + GA_MEASUREMENT_ID] = true;
+
+                document.cookie.split(";").forEach(function (cookie) {
+                    const name = cookie.split("=")[0].trim();
+
+                    if (name === "_ga" || name.startsWith("_ga_")) {
+                        // Clear host-only cookies.
+                        document.cookie =
+                        name + "=; Max-Age=0; path=/";
+
+                        // Clear cookies scoped to this website's domain.
+                         document.cookie =
+                            name +
+                            "=; Max-Age=0; path=/; domain=artsingletary.github.io";
+                    }
+                });
+
+                banner.style.display = "none";
+
+                // Stop the previously loaded Analytics session.
+                window.location.reload();
+
+            } catch (error) {
+                // Analytics remains disabled if storage is unavailable.
+            }
+        });
+
+
+    });
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hargraves Chapel Cemetery | Singletary-Herrin Family Archive</title>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Singletary-Herrin Family Archive</h1>
+
+        <p>
+            Preserving the history, photographs, records, and stories
+            of the Singletary and Herrin families of southern Georgia
+            and northern Florida.
+        </p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../family-tree.html">Family Tree</a>
+        <a href="../photos.html">Photos</a>
+        <a href="../stories.html">Stories</a>
+        <a href="../documents.html">Documents</a>
+        <a href="../cemeteries.html">Cemeteries</a>
+        <a href="#">Reunions</a>
+    </nav>
+
+    <main>
+        <h2>Hargraves Chapel Cemetery</h2>
+
+        <p>
+            Millwood,
+            Ware County,
+            Georgia
+        </p>
+
+
+
+        <h3>Family Members Buried or Memorialized Here</h3>
+
+
+
+        <ul class="family-list">
+
+            <li>
+
+
+    		Alice Elizabeth Hargraves Bennett
+
+
+        		— 1870–1901
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/16766329">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>1st Cousin 4x Removed</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		Jerucia Langley Beverly
+
+
+        		— 1782–1870
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/54687024">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>5th Great Grandmother</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		William Martin Beverly Sr.
+
+
+        		— 1765–1848
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/61105117">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>5th Great Grandfather</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		David Lemuel Brantley
+
+
+        		— 1870–1946
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/62091161">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>1st Cousin 4x Removed</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		Sarah Hargraves Brantley
+
+
+        		— 1839–1922
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/20908155">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>3rd Great Grandaunt</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		James Jackson Hargraves
+
+
+        		— 1863–1919
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/26337831">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>1st Cousin 4x Removed</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		Joseph Abraham Hargraves
+
+
+        		— 1868–1936
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/16762727">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>1st Cousin 4x Removed</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		Linoleum Hargraves
+
+
+        		— 1924–1984
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/61753038">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>3rd Cousin 2x Removed</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		<a href="../people/nancy-beverly-1814.html">
+        		Nancy Beverly Hargraves
+    		</a>
+
+
+
+        	   — 1814–1880
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/62098202">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>4th Great Grandmother</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		Thomas Hopewell "Hope" Hargraves
+
+
+        		— 1837–1874
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/55455446">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>3rd Great Granduncle</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		<a href="../people/thomas-hopewell-hargraves-1797.html">
+        		Thomas Hopewell Hargraves
+    		</a>
+
+
+
+        	   — 1797–1860
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/55332257">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>4th Great Grandfather</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		William Beverly Hargraves
+
+
+        		— 1842–1907
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/16762382">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>3rd Great Granduncle</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		William Thomas Hargraves
+
+
+        		— 1864–1926
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/16766336">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>1st Cousin 4x Removed</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		<a href="../people/charity-sears-1812.html">
+        		Charity Sears Herrin
+    		</a>
+
+
+
+        	   — 1812–1898
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/33298270">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>4th Great Grandmother</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		James Daniel Herrin
+
+
+        		— 1896–1979
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/46941310">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>1st Cousin 3x Removed</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		<a href="../people/levi-herrin-1804.html">
+        		Levi Henry Herrin
+    		</a>
+
+
+
+        	   — 1804–1890
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/33298232">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>4th Great Grandfather</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		Mary Alice Herrin
+
+
+        		— 1868–1946
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/47199260">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>1st Cousin 4x Removed</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		Matthew Thomas "Mack" Herrin Sr.
+
+
+        		— 1840–1878
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/64258155">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>3rd Great Granduncle</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		Charity Herrin Mercer
+
+
+        		— 1862–1930
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/179682079">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>2nd Great Grandmother</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		Jerushia Ruby Spikes O'Berry
+
+
+        		— 1856–1932
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/63688490">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>1st Cousin 5x Removed</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		Harriet Beverly Spikes
+
+
+        		— 1816–1910
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/54687531">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>4th Great Grandaunt</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		John S. Spikes
+
+
+        		— 1856–1911
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/191110297">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>1st Cousin 5x Removed</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		Joseph Henry Spikes
+
+
+        		— 1889–1943
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/55107929">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 4x Removed</em>
+                    </div>
+
+            </li>
+
+            <li>
+
+
+    		William M. Spikes
+
+
+        		— 1822–1888
+
+
+
+
+                    — <a href="https://www.findagrave.com/memorial/54687747">Find a Grave</a>
+
+
+
+                    <div class="cemetery-note">
+                        <em>Husband of 4th Great Grandaunt</em>
+                    </div>
+
+            </li>
+
+        </ul>
+
+
+        <p>
+            <a href="../cemeteries.html">Return to Cemetery Directory</a>
+        </p>
+    </main>
+
+    <footer>
+        <p>Singletary-Herrin Family Archive</p>
+
+        <p>
+            <a href="../privacy.html">Privacy Notice</a>
+        </p>
+    </footer>
+
+</body>
+</html>
