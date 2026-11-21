@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+<!-- Google Analytics 4 - Consent Controlled -->
+<script>
+    const GA_MEASUREMENT_ID = "G-MMTEL90RK4";
+
+    function loadGoogleAnalytics() {
+        if (window.gaAnalyticsLoaded) return;
+
+        window.gaAnalyticsLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+
+        window.gtag = function () {
+            window.dataLayer.push(arguments);
+        };
+
+        gtag("js", new Date());
+        gtag("config", GA_MEASUREMENT_ID);
+
+        const script = document.createElement("script");
+        script.async = true;
+        script.src =
+            "https://www.googletagmanager.com/gtag/js?id=" +
+            GA_MEASUREMENT_ID;
+
+        document.head.appendChild(script);
+    }
+
+    // Load Analytics only if consent was previously granted.
+    try {
+        if (localStorage.getItem("analytics-consent") === "accepted") {
+            loadGoogleAnalytics();
+        }
+    } catch (error) {
+        // Analytics remains disabled if storage is unavailable.
+    }
+</script>
+
+
+<!-- Analytics Cookie Consent Banner -->
+<style>
+    #cookie-consent-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        background: #f8f7f3;
+        border-top: 2px solid #b8a58c;
+        padding: 15px 25px;
+        box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.12);
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    #cookie-consent-banner p {
+        margin: 0;
+        flex: 1;
+        min-width: 240px;
+        color: #333;
+    }
+
+    #cookie-consent-banner a {
+        color: #3d4b3a;
+        text-decoration: underline;
+    }
+
+    #cookie-consent-banner button {
+        padding: 9px 18px;
+        border: 1px solid #8a6c48;
+        border-radius: 5px;
+        background: #fff;
+        color: #333;
+        cursor: pointer;
+    }
+
+    #cookie-consent-banner button:hover {
+        background: #f0e7d8;
+    }
+
+    #cookie-consent-banner button:focus-visible {
+        outline: 2px solid #3d4b3a;
+        outline-offset: 2px;
+    }
+</style>
+
+
+<!-- Cookie Consent Banner Behavior -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        // Create the banner.
+        const banner = document.createElement("div");
+        banner.id = "cookie-consent-banner";
+        banner.setAttribute("role", "region");
+        banner.setAttribute("aria-label", "Analytics cookie preferences");
+
+        // Create the message.
+        const message = document.createElement("p");
+        message.textContent =
+            "This website uses optional analytics cookies to understand visitor activity. ";
+
+        // Create the Privacy Notice link.
+        const privacyLink = document.createElement("a");
+        privacyLink.textContent = "Privacy Notice";
+
+        // Use the correct relative path for each page.
+        const inSubdirectory =
+            window.location.pathname.includes("/people/") ||
+            window.location.pathname.includes("/stories/");
+
+        privacyLink.href = inSubdirectory
+            ? "../privacy.html"
+            : "privacy.html";
+
+        message.appendChild(privacyLink);
+
+        // Create the Accept button.
+        const acceptButton = document.createElement("button");
+        acceptButton.type = "button";
+        acceptButton.textContent = "Accept";
+
+        // Create the Reject button.
+        const rejectButton = document.createElement("button");
+        rejectButton.type = "button";
+        rejectButton.textContent = "Reject";
+
+        // Add everything to the banner.
+        banner.append(message, acceptButton, rejectButton);
+        document.body.appendChild(banner);
+
+        // Check for an existing consent choice.
+        let consent = null;
+
+        try {
+            consent = localStorage.getItem("analytics-consent");
+        } catch (error) {
+            // Storage may be unavailable.
+        }
+
+        // Show the banner if no choice has been saved.
+        if (consent !== "accepted" && consent !== "rejected") {
+            banner.style.display = "flex";
+        }
+
+        // Accept analytics cookies.
+        acceptButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "accepted");
+
+                banner.style.display = "none";
+                loadGoogleAnalytics();
+            } catch (error) {
+                // Do not enable analytics if consent cannot be saved.
+            }
+        });
+
+
+        // Reject analytics cookies.
+        rejectButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "rejected");
+
+                // Disable further Google Analytics collection.
+                window["ga-disable-" + GA_MEASUREMENT_ID] = true;
+
+                document.cookie.split(";").forEach(function (cookie) {
+                    const name = cookie.split("=")[0].trim();
+
+                    if (name === "_ga" || name.startsWith("_ga_")) {
+                        // Clear host-only cookies.
+                        document.cookie =
+                        name + "=; Max-Age=0; path=/";
+
+                        // Clear cookies scoped to this website's domain.
+                         document.cookie =
+                            name +
+                            "=; Max-Age=0; path=/; domain=artsingletary.github.io";
+                    }
+                });
+
+                banner.style.display = "none";
+
+                // Stop the previously loaded Analytics session.
+                window.location.reload();
+
+            } catch (error) {
+                // Analytics remains disabled if storage is unavailable.
+            }
+        });
+
+
+    });
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ponder Palmer | Singletary-Herrin Family Archive</title>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Singletary-Herrin Family Archive</h1>
+
+        <p>
+            Preserving our family's history for future generations
+        </p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../family-tree.html">Family Tree</a>
+        <a href="../photos.html">Photos</a>
+        <a href="../stories.html">Stories</a>
+        <a href="../documents.html">Documents</a>
+        <a href="../cemeteries.html">Cemeteries</a>
+        <a href="#">Reunions</a>
+    </nav>
+
+    <main>
+
+        <p>
+            <a href="../index.html">← Back to Family Members</a>
+        </p>
+
+        <h1>Ponder Palmer</h1>
+
+        
+            <p><strong>1886–1910</strong></p>
+        
+
+        
+
+        <section class="person-section">
+
+            <h2>Life Events</h2>
+            
+                <p>
+                    <strong>Born:</strong>
+
+                    
+                        1886
+                    
+
+                    
+                </p>
+            
+
+
+            
+
+            
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Family</h2>
+
+            
+                <p>
+                    <strong>Father:</strong>
+
+                    <a href="henry-hw-palmer.html">
+                        Henry "H.W." Palmer
+                    </a>
+                </p>
+            
+
+
+            
+                <p>
+                    <strong>Mother:</strong>
+
+                    <a href="laura-williams-1855.html">
+                        Laura Williams
+                    </a>
+                </p>
+
+            
+
+            
+
+                <h3>Siblings</h3>
+
+                <ul>
+
+                    
+
+                        <li>
+                            <a href="lauretta-palmer-1898.html">
+                                Laura Etta Palmer
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="della-palmer-1883.html">
+                                Della Palmer
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="asberry-ides-palmer-1886.html">
+                                Asberry Ides Palmer Sr.
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="elias-e-palmer-1891.html">
+                                Elias E. Palmer
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="dilborn-p-palmer-1892.html">
+                                Dilborn P. Palmer Sr.
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="alice-allie-palmer-1894.html">
+                                Alice Allie Palmer
+                            </a>
+                        </li>
+
+                    
+
+                        <li>
+                            <a href="frank-palmer-1895.html">
+                                Frank Palmer
+                            </a>
+                        </li>
+
+                    
+
+                </ul>
+
+            
+
+            
+
+            
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Military Service</h2>
+
+            
+
+                <p>No military service information has been added.</p>
+
+            
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Biography</h2>
+
+            
+
+                
+                 <p>Ponder Palmer is listed in the supplied FamilySearch tree as a son of Henry H. W. Palmer and Laura Williams, with birth and death years of 1886 and 1910. These details remain provisional pending review of supporting records.</p>
+                
+
+            
+
+        </section>
+
+
+        <section class="person-section">
+
+            <h2>Photos</h2>
+
+            
+
+                 <p>No additional photographs have been added.</p>
+
+            
+
+        </section>
+
+
+        
+
+
+        <section class="person-section">
+
+            <h2>Sources</h2>
+
+            
+
+             <ol>
+
+                
+
+                    <li>
+
+                        <strong>1900 United States Census — Laura Palmer household, sheet 4B-5A</strong>
+
+                        
+                            <br>
+                            Type: Census
+                        
+
+                        
+                            <p>
+                                 Records Laura Palmer as a widowed farmer born in April 1855, with eight children born and eight living. Seven children are visible with her at the bottom of this sheet; the continuation page is needed to complete the household. The daughter identified provisionally as Della appears to be recorded as married, with zero completed years of marriage and one child born and living. Several children's birth dates differ from the provisional family-tree entries and remain under review. Existing profile IDs are retained despite those differences.
+                            </p>
+                        
+
+                        
+
+                        
+                            <p>
+                                <strong>Location:</strong>
+                                1061st District, Clinch County, Georgia, United States
+                            </p>
+                        
+
+                        
+                            <p>
+                                <strong>Household:</strong>
+                                Laura Palmer household; enumeration district 17; sheet 4B, lines 93–100; continuing on sheet 5A, line 1; pages dated June 4 and June 5, 1900
+                            </p>
+                        
+
+                        
+
+                            <p>
+                                <strong>Household Members:</strong>
+                            </p>
+
+                            <ul>
+
+                                
+                                    <li>
+                                        Laura Palmer, head, widow, born April 1855, age 45, farmer
+                                    </li>
+                                
+                                    <li>
+                                        Della Palmer, daughter, born March 1883, age 17; given-name reading provisional
+                                    </li>
+                                
+                                    <li>
+                                        Ponder Palmer, son, born July 1886, age 13
+                                    </li>
+                                
+                                    <li>
+                                        Asberry Palmer, son, born August 1888, age 11
+                                    </li>
+                                
+                                    <li>
+                                        Dilborn Palmer, son, born June 1890, age 10
+                                    </li>
+                                
+                                    <li>
+                                        Elias Palmer, son, born March 1892, age 8
+                                    </li>
+                                
+                                    <li>
+                                        Alice Palmer, daughter, born August 1893, age 6
+                                    </li>
+                                
+                                    <li>
+                                        Frank Palmer, son, born January 1895, age 5
+                                    </li>
+                                
+                                    <li>
+                                        Lauretta Palmer, daughter, born June 1897, age 2
+                                    </li>
+                                
+
+                            </ul>
+
+                    
+
+                    
+
+
+                    
+
+
+                    
+
+                        <p>
+
+                            
+
+                                
+
+                                    <a href="https://d19qead08pko0m.cloudfront.net/documents/1900_census_laura_palmer_family.jpg" target="_blank">
+                                        View Page 1
+                                    </a>
+
+                                    
+                                        |
+                                    
+
+                                
+
+                                    <a href="https://d19qead08pko0m.cloudfront.net/documents/1900_census_laura_palmer_family_continued.jpg" target="_blank">
+                                        View Page 2
+                                    </a>
+
+                                    
+
+                                
+
+                            
+
+                        </p>
+
+                    
+
+                </li>
+
+            
+
+                    <li>
+
+                        <strong>1910 United States Census — Laura Palmer household</strong>
+
+                        
+                            <br>
+                            Type: Census
+                        
+
+                        
+                            <p>
+                                 Records Laura Palmer as a widow heading a household with six children. Reports eight children born and seven living. Her recorded age of 47 conflicts with her age of 45 in 1900. Several children's ages also differ from earlier records. Ponder and Elias are listed as farm laborers working out. The youngest daughter, recorded as Laura, is identified in family research as Laura Etta. The reduction from eight living children in 1900 to seven in 1910 suggests a death between enumerations, but this page does not identify the deceased child.
+                            </p>
+                        
+
+                        
+
+                        
+                            <p>
+                                <strong>Location:</strong>
+                                Militia District 1061, Clinch County, Georgia, United States
+                            </p>
+                        
+
+                        
+                            <p>
+                                <strong>Household:</strong>
+                                Laura Palmer household; dwelling 50, family 50; enumeration district 35; lines 34–40
+                            </p>
+                        
+
+                        
+
+                            <p>
+                                <strong>Household Members:</strong>
+                            </p>
+
+                            <ul>
+
+                                
+                                    <li>
+                                        Laura Palmer, age 47, head, widowed, no occupation
+                                    </li>
+                                
+                                    <li>
+                                        Della Palmer, age 21, daughter, single
+                                    </li>
+                                
+                                    <li>
+                                        Ponder Palmer, age 23, son, single, farm laborer working out
+                                    </li>
+                                
+                                    <li>
+                                        Elias Palmer, age 19, son, single, farm laborer working out
+                                    </li>
+                                
+                                    <li>
+                                        Dilburn Palmer, age 20, son, single
+                                    </li>
+                                
+                                    <li>
+                                        Frank Palmer, age 13, son, single
+                                    </li>
+                                
+                                    <li>
+                                        Laura Palmer, age 12, daughter, single; identified as Laura Etta Palmer
+                                    </li>
+                                
+
+                            </ul>
+
+                    
+
+                    
+
+
+                    
+
+                        <p>
+                            <a href="https://d19qead08pko0m.cloudfront.net/documents/1910_census_laura_palmer_family.jpg" target="_blank">
+                                View Document
+                            </a>
+                        </p>
+
+                    
+
+
+                    
+
+                </li>
+
+            
+
+        </ol>
+
+    
+    </section>
+
+
+    
+
+    </main>
+
+    <footer>
+        Singletary-Herrin Family Archive 
+
+        <p>
+            <a href="../privacy.html">Privacy Notice</a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

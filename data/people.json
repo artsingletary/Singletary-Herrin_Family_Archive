@@ -2982,8 +2982,19 @@
       "henry-hw-palmer"
     ],
     "biography": [
-      "Laura Williams was born on April 29, 1855, in Homerville, Clinch County, Georgia.",
-      "She married Henry Palmer. She died on her 89th birthday on April 29, 1944, in Atkinson County, Georgia."
+      "Laura Williams was born on April 29, 1855, in Homerville, Clinch County, Georgia, according to the family information currently recorded in this archive. She was a daughter of Hezekiah Ponder Williams and Charlotte Herrin.",
+      "In the 1860 United States Census, Laura was recorded at age four in the household of H. P. Williams and Charlotte Williams in Clinch County, Georgia. Also listed were Elizabeth, her sister Ardelia recorded as Delia, and Florida Williams. A farm laborer named Thomas M., whose surname is uncertain, was also enumerated in the household; no family relationship has been established. Laura's reported age suggests birth around 1855–1856, and her exact birth date remains under review.",
+      "The 1870 census places Laura's household near that of her paternal grandparents, John Williams and Nancy Smith. John and Nancy were recorded at dwelling 304, while H. Ponder Williams and his family were at dwelling 306, with one household enumerated between them. This suggests that Laura grew up near members of her extended family, although the census does not establish the exact distance between their homes.",
+      "In 1880, Laura was recorded as Ponder Williams's unmarried daughter, age twenty-four, living at home in the 1061st District of Clinch County, Georgia. The household included Ponder's wife Jane and several of Laura's siblings. Her ages across the 1860, 1870, and 1880 censuses consistently suggest birth around 1855–1856, although her exact birth date remains unresolved.",
+      "On May 21, 1885, Laura married Henry Palmer in Ware County, Georgia. Their marriage license, naming the couple as H. W. Palmer and Laura Williams, was issued the preceding day. John Brooker, Justice of the Peace, performed the ceremony. Their family is currently recorded as including Della, Asberry Ides, Ponder, Elias E., Dilborn P., Alice Allie, Frank, and Laura Etta Palmer; the children's details are being checked against supporting records.",
+      "In the 1900 census, Laura was a widow heading a household in the 1061st District of Clinch County, Georgia. She was recorded as a farmer, age forty-five, born in April 1855, and the mother of eight children, all living. All eight were enumerated with her across two census pages, including her youngest daughter, recorded as Lauretta, born in June 1897. The census supports April 1855 as Laura's birth month and year, although her exact birth day remains unconfirmed.",
+      "In 1910, Laura remained a widow in Clinch County, Georgia, sharing her household with Della, Ponder, Elias, Dilborn, Frank, and her youngest daughter, Laura Etta. Ponder and Elias worked as farm laborers outside the home. Laura was recorded as having borne eight children, seven still living. Her stated age of forty-seven conflicts with earlier census records and remains part of the unresolved evidence concerning her birth date.",
+      "In 1920, Laura was recorded as a widowed farmer in Axson Precinct, Atkinson County, Georgia. She owned her farm free of mortgage and shared her household with her sons Frank and Elias and Elias's wife, Emma. Her reported age of sixty-three suggests birth around 1856, adding to the differing birth information found in her records.",
+      "In 1930, Laura was living in Axson District, Atkinson County, Georgia, with her son Dilborn P. Palmer, his wife Pauline, and their infant son, Dilborn Jr. She was identified as Dilborn's widowed mother and had no occupation listed. Her reported age of sixty-six and age at first marriage of eighteen conflict with other records and remain under review.",
+      "In 1940, Laura continued to live with her son Dilborn P. Palmer and his family in Atkinson County, Georgia. She was recorded as his widowed mother, age eighty-five, born in Georgia, with second grade completed. The census also places her in rural Atkinson County in 1935. Her reported age broadly supports the April 1855 birth information recorded in the 1900 census, although her exact birth date remains unconfirmed.",
+      "Laura died on April 29, 1944, in Pearson, Atkinson County, Georgia. If her recorded birth date is correct, she died on her 89th birthday.",
+      "Her death certificate identifies her as Laura Palmer, widow of Henry Palmer, and names her father as Ponder Williams. It gives her birthplace as Clinch County, Georgia, but records her birth date and mother's name as unknown. Her reported age of 90 conflicts with the birth date currently recorded in this archive and remains under review.",
+      "Her death certificate records burial on April 30, 1944, at Pearson, Georgia. She is buried at Red Bluff Cemetery near Pearson in Atkinson County, Georgia."
     ]
   },
   {
@@ -4352,6 +4363,128 @@
     "Following the death of his first wife, William married Neter Stephens. Their children were Manning, Jesse, James M., Rebecca, Pollie, Elizabeth, Naomi, and Fannie Smith.",
     "William was a member and minister of the Primitive Baptist Church. He helped establish Arabia Church and was elected justice of the peace for the 586th district in 1830 and 1833.",
     "According to the county history, William died about 1845 and was buried at Arabia Church. Some family research gives his death year as 1841; this discrepancy remains unresolved."
+  ]
+},
+
+{
+  "id": "della-palmer-1883",
+  "first_name": "Della",
+  "middle_name": null,
+  "last_name": "Palmer",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_year": 1883,
+  "death_year": 1910,
+  "father": "henry-hw-palmer",
+  "mother": "laura-williams-1855",
+  "spouses": [],
+  "biography": [
+    "Della Palmer is listed in the supplied FamilySearch tree as a daughter of Henry H. W. Palmer and Laura Williams, with birth and death years of 1883 and 1910. These details remain provisional pending review of supporting records."
+  ]
+},
+{
+  "id": "asberry-ides-palmer-1886",
+  "first_name": "Asberry",
+  "middle_name": "Ides",
+  "last_name": "Palmer",
+  "suffix": "Sr.",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_year": 1886,
+  "death_year": 1931,
+  "father": "henry-hw-palmer",
+  "mother": "laura-williams-1855",
+  "spouses": [],
+  "biography": [
+    "Asberry Ides Palmer Sr. is listed in the supplied FamilySearch tree as a son of Henry H. W. Palmer and Laura Williams, with birth and death years of 1886 and 1931. These details remain provisional pending review of supporting records."
+  ]
+},
+{
+  "id": "ponder-palmer-1886",
+  "first_name": "Ponder",
+  "middle_name": null,
+  "last_name": "Palmer",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_year": 1886,
+  "death_year": 1910,
+  "father": "henry-hw-palmer",
+  "mother": "laura-williams-1855",
+  "spouses": [],
+  "biography": [
+    "Ponder Palmer is listed in the supplied FamilySearch tree as a son of Henry H. W. Palmer and Laura Williams, with birth and death years of 1886 and 1910. These details remain provisional pending review of supporting records."
+  ]
+},
+{
+  "id": "elias-e-palmer-1891",
+  "first_name": "Elias",
+  "middle_name": "E.",
+  "last_name": "Palmer",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_year": 1891,
+  "death_year": 1970,
+  "father": "henry-hw-palmer",
+  "mother": "laura-williams-1855",
+  "spouses": [],
+  "biography": [
+    "Elias E. Palmer is listed in the supplied FamilySearch tree as a son of Henry H. W. Palmer and Laura Williams, with birth and death years of 1891 and 1970. These details remain provisional pending review of supporting records."
+  ]
+},
+{
+  "id": "dilborn-p-palmer-1892",
+  "first_name": "Dilborn",
+  "middle_name": "P.",
+  "last_name": "Palmer",
+  "suffix": "Sr.",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_year": 1892,
+  "death_year": 1940,
+  "father": "henry-hw-palmer",
+  "mother": "laura-williams-1855",
+  "spouses": [],
+  "biography": [
+    "Dilborn P. Palmer Sr. is listed in the supplied FamilySearch tree as a son of Henry H. W. Palmer and Laura Williams, with birth and death years of 1892 and 1940. These details remain provisional pending review of supporting records."
+  ]
+},
+{
+  "id": "alice-allie-palmer-1894",
+  "first_name": "Alice",
+  "middle_name": "Allie",
+  "last_name": "Palmer",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_year": 1894,
+  "death_year": 1904,
+  "father": "henry-hw-palmer",
+  "mother": "laura-williams-1855",
+  "spouses": [],
+  "biography": [
+    "Alice Allie Palmer is listed in the supplied FamilySearch tree as a daughter of Henry H. W. Palmer and Laura Williams, with birth and death years of 1894 and 1904. These details remain provisional pending review of supporting records."
+  ]
+},
+{
+  "id": "frank-palmer-1895",
+  "first_name": "Frank",
+  "middle_name": null,
+  "last_name": "Palmer",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_year": 1895,
+  "death_year": 1975,
+  "father": "henry-hw-palmer",
+  "mother": "laura-williams-1855",
+  "spouses": [],
+  "biography": [
+    "Frank Palmer is listed in the supplied FamilySearch tree as a son of Henry H. W. Palmer and Laura Williams, with birth and death years of 1895 and 1975. These details remain provisional pending review of supporting records."
   ]
 }
 ]

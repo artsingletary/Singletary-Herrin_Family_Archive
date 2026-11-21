@@ -4350,5 +4350,234 @@
   ],
   "url": "https://www.google.com/books/edition/History_of_Clinch_County_Georgia/lPMxAQAAMAAJ?hl=en&gbpv=1&printsec=frontcover",
   "documents": []
+},
+
+{
+  "id": "laura-williams-palmer-death-certificate-1944",
+  "type": "Death Certificate",
+  "title": "1944 Georgia Death Certificate — Laura Palmer",
+  "publisher": "Georgia Department of Public Health",
+  "date": "1944-04-29",
+  "location": "Pearson, Atkinson County, Georgia, United States",
+  "people": [
+    "laura-williams-1855"
+  ],
+  "file": "1944_laura_williams-palmer_death_certificate.jpg",
+  "certificate": "6613",
+  "description": "Death certificate for Laura Palmer, widow of Henry Palmer, recording death in Pearson, Atkinson County, Georgia, on April 29, 1944. Gives her age as 90, birthplace as Clinch County, Georgia, and father as Ponder Williams. Her birth date and mother's name are recorded as unknown. The informant's name appears to read Elias Palmer of Pearson. Burial is dated April 30, 1944, with the place recorded only as Pearson, Georgia. The reported age conflicts with the 1855 and 1856 birth years found in other family information."
+},
+{
+  "id": "1860-census-hezekiah-ponder-williams-family",
+  "type": "Census",
+  "title": "1860 United States Census — H. P. Williams household",
+  "date": "1860-06-11",
+  "location": "Southern District, Clinch County, Georgia, United States",
+  "people": [
+    "hezekiah-ponder-williams-1828",
+    "charlotte-herrin-1837",
+    "laura-williams-1855"
+  ],
+  "file": "1860_census_hezekiah_ponder_williams_family.jpg",
+  "household": "H. P. Williams household; dwelling 51, family 43; page 7, lines 30–36; Magnolia post office",
+  "household_members": [
+    "H. P. Williams, age 32, farmer",
+    "Charlotte Williams, age 23",
+    "Elizabeth Williams, age 5",
+    "Laura Williams, age 4",
+    "Delia Williams, age 2; identified in family research as Ardelia Williams",
+    "Florida Williams, age 10 months",
+    "Thomas M., age 18, farm laborer; relationship to the Williams family not established"
+  ],
+  "description": "Records Laura Williams, age four, in the household of H. P. Williams and Charlotte Williams. H. P. Williams is listed as a farmer with real estate valued at $250 and personal estate at $440. Household members appear to be recorded as born in Georgia. The census does not specify relationships. Laura's reported age suggests birth around 1855–1856 and differs from the age expected for the April 29, 1855 birth date currently recorded in the archive."
+},
+{
+  "id": "henry-palmer-laura-williams-marriage-1885",
+  "type": "Marriage Record",
+  "title": "1885 H. W. Palmer and Laura Williams — Ware County marriage record",
+  "date": "1885-05-21",
+  "location": "Ware County, Georgia, United States",
+  "people": [
+    "henry-hw-palmer",
+    "laura-williams-1855"
+  ],
+  "file": "1885_henry_palmer_laura_williams_marriage.jpg",
+  "description": "Marriage license and return naming H. W. Palmer and Laura Williams. License issued May 20, 1885, by E. D. Waldron, Ordinary of Ware County. The return certifies that the couple married on May 21, 1885, with John Brooker, Justice of the Peace, officiating."
+},
+{
+  "id": "1870-census-hezekiah-ponder-williams-family",
+  "type": "Census",
+  "title": "1870 United States Census — H. Ponder Williams household",
+  "date": "1870-06-28",
+  "location": "Clinch County, Georgia, United States",
+  "people": [
+    "hezekiah-ponder-williams-1828",
+    "charlotte-herrin-1837",
+    "laura-williams-1855"
+  ],
+  "file": "1870_census_hezekiah_ponder_williams_family.jpg",
+  "household": "H. Ponder Williams household; dwelling 306, family 306; page 41, lines 30–40; Homerville post office",
+  "household_members": [
+    "H. Ponder Williams, age 40, farmer",
+    "Charlotte Williams, age 33, keeping house",
+    "Elizabeth Williams, age 15, at home",
+    "Laura Williams, age 14, at home",
+    "Delia Williams, age 12, at home; identified in family research as Ardelia",
+    "Florida Williams, age 10, at home",
+    "John C. Williams, age 9, at home",
+    "Mark Williams, age 6, at home",
+    "Olif Williams, age 4, at home; apparently Olive",
+    "Sarah Williams, age 3, at home",
+    "Elias Williams, age 1, at home"
+  ],
+  "description": "Records Laura Williams, age fourteen, in the household of H. Ponder Williams and Charlotte Williams. All listed household members were recorded as born in Georgia. Ponder was a farmer with real estate valued at $200 and personal estate at $300. Laura's age is consistent with her reported age of four in 1860 and suggests birth around 1855–1856. The census does not explicitly state household relationships."
+},
+{
+  "id": "1880-census-ponder-williams-family",
+  "type": "Census",
+  "title": "1880 United States Census — Ponder Williams household",
+  "date": "1880-06-22",
+  "location": "1061st District, Clinch County, Georgia, United States",
+  "people": [
+    "hezekiah-ponder-williams-1828",
+    "laura-williams-1855"
+  ],
+  "file": "1880_census_ponder_williams_family.jpg",
+  "household": "Ponder Williams household; dwelling 233, family 246; enumeration district 39; page 23, lines 26–37",
+  "household_members": [
+    "Ponder Williams, age 52, farmer",
+    "Jane Williams, age 36, wife, keeping house",
+    "Laura Williams, age 24, daughter, at home",
+    "Delia Williams, age 21, daughter",
+    "Florida Williams, age 19, daughter",
+    "Calloway Williams, age 17, son, working on farm",
+    "Mark Williams, age 15, son, working on farm",
+    "Olif Williams, age 13, daughter",
+    "Annie Williams, age 11, daughter",
+    "Elias Williams, age 9, son",
+    "Thomas Williams, age 7, son",
+    "Charlotte Williams, age 5, daughter"
+  ],
+  "description": "Records Laura Williams as Ponder Williams's daughter, age 24, single, and at home. Jane is recorded as Ponder's wife; the children's relationships are stated in relation to Ponder, not Jane. Laura's age continues the sequence of four in 1860 and fourteen in 1870, supporting birth around 1855–1856. Household names and ages are transcribed as recorded and require comparison with other family records."
+},
+{
+  "id": "1900-census-laura-palmer-family",
+  "type": "Census",
+  "title": "1900 United States Census — Laura Palmer household, sheet 4B-5A",
+  "date": "1900-06-04",
+  "location": "1061st District, Clinch County, Georgia, United States",
+  "people": [
+    "laura-williams-1855",
+    "della-palmer-1883",
+    "ponder-palmer-1886",
+    "asberry-ides-palmer-1886",
+    "dilborn-p-palmer-1892",
+    "elias-e-palmer-1891",
+    "alice-allie-palmer-1894",
+    "frank-palmer-1895",
+    "lauretta-palmer-1898"
+  ],
+  "documents": [ "1900_census_laura_palmer_family.jpg",
+            "1900_census_laura_palmer_family_continued.jpg"
+   ],
+  "household": "Laura Palmer household; enumeration district 17; sheet 4B, lines 93–100; continuing on sheet 5A, line 1; pages dated June 4 and June 5, 1900",
+  "household_members": [
+    "Laura Palmer, head, widow, born April 1855, age 45, farmer",
+    "Della Palmer, daughter, born March 1883, age 17; given-name reading provisional",
+    "Ponder Palmer, son, born July 1886, age 13",
+    "Asberry Palmer, son, born August 1888, age 11",
+    "Dilborn Palmer, son, born June 1890, age 10",
+    "Elias Palmer, son, born March 1892, age 8",
+    "Alice Palmer, daughter, born August 1893, age 6",
+    "Frank Palmer, son, born January 1895, age 5",
+    "Lauretta Palmer, daughter, born June 1897, age 2"
+  ],
+  "description": "Records Laura Palmer as a widowed farmer born in April 1855, with eight children born and eight living. Seven children are visible with her at the bottom of this sheet; the continuation page is needed to complete the household. The daughter identified provisionally as Della appears to be recorded as married, with zero completed years of marriage and one child born and living. Several children's birth dates differ from the provisional family-tree entries and remain under review. Existing profile IDs are retained despite those differences."
+},
+
+{
+  "id": "1910-census-laura-palmer-family",
+  "type": "Census",
+  "title": "1910 United States Census — Laura Palmer household",
+  "date": "1910-04-23",
+  "location": "Militia District 1061, Clinch County, Georgia, United States",
+  "people": [
+    "laura-williams-1855",
+    "della-palmer-1883",
+    "ponder-palmer-1886",
+    "elias-e-palmer-1891",
+    "dilborn-p-palmer-1892",
+    "frank-palmer-1895",
+    "lauretta-palmer-1898"
+  ],
+  "file": "1910_census_laura_palmer_family.jpg",
+  "household": "Laura Palmer household; dwelling 50, family 50; enumeration district 35; lines 34–40",
+  "household_members": [
+    "Laura Palmer, age 47, head, widowed, no occupation",
+    "Della Palmer, age 21, daughter, single",
+    "Ponder Palmer, age 23, son, single, farm laborer working out",
+    "Elias Palmer, age 19, son, single, farm laborer working out",
+    "Dilburn Palmer, age 20, son, single",
+    "Frank Palmer, age 13, son, single",
+    "Laura Palmer, age 12, daughter, single; identified as Laura Etta Palmer"
+  ],
+  "description": "Records Laura Palmer as a widow heading a household with six children. Reports eight children born and seven living. Her recorded age of 47 conflicts with her age of 45 in 1900. Several children's ages also differ from earlier records. Ponder and Elias are listed as farm laborers working out. The youngest daughter, recorded as Laura, is identified in family research as Laura Etta. The reduction from eight living children in 1900 to seven in 1910 suggests a death between enumerations, but this page does not identify the deceased child."
+},
+{
+  "id": "1920-census-laura-palmer-family",
+  "type": "Census",
+  "title": "1920 United States Census — Laura Palmer household",
+  "date": "1920-02-04",
+  "location": "Axson Precinct, Atkinson County, Georgia, United States",
+  "people": [
+    "laura-williams-1855",
+    "frank-palmer-1895",
+    "elias-e-palmer-1891"
+  ],
+  "file": "1920_census_laura_palmer_family.jpg",
+  "household": "Laura Palmer household; dwelling 278, family 288; enumeration district 15; sheet 15B, lines 69–72",
+  "household_members": [
+    "Laura Palmer, age 63, head, widowed, farmer",
+    "Frank Palmer, age 23, son, single",
+    "Elias Palmer, age 26, son, married",
+    "Emma Palmer, age 31, daughter-in-law, married"
+  ],
+  "description": "Records Laura Palmer as a widowed farmer in Axson Precinct, Atkinson County, Georgia, living with sons Frank and Elias and daughter-in-law Emma. Laura's farm is recorded as owned and free of mortgage. Frank, Elias, and Emma have no occupation listed. All four household members and their parents are recorded as born in Georgia. Laura's reported age of 63 suggests birth around 1856 and differs from the April 1855 birth information recorded in 1900."
+},
+{
+  "id": "1930-census-dilborn-palmer-family",
+  "type": "Census",
+  "title": "1930 United States Census — Dilborn P. Palmer household",
+  "date": "1930-04-04",
+  "location": "Axson District, Atkinson County, Georgia, United States",
+  "people": [
+    "dilborn-p-palmer-1892",
+    "laura-williams-1855"
+  ],
+  "documents": [
+    "1930_census_dilborn_palmer_family_01.jpg",
+    "1930_census_dilborn_palmer_family_02.jpg"
+  ],
+  "household": "Dilborn P. Palmer household; dwelling 96, family 88; enumeration district 2-6; sheet 4B, lines 98–100, continuing on sheet 5A, line 1",
+  "household_members": [
+    "Dilborn P. Palmer, age 32, head, married, farm laborer",
+    "Pauline Palmer, age 18, wife, married",
+    "Dilborn P. Palmer Jr., age 7 months, son",
+    "Laura Palmer, age 66, mother, widowed"
+  ],
+  "description": "Records Laura Palmer as the widowed mother of household head Dilborn P. Palmer, living with him, his wife Pauline, and their infant son. Laura has no occupation listed. Her reported age of 66 and age at first marriage of 18 conflict with other records and remain under review. Dilborn's reported age of 32 also differs from earlier census entries and his provisional profile birth year. All household members and their parents are recorded as born in Georgia."
+},
+{
+  "id": "1940-census-dilborn-palmer-family",
+  "type": "Census",
+  "title": "1940 United States Census — D. P. Palmer household",
+  "date": "1940-04",
+  "location": "District 1353, Atkinson County, Georgia, United States",
+  "people": [
+    "dilborn-p-palmer-1892",
+    "laura-williams-1855"
+  ],
+  "file": "1940_census_dilborn_palmer_family.jpg",
+  "household": "D. P. Palmer household; household 230; enumeration district 2-6; sheet 15A, lines 24–30; page dated April 24–25, 1940",
+  "description": "Records Laura Palmer as the widowed mother of household head D. P. Palmer, living with him, his wife, and their children. Laura is listed as age 85, born in Georgia, with second grade completed. Her residence in 1935 is recorded as rural Atkinson County, Georgia. D. P. Palmer is marked as the household informant. His reported age of 52 conflicts with his age of 32 in 1930. His wife's name appears as Pearlie and requires comparison with the earlier Pauline entry."
 }
 ]
