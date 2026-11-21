@@ -798,10 +798,15 @@ for cemetery in cemeteries:
         )
     )
 
-
     html = cemetery_template.render(
         cemetery=cemetery,
         burials=burials
+    )
+
+    # Remove trailing whitespace from generated cemetery HTML only.
+    html = "\n".join(
+        line.rstrip(" \t")
+        for line in html.split("\n")
     )
 
     output_file = CEMETERIES_DIR / f"{cemetery['id']}.html"
