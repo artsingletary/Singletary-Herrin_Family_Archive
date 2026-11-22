@@ -4579,5 +4579,128 @@
   "file": "1940_census_dilborn_palmer_family.jpg",
   "household": "D. P. Palmer household; household 230; enumeration district 2-6; sheet 15A, lines 24–30; page dated April 24–25, 1940",
   "description": "Records Laura Palmer as the widowed mother of household head D. P. Palmer, living with him, his wife, and their children. Laura is listed as age 85, born in Georgia, with second grade completed. Her residence in 1935 is recorded as rural Atkinson County, Georgia. D. P. Palmer is marked as the household informant. His reported age of 52 conflicts with his age of 32 in 1930. His wife's name appears as Pearlie and requires comparison with the earlier Pauline entry."
+},
+{
+  "id": "asberry-palmer-death-certificate-1931",
+  "type": "Death Certificate",
+  "title": "1931 Georgia Death Certificate — Berry Palmer",
+  "publisher": "Georgia State Board of Health",
+  "date": "1931-12-25",
+  "location": "Waycross, Ware County, Georgia, United States",
+  "people": [
+    "asberry-ides-palmer-1886"
+  ],
+  "file": "1931_asberry_palmer_death_certificate.jpg",
+  "certificate": "31-31836",
+  "description": "Death certificate naming the deceased as Berry Palmer, a married man aged 45, who died in Waycross, Ware County, Georgia, on December 25, 1931, at 1:30 a.m. Identifies his parents as Henry Palmer and Laura Williams and his birthplace as Clinch County, Georgia. The birth-date field is blank. Records a dynamite-related fatal injury, with hemorrhage also noted, and an injury to the lower part of the left leg. The informant is Mrs. Berry Palmer of Pearson. Burial is recorded at Pearson on December 26, 1931, without a cemetery name. His stated age differs from the newspaper's reported age of 43 and the August 1888 birth information in the 1900 census."
+},
+
+{
+  "id": "asberry-palmer-still-explosion-investigation-1931",
+  "type": "Newspaper Article",
+  "title": "1931-12-27 Suspects in Blast at Still Separated",
+  "publisher": "The Atlanta Constitution",
+  "date": "1931-12-27",
+  "location": "Roundabout section near Pearson, Atkinson County, Georgia",
+  "people": [
+  ],
+  "file": "1931_berry_palmer_still_explosion_investigation.jpg",
+  "description": "Associated Press report published in The Atlanta Constitution, December 27, 1931, page 11, with a Waycross dateline of December 26. Reports that Special Deputy Berry Palmer, age 43, died on Christmas Day following injuries from a dynamite explosion during a raid on a moonshine still near Pearson. Describes an anonymous letter directing Sheriff Louis White's party to the still and an explosion as officers began destroying the apparatus. Names another seriously injured deputy as Wilbert O'Berry. Reports that Moses Smith, Ben Corbett, and Grover McKinnon were detained in separate jails during the investigation; it does not establish their guilt or the case's eventual outcome. States that Palmer's funeral was held near Pearson on December 26 at 11 a.m. Publication details are supplied by the uploaded newspaper filename."
+},
+{
+  "id": "asberry-palmer-case-acquittal-1932-02-26",
+  "type": "Newspaper Article",
+  "title": "1932-02-26 Mose Smith Is Acquitted",
+  "publisher": "The Columbus Ledger",
+  "date": "1932-02-26",
+  "location": "Pearson, Atkinson County, Georgia, United States",
+  "people": [
+  ],
+  "file": "1932_02_26_berry_palmer_case_acquittal.jpg",
+  "description": "Associated Press report with a Pearson dateline of February 26, reporting Mose Smith's acquittal in the murder case arising from the still explosion that fatally injured Deputy Berry Palmer. States that the prosecution abandoned its case against co-indictee Grover McKinnon. Both men denied involvement. Reports approximately fifty minutes of jury deliberation, circumstantial prosecution evidence, and defense testimony placing Smith in Willacoochee when the explosion occurred. Records that Palmer's widow expressed satisfaction with the verdict and did not want an innocent man punished. The article compresses the death chronology; Palmer's death certificate and earlier reports establish injury on December 21 and death on December 25, 1931. Publication date and page 18 are supplied by the uploaded filename."
+},
+{
+  "id": "asberry-palmer-murder-trial-1932-02-24",
+  "type": "Newspaper Article",
+  "title": "1932-02-24 Jury Is Obtained for Smith Trial",
+  "publisher": "The Macon Telegraph",
+  "author": "Francis W. Carpenter, Associated Press",
+  "date": "1932-02-24",
+  "location": "Pearson, Atkinson County, Georgia, United States",
+  "people": [
+  ],
+  "file": "1932_02_24_berry_palmer_murder_trial.jpg",
+  "description": "Trial report with a Pearson dateline of February 23, 1932. Reports that Mose Smith and Grover McKinnon had been indicted in connection with the death of Deputy Berry Palmer and describes jury selection and testimony in Smith's murder trial. Summarizes Sheriff White's account of the map, marked trail, and explosion; prosecution allegations of a conspiracy; and the defense's announced alibi. Identifies witness Leon Palmer as a nephew of the slain officer and reports that Palmer's widow attended court. States that surviving injured officers were also present. Allegations and testimony are not treated as established findings; no verdict is reported in this clipping. Publication date and page 9 are supplied by the uploaded filename."
+},
+
+{
+  "id": "asberry-palmer-still-explosion-1931-12-22",
+  "type": "Newspaper Article",
+  "title": "1931-12-22 Sheriff Hurt With Others in Explosion",
+  "publisher": "The Macon Telegraph",
+  "date": "1931-12-22",
+  "location": "Roundabout swamp near Pearson, Atkinson County, Georgia",
+  "people": [
+  ],
+  "file": "1931_12_22_berry_palmer_still_explosion.jpg",
+  "description": "Associated Press report with a Pearson dateline of December 21, describing an explosion during a raid on a moonshine still in Roundabout swamp, approximately five miles from Pearson. Names Sheriff Louis White, Deputy Edward White, and Special Deputies Berry Palmer, Wilbert O'Berry, and Levi Corbett as members of the party. Reports serious injuries to Palmer and O'Berry, lesser injuries to the Whites, and no injury to Corbett. Attributes to Corbett the discovery of wires leading from the explosive charge to a switch hidden nearby. States that Palmer required a leg amputation. Publication date and page 1 are supplied by the uploaded newspaper filename."
+},
+{
+  "id": "asberry-palmer-death-investigation-1931-12-26",
+  "type": "Newspaper Article",
+  "title": "1931-12-26 Swamp Blast Fatal to One; Suspect Here",
+  "publisher": "The Macon Telegraph",
+  "date": "1931-12-26",
+  "location": "Waycross, Ware County, Georgia; Pearson, Atkinson County, Georgia",
+  "people": [
+  ],
+  "file": "1931_12_26_berry_palmer_death_investigation.jpg",
+  "description": "Associated Press report with a Waycross dateline of December 25, reporting the death of Deputy Sheriff Berry Palmer, age 43, following the December 21 still explosion. Describes an anonymously mailed map and switches connected to mash-barrel lids. Reports the detention of Mose Smith, Grover McKinnon, and Ben Corbett and states that all three denied involvement. Announces funeral services near Pearson for December 26 at 11 a.m., with the Rev. Mr. Holland officiating. Names his surviving wife, five children, brothers D. P., Elias, and Frank Palmer, and sister Mrs. W. L. Herrin, identified in family research as Laura Etta Palmer Herrin. Includes a separate section concerning McKinnon's transfer to Macon. Publication date and page 1 are supplied by the uploaded filename."
+},
+
+{
+  "id": "1910-marriage-asberry-palmer-lilla-smith",
+  "title": "1910 Marriage Record of Berry Palmer and Lillie Smith",
+  "type": "marriage",
+  "date": "1910-11-27",
+  "file": "1910_marriage_asberry_palmer_lilla_smith.jpg",
+  "description": "Marriage license and certificate for Berry Palmer and Lillie Smith, married November 27, 1910, in Clinch County, Georgia. License issued November 26, 1910. Recorded in Marriage Book A, page 309.",
+  "people": [
+    "asberry-ides-palmer-1886",
+    "lilla-smith-1893"
+  ]
+},
+
+
+{
+  "id": "1920-census-berry-palmer-family",
+  "title": "1920 U.S. Census – Berry Palmer Family",
+  "type": "census",
+  "date": "1920",
+  "file": "1920_census_berry_palmer_family.jpg",
+  "description": "1920 United States Census, Georgia. Census record documenting Berry Palmer and his family.",
+  "people": [
+    "asberry-ides-palmer-1886",
+    "lilla-smith-1893"
+  ]
+},
+{
+  "id": "1930-census-berry-palmer-family",
+  "title": "1930 U.S. Census – Berry Palmer Family",
+  "type": "census",
+  "date": "1930",
+  "file": "1930_census_berry_palmer_family.jpg",
+  "description": "1930 United States Census, Pearson District, Atkinson County, Georgia, enumeration district 15, sheet 14A. Berry Palmer's household appears on lines 9–16, including Lilla and their five children.",
+  "people": [
+    "asberry-ides-palmer-1886",
+    "lilla-smith-1893",
+    "edna-palmer-1911",
+    "henry-ottis-palmer-1915",
+    "virue-palmer-1918",
+    "asberry-ides-palmer-1921",
+    "huey-austin-palmer-1923"
+  ]
 }
+
+
 ]

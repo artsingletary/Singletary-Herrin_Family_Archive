@@ -207,6 +207,78 @@
   ],
   "sources": ["1958-tallahassee-democrat-eller-juanita-tuten-trixy"],
   "status": "published"
+},
+
+
+{
+  "id": "berry-palmer-1931-still-explosion",
+  "title": "The Tragic Death of Berry Palmer: The 1931 Moonshine Still Explosion",
+  "category": "Family History",
+  "family_lines": [
+    "herrin"
+  ],
+  "summary": "The story of Asberry Ides \"Berry\" Palmer Sr., an Atkinson County farmer and special deputy sheriff who died following a dynamite explosion during a raid on an illegal whiskey still near Pearson, Georgia, in December 1931, and the murder investigation and trial that followed.",
+  "author": "Art Singletary",
+  "date": "",
+  "cover_photo": "asberry_palmer.jpg",
+  "people": [
+    "asberry-ides-palmer-1886",
+    "lilla-smith-1893"
+  ],
+  "sections": [
+    {
+      "heading": "A Tragedy Near Pearson",
+      "text": "In December 1931, Asberry Ides \"Berry\" Palmer Sr., a farmer and special deputy sheriff in Atkinson County, Georgia, became involved in a law enforcement raid that ended in tragedy. An explosion at an illegal whiskey still in the Roundabout swamp area near Pearson left Palmer gravely injured. He died several days later, leaving behind his wife and five children. His death prompted a criminal investigation and murder trial that received newspaper coverage across Georgia."
+    },
+    {
+      "heading": "The Raid — December 21, 1931",
+      "text": "On December 21, 1931, Berry Palmer accompanied Sheriff Louis White, Deputy Edward White, Special Deputy Wilbert O'Berry, and Levi Corbett on a raid against an illegal whiskey still in the Roundabout swamp area, approximately five miles from Pearson. According to contemporary Associated Press reports, the officers were investigating the still when a dynamite charge exploded. Palmer and O'Berry suffered serious injuries, while Sheriff White and Deputy White sustained lesser injuries. Corbett escaped injury."
+    },
+    {
+      "heading": "A Suspected Trap",
+      "text": "Newspaper accounts described evidence suggesting that the still had been deliberately rigged with explosives. Levi Corbett reportedly discovered wires leading from the explosive charge to a concealed switch. Later reports described an anonymously mailed map that had directed the sheriff's party toward the still and switches connected to mash-barrel lids. These details formed part of the subsequent investigation, although the available records do not establish who prepared or activated the explosive device."
+    },
+    {
+      "heading": "Berry Palmer's Final Days",
+      "text": "Palmer suffered devastating injuries in the explosion. A December 22 newspaper report stated that his leg required amputation. He was taken to Waycross, Georgia, where he died at approximately 1:30 a.m. on December 25, 1931, according to his Georgia death certificate. The certificate records a dynamite-related injury, hemorrhage, and an injury to the lower portion of his left leg. His gravestone records December 24 as his death date, creating a discrepancy between the cemetery inscription and the official death record. Contemporary newspaper accounts support a Christmas Day death."
+    },
+    {
+      "heading": "The Man Behind the Headlines",
+      "text": "Berry Palmer was born July 7, 1886, according to his World War I draft registration and gravestone, although the 1900 census records a different birth month and year. He was a son of Henry H. W. Palmer and Laura Williams. On November 27, 1910, he married Lilla Smith in Clinch County, Georgia. Their marriage certificate identifies them as Berry Palmer and Lillie Smith. The couple had five known children: Edna, Henry Ottis, Virue, Asberry Ides Jr., and Huey Austin Palmer. Census and draft registration records document Berry's work as a farmer in southern Georgia."
+    },
+    {
+      "heading": "The Investigation",
+      "text": "Following Palmer's death, authorities investigated whether the explosion had been intentionally arranged to injure the officers. Contemporary newspaper reports identified Mose Smith, Grover McKinnon, and Ben Corbett among those detained during the investigation. All denied involvement. Smith and McKinnon were subsequently indicted in connection with Palmer's death. The prosecution alleged that the explosion resulted from a conspiracy, but those allegations were disputed and were not established as findings of fact."
+    },
+    {
+      "heading": "The Murder Trial — February 1932",
+      "text": "In February 1932, Mose Smith stood trial for murder in Pearson, Georgia. Newspaper coverage described testimony from Sheriff Louis White concerning the anonymous map, the marked route to the still, and the explosion. The prosecution relied on circumstantial evidence, while the defense presented an alibi placing Smith in Willacoochee at the time of the blast. A February 24 report also identified Leon Palmer, a nephew of Berry Palmer, among the witnesses and stated that Berry's widow attended the proceedings."
+    },
+    {
+      "heading": "The Verdict",
+      "text": "On February 26, 1932, an Associated Press report announced that Mose Smith had been acquitted following approximately fifty minutes of jury deliberation. The prosecution also abandoned its case against Grover McKinnon. Both men had denied involvement. The newspaper reported that Berry's widow expressed satisfaction with the verdict because she did not wish an innocent man to be punished. The available reports do not identify who was responsible for the explosion."
+    },
+    {
+      "heading": "Burial and Family Remembrance",
+      "text": "Berry Palmer's funeral was held near Pearson on December 26, 1931, with the Rev. Mr. Holland officiating. His death certificate records burial at Pearson on that date, and his grave has been identified at Red Bluff Cemetery in Atkinson County, Georgia. He was survived by his wife, Lilla, their five children, and several siblings. A December 26 newspaper report specifically named his brothers D. P., Elias, and Frank Palmer and his sister Mrs. W. L. Herrin, identified in family research as Laura Etta Palmer Herrin. Lilla died on March 24, 1982, and was buried alongside him."
+    },
+    {
+      "heading": "Questions for Further Research",
+      "text": "Although the available records document the explosion, Palmer's death, the criminal investigation, and the outcome of the trial, they do not establish who was responsible for the explosive device. Additional court records, investigative reports, or newspaper coverage may provide further information. There is also a discrepancy between the December 24 death date on Palmer's gravestone and the December 25 date on his death certificate. The latter is supported by contemporary newspaper reports."
+    },
+    {
+      "heading": "Sources and Research Notes",
+      "text": "Sources include Berry Palmer's 1931 Georgia death certificate; Associated Press newspaper reports dated December 22, December 26, and December 27, 1931; reports concerning the February 1932 murder trial and acquittal; the 1900, 1920, and 1930 United States censuses; his November 27, 1910 marriage certificate; his 1917 World War I draft registration; and the photograph of his grave at Red Bluff Cemetery. Newspaper allegations are attributed to their reporting rather than treated as independently established facts."
+    }
+  ],
+"sources": [
+  "asberry-palmer-still-explosion-1931-12-22",
+  "asberry-palmer-death-investigation-1931-12-26",
+  "asberry-palmer-still-explosion-investigation-1931",
+  "asberry-palmer-murder-trial-1932-02-24",
+  "asberry-palmer-case-acquittal-1932-02-26"
+  ],
+  "status": "published"
 }
 
 

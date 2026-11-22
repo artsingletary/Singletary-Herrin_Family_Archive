@@ -4393,12 +4393,17 @@
     "herrin"
   ],
   "birth_year": 1886,
+  "birth_date": "1886-07-07",
   "death_year": 1931,
+  "death_date": "1931-12-24",
   "father": "henry-hw-palmer",
   "mother": "laura-williams-1855",
-  "spouses": [],
+  "spouses": ["lilla-smith-1893"],
   "biography": [
-    "Asberry Ides Palmer Sr. is listed in the supplied FamilySearch tree as a son of Henry H. W. Palmer and Laura Williams, with birth and death years of 1886 and 1931. These details remain provisional pending review of supporting records."
+    "Asberry Ides \"Berry\" Palmer Sr. was born in Clinch County, Georgia, the son of Henry H. W. Palmer and Laura Williams. His reported birth date was July 7, 1886, although the 1900 United States Census records his birth as August 1888. In that census, Berry was living with his widowed mother and siblings in Clinch County.",
+    "On November 27, 1910, Berry married Lilla Smith in Clinch County, Georgia. They had five children: Edna, Henry Ottis, Virue, Asberry Ides Jr., and Huey Austin Palmer. Berry worked as a farmer, and the family later lived near Pearson in Atkinson County, Georgia.",
+    "Berry also served as a special deputy sheriff in Atkinson County. On December 21, 1931, he was critically injured in a dynamite explosion during a raid on an illegal whiskey still near Pearson. He died in Waycross, Georgia, on December 25, 1931, according to his death certificate, although his gravestone records December 24. He was buried at Red Bluff Cemetery near Pearson.",
+    "The circumstances of Berry's death, the investigation, and the subsequent murder trial are documented in the related family story, The Tragic Death of Berry Palmer: The 1931 Moonshine Still Explosion."
   ]
 },
 {
@@ -4486,5 +4491,108 @@
   "biography": [
     "Frank Palmer is listed in the supplied FamilySearch tree as a son of Henry H. W. Palmer and Laura Williams, with birth and death years of 1895 and 1975. These details remain provisional pending review of supporting records."
   ]
+},
+
+{
+  "id": "edna-palmer-1911",
+  "first_name": "Edna",
+  "last_name": "Palmer",
+  "family_lines": ["herrin"],
+  "birth_year": 1911,
+  "death_year": 1999,
+  "father": "asberry-ides-palmer-1886",
+  "mother": "lilla-smith-1893",
+  "spouses": [],
+  "biography": [
+    "Edna Palmer (1911–1999) was a daughter of Asberry Ides Palmer Sr. and Lilla Smith. A family photograph identifies her with her four siblings. According to the photograph's caption, Edna married Carlie Bryant, Joel Courson, and Milton Kirkland."
+  ]
+},
+{
+  "id": "henry-ottis-palmer-1915",
+  "first_name": "Henry",
+  "middle_name": "Ottis",
+  "last_name": "Palmer",
+  "family_lines": ["herrin"],
+  "birth_year": 1915,
+  "death_year": 1989,
+  "father": "asberry-ides-palmer-1886",
+  "mother": "lilla-smith-1893",
+  "spouses": [],
+  "biography": [
+    "Henry Ottis Palmer (1915–1989) was a son of Asberry Ides Palmer Sr. and Lilla Smith. He is identified as Otis in a family photograph of the five Palmer children."
+  ]
+},
+{
+  "id": "virue-palmer-1918",
+  "first_name": "Virue",
+  "last_name": "Palmer",
+  "family_lines": ["herrin"],
+  "birth_year": 1918,
+  "death_year": 2009,
+  "father": "asberry-ides-palmer-1886",
+  "mother": "lilla-smith-1893",
+  "spouses": [],
+  "biography": [
+    "Virue Palmer (1918–2009) was a daughter of Asberry Ides Palmer Sr. and Lilla Smith. She appears in a family photograph with her four siblings."
+  ]
+},
+{
+  "id": "asberry-ides-palmer-1921",
+  "first_name": "Asberry",
+  "middle_name": "Ides",
+  "last_name": "Palmer",
+  "suffix": "Jr.",
+  "family_lines": ["herrin"],
+  "birth_year": 1921,
+  "death_year": 1990,
+  "father": "asberry-ides-palmer-1886",
+  "mother": "lilla-smith-1893",
+  "spouses": [],
+  "biography": [
+    "Asberry Ides Palmer Jr. (1921–1990) was a son of Asberry Ides Palmer Sr. and Lilla Smith. He is identified as Ides in a family photograph of the five Palmer children."
+  ]
+},
+{
+  "id": "huey-austin-palmer-1923",
+  "first_name": "Huey",
+  "middle_name": "Austin",
+  "last_name": "Palmer",
+  "family_lines": ["herrin"],
+  "birth_year": 1923,
+  "death_year": 1999,
+  "father": "asberry-ides-palmer-1886",
+  "mother": "lilla-smith-1893",
+  "spouses": [],
+  "biography": [
+    "Huey Austin Palmer (1923–1999) was a son of Asberry Ides Palmer Sr. and Lilla Smith. He is identified as Austin, nicknamed Pill, in a family photograph of the five Palmer children."
+  ]
+},
+
+{
+  "id": "lilla-smith-1893",
+  "first_name": "Lilla",
+  "last_name": "Smith",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_year": 1893,
+  "birth_date": "1893-01-04",
+  "death_year": 1982,
+  "death_date": "1982-03-24",
+  "spouses": [
+    "asberry-ides-palmer-1886"
+  ],
+  "biography": [
+    "Lilla Smith (1893–1982) married Asberry Ides Palmer Sr. (1886–1931) on November 27, 1910, in Clinch County, Georgia, according to the FamilySearch family tree. The couple was associated with Atkinson County, Georgia.",
+    "Lilla and Asberry had five known children: Edna Palmer (1911–1999), Henry Ottis Palmer (1915–1989), Virue Palmer (1918–2009), Asberry Ides Palmer Jr. (1921–1990), and Huey Austin Palmer (1923–1999). A surviving family photograph identifies all five children together."
+  ]
 }
+
+
+
+
+
+
+
+
 ]

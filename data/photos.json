@@ -1547,7 +1547,42 @@
   "type": "grave",
   "caption": "Shared gravestone of Marlene Singletary Crowley (February 2, 1938 – July 26, 2010) and her husband, Ervin G. 'Buddy' Crowley (1930–2009).",
   "people": ["marlene-singletary-1938"]
+},
+
+
+{
+  "id": "asberry-ides-palmer-portrait",
+  "file": "asberry_palmer.jpg",
+  "caption": "Portrait of Asberry Ides Palmer Sr. (1886–1931). Identification confirmed by a family descendant.",
+  "people": [
+    "asberry-ides-palmer-1886"
+  ]
+},
+{
+  "id": "asberry-lilla-palmer-children",
+  "file": "asberry_lilla_palmer_children.jpg",
+  "type": "family",
+  "caption": "Five children of Asberry Ides Palmer Sr. and Lilla Smith Palmer of Atkinson County, Georgia. Left to right: Huey Austin Palmer (Pill), Asberry Ides Palmer Jr. (Ides), Virue Palmer, Henry Ottis Palmer (Otis), and Edna Palmer.",
+  "people": [
+    "huey-austin-palmer-1923",
+    "asberry-ides-palmer-1921",
+    "virue-palmer-1918",
+    "henry-ottis-palmer-1915",
+    "edna-palmer-1911"
+  ]
+},
+{
+  "id": "asberry-lilla-palmer-grave",
+  "file": "asberry_palmer_and_lilla_smith_grave.jpg",
+  "type": "grave",
+  "caption": "Shared grave marker of Asberry Ides Palmer Sr. (July 7, 1886 – December 24, 1931) and Lilla Smith Palmer (January 4, 1893 – March 24, 1982).",
+  "people": [
+    "asberry-ides-palmer-1886",
+    "lilla-smith-1893"
+  ],
+  "location": "Red Bluff Cemetery, Pearson, Atkinson County, Georgia"
 }
+
 
 
 

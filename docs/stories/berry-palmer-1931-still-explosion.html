@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Google Analytics 4 - Consent Controlled -->
+<script>
+    const GA_MEASUREMENT_ID = "G-MMTEL90RK4";
+
+    function loadGoogleAnalytics() {
+        if (window.gaAnalyticsLoaded) return;
+
+        window.gaAnalyticsLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+
+        window.gtag = function () {
+            window.dataLayer.push(arguments);
+        };
+
+        gtag("js", new Date());
+        gtag("config", GA_MEASUREMENT_ID);
+
+        const script = document.createElement("script");
+        script.async = true;
+        script.src =
+            "https://www.googletagmanager.com/gtag/js?id=" +
+            GA_MEASUREMENT_ID;
+
+        document.head.appendChild(script);
+    }
+
+    // Load Analytics only if consent was previously granted.
+    try {
+        if (localStorage.getItem("analytics-consent") === "accepted") {
+            loadGoogleAnalytics();
+        }
+    } catch (error) {
+        // Analytics remains disabled if storage is unavailable.
+    }
+</script>
+
+
+<!-- Analytics Cookie Consent Banner -->
+<style>
+    #cookie-consent-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        background: #f8f7f3;
+        border-top: 2px solid #b8a58c;
+        padding: 15px 25px;
+        box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.12);
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    #cookie-consent-banner p {
+        margin: 0;
+        flex: 1;
+        min-width: 240px;
+        color: #333;
+    }
+
+    #cookie-consent-banner a {
+        color: #3d4b3a;
+        text-decoration: underline;
+    }
+
+    #cookie-consent-banner button {
+        padding: 9px 18px;
+        border: 1px solid #8a6c48;
+        border-radius: 5px;
+        background: #fff;
+        color: #333;
+        cursor: pointer;
+    }
+
+    #cookie-consent-banner button:hover {
+        background: #f0e7d8;
+    }
+
+    #cookie-consent-banner button:focus-visible {
+        outline: 2px solid #3d4b3a;
+        outline-offset: 2px;
+    }
+</style>
+
+
+<!-- Cookie Consent Banner Behavior -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        // Create the banner.
+        const banner = document.createElement("div");
+        banner.id = "cookie-consent-banner";
+        banner.setAttribute("role", "region");
+        banner.setAttribute("aria-label", "Analytics cookie preferences");
+
+        // Create the message.
+        const message = document.createElement("p");
+        message.textContent =
+            "This website uses optional analytics cookies to understand visitor activity. ";
+
+        // Create the Privacy Notice link.
+        const privacyLink = document.createElement("a");
+        privacyLink.textContent = "Privacy Notice";
+
+        // Use the correct relative path for each page.
+        const inSubdirectory =
+            window.location.pathname.includes("/people/") ||
+            window.location.pathname.includes("/stories/");
+
+        privacyLink.href = inSubdirectory
+            ? "../privacy.html"
+            : "privacy.html";
+
+        message.appendChild(privacyLink);
+
+        // Create the Accept button.
+        const acceptButton = document.createElement("button");
+        acceptButton.type = "button";
+        acceptButton.textContent = "Accept";
+
+        // Create the Reject button.
+        const rejectButton = document.createElement("button");
+        rejectButton.type = "button";
+        rejectButton.textContent = "Reject";
+
+        // Add everything to the banner.
+        banner.append(message, acceptButton, rejectButton);
+        document.body.appendChild(banner);
+
+        // Check for an existing consent choice.
+        let consent = null;
+
+        try {
+            consent = localStorage.getItem("analytics-consent");
+        } catch (error) {
+            // Storage may be unavailable.
+        }
+
+        // Show the banner if no choice has been saved.
+        if (consent !== "accepted" && consent !== "rejected") {
+            banner.style.display = "flex";
+        }
+
+        // Accept analytics cookies.
+        acceptButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "accepted");
+
+                banner.style.display = "none";
+                loadGoogleAnalytics();
+            } catch (error) {
+                // Do not enable analytics if consent cannot be saved.
+            }
+        });
+
+
+        // Reject analytics cookies.
+        rejectButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "rejected");
+
+                // Disable further Google Analytics collection.
+                window["ga-disable-" + GA_MEASUREMENT_ID] = true;
+
+                document.cookie.split(";").forEach(function (cookie) {
+                    const name = cookie.split("=")[0].trim();
+
+                    if (name === "_ga" || name.startsWith("_ga_")) {
+                        // Clear host-only cookies.
+                        document.cookie =
+                        name + "=; Max-Age=0; path=/";
+
+                        // Clear cookies scoped to this website's domain.
+                         document.cookie =
+                            name +
+                            "=; Max-Age=0; path=/; domain=artsingletary.github.io";
+                    }
+                });
+
+                banner.style.display = "none";
+
+                // Stop the previously loaded Analytics session.
+                window.location.reload();
+
+            } catch (error) {
+                // Analytics remains disabled if storage is unavailable.
+            }
+        });
+
+
+    });
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>The Tragic Death of Berry Palmer: The 1931 Moonshine Still Explosion | Singletary-Herrin Family Archive</title>
+</head>
+<body>
+
+    <header>
+        <h1>Singletary-Herrin Family Archive</h1>
+        <p>Preserving the stories and memories of our family.</p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../family-tree.html">Family Tree</a>
+        <a href="../photos.html">Photos</a>
+        <a href="../stories.html">Stories</a>
+        <a href="../documents.html">Documents</a>
+        <a href="../cemeteries.html">Cemeteries</a>
+        <a href="#">Reunions</a>
+    </nav>
+
+    <main class="story-page">
+
+        <p><a href="../stories.html">&larr; Back to Stories</a></p>
+
+        <h2>The Tragic Death of Berry Palmer: The 1931 Moonshine Still Explosion</h2>
+
+        <p class="story-category">Family History</p>
+
+
+        <div class="story-cover">
+                <img src="https://d19qead08pko0m.cloudfront.net/photos/asberry_palmer.jpg"
+                alt="The Tragic Death of Berry Palmer: The 1931 Moonshine Still Explosion">
+
+
+        </div>
+
+
+
+
+        <p><strong>Author:</strong> Art Singletary</p>
+
+
+        <!-- Story chapters -->
+
+
+
+        <section class="story-section">
+
+
+            <h3>A Tragedy Near Pearson</h3>
+
+
+
+            <p>In December 1931, Asberry Ides "Berry" Palmer Sr., a farmer and special deputy sheriff in Atkinson County, Georgia, became involved in a law enforcement raid that ended in tragedy. An explosion at an illegal whiskey still in the Roundabout swamp area near Pearson left Palmer gravely injured. He died several days later, leaving behind his wife and five children. His death prompted a criminal investigation and murder trial that received newspaper coverage across Georgia.</p>
+
+
+
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+
+
+
+
+        <section class="story-section">
+
+
+            <h3>The Raid — December 21, 1931</h3>
+
+
+
+            <p>On December 21, 1931, Berry Palmer accompanied Sheriff Louis White, Deputy Edward White, Special Deputy Wilbert O'Berry, and Levi Corbett on a raid against an illegal whiskey still in the Roundabout swamp area, approximately five miles from Pearson. According to contemporary Associated Press reports, the officers were investigating the still when a dynamite charge exploded. Palmer and O'Berry suffered serious injuries, while Sheriff White and Deputy White sustained lesser injuries. Corbett escaped injury.</p>
+
+
+
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+
+
+
+
+        <section class="story-section">
+
+
+            <h3>A Suspected Trap</h3>
+
+
+
+            <p>Newspaper accounts described evidence suggesting that the still had been deliberately rigged with explosives. Levi Corbett reportedly discovered wires leading from the explosive charge to a concealed switch. Later reports described an anonymously mailed map that had directed the sheriff's party toward the still and switches connected to mash-barrel lids. These details formed part of the subsequent investigation, although the available records do not establish who prepared or activated the explosive device.</p>
+
+
+
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+
+
+
+
+        <section class="story-section">
+
+
+            <h3>Berry Palmer's Final Days</h3>
+
+
+
+            <p>Palmer suffered devastating injuries in the explosion. A December 22 newspaper report stated that his leg required amputation. He was taken to Waycross, Georgia, where he died at approximately 1:30 a.m. on December 25, 1931, according to his Georgia death certificate. The certificate records a dynamite-related injury, hemorrhage, and an injury to the lower portion of his left leg. His gravestone records December 24 as his death date, creating a discrepancy between the cemetery inscription and the official death record. Contemporary newspaper accounts support a Christmas Day death.</p>
+
+
+
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+
+
+
+
+        <section class="story-section">
+
+
+            <h3>The Man Behind the Headlines</h3>
+
+
+
+            <p>Berry Palmer was born July 7, 1886, according to his World War I draft registration and gravestone, although the 1900 census records a different birth month and year. He was a son of Henry H. W. Palmer and Laura Williams. On November 27, 1910, he married Lilla Smith in Clinch County, Georgia. Their marriage certificate identifies them as Berry Palmer and Lillie Smith. The couple had five known children: Edna, Henry Ottis, Virue, Asberry Ides Jr., and Huey Austin Palmer. Census and draft registration records document Berry's work as a farmer in southern Georgia.</p>
+
+
+
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+
+
+
+
+        <section class="story-section">
+
+
+            <h3>The Investigation</h3>
+
+
+
+            <p>Following Palmer's death, authorities investigated whether the explosion had been intentionally arranged to injure the officers. Contemporary newspaper reports identified Mose Smith, Grover McKinnon, and Ben Corbett among those detained during the investigation. All denied involvement. Smith and McKinnon were subsequently indicted in connection with Palmer's death. The prosecution alleged that the explosion resulted from a conspiracy, but those allegations were disputed and were not established as findings of fact.</p>
+
+
+
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+
+
+
+
+        <section class="story-section">
+
+
+            <h3>The Murder Trial — February 1932</h3>
+
+
+
+            <p>In February 1932, Mose Smith stood trial for murder in Pearson, Georgia. Newspaper coverage described testimony from Sheriff Louis White concerning the anonymous map, the marked route to the still, and the explosion. The prosecution relied on circumstantial evidence, while the defense presented an alibi placing Smith in Willacoochee at the time of the blast. A February 24 report also identified Leon Palmer, a nephew of Berry Palmer, among the witnesses and stated that Berry's widow attended the proceedings.</p>
+
+
+
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+
+
+
+
+        <section class="story-section">
+
+
+            <h3>The Verdict</h3>
+
+
+
+            <p>On February 26, 1932, an Associated Press report announced that Mose Smith had been acquitted following approximately fifty minutes of jury deliberation. The prosecution also abandoned its case against Grover McKinnon. Both men had denied involvement. The newspaper reported that Berry's widow expressed satisfaction with the verdict because she did not wish an innocent man to be punished. The available reports do not identify who was responsible for the explosion.</p>
+
+
+
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+
+
+
+
+        <section class="story-section">
+
+
+            <h3>Burial and Family Remembrance</h3>
+
+
+
+            <p>Berry Palmer's funeral was held near Pearson on December 26, 1931, with the Rev. Mr. Holland officiating. His death certificate records burial at Pearson on that date, and his grave has been identified at Red Bluff Cemetery in Atkinson County, Georgia. He was survived by his wife, Lilla, their five children, and several siblings. A December 26 newspaper report specifically named his brothers D. P., Elias, and Frank Palmer and his sister Mrs. W. L. Herrin, identified in family research as Laura Etta Palmer Herrin. Lilla died on March 24, 1982, and was buried alongside him.</p>
+
+
+
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+
+
+
+
+        <section class="story-section">
+
+
+            <h3>Questions for Further Research</h3>
+
+
+
+            <p>Although the available records document the explosion, Palmer's death, the criminal investigation, and the outcome of the trial, they do not establish who was responsible for the explosive device. Additional court records, investigative reports, or newspaper coverage may provide further information. There is also a discrepancy between the December 24 death date on Palmer's gravestone and the December 25 date on his death certificate. The latter is supported by contemporary newspaper reports.</p>
+
+
+
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+
+
+
+
+        <section class="story-section">
+
+
+            <h3>Sources and Research Notes</h3>
+
+
+
+            <p>Sources include Berry Palmer's 1931 Georgia death certificate; Associated Press newspaper reports dated December 22, December 26, and December 27, 1931; reports concerning the February 1932 murder trial and acquittal; the 1900, 1920, and 1930 United States censuses; his November 27, 1910 marriage certificate; his 1917 World War I draft registration; and the photograph of his grave at Red Bluff Cemetery. Newspaper allegations are attributed to their reporting rather than treated as independently established facts.</p>
+
+
+
+
+        </section>
+
+        <!-- Family connection diagram after Chapter 3 -->
+
+
+
+
+
+        <!-- Related family members -->
+
+
+        <section class="story-related">
+
+            <h3>People in This Story</h3>
+
+            <ul>
+
+                <li>
+                    <a href="../people/asberry-ides-palmer-1886.html">
+                        Asberry Ides Palmer Sr.
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../people/lilla-smith-1893.html">
+                        Lilla Smith
+                    </a>
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- Historical documents and sources -->
+
+
+        <section class="story-sources">
+
+            <h3>Historical Documents &amp; Sources</h3>
+
+            <ol>
+
+                <li>
+                    <strong>1931-12-22 Sheriff Hurt With Others in Explosion</strong>
+
+
+                    <span> — 1931-12-22</span>
+
+
+
+                    <p>Associated Press report with a Pearson dateline of December 21, describing an explosion during a raid on a moonshine still in Roundabout swamp, approximately five miles from Pearson. Names Sheriff Louis White, Deputy Edward White, and Special Deputies Berry Palmer, Wilbert O'Berry, and Levi Corbett as members of the party. Reports serious injuries to Palmer and O'Berry, lesser injuries to the Whites, and no injury to Corbett. Attributes to Corbett the discovery of wires leading from the explosive charge to a switch hidden nearby. States that Palmer required a leg amputation. Publication date and page 1 are supplied by the uploaded newspaper filename.</p>
+
+
+
+                    <p>
+                        <a href="https://d19qead08pko0m.cloudfront.net/documents/1931_12_22_berry_palmer_still_explosion.jpg"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View Document
+                        </a>
+                    </p>
+
+                </li>
+
+                <li>
+                    <strong>1931-12-26 Swamp Blast Fatal to One; Suspect Here</strong>
+
+
+                    <span> — 1931-12-26</span>
+
+
+
+                    <p>Associated Press report with a Waycross dateline of December 25, reporting the death of Deputy Sheriff Berry Palmer, age 43, following the December 21 still explosion. Describes an anonymously mailed map and switches connected to mash-barrel lids. Reports the detention of Mose Smith, Grover McKinnon, and Ben Corbett and states that all three denied involvement. Announces funeral services near Pearson for December 26 at 11 a.m., with the Rev. Mr. Holland officiating. Names his surviving wife, five children, brothers D. P., Elias, and Frank Palmer, and sister Mrs. W. L. Herrin, identified in family research as Laura Etta Palmer Herrin. Includes a separate section concerning McKinnon's transfer to Macon. Publication date and page 1 are supplied by the uploaded filename.</p>
+
+
+
+                    <p>
+                        <a href="https://d19qead08pko0m.cloudfront.net/documents/1931_12_26_berry_palmer_death_investigation.jpg"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View Document
+                        </a>
+                    </p>
+
+                </li>
+
+                <li>
+                    <strong>1931-12-27 Suspects in Blast at Still Separated</strong>
+
+
+                    <span> — 1931-12-27</span>
+
+
+
+                    <p>Associated Press report published in The Atlanta Constitution, December 27, 1931, page 11, with a Waycross dateline of December 26. Reports that Special Deputy Berry Palmer, age 43, died on Christmas Day following injuries from a dynamite explosion during a raid on a moonshine still near Pearson. Describes an anonymous letter directing Sheriff Louis White's party to the still and an explosion as officers began destroying the apparatus. Names another seriously injured deputy as Wilbert O'Berry. Reports that Moses Smith, Ben Corbett, and Grover McKinnon were detained in separate jails during the investigation; it does not establish their guilt or the case's eventual outcome. States that Palmer's funeral was held near Pearson on December 26 at 11 a.m. Publication details are supplied by the uploaded newspaper filename.</p>
+
+
+
+                    <p>
+                        <a href="https://d19qead08pko0m.cloudfront.net/documents/1931_berry_palmer_still_explosion_investigation.jpg"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View Document
+                        </a>
+                    </p>
+
+                </li>
+
+                <li>
+                    <strong>1932-02-24 Jury Is Obtained for Smith Trial</strong>
+
+
+                    <span> — 1932-02-24</span>
+
+
+
+                    <p>Trial report with a Pearson dateline of February 23, 1932. Reports that Mose Smith and Grover McKinnon had been indicted in connection with the death of Deputy Berry Palmer and describes jury selection and testimony in Smith's murder trial. Summarizes Sheriff White's account of the map, marked trail, and explosion; prosecution allegations of a conspiracy; and the defense's announced alibi. Identifies witness Leon Palmer as a nephew of the slain officer and reports that Palmer's widow attended court. States that surviving injured officers were also present. Allegations and testimony are not treated as established findings; no verdict is reported in this clipping. Publication date and page 9 are supplied by the uploaded filename.</p>
+
+
+
+                    <p>
+                        <a href="https://d19qead08pko0m.cloudfront.net/documents/1932_02_24_berry_palmer_murder_trial.jpg"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View Document
+                        </a>
+                    </p>
+
+                </li>
+
+                <li>
+                    <strong>1932-02-26 Mose Smith Is Acquitted</strong>
+
+
+                    <span> — 1932-02-26</span>
+
+
+
+                    <p>Associated Press report with a Pearson dateline of February 26, reporting Mose Smith's acquittal in the murder case arising from the still explosion that fatally injured Deputy Berry Palmer. States that the prosecution abandoned its case against co-indictee Grover McKinnon. Both men denied involvement. Reports approximately fifty minutes of jury deliberation, circumstantial prosecution evidence, and defense testimony placing Smith in Willacoochee when the explosion occurred. Records that Palmer's widow expressed satisfaction with the verdict and did not want an innocent man punished. The article compresses the death chronology; Palmer's death certificate and earlier reports establish injury on December 21 and death on December 25, 1931. Publication date and page 18 are supplied by the uploaded filename.</p>
+
+
+
+                    <p>
+                        <a href="https://d19qead08pko0m.cloudfront.net/documents/1932_02_26_berry_palmer_case_acquittal.jpg"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View Document
+                        </a>
+                    </p>
+
+                </li>
+
+            </ol>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>Singletary-Herrin Family Archive</p>
+
+        <p>
+            <a href="../privacy.html">Privacy Notice</a>
+        </p>
+
+    </footer>
+
+</body>
+</html>

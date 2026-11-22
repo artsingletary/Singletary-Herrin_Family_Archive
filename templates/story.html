@@ -205,6 +205,42 @@
         </section>
         {% endif %}
 
+        <!-- Historical documents and sources -->
+
+        {% if story.source_details %}
+        <section class="story-sources">
+
+            <h3>Historical Documents &amp; Sources</h3>
+
+            <ol>
+                {% for source in story.source_details %}
+                <li>
+                    <strong>{{ source.title }}</strong>
+
+                    {% if source.date %}
+                    <span> — {{ source.date }}</span>
+                    {% endif %}
+
+                    {% if source.description %}
+                    <p>{{ source.description }}</p>
+                    {% endif %}
+
+                    {% if source.file %}
+                    <p>
+                        <a href="{{ media_url }}/documents/{{ source.file }}"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View Document
+                        </a>
+                    </p>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ol>
+
+        </section>
+        {% endif %}
+
     </main>
 
     <footer>
