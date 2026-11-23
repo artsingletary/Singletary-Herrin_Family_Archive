@@ -1555,11 +1555,13 @@
     "id": "mary-jane-mathis-1873",
     "first_name": "Mary",
     "middle_name": "Jane",
-    "last_name": "Mathis",
+    "last_name": "Matthews",
+    "display_name": "Mary Jane Matthews Barker",
     "family_lines": [
       "singletary"
     ],
     "birth_year": 1873,
+    "death_year": 1846,
     "father": "malachi-m-matthews",
     "mother": "mary-williams",
     "biography": [

@@ -5,9 +5,11 @@
     "city": "Mayo",
     "county": "Lafayette",
     "state": "Florida",
-    "country": "USA",
-    "description": "",
-    "findagrave_url": "",
+    "address": "164 NE County Road 354, Mayo, FL 32066",
+    "latitude": 30.05731,
+    "longitude": -83.09522,
+    "description": "Airline Cemetery, also known as Airline Baptist Church Cemetery, is located near Mayo in Lafayette County, Florida.",
+    "findagrave_url": "https://www.findagrave.com/cemetery/1906234/airline-baptist-church-cemetery",
     "burials": [
       {
         "person_id": "daniel-m-mathis",
@@ -55,6 +57,7 @@
         "note": "2nd Great Grandmother"
       },
       {
+        "person_id": "mary-jane-mathis",
         "name": "Mary Jane Mathis",
         "last_name": "Mathis",
         "years": "1948–1948",
@@ -191,9 +194,12 @@
     "city": "Homerville",
     "county": "Clinch",
     "state": "Georgia",
-    "country": "USA",
-    "description": "",
-    "findagrave_url": "",
+    "latitude": 31.17965,
+    "longitude": -82.85265,
+    "description": ["Guest Mill Pond Cemetery, also known as Langs Church Cemetery, is a historic burial ground in Clinch County, Georgia. The cemetery is associated with the former Guest Mill Pond community, an early settlement that included a grist mill, cotton gin, trading post, and local election precinct.",
+      "The cemetery lies near the Clinch-Atkinson county line and is associated with both Homerville and Pearson in published location records"
+    ],
+    "findagrave_url": "https://www.findagrave.com/cemetery/1102105/lang-country-church-cemetery",
     "burials": [
       {
         "name": "Lucian Lester Cowart",
@@ -418,15 +424,17 @@
     ]
   },
   {
-    "id": "woodlawn-cemetery",
-    "name": "Woodlawn Cemetery",
-    "city": "Perry",
-    "county": "Taylor",
-    "state": "Florida",
-    "country": "United States",
-    "description": "Woodlawn Cemetery is located in Perry, Taylor County, Florida. It is the final resting place of several generations of the Herrin and Singletary families.",
-    "findagrave_url": "https://www.findagrave.com/cemetery/1872188",
-    "burials": [
+      "id": "woodlawn-cemetery",
+      "name": "Woodlawn Cemetery",
+      "city": "Perry",
+      "county": "Taylor",
+      "state": "Florida",
+      "address": "Perry, FL 32347",
+      "latitude": 30.12323,
+      "longitude": -83.57919,
+      "description": "Woodlawn Cemetery, also known as Perry City Cemetery, is located northeast of downtown Perry in Taylor County, Florida. The cemetery contains graves of generations of families from Perry and the surrounding communities.",
+      "findagrave_url": "https://www.findagrave.com/cemetery/1872188",
+      "burials": [
       {
         "person_id": "debra-renee-george-1956",
         "name": "Debra Renee George Cotrel",
@@ -531,9 +539,12 @@
     "city": "Pearson",
     "county": "Atkinson",
     "state": "Georgia",
+    "address": "Near Pearson, Atkinson County, Georgia",
+    "latitude": 31.2273,
+    "longitude": -82.78468,
+    "description": "Red Bluff Cemetery, also known as Red Bluff Primitive Baptist Church Cemetery, is located southeast of Pearson in Atkinson County, Georgia. It contains the graves of several generations of the Williams, Palmer, and related families.",
     "country": "United States",
-    "description": "Red Bluff Cemetery is located near Pearson in Atkinson County, Georgia. It contains the graves of several generations of the Williams, Palmer, and related families.",
-    "findagrave_url": "",
+    "findagrave_url": "https://www.findagrave.com/cemetery/1959684/red-bluff-cemetery",
     "burials": [
       {
         "name": "Willis Andrew \"Andy\" Barlow",
@@ -592,6 +603,7 @@
         "note": "1st Cousin 2x Removed"
       },
       {
+        "person_id": "asberry-ides-palmer-1886",
         "name": "Asberry Palmer",
         "last_name": "Palmer",
         "years": "1886–1931",
@@ -599,6 +611,7 @@
         "note": "Great Granduncle"
       },
       {
+        "person_id": "dilborn-p-palmer-1892",
         "name": "Dilborn Palmer",
         "last_name": "Palmer",
         "years": "1888–1940",
@@ -620,6 +633,8 @@
         "note": "Wife of Great Granduncle"
       },
       {
+
+        "person_id": "frank-palmer-1895",
         "name": "Frank Palmer",
         "last_name": "Palmer",
         "years": "1895–1975",
@@ -627,6 +642,7 @@
         "note": "Great Granduncle"
       },
       {
+        "person_id": "henry-otis-palmer-1915",
         "name": "Henry Ottis Palmer",
         "last_name": "Palmer",
         "years": "1915–1989",
@@ -656,6 +672,7 @@
         "note": "2nd Great Grandmother"
       },
       {
+        "person_id": "lilla-smith-1893",
         "name": "Lilla Smith Palmer",
         "last_name": "Palmer",
         "years": "1893–1982",
@@ -779,9 +796,11 @@
     "city": "Day",
     "county": "Lafayette",
     "state": "Florida",
-    "country": "United States",
-    "description": "Historically known as Bell's Mill Creek Cemetery, this cemetery is now known as Bethel Creek Baptist Church Cemetery. It is located in Day, Lafayette County, Florida, and contains graves of the Singletary, Bell, Morgan, and related families.",
-    "findagrave_url": "",
+    "address": "Day, Lafayette County, Florida",
+    "latitude": 30.25664,
+    "longitude": -83.28413,
+    "description": "Historically known as Bell's Mill Creek Cemetery, this burial ground is associated with Bethel Creek Baptist Church near Day, Florida. The cemetery predates the present church, with some gravestones dating to 1868. The current church was organized in 1949.",
+    "findagrave_url": "https://www.findagrave.com/cemetery/2347777/bethel-creek-baptist-church-cemetery",
     "burials": [
       {
         "name": "Calvin Wayne Bell",
@@ -934,9 +953,11 @@
     "city": "Lee",
     "county": "Madison",
     "state": "Florida",
-    "country": "USA",
-    "description": "",
-    "findagrave_url": "",
+     "address": "202 Brady Cemetery Road, Madison, FL 32340",
+    "latitude": 30.434374,
+    "longitude": -83.343475,
+    "description": "Brady Cemetery is a historic burial ground located west of Lee in Madison County, Florida. The cemetery contains graves of several generations of local families, including members of the Wadsworth and Darling families.",
+    "findagrave_url": "https://www.findagrave.com/cemetery/71802/brady-cemetery",
     "burials": [
       {
         "name": "James W. Barrett",
@@ -1035,9 +1056,11 @@
     "city": "Millwood",
     "county": "Ware",
     "state": "Georgia",
-    "country": "USA",
-    "description": "",
-    "findagrave_url": "",
+    "address": "7620–7622 Hargraves Church Road, Manor, GA 31550",
+    "latitude": 31.22350,
+    "longitude": -82.63469,
+    "description": "Hargraves Chapel Cemetery is a historic burial ground in Ware County, Georgia, associated with the Millwood community. The cemetery contains graves of members of the Hargraves, Bennett, Herrin, and other local families.",
+    "findagrave_url": "https://www.findagrave.com/cemetery/1965701/hargraves-chapel-cemetery",
     "burials": [
       {
         "name": "Alice Elizabeth Hargraves Bennett",
@@ -1219,9 +1242,11 @@
     "city": "Millwood",
     "county": "Ware",
     "state": "Georgia",
-    "country": "USA",
-    "description": "",
-    "findagrave_url": "",
+    "address": "Indian Mound Road, Millwood, GA 31552",
+    "latitude": 31.22711,
+    "longitude": -82.66264,
+    "description": "Indian Mound Cemetery, also known as Indian Mound Baptist Church Cemetery, is located on Indian Mound Road near Millwood in Ware County, Georgia. The cemetery is associated with the Indian Mound Baptist Church community.",
+    "findagrave_url": "https://www.findagrave.com/cemetery/2252780/indian-mound-baptist-church-cemetery",
     "burials": [
       {
         "name": "Josie Pearl Herrin Corbitt",
@@ -1371,9 +1396,11 @@
     "city": "Old Town",
     "county": "Dixie",
     "state": "Florida",
-    "country": "USA",
-    "description": "",
-    "findagrave_url": "",
+    "address": "910 SE 136th Avenue, Old Town, FL 32680",
+    "latitude": 29.58968,
+    "longitude": -82.96596,
+    "findagrave_url": "https://www.findagrave.com/cemetery/72404",
+    "description": "Old Town Memorial Cemetery, also known as Old Town Cemetery, is located in Old Town in Dixie County, Florida. The cemetery serves as a burial ground for generations of families from Old Town and the surrounding communities.",
     "burials": [
       {
         "name": "Ida Mae Herrin Secreast",
@@ -1430,5 +1457,98 @@
         "note": "Wife of 2nd Cousin"
       }
     ]
+  },
+  {
+      "id": "midway-cemetery",
+      "name": "Midway Cemetery",
+      "city": "Mayo",
+      "county": "Lafayette",
+      "state": "Florida",
+      "address": "3407 SE County Road 405, Mayo, FL 32066",
+      "latitude": 30.010894,
+      "longitude": -83.078517,
+      "description": "Midway Cemetery, also known as Midway Baptist Church Cemetery, is located near Mayo in Lafayette County, Florida.",
+      "findagrave_url": "https://www.findagrave.com/cemetery/2155180/midway-baptist-church-cemetery",
+      "burials": [
+        {
+          "name": "Myrtle Mae Willis Land",
+          "last_name": "Land",
+          "years": "1941–2019",
+          "findagrave_url": "https://www.findagrave.com/memorial/156984261/myrtle_s_land"
+        },
+        {
+          "name": "John Vershal Singletary",
+          "last_name": "Singletary",
+          "years": "1933–1980",
+          "findagrave_url": "https://www.findagrave.com/memorial/106723988/john_vershal_singletary"
+        }
+      ]
+},
+
+{
+  "id": "arabia-cemetery",
+  "name": "Arabia Cemetery",
+  "city": "Homerville",
+  "county": "Clinch",
+  "state": "Georgia",
+  "address": "Arabia Church Road, Homerville, GA 31634",
+  "latitude": 31.11250,
+  "longitude": -82.88640,
+  "findagrave_url": "https://www.findagrave.com/cemetery/32581/arabia-cemetery",
+  "description": "Arabia Cemetery, also known as Bethany Church Cemetery, is located on Arabia Church Road near Homerville in Clinch County, Georgia. The cemetery serves as a burial ground for families from the surrounding community.",
+  "burials": [
+  {
+    "name": "Arel Albert Herrin",
+    "last_name": "Herrin",
+    "years": "1903–1927",
+    "findagrave_url": "https://www.findagrave.com/memorial/46405032/arel_albert_herrin",
+    "note": "2nd Cousin 3x Removed"
+  },
+  {
+    "name": "William Smith",
+    "last_name": "Smith",
+    "years": "1765–1841",
+    "findagrave_url": "https://www.findagrave.com/memorial/11048022/william-smith",
+    "note": "5th Great Grandfather"
+  },
+  {
+    "name": "Bineta Stephens Smith",
+    "last_name": "Smith",
+    "years": "1776–1854",
+    "findagrave_url": "https://www.findagrave.com/memorial/54398361/bineta-smith",
+    "note": "Wife of 5th Great Grandfather"
   }
+  ]
+ },
+
+{
+  "id": "mount-olive-cemetery",
+  "name": "Mount Olive Cemetery",
+  "city": "Lee",
+  "county": "Madison",
+  "state": "Florida",
+  "address": "Near Lee, Madison County, Florida",
+  "latitude": 30.39465,
+  "longitude": -83.38014,
+  "description": "Mount Olive Cemetery is located near Lee in Madison County, Florida. The cemetery is a burial ground for families from the surrounding communities, including members of the Matthews and Barker families.",
+  "findagrave_url": "https://www.findagrave.com/cemetery/72305/mount-olive-cemetery",
+  "burials": [
+    {
+      "name": "Mary Jane Matthews Barker",
+      "last_name": "Barker",
+      "years": "1873–1946",
+      "findagrave_url": "https://www.findagrave.com/memorial/86335700/mary_jane_barker",
+      "note": "2nd Great Grandaunt"
+    },
+    {
+      "person_id": "malachi-m-matthews",
+      "name": "Malachi Matthews",
+      "last_name": "Matthews",
+      "years": "1841–1924",
+      "findagrave_url": "https://www.findagrave.com/memorial/244950157/malachi-matthews",
+      "note": "3rd Great Grandfather"
+    }
+  ]
+}
+
 ]

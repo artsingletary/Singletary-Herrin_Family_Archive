@@ -638,45 +638,6 @@ if STORIES_OUTPUT_DIR.exists():
 # Recreate the folder for published stories
 STORIES_OUTPUT_DIR.mkdir(exist_ok=True)
 
-# Generate a page for each published story
-for story in published_stories:
-
-    # Identify family members associated with the story
-    story_people = [
-        people_by_id[person_id]
-        for person_id in story.get("people", [])
-        if person_id in people_by_id
-    ]
-
-    # Create a copy so we don't modify stories.json data
-    story_data = story.copy()
-    story_data["people_details"] = story_people
-
-    # Render the individual story
-    html = story_template.render(
-        story=story_data
-    )
-
-    # Save the HTML file
-    story_file = STORIES_OUTPUT_DIR / f"{story['id']}.html"
-
-    with open(story_file, "w", encoding="utf-8") as file:
-        file.write(html)
-
-# --------------------------------------------------
-# Generate Individual Story Pages
-# --------------------------------------------------
-
-# Create the folder for individual stories
-STORIES_OUTPUT_DIR = OUTPUT_DIR / "stories"
-
-# Remove previously generated story pages
-if STORIES_OUTPUT_DIR.exists():
-    shutil.rmtree(STORIES_OUTPUT_DIR)
-
-# Recreate the folder for published stories
-STORIES_OUTPUT_DIR.mkdir(exist_ok=True)
-
 # Build a lookup of sources by ID
 sources_by_id = {
     source["id"]: source
@@ -716,6 +677,85 @@ for story in published_stories:
     with open(story_file, "w", encoding="utf-8") as file:
         file.write(html)
 
+# --------------------------------------------------
+# Generate individual person pages
+# --------------------------------------------------
+
+for person in people:
+
+    # Find father
+    father = None
+
+    father_id = person.get("father")
+
+    if father_id:
+        father = people_by_id.get(father_id)
+
+
+    # Find mother
+    mother = None
+
+    mother_id = person.get("mother")
+
+    if mother_id:
+        mother = people_by_id.get(mother_id)
+
+
+    # Resolve a mother whose profile belongs to another archive
+    external_mother = None
+
+    for relative in person.get("external_relatives", []):
+        if relative.get("relationship") == "mother":
+            external_mother = relative
+            break
+
+    # Find spouse or spouses
+    spouses = []
+
+    for spouse_id in person.get("spouses", []):
+        spouse = people_by_id.get(spouse_id)
+
+        if spouse:
+            spouses.append(spouse)
+
+
+    # Find children
+    children = get_children(person["id"])
+    person_sources = get_sources(person["id"])
+    siblings = get_siblings(person)
+    person_photos = get_photos(person["id"])
+    grave_photos = get_grave_photos(person["id"])
+    # Find published family stories associated with this person
+    related_stories = [
+        story for story in published_stories
+        if person["id"] in story.get("people", [])
+    ]
+
+    # Send all of this information to person.html
+    html = person_template.render(
+        person=person,
+        father=father,
+        mother=mother,
+        external_mother=external_mother,
+        spouses=spouses,
+        children=children,
+        siblings=siblings,
+        sources=person_sources,
+        photos=person_photos,
+        grave_photos=grave_photos,
+        cemetery=burial_by_person_id.get(person['id']),
+        related_stories=related_stories,
+    )
+
+
+    # Create the person's HTML file
+    output_file = PEOPLE_DIR / f"{person['id']}.html"
+
+    with open(output_file, "w", encoding="utf-8") as file:
+        file.write(html)
+
+
+# --------------------------------------------------
 # --------------------------------------------------
 # Generate Cemetery Pages
 # --------------------------------------------------

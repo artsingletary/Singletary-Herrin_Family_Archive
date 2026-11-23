@@ -46,7 +46,51 @@
         <p>{{ cemetery.description }}</p>
         {% endif %}
 
+        {% if cemetery.address or cemetery.findagrave_url or (cemetery.latitude is defined and cemetery.longitude is defined) %}
+        <section class="cemetery-location">
+            <h3>Location &amp; Directions</h3>
+
+            {% if cemetery.address %}
+            <p>
+                <strong>Address:</strong>
+                {{ cemetery.address }}
+            </p>
+            {% endif %}
+
+            {% if cemetery.latitude is defined and cemetery.longitude is defined %}
+            <iframe
+                title="Map showing {{ cemetery.name }}"
+                src="https://www.google.com/maps?q={{ cemetery.latitude }},{{ cemetery.longitude }}&amp;z=15&amp;output=embed"
+                width="100%"
+                height="350"
+                style="border:0; border-radius:8px;"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            <p>
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination={{ cemetery.latitude }},{{ cemetery.longitude }}"
+                target="_blank"
+                rel="noopener noreferrer">
+                    Get Directions in Google Maps
+                </a>
+            </p>
+            {% endif %}
+
+            {% if cemetery.findagrave_url %}
+            <p>
+                <a href="{{ cemetery.findagrave_url }}"
+                target="_blank"
+                rel="noopener noreferrer">
+                View Cemetery on Find a Grave
+                </a>
+            </p>
+            {% endif %}
+        </section>
+        {% endif %}
+
         <h3>Family Members Buried or Memorialized Here</h3>
+
         {% if burials %}
         <ul class="family-list">
             {% for burial in burials %}
