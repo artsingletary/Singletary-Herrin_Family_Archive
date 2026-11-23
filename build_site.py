@@ -756,7 +756,6 @@ for person in people:
 
 
 # --------------------------------------------------
-# --------------------------------------------------
 # Generate Cemetery Pages
 # --------------------------------------------------
 
@@ -827,6 +826,48 @@ for cemetery in cemeteries:
 
     with open(output_file, "w", encoding="utf-8") as file:
         file.write(html)
+
+
+# --------------------------------------------------
+# Validate generated person pages
+# --------------------------------------------------
+
+missing_profiles = [
+    person["id"]
+    for person in people
+    if not (PEOPLE_DIR / f"{person['id']}.html").is_file()
+]
+
+if missing_profiles:
+    for person_id in missing_profiles:
+        print(f"ERROR: Missing profile page: {person_id}")
+
+    raise SystemExit(
+        f"Build validation failed: {len(missing_profiles)} missing profiles."
+    )
+
+print(f"PASS: All {len(people)} person profiles generated.")
+
+
+# --------------------------------------------------
+# Clean trailing whitespace from generated HTML
+# --------------------------------------------------
+
+cleaned_files = 0
+
+for html_file in OUTPUT_DIR.rglob("*.html"):
+    original = html_file.read_text(encoding="utf-8")
+
+    cleaned = "\n".join(
+        line.rstrip()
+        for line in original.split("\n")
+    )
+
+    if cleaned != original:
+        html_file.write_text(cleaned, encoding="utf-8")
+        cleaned_files += 1
+
+print(f"Cleaned trailing whitespace in {cleaned_files} HTML files.")
 
 
 # --------------------------------------------------
