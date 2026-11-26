@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<!-- Google Analytics 4 - Consent Controlled -->
+<script>
+    const GA_MEASUREMENT_ID = "G-MMTEL90RK4";
+
+    function loadGoogleAnalytics() {
+        if (window.gaAnalyticsLoaded) return;
+
+        window.gaAnalyticsLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+
+        window.gtag = function () {
+            window.dataLayer.push(arguments);
+        };
+
+        gtag("js", new Date());
+        gtag("config", GA_MEASUREMENT_ID);
+
+        const script = document.createElement("script");
+        script.async = true;
+        script.src =
+            "https://www.googletagmanager.com/gtag/js?id=" +
+            GA_MEASUREMENT_ID;
+
+        document.head.appendChild(script);
+    }
+
+    // Load Analytics only if consent was previously granted.
+    try {
+        if (localStorage.getItem("analytics-consent") === "accepted") {
+            loadGoogleAnalytics();
+        }
+    } catch (error) {
+        // Analytics remains disabled if storage is unavailable.
+    }
+</script>
+
+
+<!-- Analytics Cookie Consent Banner -->
+<style>
+    #cookie-consent-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        background: #f8f7f3;
+        border-top: 2px solid #b8a58c;
+        padding: 15px 25px;
+        box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.12);
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    #cookie-consent-banner p {
+        margin: 0;
+        flex: 1;
+        min-width: 240px;
+        color: #333;
+    }
+
+    #cookie-consent-banner a {
+        color: #3d4b3a;
+        text-decoration: underline;
+    }
+
+    #cookie-consent-banner button {
+        padding: 9px 18px;
+        border: 1px solid #8a6c48;
+        border-radius: 5px;
+        background: #fff;
+        color: #333;
+        cursor: pointer;
+    }
+
+    #cookie-consent-banner button:hover {
+        background: #f0e7d8;
+    }
+
+    #cookie-consent-banner button:focus-visible {
+        outline: 2px solid #3d4b3a;
+        outline-offset: 2px;
+    }
+</style>
+
+
+<!-- Cookie Consent Banner Behavior -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        // Create the banner.
+        const banner = document.createElement("div");
+        banner.id = "cookie-consent-banner";
+        banner.setAttribute("role", "region");
+        banner.setAttribute("aria-label", "Analytics cookie preferences");
+
+        // Create the message.
+        const message = document.createElement("p");
+        message.textContent =
+            "This website uses optional analytics cookies to understand visitor activity. ";
+
+        // Create the Privacy Notice link.
+        const privacyLink = document.createElement("a");
+        privacyLink.textContent = "Privacy Notice";
+
+        // Use the correct relative path for each page.
+        const inSubdirectory =
+            window.location.pathname.includes("/people/") ||
+            window.location.pathname.includes("/stories/");
+
+        privacyLink.href = inSubdirectory
+            ? "../privacy.html"
+            : "privacy.html";
+
+        message.appendChild(privacyLink);
+
+        // Create the Accept button.
+        const acceptButton = document.createElement("button");
+        acceptButton.type = "button";
+        acceptButton.textContent = "Accept";
+
+        // Create the Reject button.
+        const rejectButton = document.createElement("button");
+        rejectButton.type = "button";
+        rejectButton.textContent = "Reject";
+
+        // Add everything to the banner.
+        banner.append(message, acceptButton, rejectButton);
+        document.body.appendChild(banner);
+
+        // Check for an existing consent choice.
+        let consent = null;
+
+        try {
+            consent = localStorage.getItem("analytics-consent");
+        } catch (error) {
+            // Storage may be unavailable.
+        }
+
+        // Show the banner if no choice has been saved.
+        if (consent !== "accepted" && consent !== "rejected") {
+            banner.style.display = "flex";
+        }
+
+        // Accept analytics cookies.
+        acceptButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "accepted");
+
+                banner.style.display = "none";
+                loadGoogleAnalytics();
+            } catch (error) {
+                // Do not enable analytics if consent cannot be saved.
+            }
+        });
+
+
+        // Reject analytics cookies.
+        rejectButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("analytics-consent", "rejected");
+
+                // Disable further Google Analytics collection.
+                window["ga-disable-" + GA_MEASUREMENT_ID] = true;
+
+                document.cookie.split(";").forEach(function (cookie) {
+                    const name = cookie.split("=")[0].trim();
+
+                    if (name === "_ga" || name.startsWith("_ga_")) {
+                        // Clear host-only cookies.
+                        document.cookie =
+                        name + "=; Max-Age=0; path=/";
+
+                        // Clear cookies scoped to this website's domain.
+                         document.cookie =
+                            name +
+                            "=; Max-Age=0; path=/; domain=artsingletary.github.io";
+                    }
+                });
+
+                banner.style.display = "none";
+
+                // Stop the previously loaded Analytics session.
+                window.location.reload();
+
+            } catch (error) {
+                // Analytics remains disabled if storage is unavailable.
+            }
+        });
+
+
+    });
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ruth Stubbs | Singletary-Herrin Family Archive</title>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Singletary-Herrin Family Archive</h1>
+
+        <p>
+            Preserving our family's history for future generations
+        </p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../family-tree.html">Family Tree</a>
+        <a href="../photos.html">Photos</a>
+        <a href="../stories.html">Stories</a>
+        <a href="../documents.html">Documents</a>
+        <a href="../cemeteries.html">Cemeteries</a>
+        <a href="#">Reunions</a>
+    </nav>
+
+    <main>
+
+        <p>
+            <a href="../index.html">← Back to Family Members</a>
+        </p>
+
+        <h1>Ruth Stubbs</h1>
+
+
+            <p><strong>1911–1992</strong></p>
+
+
+
+
+        <section class="person-section">
+
+            <h2>Life Events</h2>
+
+                <p>
+                    <strong>Born:</strong>
+
+
+                        March 25, 1911
+
+
+
+                        — Georgia, United States
+
+                </p>
+
+
+
+
+                 <p>
+                    <strong>Died:</strong>
+                    September 16, 1992
+
+
+                 </p>
+
+
+
+                <p>
+                    <strong>Buried:</strong>
+                    <a href="../cemeteries/bells-mill-creek-cemetery.html">
+                        Bell's Mill Creek (Bethel Creek Baptist Church) Cemetery
+                    </a>
+                    — Day,
+                    Lafayette County,
+                    Florida
+                </p>
+
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Family</h2>
+
+
+
+
+
+
+
+
+
+                <p>
+                    <strong>Spouse:</strong>
+                </p>
+
+                <ul>
+
+                        <li>
+                            <a href="thomas-leaton-morgan-1908.html">
+                              Thomas Leaton Morgan
+                            </a>
+                        </li>
+
+                </ul>
+
+
+
+
+                <h3>Children</h3>
+
+                <ul>
+
+
+
+                        <li>
+                            <a href="royce-leaton-morgan-1931.html">
+                                Royce Leaton Morgan
+                            </a>
+                        </li>
+
+
+
+                </ul>
+
+
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Military Service</h2>
+
+
+
+                <p>No military service information has been added.</p>
+
+
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Biography</h2>
+
+
+
+
+                 <p>Ruth Stubbs was born on March 25, 1911, according to her gravestone. Census records identify her birthplace as Georgia.</p>
+
+                 <p>On October 20, 1929, Ruth married Thomas Leaton Morgan in Madison, Madison County, Florida. Their marriage record appears to give her age as 21, although her gravestone birth date would make her 18. This discrepancy remains under review.</p>
+
+                 <p>In 1940, Ruth lived with Thomas and their sons Royce and Harvey in Lafayette County, Florida. The 1945 Florida state census records her in Day as a housewife with ninth-grade education.</p>
+
+                 <p>Ruth died on September 16, 1992, according to her gravestone. She is buried beside Thomas at Bell's Mill Creek Cemetery.</p>
+
+
+
+
+        </section>
+
+
+        <section class="person-section">
+
+            <h2>Photos</h2>
+
+
+
+                 <p>No additional photographs have been added.</p>
+
+
+
+        </section>
+
+
+
+
+        <section class="person-section">
+
+            <h2>Grave &amp; Burial</h2>
+
+            <div class="photo-gallery">
+
+
+
+                    <figure class="gallery-photo">
+
+                        <img
+                            src="https://d19qead08pko0m.cloudfront.net/photos/thomas_morgan_ruth_stubbs_graves.jpg"
+                            alt="Graves of T. L. Morgan, February 3, 1908 – July 24, 1983, on the left, and Ruth Morgan, March 25, 1911 – September 16, 1992, on the right."
+                        >
+
+
+
+                            <figcaption>
+                                Graves of T. L. Morgan, February 3, 1908 – July 24, 1983, on the left, and Ruth Morgan, March 25, 1911 – September 16, 1992, on the right.
+
+
+                                    <br>
+                                    Bell's Mill Creek Cemetery, Florida
+
+
+                            </figcaption>
+
+
+
+                    </figure>
+
+
+
+            </div>
+
+        </section>
+
+
+
+
+        <section class="person-section">
+
+            <h2>Sources</h2>
+
+
+
+             <ol>
+
+
+
+                    <li>
+
+                        <strong>T. L. Morgan and Ruth Stubbs — Madison County marriage (1929)</strong>
+
+
+                            <br>
+                            Type: Marriage Record
+
+
+
+                            <p>
+                                 Marriage license and certificate for T. L. Morgan and Ruth Stubbs. License issued October 20, 1929, by County Judge Columbus B. Smith. The certificate records their marriage that same day in Madison, Florida, performed by Joe Hill Smith. Returned October 30, 1929, and recorded in Marriage Book 7, page 97. Both parties appear to be listed as age 21; Ruth's gravestone birth date would instead make her 18.
+                            </p>
+
+
+
+
+
+                            <p>
+                                <strong>Location:</strong>
+                                Madison, Madison County, Florida, United States
+                            </p>
+
+
+
+
+
+
+
+
+
+
+
+                        <p>
+                            <a href="https://d19qead08pko0m.cloudfront.net/documents/1929_thomas_morgan_ruth_stubbs_marriage.png" target="_blank">
+                                View Document
+                            </a>
+                        </p>
+
+
+
+
+
+
+                </li>
+
+
+
+                    <li>
+
+                        <strong>1940 United States Census — Thomas L. Morgan household</strong>
+
+
+                            <br>
+                            Type: Census
+
+
+
+                            <p>
+                                 Records Royce Morgan, age nine, with parents Thomas L. and Ruth Morgan and brother Harvey in Precinct 1, Lafayette County, Florida. Royce attended school and had completed second grade. The household rented its home for four dollars per month. Thomas worked as a WPA laborer. All four household members were recorded as residing in rural Lafayette County in 1935. Royce also appears on supplementary line 68, which records his father's birthplace as Florida and his mother's as Georgia.
+                            </p>
+
+
+
+
+
+                            <p>
+                                <strong>Location:</strong>
+                                Precinct 1, Lafayette County, Florida, United States
+                            </p>
+
+
+
+                            <p>
+                                <strong>Household:</strong>
+                                Thomas L. Morgan household; household 64; enumeration district 34-1; sheet 3B, lines 66–69
+                            </p>
+
+
+
+
+                            <p>
+                                <strong>Household Members:</strong>
+                            </p>
+
+                            <ul>
+
+
+                                    <li>
+                                        Thomas L. Morgan, age 32, head, born in Florida, WPA laborer
+                                    </li>
+
+                                    <li>
+                                        Ruth Morgan, age 29, wife, born in Georgia
+                                    </li>
+
+                                    <li>
+                                        Royce Morgan, age 9, son, born in Florida
+                                    </li>
+
+                                    <li>
+                                        Harvey Morgan, age 7, son, born in Florida
+                                    </li>
+
+
+                            </ul>
+
+
+
+
+
+
+
+
+                        <p>
+                            <a href="https://d19qead08pko0m.cloudfront.net/documents/1940_census_thomas_morgan_family.jpg" target="_blank">
+                                View Document
+                            </a>
+                        </p>
+
+
+
+
+
+
+                </li>
+
+
+
+                    <li>
+
+                        <strong>1945 Florida State Census — T. L. Morgan family</strong>
+
+
+                            <br>
+                            Type: State Census
+
+
+
+                            <p>
+                                 Lists T. L. Morgan, Ruth, Royce, and Harvey consecutively in Day, Precinct 1, Lafayette County, Florida, with an address of Mayo, Route 1. Royce is recorded as a fourteen-year-old Florida-born student with sixth-grade education. The family group corresponds to the household documented in the 1940 federal census, although this state census form does not explicitly state relationships.
+                            </p>
+
+
+
+
+
+                            <p>
+                                <strong>Location:</strong>
+                                Day, Precinct 1, Lafayette County, Florida, United States
+                            </p>
+
+
+
+                            <p>
+                                <strong>Household:</strong>
+                                T. L. Morgan family group; address recorded as Mayo, Route 1
+                            </p>
+
+
+
+
+                            <p>
+                                <strong>Household Members:</strong>
+                            </p>
+
+                            <ul>
+
+
+                                    <li>
+                                        T. L. Morgan, age 37, born in Florida, fourth-grade education, farmer
+                                    </li>
+
+                                    <li>
+                                        Ruth Morgan, age 34, born in Georgia, ninth-grade education, housewife
+                                    </li>
+
+                                    <li>
+                                        Royce Morgan, age 14, born in Florida, sixth-grade education, student
+                                    </li>
+
+                                    <li>
+                                        Harvey Morgan, age 12, born in Florida, fourth-grade education, student
+                                    </li>
+
+
+                            </ul>
+
+
+
+
+
+
+
+
+                        <p>
+                            <a href="https://d19qead08pko0m.cloudfront.net/documents/1945_florida_census_morgan_family.jpg" target="_blank">
+                                View Document
+                            </a>
+                        </p>
+
+
+
+
+
+
+                </li>
+
+
+
+        </ol>
+
+
+    </section>
+
+
+
+
+    </main>
+
+    <footer>
+        Singletary-Herrin Family Archive
+
+        <p>
+            <a href="../privacy.html">Privacy Notice</a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

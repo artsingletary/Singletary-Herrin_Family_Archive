@@ -1581,6 +1581,54 @@
     "lilla-smith-1893"
   ],
   "location": "Red Bluff Cemetery, Pearson, Atkinson County, Georgia"
+},
+{
+  "id": "deloris-herrin-childhood-034",
+  "file": "deloris_herrin_childhood_034.jpg",
+  "people": [
+    "deloris-herrin-1942"
+  ],
+  "caption": "Childhood portrait of Deloris Herrin. Date and location not established.",
+  "family_lines": [
+    "herrin"
+  ]
+},
+{
+  "id": "deloris-herrin-school-1950-1951",
+  "file": "deloris_herrin_school_1950_1951.jpg",
+  "people": [
+    "deloris-herrin-1942"
+  ],
+  "caption": "Deloris Herrin's school portrait, labeled \"School Days 1950–51\" and \"Mayo.\"",
+  "location": "Mayo, Lafayette County, Florida",
+  "family_lines": [
+    "herrin"
+  ]
+},
+{
+  "id": "deloris-herrin-childhood-038",
+  "file": "deloris_herrin_childhood_038.jpg",
+  "people": [
+    "deloris-herrin-1942"
+  ],
+  "caption": "Childhood portrait of Deloris Herrin wearing a polka-dot dress. Date and location not established.",
+  "family_lines": [
+    "herrin"
+  ]
+},
+{
+  "id": "thomas-morgan-ruth-stubbs-graves",
+  "file": "thomas_morgan_ruth_stubbs_graves.jpg",
+  "type": "grave",
+  "people": [
+    "thomas-leaton-morgan-1908",
+    "ruth-stubbs-1911"
+  ],
+  "caption": "Graves of T. L. Morgan, February 3, 1908 – July 24, 1983, on the left, and Ruth Morgan, March 25, 1911 – September 16, 1992, on the right.",
+  "location": "Bell's Mill Creek Cemetery, Florida",
+  "family_lines": [
+    "herrin"
+  ]
 }
 
 

@@ -621,7 +621,7 @@
     "family_lines": [
       "herrin"
     ],
-    "profile_photo": "deloris_herrin.jpg",
+    "profile_photo": "deloris_herrin_portrait_restored.png",
     "birth_year": 1942,
     "birth_place": "Lafayette County, Florida, United States",
     "death_date": null,
@@ -629,9 +629,10 @@
     "death_place": null,
     "father": "william-levi-herrin-1892",
     "mother": "lauretta-palmer-1898",
-    "spouses": [],
+    "spouses": ["royce-leaton-morgan-1931"],
     "biography": [
-      "Deloris Herrin was born in 1942 in Lafayette County, Florida. She is a daughter of William Levi Herrin and Laura Etta Palmer."
+      "Deloris Herrin was born in 1942 in Lafayette County, Florida. She is a daughter of William Levi Herrin and Laura Etta Palmer.",
+      "Deloris married Royce Leaton Morgan in February 1962. Their separate Florida marriage index entries share volume 2031, certificate number 5529, and county code 72. The index records her name as Delorys Herrin and does not provide the exact marriage day."
     ]
   },
   {
@@ -4588,8 +4589,102 @@
     "Lilla Smith (1893–1982) married Asberry Ides Palmer Sr. (1886–1931) on November 27, 1910, in Clinch County, Georgia, according to the FamilySearch family tree. The couple was associated with Atkinson County, Georgia.",
     "Lilla and Asberry had five known children: Edna Palmer (1911–1999), Henry Ottis Palmer (1915–1989), Virue Palmer (1918–2009), Asberry Ides Palmer Jr. (1921–1990), and Huey Austin Palmer (1923–1999). A surviving family photograph identifies all five children together."
   ]
-}
+},
 
+{
+  "id": "royce-leaton-morgan-1931",
+  "first_name": "Royce",
+  "middle_name": "Leaton",
+  "last_name": "Morgan",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_date": "1931-03-03",
+  "birth_year": 1931,
+  "birth_place": "Mayo, Lafayette County, Florida",
+  "death_date": "2014-02-14",
+  "death_year": 2014,
+  "death_place": "Day, Lafayette County, Florida, United States",
+  "burial_place": "Bethel Creek Baptist Church Cemetery, Day, Lafayette County, Florida, United States",
+  "father": "thomas-leaton-morgan-1908",
+  "mother": "ruth-stubbs-1911",
+  "spouses": [
+    "deloris-herrin-1942"
+  ],
+  "military_service": [
+  {
+    "branch": "United States Army",
+    "conflict": "Korean War",
+    "rank": "Corporal (CPL)",
+    "unit": null,
+    "enlistment_date": null,
+    "discharge_date": null
+  }
+],
+  "biography": [
+  "Royce Leaton Morgan was born on March 3, 1931, in Mayo, Lafayette County, Florida, the son of T. L. Morgan and Ruth Stubbs Morgan. According to his obituary, he was a lifelong resident of Day, Florida.",
+  "In the 1940 census, Royce was recorded at age nine in the household of Thomas L. and Ruth Morgan in Lafayette County, Florida, with his younger brother Harvey. He attended school and had completed second grade. His father worked as a WPA laborer, and the family rented its home for four dollars per month. The census also places the family in rural Lafayette County in 1935.",
+  "Royce served two years in the United States Army during the Korean War. His military grave marker identifies his rank as Corporal. His specific service dates and unit have not yet been established.",
+  "He worked for the Florida Department of Transportation for 28 years.",
+  "Royce married Deloris Herrin in February 1962, as documented by their matching Florida marriage index entries. His obituary describes Deloris as his wife of 51 years.",
+  "He was of the Baptist faith and attended First Baptist Church in Dowling Park, Florida. A life member of the Day Masonic Lodge, he had received his sixty-year membership pin a few months before his death. He also belonged to Woodmen of the World.",
+  "Before his illness, Royce enjoyed hunting, fishing, and raising bobwhite quail.",
+  "Royce died on February 14, 2014, at the age of 82. His obituary states that he died peacefully at home following a lengthy illness. He was survived by Deloris, his brother Harvey Morgan, and other relatives.",
+  "Funeral services were held on February 16, 2014, with burial at Bethel Creek Cemetery in Lafayette County, Florida. Arrangements were handled by Beggs Funeral Home Madison Chapel. His military marker records his birth and death dates and commemorates his Army service during the Korean War."
+]
+},
+{
+  "id": "thomas-leaton-morgan-1908",
+  "first_name": "Thomas",
+  "middle_name": "Leaton",
+  "last_name": "Morgan",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_date": "1908-02-03",
+  "birth_year": 1908,
+  "birth_place": "Florida, United States",
+  "death_date": "1983-07-24",
+  "death_year": 1983,
+  "burial_place": "Bell's Mill Creek Cemetery, Florida, United States",
+  "father": null,
+  "mother": null,
+  "spouses": [
+    "ruth-stubbs-1911"
+  ],
+  "biography": [
+    "Thomas Leaton Morgan was born on February 3, 1908, according to his gravestone. Census records identify his birthplace as Florida.",
+    "On October 20, 1929, Thomas married Ruth Stubbs in Madison, Madison County, Florida. The marriage record names him as T. L. Morgan. Joe Hill Smith performed the ceremony, and the marriage was recorded in Marriage Book 7, page 97.",
+    "In 1940, Thomas and Ruth lived in Lafayette County, Florida, with their sons Royce and Harvey. Thomas worked as a WPA laborer. The 1945 Florida state census lists him as a farmer in Day, with an address of Mayo, Route 1.",
+    "Thomas died on July 24, 1983, according to his gravestone. He is buried beside Ruth at Bell's Mill Creek Cemetery."
+  ]
+},
+{
+  "id": "ruth-stubbs-1911",
+  "first_name": "Ruth",
+  "middle_name": null,
+  "last_name": "Stubbs",
+  "family_lines": [
+    "herrin"
+  ],
+  "birth_date": "1911-03-25",
+  "birth_year": 1911,
+  "birth_place": "Georgia, United States",
+  "death_date": "1992-09-16",
+  "death_year": 1992,
+  "burial_place": "Bell's Mill Creek Cemetery, Florida, United States",
+  "father": null,
+  "mother": null,
+  "spouses": [
+    "thomas-leaton-morgan-1908"
+  ],
+  "biography": [
+    "Ruth Stubbs was born on March 25, 1911, according to her gravestone. Census records identify her birthplace as Georgia.",
+    "On October 20, 1929, Ruth married Thomas Leaton Morgan in Madison, Madison County, Florida. Their marriage record appears to give her age as 21, although her gravestone birth date would make her 18. This discrepancy remains under review.",
+    "In 1940, Ruth lived with Thomas and their sons Royce and Harvey in Lafayette County, Florida. The 1945 Florida state census records her in Day as a housewife with ninth-grade education.",
+    "Ruth died on September 16, 1992, according to her gravestone. She is buried beside Thomas at Bell's Mill Creek Cemetery."
+  ]
+}
 
 
 

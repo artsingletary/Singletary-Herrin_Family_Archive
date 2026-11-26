@@ -4700,7 +4700,78 @@
     "asberry-ides-palmer-1921",
     "huey-austin-palmer-1923"
   ]
+},
+{
+  "id": "deloris-herrin-marriage-index-1962",
+  "type": "Marriage Index",
+  "title": "1962 Deloris Herrin and Royce Leaton Morgan — Florida marriage index",
+  "date": "1962-02",
+  "location": "Florida, United States",
+  "people": [
+    "royce-leaton-morgan-1931",
+    "deloris-herrin-1942"
+  ],
+  "documents": [
+    "1962_deloris_herrin_marriage_index.jpg",
+    "1962_royce_leaton_morgan_marriage_index.jpg"
+  ],
+  "certificate": "5529",
+  "description": "Matching Florida marriage index entries for Delorys Herrin on page 592 and Royce Leaton Morgan on page 937. Both record February 1962, volume 2031, certificate number 5529, and county code 72, linking them to the same marriage. The exact marriage day is not provided. The bride's given name is indexed as Delorys; family records use Deloris. County code interpretation remains to be verified."
+},
+{
+  "id": "1940-census-thomas-morgan-family",
+  "type": "Census",
+  "title": "1940 United States Census — Thomas L. Morgan household",
+  "date": "1940-04-05",
+  "location": "Precinct 1, Lafayette County, Florida, United States",
+  "people": [
+    "thomas-leaton-morgan-1908",
+    "ruth-stubbs-1911",
+    "royce-leaton-morgan-1931"
+  ],
+  "file": "1940_census_thomas_morgan_family.jpg",
+  "household": "Thomas L. Morgan household; household 64; enumeration district 34-1; sheet 3B, lines 66–69",
+  "household_members": [
+    "Thomas L. Morgan, age 32, head, born in Florida, WPA laborer",
+    "Ruth Morgan, age 29, wife, born in Georgia",
+    "Royce Morgan, age 9, son, born in Florida",
+    "Harvey Morgan, age 7, son, born in Florida"
+  ],
+  "description": "Records Royce Morgan, age nine, with parents Thomas L. and Ruth Morgan and brother Harvey in Precinct 1, Lafayette County, Florida. Royce attended school and had completed second grade. The household rented its home for four dollars per month. Thomas worked as a WPA laborer. All four household members were recorded as residing in rural Lafayette County in 1935. Royce also appears on supplementary line 68, which records his father's birthplace as Florida and his mother's as Georgia."
+},
+{
+  "id": "1945-florida-census-morgan-family",
+  "type": "State Census",
+  "title": "1945 Florida State Census — T. L. Morgan family",
+  "date": "1945",
+  "location": "Day, Precinct 1, Lafayette County, Florida, United States",
+  "people": [
+    "thomas-leaton-morgan-1908",
+    "ruth-stubbs-1911",
+    "royce-leaton-morgan-1931"
+  ],
+  "file": "1945_florida_census_morgan_family.jpg",
+  "household": "T. L. Morgan family group; address recorded as Mayo, Route 1",
+  "household_members": [
+    "T. L. Morgan, age 37, born in Florida, fourth-grade education, farmer",
+    "Ruth Morgan, age 34, born in Georgia, ninth-grade education, housewife",
+    "Royce Morgan, age 14, born in Florida, sixth-grade education, student",
+    "Harvey Morgan, age 12, born in Florida, fourth-grade education, student"
+  ],
+  "description": "Lists T. L. Morgan, Ruth, Royce, and Harvey consecutively in Day, Precinct 1, Lafayette County, Florida, with an address of Mayo, Route 1. Royce is recorded as a fourteen-year-old Florida-born student with sixth-grade education. The family group corresponds to the household documented in the 1940 federal census, although this state census form does not explicitly state relationships."
+},
+{
+  "id": "thomas-morgan-ruth-stubbs-marriage-1929",
+  "type": "Marriage Record",
+  "title": "T. L. Morgan and Ruth Stubbs — Madison County marriage (1929)",
+  "date": "1929-10-20",
+  "location": "Madison, Madison County, Florida, United States",
+  "people": [
+    "thomas-leaton-morgan-1908",
+    "ruth-stubbs-1911"
+  ],
+  "file": "1929_thomas_morgan_ruth_stubbs_marriage.png",
+  "description": "Marriage license and certificate for T. L. Morgan and Ruth Stubbs. License issued October 20, 1929, by County Judge Columbus B. Smith. The certificate records their marriage that same day in Madison, Florida, performed by Joe Hill Smith. Returned October 30, 1929, and recorded in Marriage Book 7, page 97. Both parties appear to be listed as age 21; Ruth's gravestone birth date would instead make her 18."
 }
-
 
 ]
