@@ -4772,6 +4772,62 @@
   ],
   "file": "1929_thomas_morgan_ruth_stubbs_marriage.png",
   "description": "Marriage license and certificate for T. L. Morgan and Ruth Stubbs. License issued October 20, 1929, by County Judge Columbus B. Smith. The certificate records their marriage that same day in Madison, Florida, performed by Joe Hill Smith. Returned October 30, 1929, and recorded in Marriage Book 7, page 97. Both parties appear to be listed as age 21; Ruth's gravestone birth date would instead make her 18."
+},
+{
+    "id": "1958-tampa-bay-times-eller-juanita-tuten-trixy",
+    "title": "Tampa Bay Times — Girl, 9, Who Sought Pet Is Buried",
+    "type": "newspaper",
+    "date": "1958-06-29",
+    "location": "Florida",
+    "description": "Associated Press article published on page 13 of the June 29, 1958, edition of the Tampa Bay Times reporting the burial of nine-year-old Eller Juanita Tuten following her death from severe burns. The article describes her funeral flowers, the subsequent death of her pet terrier Trixy, and the family's decision to bury Trixy in the yard at home rather than in the same grave as Eller. Includes a photograph of Eller and a statement from her uncle, William Tuten.",
+    "supports": [
+        "Death",
+        "Burial",
+        "Family history"
+    ],
+    "people": [
+        "eller-juanita-tuten-1948"
+    ],
+    "file": "1958_06_29_tampa_bay_times_eller_juanita_tuten_trixy.jpg"
+},
+{
+    "id": "1958-madison-courier-eller-juanita-tuten-trixy",
+    "title": "The Madison Courier — Dying Girl Calls For Companion",
+    "type": "newspaper",
+    "date": "1958-06-30",
+    "location": "Madison, Indiana",
+    "description": "Associated Press article published on page 4 of the June 30, 1958, edition of The Madison Courier describing the relationship between nine-year-old Eller Juanita Tuten and her pet terrier, Trixy. The article reports that Eller had lived with her grandparents, Mr. and Mrs. Glover Mathis, since birth, attended school, and received Trixy from her uncle, William Tuten. It describes the circumstances of her fatal burns, her hospitalization, Trixy's subsequent death, and his burial behind her grandparents' home. The article reports Eller's death at 12:15 a.m. Friday, conflicting with another newspaper account identifying Thursday morning as the time of her death.",
+    "supports": [
+        "Childhood",
+        "Family relationships",
+        "Residence",
+        "Death",
+        "Family history"
+    ],
+    "people": [
+        "eller-juanita-tuten-1948",
+        "glover-mathis-1910"
+    ],
+    "file": "1958_06_30_madison_courier_eller_juanita_tuten_trixy.jpg"
+},
+{
+    "id": "1958-miami-herald-eller-juanita-tuten-burns",
+    "title": "The Miami Herald — Palsy Victim Is Burned By Lighter",
+    "type": "newspaper",
+    "date": "1958-06-19",
+    "location": "Miami, Florida",
+    "description": "Article published on page 29 of the June 19, 1958, edition of The Miami Herald reporting the accidental burning of nine-year-old Eller Juanita Tuten on June 18, 1958. The article identifies her grandparents, Mr. and Mrs. Glover Mathis, and their residence at 8475 SW Fourth Street in Miami. It describes the circumstances of the accident, her grandparents' efforts to rescue her, and her hospitalization at Jackson Memorial Hospital with third-degree burns covering 70 percent of her body. Published while Eller was still alive, the article provides a contemporary account of the accident and her critical condition.",
+    "supports": [
+        "Residence",
+        "Family relationships",
+        "Accident",
+        "Hospitalization",
+        "Family history"
+    ],
+    "people": [
+        "eller-juanita-tuten-1948",
+        "glover-mathis-1910"
+    ],
+    "file": "1958_06_19_miami_herald_eller_juanita_tuten_burns.jpg"
 }
-
 ]
