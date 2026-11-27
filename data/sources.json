@@ -4829,5 +4829,128 @@
         "glover-mathis-1910"
     ],
     "file": "1958_06_19_miami_herald_eller_juanita_tuten_burns.jpg"
+},
+{
+  "id": "1926-marriage-rubin-mathis-thelma-lee",
+  "type": "Marriage",
+  "title": "1926 Marriage Record — Rube Mathis and Thelma Lee",
+  "date": "1926-02-22",
+  "location": "Lafayette County, Florida, United States",
+  "people": [
+    "rubin-ellis-mathis-1904",
+    "thelma-lafayette-lee-1904"
+  ],
+  "description": "Marriage license, certificate, and age affidavit for Rube Mathis and Thelma Lee. The license was issued at Mayo on February 22, 1926, and County Judge Mack H. Padgett performed the marriage that day. The record was filed and recorded February 23, 1926, in Marriage Book F, page 185. Both parties reported being 22 and signed the affidavit by mark. Rubin's reported birth date of October 5, 1904, would make him 21 at the wedding, differing from the affidavit.",
+  "documents": [
+    "1926_rube_mathis_thelma_lee_marriage.jpg",
+    "1926_rube_mathis_thelma_lee_marriage_cover.jpg",
+    "1926_rube_mathis_thelma_lee_age_affidavit.jpg"
+  ]
+},
+{
+  "id": "1930-census-rubin-mathis-family",
+  "type": "Census",
+  "title": "1930 U.S. Census — Rubin Mathis Family",
+  "date": "1930-04-28",
+  "location": "Salem, Precinct 4, Taylor County, Florida, United States",
+  "people": [
+    "rubin-ellis-mathis-1904",
+    "thelma-lafayette-lee-1904"
+  ],
+  "documents": [
+    "1930_census_rubin_mathis_family.jpg"
+  ],
+  "description": "1930 United States Census, enumeration district 62-7, sheet 3A, dwelling 27, family 27, lines 45–49. Rubin is recorded as Reuben Mathis, age 25, a farm laborer. His wife Thelma is 24. The household also includes Robert Lee, apparently age 10, and Barney, age 3, both recorded as sons, and Laura Lee, age 60, recorded as mother and widowed. All household members are recorded as born in Florida. Robert Lee's parentage and Laura Lee's precise relationship to the couple require additional evidence. The census gives ages at first marriage of 19 for Rubin and 18 for Thelma; these do not align with their documented February 22, 1926, marriage and reported birth years.",
+  "household_members": [
+    "Reuben Mathis — Head, age 25, farm laborer",
+    "Thelma Mathis — Wife, age 24",
+    "Robert Lee — Son, apparently age 10",
+    "Barney — Son, age 3",
+    "Laura Lee — Mother, age 60, widowed"
+  ]
+},
+{
+  "id": "1940-census-rubin-mathis-family",
+  "type": "Census",
+  "title": "1940 U.S. Census — Rube Mathis Family",
+  "date": "1940-05-10",
+  "location": "Salem, Taylor County, Florida, United States",
+  "people": [
+    "rubin-ellis-mathis-1904",
+    "thelma-lafayette-lee-1904"
+  ],
+  "documents": [
+    "1940_census_rubin_mathis_family.jpg"
+  ],
+  "description": "1940 United States Census, enumeration district 62-5, sheet 1A, household 4, lines 9–16. Rube Mathis, age 35, lived with his wife Thelma, age 35, and six children. All were recorded as born in Florida. Rube worked as a farm laborer, reporting 60 hours worked during the reference week, 40 weeks worked in 1939, and $220 in wages during 1939. Thelma was marked as the household informant. Household members old enough for the question reported living in rural Taylor County, Florida, in 1935. The children's ages are preserved as recorded and require comparison with other records.",
+  "household_members": [
+    "Rube Mathis — Head, age 35, farm laborer",
+    "Thelma Mathis — Wife, age 35",
+    "Robert Mathis — Son, age 18",
+    "Barney Mathis — Son, age 14",
+    "Willie Mathis — Son, age 10",
+    "Ellis Mathis — Son, age 6",
+    "George Mathis — Son, age 2",
+    "Josephine Mathis — Daughter, age 6/12 (six months)"
+  ]
+},
+{
+  "id": "1942-wwii-draft-registration-rubin-mathis",
+  "type": "Military",
+  "title": "1942 World War II Draft Registration — Rubine E. Mathis",
+  "date": "1942-02-15",
+  "location": "Taylor County, Florida, United States",
+  "people": [
+    "rubin-ellis-mathis-1904",
+    "thelma-lafayette-lee-1904"
+  ],
+  "documents": [
+    "1942_wwii_draft_registration_rubin_mathis.jpg"
+  ],
+  "description": "World War II draft registration for Rubine E. Mathis, registered February 15, 1942, with Local Board 1, Taylor County, Florida. He reported birth on October 5, 1904, in Madison County, Florida; residence in Salem, Taylor County; and a mailing address in Carbur, Florida. He named Mrs. Thelma Mathis of Carbur as the person who would always know his address. His employer was recorded as Retort Plant in Carbur, where he also worked. The registrar described him as 5 feet 8 inches tall, weighing 150 pounds, with gray eyes, brown hair, and a dark complexion. He signed by mark. His reported age of 38 differs from the age of 37 calculated from his stated birth date. This record documents draft registration; it does not establish military service."
+},
+{
+  "id": "1950-census-rubin-mathis-family",
+  "type": "Census",
+  "title": "1950 U.S. Census — Rubin E. Mathis Family",
+  "date": "1950-04",
+  "location": "Taylor County, Florida, United States",
+  "people": [
+    "rubin-ellis-mathis-1904",
+    "thelma-lafayette-lee-1904"
+  ],
+  "documents": [
+    "1950_census_rubin_mathis_family_01.jpg",
+    "1950_census_rubin_mathis_family_02.jpg"
+  ],
+  "description": "1950 United States Census, enumeration district 62-8, sheet 17, line 30, continuing on sheet 18, lines 1–7, dwelling 187. The sheets were started April 17 and April 18, respectively. Rubin E. Mathis, age 45, was recorded as unable to work. His supplemental answers indicate that he had married once and had been married for 24 years, consistent with the 1926 marriage record. Thelma, age 45, kept house and also worked 30 hours as an unpaid family farm helper. Barney worked in house building as a carpenter; Willie worked as a sawyer in pulpwood; and Ellis helped on the family farm. All household members were recorded as born in Florida. Josephine's entry includes additional initials that are difficult to read.",
+  "household_members": [
+    "Rubin E. Mathis — Head, age 45",
+    "Thelma L. Mathis — Wife, age 45",
+    "Barney M. Mathis — Son, age 23",
+    "Willie D. Mathis — Son, age 19",
+    "L. Ellis Mathis — Son, age 15",
+    "Josephine Mathis — Daughter, age 10",
+    "Mattie L. Mathis — Daughter, age 8",
+    "Frances A. Mathis — Daughter, age 5"
+  ]
+},
+{
+  "id": "1981-rubin-mathis-death-certificate",
+  "type": "Death",
+  "title": "1981 Florida Death Certificate — Rubin Ellis Mathis",
+  "date": "1981-02-25",
+  "publisher": "Florida Bureau of Vital Statistics",
+  "location": "Perry, Taylor County, Florida, United States",
+  "people": [
+    "rubin-ellis-mathis-1904",
+    "thelma-lafayette-lee-1904",
+    "daniel-m-mathis",
+    "mary-frances-darling"
+  ],
+  "documents": [
+    "1981_rubin_ellis_mathis_death_certificate.jpeg"
+  ],
+  "description": "Florida death certificate, state file number 81-021636, for Rubin Ellis Mathis. Records birth on October 5, 1904, in Florida, and death on February 25, 1981, age 76, in Perry, Taylor County. Doctors Memorial Hospital is listed with the notation DOA. His residence was Salem, Taylor County, and his usual occupation was farmer. Names his surviving spouse as Thelma Lee and his parents as Daniel Mathis and Mary Frances Darling. Barney Mathis supplied the personal information. Burial was at Airline Cemetery, rural Mayo, Florida, with arrangements by Joe P. Burns Funeral Home. This copy does not show a cause of death."
 }
 ]

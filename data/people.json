@@ -1613,19 +1613,51 @@
       "Roy was buried at Airline Cemetery in Mayo, Lafayette County, Florida. His gravestone shares a family marker with Dolly Mathis. Two smaller markers nearby commemorate Maple Jane Mathis (1947) and Mary Jane Mathis (1948), although their relationship to Roy and Dolly has not yet been independently established."
     ]
   },
-  {
-    "id": "rubin-ellis-mathis-1904",
-    "first_name": "Rubin",
-    "middle_name": "Ellis",
-    "last_name": "Mathis",
-    "family_lines": [
-      "singletary"
-    ],
-    "birth_year": 1904,
-    "death_year": 1981,
-    "father": "daniel-m-mathis",
-    "mother": "mary-frances-darling"
-  },
+{
+  "id": "rubin-ellis-mathis-1904",
+  "first_name": "Rubin",
+  "middle_name": "Ellis",
+  "last_name": "Mathis",
+  "nickname": "Rube",
+  "family_lines": ["singletary"],
+  "birth_date": "1904-10-05",
+  "birth_year": 1904,
+  "birth_place": "Madison County, Florida, United States",
+  "death_date": "1981-02-25",
+  "death_year": 1981,
+  "death_place": "Perry, Taylor County, Florida, United States",
+  "father": "daniel-m-mathis",
+  "mother": "mary-frances-darling",
+  "spouses": ["thelma-lafayette-lee-1904"],
+  "biography": [
+    "Rubin Ellis Mathis, also known as Rube, was the son of Daniel M. Mathis and Mary Frances Darling. He appears with his parents and siblings in the 1910 and 1920 United States censuses.",
+    "On February 22, 1926, Rube married Thelma Lee in Lafayette County, Florida. County Judge Mack H. Padgett issued their license at Mayo and performed the ceremony that day. The marriage was recorded the following day in Marriage Book F, page 185. Both reported being 22 in the accompanying affidavit, although Rubin's reported October 5, 1904, birth date would make him 21.",
+    "In April 1930, Rubin and Thelma lived in Salem, Taylor County, Florida, where Rubin worked as a farm laborer. Their household included three-year-old Barney, a boy recorded as Robert Lee, apparently age ten, and sixty-year-old widow Laura Lee. The census lists Robert Lee as a son and Laura as mother, but their precise relationships to the couple require further research.",
+    "In 1940, Rube and Thelma lived in Salem, Taylor County, Florida, with six children recorded as Robert, Barney, Willie, Ellis, George, and six-month-old Josephine. Rube worked as a farm laborer and reported earning $220 in wages during 1939. Thelma supplied the household's census information.",
+    "On February 15, 1942, Rubin registered for the World War II draft under the name Rubine E. Mathis. He reported being born on October 5, 1904, in Madison County, Florida, and living in Salem, with a mailing address in Carbur. He worked at a retort plant in Carbur and named Thelma Mathis as his contact. The registrar described him as five feet eight inches tall, weighing 150 pounds, with gray eyes and brown hair.",
+    "In April 1950, Rubin and Thelma lived in Taylor County, Florida, with Barney, Willie, Ellis, Josephine, Mattie, and Frances. Rubin was recorded as unable to work. Thelma kept house and also helped on the family farm. Barney worked as a carpenter, Willie as a sawyer in pulpwood, and Ellis as a farm helper.",
+    "Rubin died on February 25, 1981, at age 76. His Florida death certificate records Perry, Taylor County, as the place of death and lists Doctors Memorial Hospital with the notation that he was dead on arrival. He had lived in Salem and worked as a farmer. The certificate identifies his wife as Thelma Lee and his parents as Daniel Mathis and Mary Frances Darling. Barney Mathis supplied the personal information. Rubin was buried at Airline Cemetery near Mayo."
+  ]
+},
+{
+  "id": "thelma-lafayette-lee-1904",
+  "first_name": "Thelma",
+  "middle_name": "Lafayette",
+  "last_name": "Lee",
+  "family_lines": ["singletary"],
+  "birth_date": "1904-04-04",
+  "birth_year": 1904,
+  "death_date": "1987-05-04",
+  "death_year": 1987,
+  "spouses": ["rubin-ellis-mathis-1904"],
+  "biography": [
+    "Thelma Lafayette Lee married Rubin Ellis Mathis, recorded as Rube Mathis, on February 22, 1926, in Lafayette County, Florida. County Judge Mack H. Padgett performed the ceremony. Their license, marriage certificate, and age affidavit survive together.",
+    "The affidavit records Thelma's age as 22. She and Rube each signed by mark. Her husband's Find a Grave memorial identifies her as Thelma Lafayette Lee Mathis and gives her lifespan as 1904–1987.",
+    "In April 1930, Rubin and Thelma lived in Salem, Taylor County, Florida, where Rubin worked as a farm laborer. Their household included three-year-old Barney, a boy recorded as Robert Lee, apparently age ten, and sixty-year-old widow Laura Lee. The census lists Robert Lee as a son and Laura as mother, but their precise relationships to the couple require further research.",
+    "In 1940, Rube and Thelma lived in Salem, Taylor County, Florida, with six children recorded as Robert, Barney, Willie, Ellis, George, and six-month-old Josephine. Rube worked as a farm laborer and reported earning $220 in wages during 1939. Thelma supplied the household's census information.",
+    "In April 1950, Rubin and Thelma lived in Taylor County, Florida, with Barney, Willie, Ellis, Josephine, Mattie, and Frances. Rubin was recorded as unable to work. Thelma kept house and also helped on the family farm. Barney worked as a carpenter, Willie as a sawyer in pulpwood, and Ellis as a farm helper."
+  ]
+},
   {
     "id": "shirley-lee-mathis-1915",
     "first_name": "Shirley",
