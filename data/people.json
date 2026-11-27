@@ -2259,7 +2259,7 @@
       "singletary",
       "herrin"
     ],
-    "profile_photo": "emory_dewey_singletary.jpg",
+    "profile_photo": "1963_emory_dewey_singletary.jpg",
     "birth_date": null,
     "birth_year": 1945,
     "birth_place": "Lafayette County, Florida, United States",
@@ -2268,7 +2268,7 @@
     "death_place": null,
     "father": "dewey-singletary-1919",
     "mother": "ollie-mae-herrin-1917",
-    "spouses": [],
+    "spouses": ["june-carolyn-bradshaw-1946"],
     "biography": []
   },
   {
@@ -4684,6 +4684,23 @@
     "In 1940, Ruth lived with Thomas and their sons Royce and Harvey in Lafayette County, Florida. The 1945 Florida state census records her in Day as a housewife with ninth-grade education.",
     "Ruth died on September 16, 1992, according to her gravestone. She is buried beside Thomas at Bell's Mill Creek Cemetery."
   ]
+},
+
+{
+    "id": "june-carolyn-bradshaw-1946",
+    "first_name": "June",
+    "middle_name": "Carolyn",
+    "last_name": "Bradshaw",
+    "photo": "1963_june_carolyn_bradshaw.jpg",
+    "family_lines": [
+        "singletary"
+    ],
+    "birth_year": 1946,
+    "living": true,
+    "spouses": [
+        "emory-dewey-singletary-1945"
+    ],
+    "biography": "June Carolyn Bradshaw was born in 1946 to Marvin Marion Bradshaw and Edna Merle Jackson. She attended Taylor County High School and appears in the school's 1963 yearbook. She married Emory Dewey Singletary on April 13, 1964. They have six children."
 }
 
 

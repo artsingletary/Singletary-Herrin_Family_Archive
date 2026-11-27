@@ -1129,7 +1129,7 @@
 {
   "id": "1874-gravestone-eli-wadsworth",
   "title": "Gravestone — Eli Wadsworth, Brady Cemetery",
-  "type": "gravestone",
+  "type": "grave",
   "date": "1874-01-18",
   "location": "Brady Cemetery, Lee, Madison County, Florida",
   "caption": "Photograph of Eli Wadsworth's gravestone at Brady Cemetery in Lee, Madison County, Florida. The inscription records his birth as January 1814, without a specific day, and his death as January 18, 1874.",
@@ -1641,6 +1641,48 @@
     "location": "Miami, Florida",
     "family_lines": [
         "singletary"
+    ]
+},
+
+{
+    "id": "emory-arthur-singletary-childhood",
+    "file": "emory_dewey_singletary_and_arthur_singletary_sr.jpg",
+    "type": "family",
+    "caption": "Childhood studio portrait of brothers Emory Dewey Singletary (left) and Arthur Singletary Sr. (right), circa 1947–1948.",
+    "people": [
+        "emory-dewey-singletary-1945",
+        "arthur-singletary-1941"
+    ]
+},
+{
+    "id": "emory-arthur-singletary-childhood-restored",
+    "file": "emory_dewey_singletary_and_arthur_singletary_sr_restored.png",
+    "type": "family",
+    "caption": "AI-generated recreation of the original childhood studio portrait of brothers Emory Dewey Singletary (left) and Arthur Singletary Sr. (right), circa 1947–1948.",
+    "people": [
+        "emory-dewey-singletary-1945",
+        "arthur-singletary-1941"
+    ]
+},
+{
+    "id": "june-carolyn-bradshaw-yearbook",
+    "file": "1963_june_carolyn_bradshaw.jpg",
+    "type": "portrait",
+    "date": "1963",
+    "caption": "June Carolyn Bradshaw, 1963 Taylor County High School yearbook portrait.",
+    "people": [
+        "june-carolyn-bradshaw-1946"
+    ]
+},
+
+{
+    "id": "emory-dewey-singletary-yearbook-1963",
+    "file": "1963_emory_dewey_singletary.jpg",
+    "type": "portrait",
+    "date": "1963",
+    "caption": "Emory Dewey Singletary, 1963 Taylor County High School yearbook portrait.",
+    "people": [
+        "emory-dewey-singletary-1945"
     ]
 }
 
