@@ -4691,7 +4691,7 @@
     "first_name": "June",
     "middle_name": "Carolyn",
     "last_name": "Bradshaw",
-    "photo": "1963_june_carolyn_bradshaw.jpg",
+    "profile_photo": "1963_june_carolyn_bradshaw.jpg",
     "family_lines": [
         "singletary"
     ],
@@ -4700,7 +4700,9 @@
     "spouses": [
         "emory-dewey-singletary-1945"
     ],
-    "biography": "June Carolyn Bradshaw was born in 1946 to Marvin Marion Bradshaw and Edna Merle Jackson. She attended Taylor County High School and appears in the school's 1963 yearbook. She married Emory Dewey Singletary on April 13, 1964. They have six children."
+    "biography": [
+      "June Carolyn Bradshaw was born in 1946 to Marvin Marion Bradshaw and Edna Merle Jackson. She attended Taylor County High School and appears in the school's 1963 yearbook. She married Emory Dewey Singletary on April 13, 1964. They have six children."
+    ]
 }
 
 
