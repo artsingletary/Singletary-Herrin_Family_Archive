@@ -1696,7 +1696,35 @@
   "caption": "Shared gravestone of Rubin Ellis Mathis (October 5, 1904–February 25, 1981) and Thelma Lee Mathis (April 4, 1904–May 4, 1987).",
   "location": "Airline Baptist Church Cemetery, Mayo, Lafayette County, Florida",
   "family_lines": ["singletary"]
+},
+{
+  "id": "david-sears-grave-closeup",
+  "file": "david_sears_grave_closeup.jpg",
+  "type": "grave",
+  "people": ["david-sears-1791"],
+  "caption": "Close-up of David Sears's gravestone, showing his name and birth year of 1791.",
+  "location": "Union Hill Cemetery, Axson, Atkinson County, Georgia",
+  "family_lines": ["herrin"]
+},
+{
+  "id": "david-sears-grave-full",
+  "file": "david_sears_grave_full.jpg",
+  "type": "grave",
+  "people": ["david-sears-1791"],
+  "caption": "Full view of David Sears's gravestone at Union Hill Cemetery.",
+  "location": "Union Hill Cemetery, Axson, Atkinson County, Georgia",
+  "family_lines": ["herrin"]
+},
+{
+  "id": "levicy-nobles-sears-grave",
+  "file": "levicy_nobles_sears_grave.jpg",
+  "type": "grave",
+  "people": ["levicy-nobles-1792"],
+  "caption": "Gravestone of Levicy Nobles, wife of David Sears, recording her age as 76 years.",
+  "location": "Union Hill Cemetery, Axson, Atkinson County, Georgia",
+  "family_lines": ["herrin"]
 }
+
 
 
 

@@ -1838,6 +1838,7 @@
     "birth_place": "Georgia, United States",
     "birth_year": 1792,
     "death_year": 1868,
+    "burial_place": "Union Hill Cemetery, Axson, Atkinson County, Georgia",
     "father": "lewis-sanders-nobles-1760",
     "mother": null,
     "spouses": [
@@ -1849,8 +1850,11 @@
       "Levicy and David raised thirteen children: Luraney, Charity, Hiram, Lavina, Harriet, Matilda, George W., Charlotte, Mary, Tobitha, Benjamin Franklin, Thaddeus, and David. Their children were born between approximately 1811 and 1830.",
       "Among their children was Charity Sears (1812–1898), who married Levi Herrin (1804–1890). Through Charity, Levicy became an ancestor of both branches of the Herrin family that eventually reunited through the marriage of William Levi Herrin and Laura Etta Palmer in April 1916.",
       "Around 1825, the Sears family moved from Montgomery County to what was then Ware County, Georgia, settling in the 586th Georgia Militia District. The area later became part of Clinch, Coffee, and Atkinson counties as county boundaries changed.",
+      "Their 1850 census household included Franklin Sears, age 19, younger David Sears, age 16, and an elderly man whose entry appears to read Lewis Nobles, age 90, born in South Carolina. He is provisionally identified as Levicy's father, Lewis Sanders Nobles. The census does not state relationships, and his name and age require further verification.",
+      "In the 1860 census, David and Levicy were recorded together in Coffee County, Georgia, aged 69 and 68. David's birthplace was North Carolina and Levicy's was Georgia. His personal estate was valued at $175. They were the only two people listed in their household.",
       "Levicy lived through a period of considerable change in southern Georgia, including the years leading up to the American Civil War. She died in 1868, three years after the war ended.",
-      "Levicy and David were members of Union Hill Congregational Church and were buried in its cemetery near present-day Axson, Atkinson County, Georgia."
+      "Levicy and David were members of Union Hill Congregational Church and were buried in its cemetery near present-day Axson, Atkinson County, Georgia.",
+      "Her gravestone identifies her as Levicy Nobles, wife of David Sears, and records her age as 76 years. Huxford's Pioneers of Wiregrass Georgia, volume 1, pages 248–249, gives her birth year as 1792 and death year as 1868, consistent with that age."
     ]
   },
   {
@@ -1997,7 +2001,9 @@
       "herrin"
     ],
     "birth_year": 1791,
+    "birth_place": "North Carolina, United States",
     "death_year": 1879,
+    "burial_place": "Union Hill Cemetery, Axson, Atkinson County, Georgia",
     "father": null,
     "mother": null,
     "spouses": [
@@ -2009,6 +2015,10 @@
       "David and Levicy raised thirteen children, including Charity Sears (1812–1898), who married Levi Herrin. Through Charity, they became ancestors of both branches of the Herrin family featured in the story Two Branches of the Herrin Family Reunite.",
       "On June 20, 1809, David was commissioned an ensign in the 52nd District of Emanuel County. During the War of 1812, he served as a private in Captain John G. Colbert's company, 2nd Regiment of Georgia Militia. He enlisted on October 12, 1814, and was discharged on March 15, 1815, according to the published family history.",
       "Around 1825, David moved his family from Montgomery County to what was then Ware County, Georgia, settling in the 586th Georgia Militia District. This territory subsequently became part of Clinch, Coffee, and Atkinson counties.",
+      "David Sears is named as a household head in the 1830 and 1840 census schedules attributed to Ware County, Georgia. These schedules name only household heads and count other residents by demographic categories. In 1840, his household included five males and three females in the free white population columns. The adult male and female were both aged 40–49, consistent with David's and Levicy's reported birth years. The unnamed residents cannot be individually identified from this record alone.",
+      "Their 1850 census household included Franklin Sears, age 19, younger David Sears, age 16, and an elderly man whose entry appears to read Lewis Nobles, age 90, born in South Carolina. He is provisionally identified as Levicy's father, Lewis Sanders Nobles. The census does not state relationships, and his name and age require further verification.",
+      "In the 1860 census, David and Levicy were recorded together in Coffee County, Georgia, aged 69 and 68. David's birthplace was North Carolina and Levicy's was Georgia. His personal estate was valued at $175. They were the only two people listed in their household.",
+      "In 1870, David was recorded in Coffee County as a schoolteacher, age 76, with $200 in personal estate. Lavina Sears, identified as his daughter, was listed with him, keeping house. Their recorded ages conflict with other family records: David's age differs from his reported 1791 birth year, while Lavina's age appears to be 27, substantially younger than either proposed birth year of 1814 or 1816.",
       "The published family history references David in the 1820 Montgomery County census, the 1830, 1840, and 1850 Ware County censuses, and the 1860 Coffee County census.",
       "David died in 1879. He and Levicy were buried at Union Hill Congregational Church cemetery, where they were members."
     ]
@@ -4735,6 +4745,158 @@
     "biography": [
       "June Carolyn Bradshaw was born in 1946 to Marvin Marion Bradshaw and Edna Merle Jackson. She attended Taylor County High School and appears in the school's 1963 yearbook. She married Emory Dewey Singletary on April 13, 1964. They have six children."
     ]
+},
+{
+  "id": "luraney-sears-1811",
+  "first_name": "Luraney",
+  "last_name": "Sears",
+  "family_lines": ["herrin"],
+  "birth_year": 1811,
+  "father": "david-sears-1791",
+  "mother": "levicy-nobles-1792",
+  "biography": [
+    "According to Folks Huxford's Pioneers of Wiregrass Georgia, volume 1, page 248, Luraney Sears was born in 1811 to David Sears and Levicy Nobles. The sketch reports that she married first Allen Ricketson and later Ryal Wright."
+  ]
+},
+{
+  "id": "hiram-sears-1814",
+  "first_name": "Hiram",
+  "last_name": "Sears",
+  "suffix": "Sr.",
+  "family_lines": ["herrin"],
+  "birth_year": 1814,
+  "death_year": 1901,
+  "father": "david-sears-1791",
+  "mother": "levicy-nobles-1792",
+  "burial_place": "Union Hill Cemetery, Axson, Atkinson County, Georgia",
+  "biography": [
+    "According to Folks Huxford's Pioneers of Wiregrass Georgia, volume 1, page 248, Hiram Sears was born in 1814 to David Sears and Levicy Nobles. The sketch reports that he married first Harriet Ricketson, daughter of Joseph Ricketson, and later Margaret Mixon.",
+    "The supplied Union Hill Cemetery burial listing gives his death year as 1901."
+  ]
+},
+{
+  "id": "lavina-sears",
+  "first_name": "Lavina",
+  "last_name": "Sears",
+  "family_lines": ["herrin"],
+  "father": "david-sears-1791",
+  "mother": "levicy-nobles-1792",
+  "biography": [
+    "Folks Huxford's Pioneers of Wiregrass Georgia, volume 1, page 248, identifies Lavina Sears as a daughter of David Sears and Levicy Nobles and the wife of Juniper Griffis of Clinch County. The printed sketch gives her birth year as 1814; a handwritten annotation on another copy changes it to 1816. Her birth year remains unresolved."
+  ]
+},
+{
+  "id": "harriet-sears-1819",
+  "first_name": "Harriet",
+  "last_name": "Sears",
+  "family_lines": ["herrin"],
+  "birth_year": 1819,
+  "death_year": 1862,
+  "father": "david-sears-1791",
+  "mother": "levicy-nobles-1792",
+  "burial_place": "Union Hill Cemetery, Axson, Atkinson County, Georgia",
+  "biography": [
+    "According to Folks Huxford's Pioneers of Wiregrass Georgia, volume 1, page 248, Harriet Sears was born in 1819 to David Sears and Levicy Nobles and married Needham McLendon.",
+    "The supplied Union Hill Cemetery burial listing identifies her as Harriet Sears McLendon and gives her death year as 1862."
+  ]
+},
+{
+  "id": "matilda-sears-1820",
+  "first_name": "Matilda",
+  "last_name": "Sears",
+  "family_lines": ["herrin"],
+  "birth_year": 1820,
+  "father": "david-sears-1791",
+  "mother": "levicy-nobles-1792",
+  "biography": [
+    "According to Folks Huxford's Pioneers of Wiregrass Georgia, volume 1, page 248, Matilda Sears was born in 1820 to David Sears and Levicy Nobles and married Richmond Bailey."
+  ]
+},
+{
+  "id": "george-w-sears-1821",
+  "first_name": "George",
+  "middle_name": "W.",
+  "last_name": "Sears",
+  "family_lines": ["herrin"],
+  "birth_year": 1821,
+  "father": "david-sears-1791",
+  "mother": "levicy-nobles-1792",
+  "biography": [
+    "According to Folks Huxford's Pioneers of Wiregrass Georgia, volume 1, page 248, George W. Sears was born in 1821 to David Sears and Levicy Nobles. The sketch reports that he married Samantha White, daughter of J. O. White."
+  ]
+},
+{
+  "id": "charlotte-sears-1822",
+  "first_name": "Charlotte",
+  "last_name": "Sears",
+  "family_lines": ["herrin"],
+  "birth_year": 1822,
+  "father": "david-sears-1791",
+  "mother": "levicy-nobles-1792",
+  "biography": [
+    "According to Folks Huxford's Pioneers of Wiregrass Georgia, volume 1, page 248, Charlotte Sears was born in 1822 to David Sears and Levicy Nobles and married James Sirmans of Berrien County."
+  ]
+},
+{
+  "id": "mary-sears-1824",
+  "first_name": "Mary",
+  "last_name": "Sears",
+  "family_lines": ["herrin"],
+  "birth_year": 1824,
+  "father": "david-sears-1791",
+  "mother": "levicy-nobles-1792",
+  "biography": [
+    "According to Folks Huxford's Pioneers of Wiregrass Georgia, volume 1, page 248, Mary Sears was born in 1824 to David Sears and Levicy Nobles and married F. J. Mills."
+  ]
+},
+{
+  "id": "tobitha-sears-1826",
+  "first_name": "Tobitha",
+  "last_name": "Sears",
+  "family_lines": ["herrin"],
+  "birth_year": 1826,
+  "father": "david-sears-1791",
+  "mother": "levicy-nobles-1792",
+  "biography": [
+    "According to Folks Huxford's Pioneers of Wiregrass Georgia, volume 1, page 248, Tobitha Sears was born in 1826 to David Sears and Levicy Nobles and married Kindred Griffis."
+  ]
+},
+{
+  "id": "benjamin-franklin-sears-1828",
+  "first_name": "Benjamin",
+  "middle_name": "Franklin",
+  "last_name": "Sears",
+  "family_lines": ["herrin"],
+  "birth_year": 1828,
+  "father": "david-sears-1791",
+  "mother": "levicy-nobles-1792",
+  "biography": [
+    "According to Folks Huxford's Pioneers of Wiregrass Georgia, volume 1, page 248, Benjamin Franklin Sears was born in 1828 to David Sears and Levicy Nobles. The sketch reports that he married Mary White, daughter of J. O. White."
+  ]
+},
+{
+  "id": "thaddeus-sears-1829",
+  "first_name": "Thaddeus",
+  "last_name": "Sears",
+  "family_lines": ["herrin"],
+  "birth_year": 1829,
+  "father": "david-sears-1791",
+  "mother": "levicy-nobles-1792",
+  "biography": [
+    "According to Folks Huxford's Pioneers of Wiregrass Georgia, volume 1, page 248, Thaddeus Sears was born in 1829 to David Sears and Levicy Nobles. The sketch reports that he married Naomi Smith, daughter of William Smith."
+  ]
+},
+{
+  "id": "david-sears-1830",
+  "first_name": "David",
+  "last_name": "Sears",
+  "family_lines": ["herrin"],
+  "birth_year": 1830,
+  "father": "david-sears-1791",
+  "mother": "levicy-nobles-1792",
+  "biography": [
+    "According to Folks Huxford's Pioneers of Wiregrass Georgia, volume 1, page 248, David Sears was born in 1830 to David Sears and Levicy Nobles. The sketch reports that he married Jane Arnold, daughter of James Arnold."
+  ]
 }
 
 

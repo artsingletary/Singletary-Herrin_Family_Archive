@@ -1,18 +1,20 @@
 [
     {
         "id": "1810-david-sears-levicy-nobles-marriage",
-        "file": "1810_david_sears_levicy_nobles_marriage.jpg",
-        "title": "1810 Marriage Record of David Sears and Levicy Nobles",
-        "caption": "Montgomery County, Georgia, marriage register, page 16. Records the marriage of David Sears and Levicy Nobles on April 19, 1810. The officiant's signature appears to read James Nobles, Justice of the Peace.",
-        "type": "marriage",
+        "title": "1810 Marriage Records — David Sears and Levicy Nobles",
+        "type": "Marriage",
+        "date": "1810-04-19",
+        "location": "Montgomery County, Georgia, United States",
         "people": [
             "david-sears-1791",
             "levicy-nobles-1792"
         ],
-        "family_lines": [
-            "herrin"
+        "family_lines": ["herrin"],
+        "documents": [
+            "1810_david_sears_levicy_nobles_marriage.jpg",
+            "1810_david_sears_levicy_nobles_marriage_return.jpg"
         ],
-        "date": "1810-04-19"
+        "description": "Two images recording the marriage of David Sears and Levicy Nobles on April 19, 1810. The full-page marriage register identifies Montgomery County, Georgia, and page 16. The second image is a handwritten marriage return. Both name James Nobles, J.P., as officiant. The images use different handwriting and formats; their copying or recording history has not been established. The officiant's relationship to Levicy is unknown."
     },
     {
         "id": "1821-land-lottery-herron-herron-orphans",
@@ -4952,5 +4954,129 @@
     "1981_rubin_ellis_mathis_death_certificate.jpeg"
   ],
   "description": "Florida death certificate, state file number 81-021636, for Rubin Ellis Mathis. Records birth on October 5, 1904, in Florida, and death on February 25, 1981, age 76, in Perry, Taylor County. Doctors Memorial Hospital is listed with the notation DOA. His residence was Salem, Taylor County, and his usual occupation was farmer. Names his surviving spouse as Thelma Lee and his parents as Daniel Mathis and Mary Frances Darling. Barney Mathis supplied the personal information. Burial was at Airline Cemetery, rural Mayo, Florida, with arrangements by Joe P. Burns Funeral Home. This copy does not show a cause of death."
+},
+{
+  "id": "david-sears-pioneers-wiregrass-georgia-v1",
+  "type": "Book",
+  "title": "David Sears — Pioneers of Wiregrass Georgia, Volume 1, pages 248–249",
+  "author": "Folks Huxford",
+  "people": [
+    "lewis-sanders-nobles-1760",
+    "david-sears-1791",
+    "levicy-nobles-1792",
+    "luraney-sears-1811",
+    "charity-sears-1812",
+    "hiram-sears-1814",
+    "lavina-sears",
+    "harriet-sears-1819",
+    "matilda-sears-1820",
+    "george-w-sears-1821",
+    "charlotte-sears-1822",
+    "mary-sears-1824",
+    "tobitha-sears-1826",
+    "benjamin-franklin-sears-1828",
+    "thaddeus-sears-1829",
+    "david-sears-1830"
+  ],
+  "documents": [
+    "david_sears_pioneers_wiregrass_georgia_v1_p248.jpg",
+    "david_sears_pioneers_wiregrass_georgia_v1_p249.jpg"
+  ],
+  "description": "Biographical sketch of David Sears in Folks Huxford's Pioneers of Wiregrass Georgia, volume 1, pages 248–249. Identifies David as born in North Carolina in 1791, a son of John Sears, and his wife Levicy as born in Georgia in 1792, a daughter of Lewis Sanders Nobles. Reports their marriage in Montgomery County, Georgia, on April 19, 1810, and lists thirteen children, including Charity, wife of Levi Herrin. Describes their move about 1825 to territory then in Ware County and later included in Clinch, Coffee, and Atkinson counties. Reports David's death in 1879, Levicy's death in 1868, and their membership and burial at Union Hill Congregational Church. The continuation reports David's commission as an ensign on June 20, 1809, and War of 1812 service as a private in Captain John G. Colbert's infantry company, 2nd Regiment of Georgia Militia, from October 12, 1814, to March 15, 1815. It also names his brother Harrison Sears, born in 1799. These genealogical and military claims are attributed to this compiled secondary source pending comparison with original records. The unannotated printed page gives Lavina's birth year as 1814; the earlier cropped copy contains a handwritten correction to 1816."
+},
+{
+  "id": "1830-census-david-sears-family",
+  "type": "Census",
+  "title": "1830 U.S. Census — David Sears Household",
+  "date": "1830",
+  "location": "Ware County, Georgia, United States",
+  "people": [
+    "david-sears-1791"
+  ],
+  "documents": [
+    "1830_census_david_sears_family.jpg"
+  ],
+  "description": "1830 United States Census, page marked 186, final household row, naming David Sears as head of household. Other household members are represented by numerical counts rather than names. The row includes one male and one female aged 30–39, consistent with the reported birth years of David Sears and his wife Levicy Nobles. The identities and relationships of the unnamed household members cannot be established from this schedule alone. The supplied image does not display a county name; Ware County is identified in Huxford's census references for David Sears in Pioneers of Wiregrass Georgia, volume 1, page 249. This image shows the free white population columns; any continuation containing other population categories is not included."
+},
+{
+  "id": "1840-census-david-sears-family",
+  "type": "Census",
+  "title": "1840 U.S. Census — David Sears Household",
+  "date": "1840",
+  "location": "Ware County, Georgia, United States",
+  "people": [
+    "david-sears-1791"
+  ],
+  "documents": [
+    "1840_census_david_sears_family.jpg"
+  ],
+  "description": "1840 United States Census naming David Sears as head of household. His row records five free white males: two aged 5–9, one aged 10–14, one aged 15–19, and one aged 40–49; and three free white females: one aged 10–14, one aged 15–19, and one aged 40–49. These counts total eight people in the displayed categories. The adult age ranges are consistent with David Sears and Levicy Nobles, but the other household members are unnamed and cannot be individually identified from this schedule alone. The left margin identifies the 586th District, continued. Ware County is identified in Huxford's census references for David Sears in Pioneers of Wiregrass Georgia, volume 1, page 249. The supplied image shows free white and free colored population columns; the continuation containing enslaved population and other statistical columns is not included."
+},
+{
+  "id": "1850-census-david-sears-family",
+  "type": "Census",
+  "title": "1850 U.S. Census — David Sears Household",
+  "date": "1850-10",
+  "location": "584th Militia District, Ware County, Georgia, United States",
+  "people": [
+    "david-sears-1791",
+    "levicy-nobles-1792",
+    "benjamin-franklin-sears-1828",
+    "david-sears-1830",
+    "lewis-sanders-nobles-1760"
+  ],
+  "documents": [
+    "1850_census_david_sears_family_01.jpg",
+    "1850_census_david_sears_family_02.jpg"
+  ],
+  "description": "1850 United States Census, dwelling 247, family 247, beginning on lines 41–42 of the page dated October 10 and continuing on lines 1–3 of the next page, dated October 11. Records David Sears, age 59, farmer, born North Carolina; Levicy, age 58, born Georgia; Franklin, age 19, farmer, born Georgia; younger David, age 16, farmer, born Georgia; and an elderly man whose entry appears to read Lewis Nobles, age 90, born South Carolina, with occupation recorded as None. Lewis is provisionally identified as Levicy's father, Lewis Sanders Nobles; the handwriting requires further verification, and the census does not state household relationships. Franklin and younger David are provisionally identified with the sons listed in Huxford's family sketch. Their census ages imply births around 1831 and 1834, differing from Huxford's reported 1828 and 1830. David's real estate value appears to be $200. Levicy is marked in the column for persons over twenty unable to read and write. The district number appears to read 584, differing from the 586th District reported by Huxford.",
+  "household_members": [
+    "David Sears — age 59, farmer, born North Carolina",
+    "Levicy Sears — age 58, born Georgia",
+    "Franklin Sears — age 19, farmer, born Georgia",
+    "David Sears — age 16, farmer, born Georgia",
+    "Lewis Nobles — apparently age 90, born South Carolina; provisionally identified as Levicy's father"
+  ]
+},
+
+{
+  "id": "1860-census-david-sears-family",
+  "type": "Census",
+  "title": "1860 U.S. Census — David Sears and Levicy Nobles",
+  "date": "1860-06",
+  "location": "Coffee County, Georgia, United States",
+  "people": [
+    "david-sears-1791",
+    "levicy-nobles-1792"
+  ],
+  "documents": [
+    "1860_census_david_sears_family.jpg"
+  ],
+  "description": "1860 United States Census, Coffee County, Georgia, page 30, stamped page 519, dwelling 201, family 206, lines 38–39. Records David Sears, age 69, born North Carolina, and Levicy Sears, age 68, born Georgia. David's personal estate was valued at $175; his occupation and real estate value were left blank. No additional residents are listed before the end of the page, and line 40 is blank. The post office appears to read Bird's Mills. The enumeration-day notation is overwritten or unclear, so the date is recorded here as June 1860.",
+  "household_members": [
+    "David Sears — age 69, born North Carolina",
+    "Levicy Sears — age 68, born Georgia"
+  ]
+},
+
+{
+  "id": "1870-census-david-sears-household",
+  "type": "Census",
+  "title": "1870 U.S. Census — David Sears and Lavina Sears",
+  "date": "1870-06",
+  "location": "31st Division, Coffee County, Georgia, United States",
+  "people": [
+    "david-sears-1791",
+    "lavina-sears"
+  ],
+  "documents": [
+    "1870_census_david_sears_household.jpg"
+  ],
+  "description": "1870 United States Census, 31st Division, Coffee County, Georgia, page 9, stamped page 368, dwelling 46, family 46, lines 4–5. David Sears is recorded as age 76, born North Carolina, occupation schoolteacher, with personal estate valued at $200. Lavina Sears, identified by the family researcher as his daughter, is listed next, born Georgia, with occupation keeping house. Her recorded age appears to be 27, conflicting with the birth year of 1814 in Huxford's family sketch and 1816 in a handwritten annotation on another copy. The census does not state household relationships or marital status. David's recorded age differs from the age of 79 implied by his reported 1791 birth year. Levicy is not listed, consistent with Huxford's reported death year of 1868, although her absence does not independently establish her death. The post office is Homerville, Clinch County; the household itself was enumerated in Coffee County. The header gives an enumeration range of June 22–30, 1870.",
+  "household_members": [
+    "David Sears — age 76, schoolteacher, born North Carolina",
+    "Lavina Sears — recorded age apparently 27, keeping house, born Georgia; identified as David's daughter"
+  ]
 }
+
 ]

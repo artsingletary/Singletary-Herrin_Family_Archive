@@ -1559,6 +1559,80 @@
       "note": "3rd Great Grandfather"
     }
   ]
+},
+{
+  "id": "union-hill-cemetery",
+  "name": "Union Hill Cemetery",
+  "city": "Axson",
+  "county": "Atkinson",
+  "state": "Georgia",
+  "address": "Axson, Atkinson County, Georgia",
+  "latitude": 31.25722,
+  "longitude": -82.80170,
+  "description": "Union Hill Cemetery in Axson, Georgia, is the burial place of members of the Sears, Nobles, Adams, Griffis, and McLendon families.",
+  "findagrave_url": "https://www.findagrave.com/cemetery/1980930/union-hill-cemetery",
+  "burials": [
+    {
+      "name": "Levicy Sears Adams",
+      "last_name": "Adams",
+      "years": "1893–1911",
+      "findagrave_url": "https://www.findagrave.com/memorial/32986526/levicy-adams",
+      "note": "1st Cousin 5x Removed"
+    },
+    {
+      "name": "Kindred W. Griffis",
+      "last_name": "Griffis",
+      "years": "1869–1873",
+      "findagrave_url": "https://www.findagrave.com/memorial/76882734/kindred-w-griffis",
+      "note": "1st Cousin 5x Removed"
+    },
+    {
+      "person_id": "harriet-sears-1819",
+      "name": "Harriet Sears McLendon",
+      "last_name": "McLendon",
+      "years": "1819–1862",
+      "findagrave_url": "https://www.findagrave.com/memorial/32986579/harriett_mclendon",
+      "note": "4th Great Grandaunt"
+    },
+    {
+      "person_id": "david-sears-1791",
+      "name": "David Sears",
+      "last_name": "Sears",
+      "years": "1791–1879",
+      "findagrave_url": "https://www.findagrave.com/memorial/32986630/david_sears",
+      "note": "5th Great Grandfather"
+    },
+    {
+      "name": "George O. Sears",
+      "last_name": "Sears",
+      "years": "1860–1897",
+      "findagrave_url": "https://www.findagrave.com/memorial/32986635/george_o_sears",
+      "note": "1st Cousin 5x Removed"
+    },
+    {
+      "person_id": "levicy-nobles-1792",
+      "name": "Levicy Nobles Sears",
+      "last_name": "Sears",
+      "years": "1792–1868",
+      "findagrave_url": "https://www.findagrave.com/memorial/33298105/levicy_sears",
+      "note": "5th Great Grandmother"
+    },
+    {
+      "name": "Harriet Ricketson Sears",
+      "last_name": "Sears",
+      "years": "1816–1891",
+      "findagrave_url": "https://www.findagrave.com/memorial/32986637/harriett_sears",
+      "note": "Wife of 4th Great Granduncle"
+    },
+    {
+      "person_id": "hiram-sears-1814",
+      "name": "Hiram Sears Sr.",
+      "last_name": "Sears",
+      "years": "1814–1901",
+      "findagrave_url": "https://www.findagrave.com/memorial/32986640/hiram_sears",
+      "note": "4th Great Granduncle"
+    }
+  ]
 }
 
 ]
